@@ -1,0 +1,14 @@
+<div>
+
+  <h2><span class="glyphicon {{articles.section.Glyph}}" /> {{articles.section.Title}}</h2>
+
+  <div class="row">
+    <ol>
+    <div ng-repeat="article in articles.section.Articles">
+      <li>{{article.Title}} <a href="{{article.PdfUrl}}"><span class="glyphicon glyphicon-cloud-download">&nbsp;</span></a>
+      </li>
+    </div>
+    </ol>
+  </div>
+
+</div>
