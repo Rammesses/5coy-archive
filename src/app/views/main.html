@@ -1,8 +1,14 @@
 
 <div class="jumbotron">
+  <img src="images/eagle-logo-huge.png" />
 <h2>Welcome to the 5-Coy CMC Achive</h2>
 </div>
 
 <div class="row">
-
+  <div ng-repeat="section in sections">
+    <div class="col-md-6"><span class="glyphicon {{section.Glyph}}" />
+                          <span class="lead"><a href="#{{section.Url}}">{{section.Title}}</a></span></div>
+  </div>
 </div>
+
+<div class="row">&nbsp;</div>
