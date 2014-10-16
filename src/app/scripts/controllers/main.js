@@ -17,7 +17,21 @@ angular.module('srcApp')
       return [
       { 'Title': 'Out of Character',
         'Glyph': 'glyphicon-ok',
-        'Url': '/outofcharacter'
+        'Url': '/outofcharacter',
+        'Articles': [
+          { 'Title': 'A Brief Guide to History',
+            'Content': '',
+            'PdfUrl': 'https://s3-eu-west-1.amazonaws.com/5coy-cmc/A+Brief+Guide+to+History.pdf'},
+          { 'Title': 'Companies & Corporations',
+            'Content': '',
+            'PdfUrl': 'https://s3-eu-west-1.amazonaws.com/5coy-cmc/Companies+%26+Corporations.pdf'},
+          { 'Title': 'Groups & Organisations',
+            'Content': '',
+            'PdfUrl': 'https://s3-eu-west-1.amazonaws.com/5coy-cmc/Groups+%26+Organisations.pdf'},
+          { 'Title': 'The Writer\'s Guide',
+            'Content': '',
+            'PdfUrl': 'https://s3-eu-west-1.amazonaws.com/5coy-cmc/Writer%27s+Guide.pdf'},
+            ]
         },
 
       { 'Title': 'Mexal\'s Letters Home',
