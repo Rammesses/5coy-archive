@@ -41,6 +41,12 @@ angular
         controllerAs: 'articles'
       })
 
+      .when('/incharacter', {
+        templateUrl: 'views/articles.html',
+        controller: 'ArticlesCtrl',
+        controllerAs: 'articles'
+      })
+
       .when('/missionreports', {
         templateUrl: 'views/articles.html',
         controller: 'ArticlesCtrl',
