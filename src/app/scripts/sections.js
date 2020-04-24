@@ -39,7 +39,35 @@ angular.module('srcApp')
             ]
         },
 
-      { 'Title': 'In-Character',
+        { 'Title': 'Miscellanea',
+        'Glyph': 'glyphicon-ok',
+        'Url': '/miscellanea',
+        'Articles': [
+          { 'Title': 'Prop Designs',
+            'Content': '',
+            'PdfUrl': '/media/Miscellanea/Prop-Designs.pdf'},
+            { 'Title': 'Scenario Summaries (for 93-94)',
+            'Content': '',
+            'PdfUrl': '/media/Miscellanea/Scenario-Summaries-93-94.pdf'},
+          { 'Title': 'Welcome to the Marie Celesta - Scenario Notes',
+            'Content': '',
+            'PdfUrl': '/media/Miscellanea/Welcome-to-the-Marie-Celeste.pdf'},
+          { 'Title': 'One of our Drones is Missing - Scenario Notes',
+            'Content': '',
+            'PdfUrl': '/media/Miscellanea/One-Of-Our-Drones-Is-Missing.pdf'},
+          { 'Title': 'How Much for just the Planet - Scenario Notes',
+            'Content': '',
+            'PdfUrl': '/media/Miscellanea/How-Much-For-Just-The-Planet.pdf'},
+            { 'Title': 'Drive Wars - Scenario Notes',
+            'Content': '',
+            'PdfUrl': '/media/Drive-Wars.pdf'},
+            { 'Title': 'Drive Wars II - Scenario Notes',
+            'Content': '',
+            'PdfUrl': '/media/Drive-Wars-II.pdf'},
+            ]
+        },
+
+        { 'Title': 'In-Character',
         'Glyph': 'glyphicon-book',
         'Url': '/incharacter',
         'Articles': [

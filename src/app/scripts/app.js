@@ -59,6 +59,12 @@ angular
         controllerAs: 'articles'
       })
 
+      .when('/miscellanea', {
+        templateUrl: 'views/articles.html',
+        controller: 'ArticlesCtrl',
+        controllerAs: 'articles'
+      })
+
       .when('/marineshandbook', {
         templateUrl: 'views/articles.html',
         controller: 'ArticlesCtrl',

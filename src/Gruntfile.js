@@ -16,6 +16,7 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   grunt.loadNpmTasks('grunt-aws-s3');
+  grunt.loadNpmTasks('grunt-google-cdn');
 
   // Configurable paths for the application
   var appConfig = {
@@ -294,6 +295,9 @@ module.exports = function (grunt) {
 
     // Replace Google CDN references
     cdnify: {
+      options: {
+        cdn: require('google-cdn-data')
+      },
       dist: {
         html: ['<%= yeoman.dist %>/*.html']
       }
