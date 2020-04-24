@@ -58,9 +58,12 @@ angular.module('srcApp')
           { 'Title': 'How Much for just the Planet - Scenario Notes',
             'Content': '',
             'PdfUrl': '/media/Miscellanea/How-Much-For-Just-The-Planet.pdf'},
-          { 'Title': 'Drive Wars - Scenario Notes',
+            { 'Title': 'Drive Wars - Scenario Notes',
             'Content': '',
             'PdfUrl': '/media/Drive-Wars.pdf'},
+            { 'Title': 'Drive Wars II - Scenario Notes',
+            'Content': '',
+            'PdfUrl': '/media/Drive-Wars-II.pdf'},
             ]
         },
 
