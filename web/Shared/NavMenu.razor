@@ -1,5 +1,7 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">web</a>
+﻿@inject HttpClient Http
+
+<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="">5-Coy CMC Archive</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,16 +14,18 @@
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
         </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="missions">
-                <span class="oi oi-list-rich" aria-hidden="true"></span>Missions
-            </NavLink>
-        </li>
+        @if (sections != null)
+        {
+            @foreach (var section in sections.OrderBy(s => s.Title))
+            {
+                <li class="nav-item px-3">
+                    <NavLink class="nav-link section-link" href=@section.Url>
+                        <span class="oi @section.Glyph" aria-hidden="true"></span>
+                        @section.Title
+                    </NavLink>
+                </li>
+            }
+        }
     </ul>
 </div>
 
@@ -33,5 +37,19 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private Section[] sections;
+
+    protected override async Task OnInitializedAsync()
+    {
+        sections = await Http.GetFromJsonAsync<Section[]>("data/articles.json");
+    }
+
+    public class Section
+    {
+        public string Title { get; set;}
+        public string Glyph { get; set; }
+        public string Url { get; set; }
     }
 }
