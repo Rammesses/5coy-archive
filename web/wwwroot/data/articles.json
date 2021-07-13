@@ -1,7 +1,7 @@
 [
-    { "Title": "Out of Character",
+    { "Reference": "out-of-character",
+      "Title": "Out of Character",
       "Glyph": "oi-people",
-      "Url": "/articles/outofcharacter",
       "Articles": [
         { "Title": "A Brief Guide to History",
           "Content": "",
@@ -27,10 +27,11 @@
           ]
       },
 
-      { "Title": "Miscellanea",
-      "Glyph": "oi-check",
-      "Url": "/articles/miscellanea",
-      "Articles": [
+      {
+        "Reference": "miscellanea",
+        "Title": "Miscellanea",
+        "Glyph": "oi-check",
+        "Articles": [
         { "Title": "Prop Designs",
           "Content": "",
           "PdfUrl": "/media/Miscellanea/Prop-Designs.pdf"},
@@ -55,9 +56,10 @@
           ]
       },
 
-      { "Title": "In-Character",
+      { 
+        "Reference": "in-character",
+        "Title": "In-Character",
       "Glyph": "oi-person",
-      "Url": "/articles/incharacter",
       "Articles": [
       { "Title": "Briefing Notes - Mission 'Hydra'",
         "Content": "",
@@ -88,7 +90,7 @@
 
     { "Title": "Mexal\"s Letters Home",
       "Glyph": "oi-envelope-closed",
-      "Url": "/articles/mexalsletters",
+      "Reference": "mexalsletters",
       "Articles": [
         { "Title": "2493-03 - Kruger",
           "Content": "",
@@ -124,7 +126,7 @@
 
     { "Title": "Mission Reports",
       "Glyph": "oi-document",
-      "Url": "/articles/missionreports",
+      "Reference": "mission-reports",
       "Articles": [
           { "Title": "2494-03 - Mission 'Sidewinder' (Calvin)",
             "Content": "",
@@ -166,7 +168,7 @@
 
     { "Title": "Marine\"s Handbook",
       "Glyph": "oi-book",
-      "Url": "/articles/marineshandbook",
+      "Reference": "marines-handbook",
       "Articles": [
         { "Title": "Contents",
           "Content": "",

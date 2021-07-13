@@ -1,5 +1,7 @@
 ﻿@inject HttpClient Http
 
+@using Models
+
 <div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">5-Coy CMC Archive</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -19,7 +21,7 @@
             @foreach (var section in sections.OrderBy(s => s.Title))
             {
                 <li class="nav-item px-3">
-                    <NavLink class="nav-link section-link" href=@section.Url>
+                    <NavLink class="nav-link section-link" href=@section.Url Match="NavLinkMatch.All">
                         <span class="oi @section.Glyph" aria-hidden="true"></span>
                         @section.Title
                     </NavLink>
@@ -44,12 +46,5 @@
     protected override async Task OnInitializedAsync()
     {
         sections = await Http.GetFromJsonAsync<Section[]>("data/articles.json");
-    }
-
-    public class Section
-    {
-        public string Title { get; set;}
-        public string Glyph { get; set; }
-        public string Url { get; set; }
     }
 }

@@ -1,2 +1,31 @@
 @page "/articles"
-<h1>In Character</h1>
+
+@using Services
+
+@inject HttpClient Http
+@inject IArticlesService service
+
+<h1>All Articles</h1>
+
+@if (sections == null) {
+    <div class="loading">Loading...</div>
+} else {
+    <div class="row">
+    @foreach (var section in sections)
+    {
+        <div class="col-md-6">
+            <span class="oi @section.Glyph" aria-hidden="true"></span>
+            <span class="lead"><a href="@section.Url">@section.Title</a></span></div>
+    }
+    </div>
+}
+
+@code {
+
+    private Models.Section[] sections;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        sections = await service.GetSections();
+    }
+}
