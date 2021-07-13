@@ -4,31 +4,42 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
+using Ganss.XSS;
+using Markdig;
+
 namespace Services
 {
     public interface IMarkdownService
     {
-        Task<string> GetContent(string contentUrl);
+        Task<string> GetContentAsync(string contentUrl);
     }
 
     public class MarkdownService : IMarkdownService
     {
         private readonly HttpClient httpClient;
+        private readonly IHtmlSanitizer htmlSanitizer;
 
-        public MarkdownService(HttpClient httpClient)
+        public MarkdownService(
+            HttpClient httpClient, 
+            IHtmlSanitizer htmlSanitizer)
         {
             this.httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+            this.htmlSanitizer = htmlSanitizer ?? throw new ArgumentNullException(nameof(htmlSanitizer));
         }
-        public async Task<string> GetContent(string contentUrl)
+        
+        public async Task<string> GetContentAsync(string contentUrl)
         {
             if (string.IsNullOrEmpty(contentUrl))
                 return null;
 
-            // var markdown = httpClient.GetStringAsync(contentUrl);
+            var markdown = await httpClient.GetStringAsync(contentUrl);
+            
+            var html = Markdig.Markdown.ToHtml(
+                markdown, 
+                new MarkdownPipelineBuilder().UseAdvancedExtensions().Build());
 
-            await Task.Delay(1000);
-
-            return $"Content from '{contentUrl}' goes here.";
+            var sanitizedHtml = this.htmlSanitizer.Sanitize(html);
+            return sanitizedHtml;
         }
     }
 }

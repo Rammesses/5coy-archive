@@ -1,6 +1,5 @@
 @page "/articles/{SectionRef}"
 
-@using Models
 @using Services
 
 @inject HttpClient Http
@@ -14,19 +13,31 @@
     <div class="loading">Loading...</div>
 } else
 {
-    <h1>@section.Title</h1>
+    <h1><span class="oi @section.Glyph" aria-hidden="true"></span>
+        @section.Title</h1>
 
-    @if (sectionContent != null) {
-        <div class="row">
-            @sectionContent
-        </div>
-    }
+    <div class="row">
+        <web.Controls.MarkdownView ContentUrl="@section.ContentUrl"/>
+    </div>
+
     <div class="row">
     @foreach (var article in section.Articles)
     {
         <div class="col-md-6">
-            <span class="oi oi-download" aria-hidden="true"></span>
-            <span class="lead"><a href="">@article.Title</a></span></div>
+            <span class="lead">
+            @if (!string.IsNullOrEmpty(article.ContentUrl)){
+                <a href="/articles/@section.Reference/@article.Reference">@article.Title</a>
+            } else {
+                @article.Title
+            }
+            </span>&NonBreakingSpace;
+            @if (!string.IsNullOrEmpty(article.PdfUrl)) {
+                <a href=@article.PdfUrl target="new" title="Download as PDF">
+                    <span class="oi oi-cloud-download" aria-hidden="true"></span>
+                </a>
+            }
+            
+            </div>
     }
     </div>
 }
@@ -38,11 +49,8 @@
 
     private Models.Section section;
 
-    private string sectionContent;
     protected override async Task OnParametersSetAsync()
     {
         section = await dataService.GetSection(SectionRef);
-
-        sectionContent = await markdownService.GetContent(section.ContentUrl);
     }
 }

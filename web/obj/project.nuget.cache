@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FeSiEPTQrZPd21oUKipOAg5O6keSUdIFVSeEPStlEHkFHcHSX6L3aIAzpJrtmBntBVhlHzKczo/yhG+EWhBMFQ==",
+  "dgSpecHash": "jpgIgbPZHShiCHk2ouZoPcREpXayNqaE0IAXckDc4YNtAGk6rR0jJiz/Q351EW0i3rf384g2x8F4PA+Vpg9nZA==",
   "success": true,
   "projectFilePath": "/Users/joel/Projects/5coy-archive/web/web.csproj",
   "expectedPackageFiles": [
+    "/Users/joel/.nuget/packages/anglesharp/0.15.0/anglesharp.0.15.0.nupkg.sha512",
+    "/Users/joel/.nuget/packages/anglesharp.css/0.15.0/anglesharp.css.0.15.0.nupkg.sha512",
+    "/Users/joel/.nuget/packages/htmlsanitizer/5.0.404/htmlsanitizer.5.0.404.nupkg.sha512",
+    "/Users/joel/.nuget/packages/markdig/0.25.0/markdig.0.25.0.nupkg.sha512",
     "/Users/joel/.nuget/packages/microsoft.aspnetcore.authorization/5.0.6/microsoft.aspnetcore.authorization.5.0.6.nupkg.sha512",
     "/Users/joel/.nuget/packages/microsoft.aspnetcore.components/5.0.6/microsoft.aspnetcore.components.5.0.6.nupkg.sha512",
     "/Users/joel/.nuget/packages/microsoft.aspnetcore.components.analyzers/5.0.6/microsoft.aspnetcore.components.analyzers.5.0.6.nupkg.sha512",
@@ -28,8 +32,10 @@
     "/Users/joel/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/joel/.nuget/packages/microsoft.jsinterop/5.0.6/microsoft.jsinterop.5.0.6.nupkg.sha512",
     "/Users/joel/.nuget/packages/microsoft.jsinterop.webassembly/5.0.6/microsoft.jsinterop.webassembly.5.0.6.nupkg.sha512",
+    "/Users/joel/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/Users/joel/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/joel/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
+    "/Users/joel/.nuget/packages/system.text.encoding.codepages/5.0.0/system.text.encoding.codepages.5.0.0.nupkg.sha512",
     "/Users/joel/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.6/microsoft.netcore.app.runtime.browser-wasm.5.0.6.nupkg.sha512"
   ],
   "logs": []

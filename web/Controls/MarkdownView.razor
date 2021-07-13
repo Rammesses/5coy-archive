@@ -1,0 +1,45 @@
+@using Markdig
+@using Services
+
+@inject HttpClient httpClient
+@inject IMarkdownService markdownService
+
+@HtmlContent
+
+@code {
+
+    public MarkupString HtmlContent { get; private set; }
+
+    public string Markdown { get; private set; }
+    public string Rendered { get; private set; }
+    [Parameter]
+    public string ContentUrl { get; set; }
+
+    private static MarkupString EmptyMarkup = new MarkupString(string.Empty);
+    
+    protected override async Task OnParametersSetAsync()
+    {
+        if (string.IsNullOrEmpty(this.ContentUrl))
+        {
+            this.HtmlContent = EmptyMarkup;
+            return;
+        }
+
+        var markdownResponse = await httpClient.GetAsync(this.ContentUrl);
+        if (!markdownResponse.IsSuccessStatusCode)
+        {
+            this.HtmlContent = EmptyMarkup;
+            return;
+        }
+
+        this.Markdown = await markdownResponse.Content.ReadAsStringAsync();
+        this.Rendered = Markdig.Markdown.ToHtml(
+                this.Markdown, 
+                new MarkdownPipelineBuilder()
+                    .UseAdvancedExtensions()
+                    .UseBootstrap()
+                    .UseCustomContainers()
+                    .Build());
+        this.HtmlContent = new MarkupString(this.Rendered);
+    } 
+}

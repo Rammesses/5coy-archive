@@ -1,0 +1,39 @@
+@page "/articles/{SectionRef}/{ArticleRef}"
+
+@using Services
+
+@inject HttpClient Http
+@inject IArticlesService dataService
+@inject IMarkdownService markdownService
+
+@if (section == null || article == null)
+{
+    <div class="loading">Loading...</div>
+} else
+{
+    <h1>@article.Title</h1>
+    <h5><span class="oi @section.Glyph" aria-hidden="true"></span>
+        @section.Title</h5>
+
+    <div>
+        <web.Controls.MarkdownView ContentUrl="@article.ContentUrl"/>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public string SectionRef { get; set; }
+
+    [Parameter]
+    public string ArticleRef { get; set; }
+
+    private Models.Section section;
+    private Models.Article article;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        section = await dataService.GetSection(SectionRef);
+        article = section.Articles.FirstOrDefault(a => a.Reference == ArticleRef);
+    }
+}

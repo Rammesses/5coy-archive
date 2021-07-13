@@ -27,8 +27,7 @@
           ]
       },
 
-      {
-        "Reference": "miscellanea",
+      { "Reference": "miscellanea",
         "Title": "Miscellanea",
         "Glyph": "oi-check",
         "Articles": [
@@ -56,11 +55,11 @@
           ]
       },
 
-      { 
-        "Reference": "in-character",
+      { "Reference": "in-character",
         "Title": "In-Character",
-      "Glyph": "oi-person",
-      "Articles": [
+        "Glyph": "oi-person",
+        "ContentUrl": "/content/in-character.md",
+        "Articles": [
       { "Title": "Briefing Notes - Mission 'Hydra'",
         "Content": "",
         "PdfUrl": "/media/In-Character/Briefing+Notes+-+Mission+%22Hydra%22.pdf"},
@@ -88,9 +87,9 @@
       ]
     },
 
-    { "Title": "Mexal\"s Letters Home",
+    { "Reference": "mexalsletters",
+      "Title": "Mexal\"s Letters Home",
       "Glyph": "oi-envelope-closed",
-      "Reference": "mexalsletters",
       "Articles": [
         { "Title": "2493-03 - Kruger",
           "Content": "",
@@ -124,12 +123,13 @@
           "PdfUrl": "/media/Mexal%27s+Letters/2495-07+-+Hal.pdf"}
           ]},
 
-    { "Title": "Mission Reports",
+    { "Reference": "mission-reports",
+      "Title": "Mission Reports",
       "Glyph": "oi-document",
-      "Reference": "mission-reports",
       "Articles": [
-          { "Title": "2494-03 - Mission 'Sidewinder' (Calvin)",
-            "Content": "",
+          { "Reference": "2494-03+Mission+_Sidewinder_+(Calvin)",
+            "Title": "2494-03 - Mission 'Sidewinder' (Calvin)",
+            "ContentUrl": "/content/2494-03+Mission+_Sidewinder_+(Calvin).md",
             "PdfUrl": "/media/Mission+Reports/2494-03+Mission+%22Sidewinder%22+(Calvin).pdf"},
           { "Title": "2494-04 - Mission 'Ogre' (Calvin)",
             "Content": "",
@@ -158,11 +158,11 @@
           { "Title": "2494-03 - Mission 'Intruder' - SIB Report (Rumpole)",
             "Content": "",
             "PdfUrl": "/media/Mission+Reports/2496-02+Mission+%22Intruder%22+-+SIB+Report+(Rumpole).pdf"},
-          { "Title": "2494-03 - Mission 'Red Storm' (Turner)",
-            "Content": "",
+          { "Reference": "2496-03+Mission+_Red+Storm_+(Turner)",
+            "Title": "2494-03 - Mission 'Red Storm' (Turner)",
+            "ContentUrl": "/content/2496-03+Mission+_Red+Storm_+(Turner).md",
             "PdfUrl": "/media/Mission+Reports/2496-03+Mission+%22Red+Storm%22+(Turner).pdf"},
           { "Title": "2496-00 - Mission 'Procyon' - Intel",
-            "Content": "",
             "PdfUrl": "/media/Mission+Reports/2496-00+Mission+%22Procyon%22+-+Intel.pdf"}
       ]},
 
