@@ -5,7 +5,7 @@
 @inject HttpClient Http
 @inject IArticlesService service
 
-<h1>All Articles</h1>
+<h1>All Sections</h1>
 
 @if (sections == null) {
     <div class="loading">Loading...</div>
@@ -15,7 +15,8 @@
     {
         <div class="col-md-6">
             <span class="oi @section.Glyph" aria-hidden="true"></span>
-            <span class="lead"><a href="@section.Url">@section.Title</a></span></div>
+            <span class="lead"><a href="@section.Url">@section.Title</a></span>
+        </div>
     }
     </div>
 }

@@ -11,9 +11,20 @@
     <div class="loading">Loading...</div>
 } else
 {
-    <h1>@article.Title</h1>
-    <h5><span class="oi @section.Glyph" aria-hidden="true"></span>
-        @section.Title</h5>
+    <h1><span class="sectionIcon oi @section.Glyph" aria-hidden="true"></span>@article.Title</h1>
+
+    @if (!string.IsNullOrEmpty(article.PdfUrl)) {
+            <div style="float:right">
+            <a href=@article.PdfUrl target="new" title="Download as PDF">
+                Download as PDF
+                <span class="oi oi-cloud-download" aria-hidden="true"></span>                    
+            </a>
+            </div>
+        }
+
+    <h5>
+        @section.Title
+    </h5>
 
     <div>
         <web.Controls.MarkdownView ContentUrl="@article.ContentUrl"/>

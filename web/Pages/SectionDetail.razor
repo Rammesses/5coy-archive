@@ -25,11 +25,11 @@
     {
         <div class="col-md-6">
             <span class="lead">
-            @if (!string.IsNullOrEmpty(article.ContentUrl)){
+                @if (!string.IsNullOrEmpty(article.Reference)) {
                 <a href="/articles/@section.Reference/@article.Reference">@article.Title</a>
-            } else {
-                @article.Title
-            }
+                } else {
+                    @article.Title
+                }
             </span>&NonBreakingSpace;
             @if (!string.IsNullOrEmpty(article.PdfUrl)) {
                 <a href=@article.PdfUrl target="new" title="Download as PDF">
