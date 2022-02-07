@@ -2,7 +2,7 @@ using System;
 
 namespace Models
 {   
-    public class Section
+    public class Section 
     {
         public string Reference { get; set; }
         public string Title { get; set;}

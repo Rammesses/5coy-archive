@@ -17,6 +17,7 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly/5.0.6/build/net5.0/Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly/5.0.6/build/net5.0/Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)blazor.extensions.logging/2.0.4/buildTransitive/Blazor.Extensions.Logging.props" Condition="Exists('$(NuGetPackageRoot)blazor.extensions.logging/2.0.4/buildTransitive/Blazor.Extensions.Logging.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">/Users/joel/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/5.0.6</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>

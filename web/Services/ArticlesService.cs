@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
+using Microsoft.Extensions.Logging;
+
 using Models;
 
 namespace Services
@@ -12,6 +14,7 @@ namespace Services
     {
         Task<Section[]> GetSections();
         Task<Section> GetSection(string sectionRef);
+        Task<Article[]> GetAllArticlesInTree(string sectionRef);
         Task<Article> GetArticle(string sectionRef, string articleRef);
     }
 
@@ -20,10 +23,12 @@ namespace Services
         private Section[] articleData = null;
 
         private readonly HttpClient httpClient;
+        private readonly ILogger logger;
 
-        public ArticlesService(HttpClient httpClient)
+        public ArticlesService(HttpClient httpClient, ILogger<ArticlesService> logger)
         {
-            this.httpClient = httpClient ?? throw new ArgumentNullException();
+            this.httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public async Task<Section[]> GetSections()
@@ -37,15 +42,26 @@ namespace Services
         {
             await EnsureDataLoaded();
 
-            return articleData.FirstOrDefault(s => s.Url.EndsWith(sectionRef));
+            var section = articleData.FirstOrDefault(s => s.Url.EndsWith(sectionRef));
+            return section;
+        }
+
+        public async Task<Article[]> GetAllArticlesInTree(string sectionRef)
+        {
+            await EnsureDataLoaded();
+
+            var section = await GetSection(sectionRef);
+            var allArticles = Article.Flatten(section.Articles);
+            return allArticles.ToArray();
         }
 
         public async Task<Article> GetArticle(string sectionRef, string articleRef)
         {
             await EnsureDataLoaded();
 
-            var section = await GetSection(sectionRef);
-            return section.Articles.FirstOrDefault(a => a.Reference == articleRef);
+            var allArticles = await GetAllArticlesInTree(sectionRef);
+            var article = allArticles.FirstOrDefault(a => a.Reference == articleRef);            
+            return article;
         }
 
         private async Task EnsureDataLoaded()
@@ -56,6 +72,26 @@ namespace Services
                 lock(this)
                 {
                     articleData = loadedData;
+                    foreach(var section in articleData)
+                    {
+                        PopulateParentage(section.Articles, null);
+                    }
+                }
+            }
+        }
+
+        private void PopulateParentage(Article[] articles, Article parent)
+        {
+            foreach (var article in articles)
+            {
+                if (article.Parent != parent)
+                {
+                    article.Parent = parent;
+                }
+
+                if (article.Children.Any())
+                {
+                    PopulateParentage(article.Children, article);
                 }
             }
         }

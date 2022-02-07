@@ -9,6 +9,18 @@
 @if (section == null || article == null)
 {
     <div class="loading">Loading...</div>
+
+    @if(allArticles != null)
+    {
+        <h4>All Articles in @SectionRef</h4>
+
+        <ul>
+        @foreach(var article in allArticles)
+        {
+            <li>@article.Reference - @article.Title</li>
+        }
+        </ul>
+    }
 } else
 {
     <h1><span class="sectionIcon oi @section.Glyph" aria-hidden="true"></span>@article.Title</h1>
@@ -23,9 +35,42 @@
         }
 
     <h5>
-        @section.Title
-    </h5>
+        @if (!string.IsNullOrEmpty(section.Reference)) {
+        <a href="/articles/@section.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@section.Title</a>
+        } else {
+            @section.Title
+        }
 
+        @if (!string.IsNullOrEmpty(article.Parent?.Reference)) {
+        <a href="/articles/@article.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@article.Parent.Title</a>
+        } 
+    </h5>
+    @if (article.Children.Any())
+    {
+        <hr />
+        <h5>Related:</h5>
+        <div class="row">
+        @foreach (var child in article.Children)
+        {
+            <div class="col-md-6">
+                <span class="lead">
+                    @if (!string.IsNullOrEmpty(child.Reference)) {
+                    <a href="/articles/@section.Reference/@child.Reference">@child.Title</a>
+                    } else {
+                        @child.Title
+                    }
+                </span>&NonBreakingSpace;
+                @if (!string.IsNullOrEmpty(child.PdfUrl)) {
+                    <a href=@child.PdfUrl target="new" title="Download as PDF">
+                        &nbsp;<span class="oi oi-cloud-download" aria-hidden="true"></span>
+                    </a>
+                }
+                
+                </div>
+        }
+        </div>
+    }
+    <hr />
     <div>
         <web.Controls.MarkdownView ContentUrl="@article.ContentUrl"/>
     </div>
@@ -40,11 +85,13 @@
     public string ArticleRef { get; set; }
 
     private Models.Section section;
+    private Models.Article[] allArticles;
     private Models.Article article;
 
     protected override async Task OnParametersSetAsync()
     {
         section = await dataService.GetSection(SectionRef);
-        article = section.Articles.FirstOrDefault(a => a.Reference == ArticleRef);
+        allArticles = await dataService.GetAllArticlesInTree(SectionRef);
+        article = await dataService.GetArticle(SectionRef, ArticleRef);
     }
 }

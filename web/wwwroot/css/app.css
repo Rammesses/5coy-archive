@@ -52,3 +52,57 @@ a, .btn-link {
 span.sectionIcon {
     padding-right: 0.25em;
 }
+
+div.homepage-hero {
+    margin-left: 2em;
+}
+
+div.sidebar-bang-rotated {
+    background-image: url("/images/bang-background-rotated.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+}
+
+.callout {
+    padding: 1.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.callout-info {
+    border-left-color: #3c32c7;
+}
+
+.callout-data {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.callout-security {
+    padding: 1.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #490e0e;
+    border-radius: 0.5rem;
+    background-color: #a82020;
+    border-width: 0.5rem;
+    text-align: center;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: xx-large;
+}
