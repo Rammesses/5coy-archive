@@ -2,6 +2,11 @@ name: compile_blazor
 
 on: [push]
 
+defaults:
+  run:
+    shell: bash
+    working-directory: ./web
+
 jobs:
   build:
 
@@ -11,7 +16,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
-      working-directory: ./web
       with:
         dotnet-version: 5.0.300
     - name: Publish with dotnet
