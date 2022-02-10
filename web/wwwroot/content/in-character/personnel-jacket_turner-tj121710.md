@@ -1,243 +1,112 @@
-1.1 7D01 - Personal Data
 
+- **CMC ident:** TJ121710
+- **Surname:** Turner
+- **Forename(s):** Joel
+- **Date of Birth:** 15 / 08 /2469
+- **Home Planet:** Alpha Centauri
+- **Date Enlisted:** March 2490
  
 
-CMC ident: 1J121710
-Surname: Turner
-Forename(s): Joel
-
-Date of Birth: 15 / 08 /2469
-
-Home Planet: Alpha Centauri
-
- 
-
- 
-
-Date Enlisted: March 2490
-
- 
-
-Rank: Marine Co MFC
-Corporal cd Sargeant
-Sargeant Major[ _] Officer Cadet
-Lieutenant Captain
-Major Pe Colonel
-
-Specialist [  ]
-
-CMC Qualifications:
-
- 
-
-Basic Training /
-Patrolling /
-souting /
-Sniper /
-Advanced Combat Training /
-NCO Training /
-Officer Training Se at
-
-/
-/
-/
-/
-/
-/
-/
-
-Wty
-
-Med-Tech 3
-Med-Tech 1
-
-Med-Tech 4
-Med-Tech 2
-Field Surgeon
-
-LL
-
-i
-LL
-
-rome,
-
-Radio-Ops 4
-Comms- Tech 4
-Comms-Tech 2
-EComms 2
-
-Radio-Ops 2
-Comms-Tech 3
-Comms-tTech 1
-
-xe
-||
-
-an,
-
-EK
-P|
-
-C ERE CLE
-
-Armourer 2
-EOD 3
-
-Armourer 4
-EOD 4
-EOD 2
-SurSat 4 SurSat 2
-
-;
-
-Comp-Tech 4 | ae es Comp-Tech 3
-Comp-Tech 2 ae Comp-Tech 1
-Intel 4 intel 3
-intel 2
-ISL 4
-Contact 4
-
-TacOps 2
-
-ISL 2
-Contact 2
-
-pEreery peosesy poweeay prrey
-
-TacOps Officer 2
-
-Fy
-
-Other Skills:
-
- 
-
- 
-
- 
-
-Pade 1.1-1
-1.1 7D01 - Personal Data
-
-Medical Data:
-
- 
-
-Plasma:
-
-EnvCode:
-
- 
-
-Typed:
-
-GeneCode:
-
- 
-
-RetScan:
-
-HVR:
-
- 
-
-Blood:
-
- 
-
-Height:
-
-metres Weight:
-
- 
-
-Eye Colour:
-
-Hair Colour
-
- 
-
-Build:
-
- 
-
-Known Immunities:
-
- 
-
- 
-
-Known Deficiencies:
-
-Al ab | Le Le Hg dle Fi
-
- 
-
-Other Medical Notes:
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Other General Notes:
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Pade 1.1-2
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-1.1 7D01 - Personal Data
-
-Personal History:
+### Rank: 
+
+- **Marine:** _____
+- **MFC:** _____
+- **Corporal:** March 2490
+- **Sargeant:** _____
+- **Sargeant Major:** _____
+- **Officer Cadet:** ______
+- **Lieutenant:** _____
+- **Captain:** _____
+- **Major:** _____ 
+- **Colonel:** _____
+
+- **Specialist:** _____
+
+### CMC Qualifications:
+
+- **Basic Training:** March 2490
+- **Patrolling:** _____
+- **Scouting:** _____
+- **Sniper:** _____
+- **Advanced Combat Training:** _____
+- **NCO Training:** _____
+- **Officer Training:** _____
+
+- **Med-Tech 4:** _____
+- **Med-Tech 3:** _____
+- **Med-Tech 2:** _____
+- **Med-Tech 1:** _____
+- **Field Surgeon:** _____
+
+- **Radio-Ops 4:** _____
+- **Radio-Ops 2:** _____
+- **Comms-Tech 4:** _____
+- **Comms-Tech 3:** _____
+- **Comms-Tech 2:** March 2490
+- **Comms-Tech 1:** _____
+- **EComms 2:** _____
+
+- **Armourer 4:** _____
+- **Armourer 2:** _____
+- **EOD 4:** March 2490
+- **EOD 3:** _____
+- **EOD 2:** _____
+- **SurSat 4:** _____
+- **SurSat 2:** _____
+
+- **Comp-Tech 4:** _____
+- **Comp-Tech 3:** _____
+- **Comp-Tech 2:** _____
+- **Comp-Tech 1:** March 2490
+
+- **Intel 4:** _____
+- **Intel 3:** _____
+- **Intel 2:** _____
+
+- **ISL 4:** _____
+- **ISL 2:** _____
+- **Contact 4:** _____
+- **Contact 2:** _____
+
+- **TacOps 2:** _____
+- **TacOps Officer 2:** _____
+
+##### Other Skills:
+
+None
+
+### Medical Data:
+
+- **Plasma:** _____
+- **EnvCode:** _____
+- **Typed:** _____
+- **GeneCode:** _____
+- **RetScan:** _____
+- **HVR:** _____
+- **Blood:** _____
+- **Height:** _____ metres
+- **Weight:** _____ kg
+- **Eye Colour:** _____
+- **Hair Colour:** _____
+- **Build:** _____
+
+##### Known Immunities:
+
+None
+
+##### Known Deficiencies:
+
+Alergic to Hydratil
+
+###### Other Medical Notes:
+
+None
+
+##### Other General Notes:
+
+None
+
+##### Personal History:
 
 Joel Turner is the only son of Martha and Frank Turner, kelp farmers on the water world
 of Alpha Centauri. At an early age he showed an aptitude for machines and computers,
@@ -286,14 +155,3 @@ capture of on Serentia 2. From his report, it is clear that Turner held a long-s
 well-founded) grudge against Nasco and was not unhappy at his death, although the
 operation also resulted in the death of his closest and oldest friend in the corps, Sgt
 Julian Martins.
-
-Page 1.1-3
-
- 
-1.1 7D01 - Personal Data
-
-This Page Intentionally Blank
-
- 
-
-Page 1.1-4

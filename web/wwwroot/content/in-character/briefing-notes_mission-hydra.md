@@ -1,47 +1,19 @@
-ne ean Den nnn ee ee
-ss eeaheeaeiieaine i el aati ene Re ee ee
+### Received Message
 
-Sp ep ero ster ang ne
-me chienene tenet ese
-
-A RN ag mg en eee I lh tn et cee a an ae peer ianeert at ereet nee crea ae emcee PIR 9 MII Re Re NR I YS RTT, owe ere ee ‘ ba
-G ee ‘& @) cord a = : VY = re ay) os S be a eC ee tee ee aes Teena Sete hton Me -aheie tieeate Steel tee
-eerweN vere ee eee . nteblle gore age prey eaten itp i en
-— o slater 2a SET oo RSS ar ve) We Ht thane ie! NN at REPO SES oA Mec BIXEE SME Ice as OAL MANES, ot POR ld RARE wd I OREO a oR Sw Da Se RECO A De an a Er AN NPE re = ve RE rie Pe OSE Tam Ra ee oe I We TL og? Fe RR Ni EE CRT S TRO OI TET
-
-ee i en ane an ee aE a ie eke ok ee a ie
-Se
-aeons caine cael
-
-iiaeniaeh maehtemnnsiieieaiteenehtnemnaeetia aah, Rah dent 5 delineate meee
-ee a See eee ee : ns a Wy
-Sys “tn
-pA A ONE MRS SIS «Ul EIN: CPO ONE
-
-Me SS = et RR
-
-oons ee 5
-
-ident:
-
-23/02/93 23:45:01 loc Tur CHQ Gil Gar Dup Mes Cla Pri
+- **ident:** 23/02/93 23:45:01 loc Tur CHQ Gil Gar Dup Mes Cla Pri
 TURGIL230293234501
-
-Comnet path:
-
-CHQ-4356.3; Tha-2845.9; Bla-1523.4; Bcn- 7643.3; Bcn-2363.4:
+- **Comnet path:** CHQ-4356.3; Tha-2845.9; Bla-1523.4; Bcn- 7643.3; Bcn-2363.4:
 6Bcn-4321.5; Gar-652.2
+- **Date:** 23/02/93 23:45:01 zulu
+- **From:** Turner, J. CSM, 5-Coy, attached CHQ
+- **To:** Gillian, A, Cpt, 5-Goy, aboard Garavaglia |
+- **Re:** Mission 'Hydra'
 
-Date: 23/02/93 23:45:01 zulu
-
-From: Turner, J. CSM, 5-Coy, attached CHQ
-
-To: Gillian, A, Cpt, 5-Goy, aboard Garavaglia |
-Re: Mission ’Hyara’
-
+::: callout-security
 WARNING: TOP SECRET MATERIAL
+:::
 
-Begin Message:
+##### Begin Message:
 
 All available Marines of 5th company shall embark aboard FTL transport
 ‘Garavaglia Il’ (CSR 362285-1) for immediate high-displacement transit to planet
@@ -56,7 +28,7 @@ UW team must be maintained at all times. (see additional operational notes,
 attached) No direct support will be available during the operational phase of the
 mission.
 
-Note:
+##### Note:
 
 Full situation briefing shall be conducted aboard the Facility Support Vessel
 Kreyszig, currently in parking orbit above Groombridge with cargo of one type 8
@@ -65,28 +37,16 @@ platform. Covert insertion maneuver #4 shall be implemented. See Operational
 Description for more detail.
 
 Turner, J, CSM - for Gen. Sullivan.
-End Message
-Attached: Suplimentary Data Sheets
 
- 
-A en a Se Pi Ras OLN Nc MO Ne ink rea A a i EY GR eS BS TEE. Salat
+##### End Message
 
-CMC 5-Coy - a aah a wrie a Soe
+**Attached:** Suplimentary Data Sheets
 
-WARNING:
-THIS MATERIAL IS CLASSIFIED
+--- 
 
-TOP SEGRE
+### Special Operational Requirements:
 
- 
-
- 
-
- 
-
-Special Operational Requirements:
-
-Dropship Maneuvers:
+##### Dropship Maneuvers:
 
 Insertion into the operational area shall use Covert Insertion Maneuver #4. Both
 of the Garavaglia’s dropships shall depart simultaneously, presenting a single
@@ -98,7 +58,7 @@ government as a decoy, before rendezvousing with #1 for the return flight to the
 Garavaglia. During these single-trace maneuvers, a ‘distance of not more than
 10m between ships shall be maintained.
 
-Covert Operations:
+##### Covert Operations:
 
 This operation is designated as COVERT. Hence, all operational personel shall
 remove any item of equipemt or insignia that might link them to the Corps or the
@@ -111,7 +71,7 @@ effectiveness of the mission. Note that under no circumstances shall any
 personell be deemed expendable, even if the cover is broken (see Recovery
 Proceures below).
 
-Recovery Procedures:
+##### Recovery Procedures:
 
 Due to the covert nature of this mission, Covert Insertion Maneuver #4 shall be
 implemented for the recovery of the operational team at the prearranged Evac-
@@ -124,502 +84,13 @@ dropship will not wait at the rendezvous for more than 5 minutes to avoid
 detection, and will fire upon anyone approaching it without identification. The
 ESU includes an ID facility.
 
- 
-Dee ct pay taony veclammenrsi st frien cater tag cnt taste eettipontty ty etre, AO an etna onto em rome ners tet tiene etenp itinerant anita etn sta en ett ane ects atta rtp eon en ce ee
+---
 
-ee eee
-
-“ 2 a i ee
-
- 
-
-a
-Lu
-Li
-OD
-=
-O
-©
-Zz (wu
-E20
-SF a
-EO
-a
-Ss |—
-“
-Tr
-ae
-
- 
-
-iealias + Gaisi'w eapin te Waunvd dboel dade tae ok omeiwMeas
-
-*
-.
-.
-.
-
-ps ee 8 be + 2 es e's e's es esse 6 se 6 8's = e's ese ee «e's e's’ e's e's
-
-o
-*
-*
-
- 
-
- 
-
-eee eee eeeaee
-e*eeenee 77 eee ee eeee Pe ed
-7
-
-4
-
-wipes
-
-ee eee eT +e eee
-
-.
-
-“a
-
-**
-.
-*** fee eee eeeeeeeneene
-ee ee eee eeeeeen eae
-7+ + + oe eee ewer ©
-.
-
- 
-
- 
-
- 
-
- 
-
- 
-
-ee
-eeeeere VM eee eee eM et eee eee Meee Mees Meee eM eee eet OMe ec eee ens
-
- 
-
- 
-
-2 * debs * ek gi tt B
-
-Peer eee eee eee eeeeeeee
-wT ~~ re
-
-ye
-
- 
-
-.
-see eee eseeeeeeeeeee
-
-wen -
-“ene =
-
-.
-*
-eevee ee 6
-
-~
-
-—-
-
-WR ee eee Mee Me et ee eM et eee Meee Me eet Mees OMe eM cM es eho seus
-
-eee ee ee eer eee he ae
-
- 
-
-idge Continental Arrangement
-Chidan & Kasdunni Regions and Operational Area)
-
-Groombr
-
-(Showing
-
- 
-a. - ” Se r
-Noe ee a ee ee ee Se Se On
-
-Dae ee tenet ae
-
-By Praes aa Sia ystehnntreatee treet a enter avaretalttpinaeiee tin sate aceite incase ~itnaineshrwant cmap hanna tty enineer peerevematomannatlae ne parent wir gentler nara cette gan a
-
-Sl sienetti teach dich ais aoe ahee at caenaithen te eee
-
-ro
-
-ST Pe nee
-
-tele Bia eadiae iad
-
-r a “ eh
-Staal tiie ce ished tan ia cin Tien elie ek aed
-
-ene
-
-ee ee ee nee eee ee Sete Ce iC ae wr
-
-Te aded sede
-Se en ten ee eee eee]
-ries!
-
-WARNING
-
-O
-ne
-_
-Y)
-Y)
-ean
-al
-O
-%
-a
-.
-oC
-Li
--
-<
-=
-Y
-whe
-Jae
-
- 
-
- 
-
- 
-
-=
-UU
-(Oc
-©)
-UL]
-YD
-OL,
-©
-
- 
-
-“ee
-. "sf Zs. 7 - e
--. I. 2 © #. an* ". -.
-oun Gre : Crain, ROR oo. Ae gee? ging eee
-* - *, *-
-oe -
-
- 
-
-&
-
- 
-
-« ‘*
-
-4 % «6,
-. -& = ae wa. .*
-‘* ‘446° . “se?
-
-ve
-e
-Ne atin
-
-Fe “ft, we
-‘ 7
-
-.
-
-es 7-2
-“~ foere « -
-> . “naa rn
-¢ % Wd e =°
-°°?
-
-fe, ee é*
-
-. ' .*
-oe
-ets
-“3
-
-“a
-
- 
-
- 
-
- 
-
-gion
-
-Operational Area
-(Computer Enhanced Sattelite Image)
-
-Kasdunni/Chidan Border Re
-
- 
-Pa eo a emanate arysineramnemenmennmemins manatees eae ee ee - eet ven ene a
-Cee een en ee naan nar cane Tn Tin 1 esamenaee apneemenn meena ane
-
-xa i ~ 5. es ie ait is S iy n Ne he ee Coe oe eee
-
-ee ene eee ar ee eee Sen ieee
-
-WARNING:
-THIS MATERIAL IS CLASSIFIED
-
-TOP SieGk
-
- 
-
- 
-
- 
-
-Main Facility
-Building
-sp - i
-
-Landing Area * °
-(Unmarked)
-
-hol de 25 — -
-
-oe
-e iv’
-
- 
-
-é
-— Support
-Buildings
-
- 
-
- 
-
- 
-
- 
-
-Chidan/Kasdunni Border Region
-Thermal Target - Sierra-41
-(Computer Enhanced Sattelite Image)
-Mercenary Staging Facility
-
- 
-ene a. node ymmmemaph ry
-
-+= Mission’
-
-et eel
-
-Cel
-
-SS rw ee
-PO re a Ena ee eae Se eee ee ee Nene Sn AeaS Seni trae
-
-a aanmenamnadiaeeaenead aimee
-
-ee
-6 ADR eTNET Ones
-
-os
-
-nel et RE aed hennannetnanhdit.al
-
-rs Se aa esatainwectnnse: Waly nnmemeebenmawaotnn tte
-
-Rom
-.
-Se en ye Oe nn nn ne et eel i eed ee a ee Sen ee ee .
-
-ne On eee
-
-en ene en ne ates
-
-WARNING:
-THIS MATERIAL IS CLASSIFIED
-
- 
-
- 
-
- 
-
- 
-
-[rrr nr eee ameiheenenmeanndieneeabenmamatetebhemidaen aehaehaacteeneeammnnnae
-
-+
-
- 
-
- 
-
-4
-”
-**
-
-*
-
-ae. s
-
-+ . *
-aoe ee e's «
-i
-* 7
-
-DM
-*eee © 5
-9. %*%6?,*,*
-“* see
-Teh
-“ete .
-.
-.
-‘
-*“**eeeaestd
-*_* eee 8 6 4
-**? 2 .
-
-.
-+e + * + @ «
-“eee tee
-
-warren * Ay
-
-. .
-**-e
-*_*e* et ©
-
-7
-
-'e*.
-eel Rees = a
-c58.*. tes . o* ++ +
-
-*
-
-‘ee
-
-77 nena eee
-ates ae”
-7+
-
-am # s
-Ye aa
-
-***
-an te
-
-pede
-
-ewe
-a
-
-77 wearer eral ste ss a
-ae Sette Se -
-
-ee ap eae Bite
-
-SE
-
-we
-Pd
-|
-7 yo
-go - |
-fal aa
-ae ae me
-2
-a7 ARs
-
-|!
-=
-
-a4 alee
-
-‘7.
-Wee an.
-
-Ea
-on
-
-*
-
-— ,
-ty gh
-
-Per?
-
-re °F
-: **
-
-2
-
-nt ater fe
-
- 
-
- 
-
-Radiation Sattelite Scan (12/92
-
-0.45
-
-e¢dt+--—
-Measured 2 -+----
-Measured 3 --8----
-
-‘orrected Model
-
-—
-
-« a= PG ---eceree
-
-Rad Level
-
- 
-
- 
-
- 
-
- 
-
- 
-a ee es AN ae aps treet = watieamern ny = =~
-
-cmc 5-Coy - nie issio n’ at ae L = oe = ag
-
-Sen See es ie Ne nn een ae —— ne oe _
-er es
-
-WARNING:
-THIS MATERIAL IS CLASSIFIED
-
-TOP SleGRiel
-
-Extract from CMC Report No. 163324/a
-"The Groombridge Bush War"
-
- 
-
- 
-
- 
+### Extract from CMC Report No. 163324/a "The Groombridge Bush War"
 
 By Prof. Emeritus Daniel Bowes, University of Europe, Geneva, Sol Ill
-Summary: .
+
+##### Summary: 
 
 The Groombridge Bush War is one of the best documented conventional
 conflicts available to the historian. Initiated in 2175, the conflict was primarily a
@@ -661,20 +132,11 @@ more heavily polluted by the use of nuclear weapons, it is unlikely that
 Groombridge could have survived as a colony, even in those areas of the planet
 not directly affected by the conflict.
 
- 
-mec Peete Ricco B iieae
+---
 
-WARNING:
-THIS MATERIAL IS CLASSIFIED
+### Dropship Navigational Data
 
-TOP SieGRisl
-
- 
-
- 
-
-Dropship Navigational
-
+::: callout-data
 begin 777 CMC-CIM4
 M #\P t @e@ 64 ZI (C10 )X
 M*O 1! *O0 PAR" N HU “)L%1R/_\+ @ IE. T I3P-(0UP#1"9NX
@@ -742,5 +204,5 @@ i Bae OB i.” fe hee
 + _(8X
 x< :
 end
-
+:::
  
