@@ -106,3 +106,17 @@ div.sidebar-bang-rotated {
     font-weight: bolder;
     font-size: xx-large;
 }
+
+.figure {
+    padding: 1.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #490e0e;
+    border-radius: 0.1rem;
+    background-color: #bebebe;
+    border-width: 0.1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family:'Courier New', Courier, monospace;
+}
