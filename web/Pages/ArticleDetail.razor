@@ -42,7 +42,7 @@
         }
 
         @if (!string.IsNullOrEmpty(article.Parent?.Reference)) {
-        <a href="/articles/@article.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@article.Parent.Title</a>
+        <a href="/articles/@section.Reference/@article.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@article.Parent.Title</a>
         } 
     </h5>
     @if (article.Children.Any())
