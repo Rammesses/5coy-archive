@@ -1,2 +1,1 @@
-lipsum lipsum
-lipsum lipsum
+Sometimes things can't just be pigeon-holed. These are some of just those such things.
