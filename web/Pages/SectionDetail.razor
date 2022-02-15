@@ -1,0 +1,52 @@
+@page "/articles/{SectionRef}"
+
+@using Services
+
+@inject HttpClient Http
+@inject IArticlesService dataService
+@inject IMarkdownService markdownService
+
+@if (section == null)
+{
+    <h1>All Articles</h1>
+
+    <div class="loading">Loading...</div>
+} else
+{
+    <h1><span class="oi @section.Glyph" aria-hidden="true"></span>
+        @section.Title</h1>
+
+    <div class="row">
+        <web.Controls.MarkdownView ContentUrl="@section.ContentUrl"/>
+    </div>
+
+    <div class="row">
+    @foreach (var article in section.Articles)
+    {
+        <div class="col-md-6">
+            <span class="lead">
+                @if (!string.IsNullOrEmpty(article.Reference)) {
+                <a href="/articles/@section.Reference/@article.Reference">@article.Title</a>
+                } else {
+                    @article.Title
+                }
+                &nbsp;
+                <web.Controls.PdfDownload PdfUrl="@article.PdfUrl" />
+            </span>            
+        </div>
+    }
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public string SectionRef { get; set; }
+
+    private Models.Section section;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        section = await dataService.GetSection(SectionRef);
+    }
+}

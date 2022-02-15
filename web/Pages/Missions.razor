@@ -1,0 +1,55 @@
+﻿@page "/missions"
+@inject HttpClient Http
+
+<h1>Missions</h1>
+
+<p>Blah blah blah</p>
+
+@if (missions == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Resources</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mission in missions)
+            {
+                <tr>
+                    <td>@mission.StartDate.ToShortDateString() - @mission.EndDate.ToShortDateString()</td>
+                    <td>@mission.Name</td>
+                    <td>@mission.Location</td>
+                    <td>@mission.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Mission[] missions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        missions = await Http.GetFromJsonAsync<Mission[]>("data/missions.json");
+    }
+
+    public class Mission
+    {
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string Name { get; set; }
+
+        public string Summary { get; set; }
+
+        public string Location { get; set; }
+    }
+}
