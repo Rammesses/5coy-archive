@@ -1,0 +1,55 @@
+[
+    { 
+        "Reference": "in-character",
+        "Title": "In-Character",
+        "Glyph": "oi-person",
+        "ContentUrl": "/content/in-character.md",
+        "Children": [
+            {
+                "Reference": "marines-handbook",
+                "Title": "Marine's Handbook",
+                "Glyph": "oi-book",
+                "ContentUrl": "/content/marines-handbook.md",
+                "ChildRefs": []        
+            },
+            {
+                "Reference": "mexals-letters",
+                "Title": "Mexal's Letters Home",
+                "Glyph": "oi-envelope-closed",
+                "ContentUrl": "/content/mexals-letters.md",
+                "ChildRefs": []
+            },
+            {
+                "Reference": "mission-reports",
+                "Title": "Mission Reports",
+                "Glyph": "oi-document",
+                "ContentUrl": "/content/mission-reports.md",
+                "ChildRefs": []        
+            }
+        ]
+    },
+    { 
+        "Reference": "out-of-character",
+        "Title": "Out of Character",
+        "Glyph": "oi-people",
+        "ContentUrl": "/content/out-of-character/out-of-character.md",
+        "Children": [
+            {
+                "Reference": "miscellanea",
+                "Title": "Miscellanea",
+                "Glyph": "oi-check",
+                "ContentUrl": "/content/miscellanea.md",
+                "ChildRefs": [
+                ]
+            },    
+            {
+                "Reference": "scenarios",
+                "Title": "Scenarios",
+                "Glyph": "oi-compass",
+                "ContentUrl": "/content/scenarios.md",
+                "ChildRefs": []
+            }        
+        ]
+    }
+]
+

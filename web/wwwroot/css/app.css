@@ -120,3 +120,7 @@ div.sidebar-bang-rotated {
     margin-right: 3rem;
     font-family:'Courier New', Courier, monospace;
 }
+
+li.nav-item-child {
+    margin-left: 0.75rem;
+}
