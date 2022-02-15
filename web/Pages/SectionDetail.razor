@@ -30,14 +30,10 @@
                 } else {
                     @article.Title
                 }
-            </span>&NonBreakingSpace;
-            @if (!string.IsNullOrEmpty(article.PdfUrl)) {
-                <a href=@article.PdfUrl target="new" title="Download as PDF">
-                    <span class="oi oi-cloud-download" aria-hidden="true"></span>
-                </a>
-            }
-            
-            </div>
+                &nbsp;
+                <web.Controls.PdfDownload PdfUrl="@article.PdfUrl" />
+            </span>            
+        </div>
     }
     </div>
 }

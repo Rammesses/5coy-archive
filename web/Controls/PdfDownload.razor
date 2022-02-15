@@ -1,0 +1,29 @@
+@using Microsoft.Extensions.Configuration
+
+@inject IConfiguration configuration
+
+@if (!string.IsNullOrEmpty(resolvedPdfUrl)) {
+    <a href="@resolvedPdfUrl" target="new" title="Download as PDF">
+        <span class="oi oi-cloud-download" aria-hidden="true"></span>
+    </a>
+}
+
+@code {
+
+    [Parameter]
+    public string PdfUrl { get; set; }
+
+    public string resolvedPdfUrl { get; set; }
+
+    protected override Task OnParametersSetAsync()
+    {
+        var mediaBaseUrl = configuration["Media:BaseUrl"];
+        if (!string.IsNullOrEmpty(mediaBaseUrl) && !string.IsNullOrEmpty(PdfUrl)) {
+            resolvedPdfUrl = new Uri(new Uri(mediaBaseUrl), this.PdfUrl).ToString();
+        } else {
+            resolvedPdfUrl = PdfUrl;
+        }
+
+        return Task.CompletedTask;
+    }
+}
