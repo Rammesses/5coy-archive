@@ -14,6 +14,7 @@ namespace Services
     {
         Task<Section[]> GetSections();
         Task<Section> GetSection(string sectionRef);
+        Task<Article[]> GetArticles(string sectionRef);
         Task<Article[]> GetAllArticlesInTree(string sectionRef);
         Task<Article> GetArticle(string sectionRef, string articleRef);
     }
@@ -21,6 +22,8 @@ namespace Services
     public class ArticlesService : IArticlesService
     {
         private Section[] articleData = null;
+
+        private Section[] sectionData = null;
 
         private readonly HttpClient httpClient;
         private readonly ILogger logger;
@@ -35,15 +38,24 @@ namespace Services
         {
             await EnsureDataLoaded();
 
-            return articleData;
+            return sectionData;
         }
 
         public async Task<Section> GetSection(string sectionRef)
         {
             await EnsureDataLoaded();
 
-            var section = articleData.FirstOrDefault(s => s.Url.EndsWith(sectionRef));
+            var section = Section.Flatten(sectionData).FirstOrDefault(s => s.Reference == sectionRef);
             return section;
+        }
+
+        public async Task<Article[]> GetArticles(string sectionRef)
+        {
+            await EnsureDataLoaded();
+
+            var section = await GetSection(sectionRef);
+            var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
+            return sectionArticles;
         }
 
         public async Task<Article[]> GetAllArticlesInTree(string sectionRef)
@@ -51,7 +63,8 @@ namespace Services
             await EnsureDataLoaded();
 
             var section = await GetSection(sectionRef);
-            var allArticles = Article.Flatten(section.Articles);
+            var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
+            var allArticles = Article.Flatten(sectionArticles);
             return allArticles.ToArray();
         }
 
@@ -66,6 +79,20 @@ namespace Services
 
         private async Task EnsureDataLoaded()
         {
+            // load the section data from `data/sections.json`
+            if (sectionData == null)
+            {
+                var loadedData = await httpClient.GetFromJsonAsync<Section[]>("data/sections.json");
+                lock(this)
+                {
+                    sectionData = loadedData;
+                    foreach (var section in sectionData)
+                    {
+                        PopulateParentage(section.Children, null);
+                    }
+                }
+            }
+
             if (articleData == null)
             {
                 var loadedData = await httpClient.GetFromJsonAsync<Section[]>("data/articles.json");
@@ -80,18 +107,20 @@ namespace Services
             }
         }
 
-        private void PopulateParentage(Article[] articles, Article parent)
+        private void PopulateParentage<T>(IHeirarchicalItem<T>[] items, T parent)
+            where T : IHeirarchicalItem<T>
         {
-            foreach (var article in articles)
+            foreach (var item in items.OfType<T>())
             {
-                if (article.Parent != parent)
+                if (item.Parent == null)
                 {
-                    article.Parent = parent;
+                    item.Parent = parent;
                 }
 
-                if (article.Children.Any())
+                var children = item.Children.OfType<IHeirarchicalItem<T>>().ToArray();
+                if (children.Any())
                 {
-                    PopulateParentage(article.Children, article);
+                    PopulateParentage<T>(children, item);
                 }
             }
         }
