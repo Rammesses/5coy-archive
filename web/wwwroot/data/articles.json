@@ -1,8 +1,5 @@
 [
     { "Reference": "out-of-character",
-      "Title": "Out of Character",
-      "Glyph": "oi-people",
-      "ContentUrl": "/content/out-of-character/out-of-character.md",
       "Articles": [
         { "Reference": "a-brief-guide-to-history",
           "Title": "A Brief Guide to History",
@@ -36,9 +33,6 @@
       },
 
       { "Reference": "miscellanea",
-        "Title": "Miscellanea",
-        "Glyph": "oi-check",
-        "ContentUrl": "/content/miscellanea.md",
         "Articles": [
         { "reference": "prop-designs",
           "Title": "Prop Designs",
@@ -48,9 +42,6 @@
       },
 
       { "Reference": "scenarios",
-        "Title": "Scenarios",
-        "Glyph": "oi-compass",
-        "ContentUrl": "/content/scenarios.md",
         "Articles": [
           { "Reference" : "mission-achilles",
             "Title": "Mission: Achilles (xxx)",
@@ -114,9 +105,6 @@
       },
 
       { "Reference": "in-character",
-        "Title": "In-Character",
-        "Glyph": "oi-person",
-        "ContentUrl": "/content/in-character.md",
         "Articles": [
       { "Reference": "briefing-notes_mission-hydra",
         "Title": "Briefing Notes - Mission 'Hydra'",
@@ -159,9 +147,6 @@
     },
 
     { "Reference": "mexals-letters",
-      "Title": "Mexal's Letters Home",
-      "Glyph": "oi-envelope-closed",
-      "ContentUrl": "/content/mexals-letters.md",
       "Articles": [
         { "Reference": "mexals-letters_2493-03_kruger",
           "Title": "2493-03 - Kruger",
@@ -206,9 +191,6 @@
           ]},
 
     { "Reference": "mission-reports",
-      "Title": "Mission Reports",
-      "Glyph": "oi-document",
-      "ContentUrl": "/content/mission-reports.md",
       "Articles": [
           { "Reference": "2494-03_mission-sidewinder",
             "Title": "2494-03 - Mission 'Sidewinder' (Calvin)",
@@ -281,9 +263,6 @@
       ]},
 
     { "Reference": "marines-handbook",
-      "Title": "Marine's Handbook",
-      "Glyph": "oi-book",
-      "ContentUrl": "/content/marines-handbook.md",
       "Articles": [        
         { "Reference": "marines-handbook_basic-combat-training",
           "Title": "Basic Combat Training",
