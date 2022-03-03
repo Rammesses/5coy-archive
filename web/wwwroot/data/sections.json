@@ -6,6 +6,20 @@
         "ContentUrl": "/content/in-character.md",
         "Children": [
             {
+                "Reference": "in-the-line-of-fire",
+                "Title": "In The Line Of Fire",
+                "Glyph": "oi-pulse",
+                "ContentUrl": "/content/in-the-line-of-fire.md",
+                "ChildRefs": []        
+            },
+            {
+                "Reference": "interstella",
+                "Title": "Intersella!",
+                "Glyph": "oi-star",
+                "ContentUrl": "/content/interstella.md",
+                "ChildRefs": []        
+            },
+            {
                 "Reference": "marines-handbook",
                 "Title": "Marine's Handbook",
                 "Glyph": "oi-book",

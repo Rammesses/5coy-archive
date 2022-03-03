@@ -21,7 +21,7 @@ namespace Services
 
     public class ArticlesService : IArticlesService
     {
-        private Section[] articleData = null;
+        private ArticleGroup[] articleData = null;
 
         private Section[] sectionData = null;
 
@@ -95,7 +95,7 @@ namespace Services
 
             if (articleData == null)
             {
-                var loadedData = await httpClient.GetFromJsonAsync<Section[]>("data/articles.json");
+                var loadedData = await httpClient.GetFromJsonAsync<ArticleGroup[]>("data/articles.json");
                 lock(this)
                 {
                     articleData = loadedData;

@@ -121,6 +121,74 @@ div.sidebar-bang-rotated {
     font-family:'Courier New', Courier, monospace;
 }
 
+.figure-left
+{
+    float: left;
+    padding: 1.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #490e0e;
+    border-radius: 0.1rem;
+    background-color: #bebebe;
+    border-width: 0.1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.figure-left-small
+{
+    float: left;
+    padding: 1.25rem;
+    padding-bottom: 0.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #490e0e;
+    border-radius: 0.1rem;
+    background-color: #bebebe;
+    border-width: 0.1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    width: 30%;
+}
+
+.column-left
+{
+    float:left;
+    width: 45%;
+    margin: 0.25rem;
+}
+
+.column-left::before
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-right
+{
+    float:right;
+    width: 45%;
+    margin: 0.25rem;
+}
+
+.column-right::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-break
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 li.nav-item-child {
     margin-left: 0.75rem;
 }

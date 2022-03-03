@@ -3,6 +3,12 @@ using System.Collections.Generic;
 
 namespace Models
 {
+    public class ArticleGroup
+    {
+        public string Reference { get; set; }
+        public Article[] Articles { get; set; } = Array.Empty<Article>();
+    }
+    
     public class Article : IHeirarchicalItem<Article>
     {
         public string Reference { get; set; }
