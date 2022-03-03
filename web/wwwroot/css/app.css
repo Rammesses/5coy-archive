@@ -153,6 +153,42 @@ div.sidebar-bang-rotated {
     font-family:'Courier New', Courier, monospace;
     width: 30%;
 }
+
+.column-left
+{
+    float:left;
+    width: 45%;
+    margin: 0.25rem;
+}
+
+.column-left::before
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-right
+{
+    float:right;
+    width: 45%;
+    margin: 0.25rem;
+}
+
+.column-right::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-break
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 li.nav-item-child {
     margin-left: 0.75rem;
 }
