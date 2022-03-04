@@ -6,6 +6,8 @@
 @inject IArticlesService dataService
 @inject IMarkdownService markdownService
 
+<PageTitle Title="@article?.Title" />
+
 @if (section == null || article == null)
 {
     <div class="loading">Loading...</div>
@@ -81,5 +83,7 @@
         section = await dataService.GetSection(SectionRef);
         allArticles = await dataService.GetAllArticlesInTree(SectionRef);
         article = await dataService.GetArticle(SectionRef, ArticleRef);
+
+        
     }
 }

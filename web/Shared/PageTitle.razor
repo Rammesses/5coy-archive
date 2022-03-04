@@ -1,0 +1,11 @@
+@inject IJSRuntime JSRuntime
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JSRuntime.InvokeVoidAsync("SetPageTitle", Title);
+    }
+}
