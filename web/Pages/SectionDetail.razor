@@ -6,6 +6,8 @@
 @inject IArticlesService dataService
 @inject IMarkdownService markdownService
 
+<PageTitle Title="@section?.Title" />
+
 @if (section == null)
 {
     <h1>All Articles</h1>
