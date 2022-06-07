@@ -5,12 +5,16 @@ namespace Models
 {   
     public class Section : IHeirarchicalItem<Section>
     {
+        public const string AllArticlesRef = @"all-articles";
+        
         public string Reference { get; set; }
         public string Title { get; set;}
         public string ContentUrl { get; set; }
+        public string NavigateUrl { get; set; }
+
         public string Glyph { get; set; }
 
-        public string Url => $"/articles/{Reference}";
+        public string Url => NavigateUrl ?? $"/articles/{Reference}";
 
         public Article[] Articles { get; set; } = Array.Empty<Article>();
 

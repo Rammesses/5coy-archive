@@ -1,9 +1,12 @@
 ﻿@page "/missions"
+
+@using Models
 @inject HttpClient Http
 
-<h1>Missions</h1>
-
-<p>Blah blah blah</p>
+<h1><span class="sectionIcon oi oi-flag" aria-hidden="true"></span>Missions</h1>
+<div>
+    <web.Controls.MarkdownView ContentUrl="/content/missions.md"/>
+</div>
 
 @if (missions == null)
 {
@@ -17,18 +20,13 @@ else
                 <th>Date</th>
                 <th>Name</th>
                 <th>Location</th>
-                <th>Resources</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var mission in missions)
+            @foreach (var mission in missions.OrderBy(m => m.StartDate))
             {
-                <tr>
-                    <td>@mission.StartDate.ToShortDateString() - @mission.EndDate.ToShortDateString()</td>
-                    <td>@mission.Name</td>
-                    <td>@mission.Location</td>
-                    <td>@mission.Summary</td>
-                </tr>
+                <web.Controls.MissionTableRow Mission=@mission />
             }
         </tbody>
     </table>
@@ -40,16 +38,5 @@ else
     protected override async Task OnInitializedAsync()
     {
         missions = await Http.GetFromJsonAsync<Mission[]>("data/missions.json");
-    }
-
-    public class Mission
-    {
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public string Name { get; set; }
-
-        public string Summary { get; set; }
-
-        public string Location { get; set; }
     }
 }

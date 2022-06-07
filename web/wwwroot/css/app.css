@@ -192,3 +192,11 @@ div.sidebar-bang-rotated {
 li.nav-item-child {
     margin-left: 0.75rem;
 }
+
+button.flat {
+    border-style: hidden;
+}
+
+span.small-icon {
+    font-size: smaller;
+}

@@ -2,9 +2,7 @@
 
 @using Services
 
-@inject HttpClient Http
 @inject IArticlesService dataService
-@inject IMarkdownService markdownService
 
 <PageTitle Title="@article?.Title" />
 
@@ -43,22 +41,7 @@
     {
         <hr />
         <h5>Related:</h5>
-        <div class="row">
-        @foreach (var child in article.Children)
-        {
-            <div class="col-md-6">
-                <span class="lead">
-                    @if (!string.IsNullOrEmpty(child.Reference)) {
-                    <a href="/articles/@section.Reference/@child.Reference">@child.Title</a>
-                    } else {
-                        @child.Title
-                    }
-                </span>
-                &nbsp;
-                <web.Controls.PdfDownload PdfUrl="@child.PdfUrl" />
-                </div>
-        }
-        </div>
+        <web.Controls.RelatedArticlesView Articles=@article.Children Section=@section />
     }
     <hr />
     <div>
@@ -82,8 +65,6 @@
     {
         section = await dataService.GetSection(SectionRef);
         allArticles = await dataService.GetAllArticlesInTree(SectionRef);
-        article = await dataService.GetArticle(SectionRef, ArticleRef);
-
-        
+        article = await dataService.GetArticle(SectionRef, ArticleRef);   
     }
 }
