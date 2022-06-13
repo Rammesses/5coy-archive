@@ -6,7 +6,7 @@
 @inject IArticlesService dataService
 @inject IMarkdownService markdownService
 
-<PageTitle Title="@section?.Title" />
+<web.Shared.PageTitle Title="@(section?.Title)" />
 
 @if (section == null)
 {
@@ -15,15 +15,15 @@
     <div class="loading">Loading...</div>
 } else
 {
-    <h1><span class="oi @section.Glyph" aria-hidden="true"></span>
-        @section.Title</h1>
+    <h1><span class="oi @(section.Glyph)" aria-hidden="true"></span>
+        @(section.Title)</h1>
 
     @if (!string.IsNullOrEmpty(section.Parent?.Reference)) {
-        <a href="/articles/@section.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@section.Parent.Title</a>
+        <a href="/articles/@(section.Parent.Reference)"><span class="oi oi-chevron-left"></span>&nbsp;@(section.Parent.Title)</a>
     } 
 
     <div class="row">
-        <web.Controls.MarkdownView ContentUrl="@section.ContentUrl"/>
+        <web.Controls.MarkdownView ContentUrl="@(section.ContentUrl)"/>
     </div>
 
     @if (section.Children.Any())
@@ -32,9 +32,9 @@
             @foreach (var section in section.Children.OrderBy(s => s.Title))
             {
                 <div class="col-md-6">
-                    <NavLink class="nav-link section-link" href=@section.Url Match="NavLinkMatch.All">
-                        <span class="oi @section.Glyph" aria-hidden="true"></span>
-                        @section.Title
+                    <NavLink class="nav-link section-link" href=@(section.Url) Match="NavLinkMatch.All">
+                        <span class="oi @(section.Glyph)" aria-hidden="true"></span>
+                        @(section.Title)
                     </NavLink>
                 </div>
             }
@@ -48,7 +48,7 @@
         <div class="col-md-6">
             <span class="lead">
                 @if (!string.IsNullOrEmpty(article.Reference)) {
-                <a href="/articles/@section.Reference/@article.Reference">@article.Title</a>
+                <a href="/articles/@(section.Reference)/@(article.Reference)">@article.Title</a>
                 } else {
                     @article.Title
                 }

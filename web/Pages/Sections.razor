@@ -5,7 +5,9 @@
 @inject HttpClient Http
 @inject IArticlesService service
 
-<h1>All Sections</h1>
+<web.Shared.PageTitle Title="Sections" />
+
+<h1>Sections</h1>
 
 @if (sections == null) {
     <div class="loading">Loading...</div>
@@ -14,8 +16,8 @@
     @foreach (var section in sections)
     {
         <div class="col-md-6">
-            <span class="oi @section.Glyph" aria-hidden="true"></span>
-            <span class="lead"><a href="@section.Url">@section.Title</a></span>
+            <span class="oi @(section.Glyph)" aria-hidden="true"></span>
+            <span class="lead"><a href="@(section.Url)">@(section.Title)</a></span>
         </div>
     }
     </div>
