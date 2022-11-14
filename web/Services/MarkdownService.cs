@@ -4,7 +4,8 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-using Ganss.XSS;
+using Ganss.Xss;
+
 using Markdig;
 
 namespace Services

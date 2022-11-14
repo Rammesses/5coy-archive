@@ -6,9 +6,9 @@
 @inject IArticlesService dataService
 @inject IMarkdownService markdownService
 
-<PageTitle Title="@article?.Title" />
+<web.Shared.PageTitle Title="@articleData?.Title" />
 
-@if (section == null || article == null)
+@if (sectionData == null || articleData == null)
 {
     <div class="loading">Loading...</div>
 
@@ -25,31 +25,31 @@
     }
 } else
 {
-    <h1><span class="sectionIcon oi @section.Glyph" aria-hidden="true"></span>@article.Title
-    <span style="float:right"><web.Controls.PdfDownload PdfUrl="@article.PdfUrl" /></span>
+    <h1><span class="sectionIcon oi @sectionData.Glyph" aria-hidden="true"></span>@articleData.Title
+    <span style="float:right"><web.Controls.PdfDownload PdfUrl="@articleData.PdfUrl" /></span>
     </h1>
     <h5>
-        @if (!string.IsNullOrEmpty(section.Reference)) {
-        <a href="/articles/@section.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@section.Title</a>
+        @if (!string.IsNullOrEmpty(sectionData.Reference)) {
+        <a href="/articles/@sectionData.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@sectionData.Title</a>
         } else {
-            @section.Title
+            @sectionData.Title
         }
 
-        @if (!string.IsNullOrEmpty(article.Parent?.Reference)) {
-        <a href="/articles/@section.Reference/@article.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@article.Parent.Title</a>
+        @if (!string.IsNullOrEmpty(articleData.Parent?.Reference)) {
+        <a href="/articles/@sectionData.Reference/@articleData.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@articleData.Parent.Title</a>
         } 
     </h5>
-    @if (article.Children.Any())
+    @if (articleData.Children.Any())
     {
         <hr />
         <h5>Related:</h5>
         <div class="row">
-        @foreach (var child in article.Children)
+        @foreach (var child in articleData.Children)
         {
             <div class="col-md-6">
                 <span class="lead">
                     @if (!string.IsNullOrEmpty(child.Reference)) {
-                    <a href="/articles/@section.Reference/@child.Reference">@child.Title</a>
+                    <a href="/articles/@sectionData.Reference/@child.Reference">@child.Title</a>
                     } else {
                         @child.Title
                     }
@@ -62,7 +62,7 @@
     }
     <hr />
     <div>
-        <web.Controls.MarkdownView ContentUrl="@article.ContentUrl"/>
+        <web.Controls.MarkdownView ContentUrl="@articleData.ContentUrl"/>
     </div>
 }
 
@@ -74,15 +74,15 @@
     [Parameter]
     public string ArticleRef { get; set; }
 
-    private Models.Section section;
+    private Models.Section sectionData;
     private Models.Article[] allArticles;
-    private Models.Article article;
+    private Models.Article articleData;
 
     protected override async Task OnParametersSetAsync()
     {
-        section = await dataService.GetSection(SectionRef);
+        sectionData = await dataService.GetSection(SectionRef);
         allArticles = await dataService.GetAllArticlesInTree(SectionRef);
-        article = await dataService.GetArticle(SectionRef, ArticleRef);
+        articleData = await dataService.GetArticle(SectionRef, ArticleRef);
 
         
     }
