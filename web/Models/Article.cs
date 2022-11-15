@@ -7,6 +7,8 @@ namespace Models
     {
         public string Reference { get; set; }
         public Article[] Articles { get; set; } = Array.Empty<Article>();
+        public string Data { get; set; }
+
     }
     
     public class Article : IHeirarchicalItem<Article>
@@ -16,6 +18,7 @@ namespace Models
         public string ContentUrl { get; set; }
         public string PdfUrl { get; set; }
 
+        public string MissionRef { get; set; }
         public Article Parent { get; set; }
 
         public Article[] Children { get; set; } = Array.Empty<Article>();

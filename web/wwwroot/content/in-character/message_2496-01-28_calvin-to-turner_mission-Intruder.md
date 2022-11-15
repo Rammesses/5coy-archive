@@ -9,14 +9,14 @@ CALSCY TURIRG1 10125200196 |
 
 SCY -112.6; Rel-3658.3; CHQ-4356.3; Rel-3423; Gar-652.2; Rel-456.6; CHOQ-4356.3; IRG-98 762
 
-Encryuption Key Matched For Source And Destination.
+Encryption Key Matched For Source And Destination.
 Decrypt Keys Found And Activated.
 
 ##### BEGIN MESSAGE TEXT
 
 Clearance : Classified
 
-To: Turner,J Sgt |.R.A.G
+To: Turner,J Sgt I.R.A.G
 
 From: Calvin, A.T Capt 5 Coy IV Rgmt
 

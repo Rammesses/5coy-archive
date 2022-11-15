@@ -1,0 +1,35 @@
+@using Models
+
+<li class="nav-item px-3">
+                    <NavLink class="nav-link section-link" href=@(Section.Url) Match="NavLinkMatch.All">
+                        <span class="oi @(Section.Glyph)" aria-hidden="true"></span>
+                        @(Section.Title)&nbsp;
+                        <span class="oi nav-toggle @collapseButtonIcon @hideToggleButton" aria-hidden="true" @onclick="ToggleChildren"></span>
+                    </NavLink>
+                @if (Section.Children.Any())
+                {
+                    <ul class="nav @collapseChildren">
+                    @foreach (var child in Section.Children.OrderBy(s => s.Title))
+                    {
+                        <web.Controls.NavMenuItem Section=@child />
+                    }
+                    </ul>
+                }
+                </li>
+
+@code 
+{
+   [Parameter]
+    public Section Section { get; set; }
+
+    public bool ChildrenVisible { get; set; } = false;
+
+    private bool toggleButtonEnabled => Section.Children.Any();
+    public string hideToggleButton => toggleButtonEnabled ? string.Empty : "collapse";
+
+    private string collapseChildren => ChildrenVisible ? string.Empty : "collapse";
+
+    private string collapseButtonIcon => ChildrenVisible ? "oi-chevron-top" : "oi-chevron-bottom";
+
+    private void ToggleChildren() => ChildrenVisible = !ChildrenVisible;       
+}

@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using System.Text;
 
 using Blazor.Extensions.Logging;
-using Ganss.XSS;
+
+using Ganss.Xss;
+
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
