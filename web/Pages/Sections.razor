@@ -13,11 +13,11 @@
     <div class="loading">Loading...</div>
 } else {
     <div class="row">
-    @foreach (var section in sections)
+    @foreach (var sectionData in sections)
     {
         <div class="col-md-6">
-            <span class="oi @(section.Glyph)" aria-hidden="true"></span>
-            <span class="lead"><a href="@(section.Url)">@(section.Title)</a></span>
+            <span class="oi @sectionData.Glyph" aria-hidden="true"></span>
+            <span class="lead"><a href="@sectionData.Url">@sectionData.Title</a></span>
         </div>
     }
     </div>

@@ -6,35 +6,35 @@
 @inject IArticlesService dataService
 @inject IMarkdownService markdownService
 
-<web.Shared.PageTitle Title="@(section?.Title)" />
+<web.Shared.PageTitle Title="@sectionData?.Title" />
 
-@if (section == null)
+@if (sectionData == null)
 {
     <h1>All Articles</h1>
 
     <div class="loading">Loading...</div>
 } else
 {
-    <h1><span class="oi @(section.Glyph)" aria-hidden="true"></span>
-        @(section.Title)</h1>
+    <h1><span class="oi @sectionData.Glyph" aria-hidden="true"></span>
+        @sectionData.Title</h1>
 
-    @if (!string.IsNullOrEmpty(section.Parent?.Reference)) {
-        <a href="/articles/@(section.Parent.Reference)"><span class="oi oi-chevron-left"></span>&nbsp;@(section.Parent.Title)</a>
+    @if (!string.IsNullOrEmpty(sectionData.Parent?.Reference)) {
+        <a href="/articles/@sectionData.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@sectionData.Parent.Title</a>
     } 
 
     <div class="row">
-        <web.Controls.MarkdownView ContentUrl="@(section.ContentUrl)"/>
+        <web.Controls.MarkdownView ContentUrl="@sectionData.ContentUrl"/>
     </div>
 
-    @if (section.Children.Any())
+    @if (sectionData.Children.Any())
         {
             <div class="row">
-            @foreach (var section in section.Children.OrderBy(s => s.Title))
+            @foreach (var childSection in sectionData.Children.OrderBy(s => s.Title))
             {
                 <div class="col-md-6">
-                    <NavLink class="nav-link section-link" href=@(section.Url) Match="NavLinkMatch.All">
-                        <span class="oi @(section.Glyph)" aria-hidden="true"></span>
-                        @(section.Title)
+                    <NavLink class="nav-link section-link" href="@childSection.Url" Match="NavLinkMatch.All">
+                        <span class="oi @childSection.Glyph" aria-hidden="true"></span>
+                        @childSection.Title
                     </NavLink>
                 </div>
             }
@@ -48,7 +48,7 @@
         <div class="col-md-6">
             <span class="lead">
                 @if (!string.IsNullOrEmpty(article.Reference)) {
-                <a href="/articles/@(section.Reference)/@(article.Reference)">@article.Title</a>
+                <a href="/articles/@sectionData.Reference/@article.Reference">@article.Title</a>
                 } else {
                     @article.Title
                 }
@@ -65,13 +65,13 @@
     [Parameter]
     public string SectionRef { get; set; }
 
-    private Models.Section section;
+    private Models.Section sectionData;
 
     private Models.Article[] sectionArticles;
 
     protected override async Task OnParametersSetAsync()
     {
-        section = await dataService.GetSection(SectionRef);
+        sectionData = await dataService.GetSection(SectionRef);
         sectionArticles = await dataService.GetArticles(SectionRef);
     }
 }
