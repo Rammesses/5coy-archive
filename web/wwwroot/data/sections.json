@@ -1,4 +1,11 @@
 [
+    {
+        "Reference": "missions",
+        "Title": "Missions",
+        "Glyph": "oi-flag",
+        "NavigateUrl": "/missions",
+        "ChildRefs": []        
+    },
     { 
         "Reference": "in-character",
         "Title": "In-Character",

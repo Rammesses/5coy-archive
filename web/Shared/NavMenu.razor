@@ -10,7 +10,7 @@
     </button>
 </div>
 
-<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+<div class="nav @NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
         <li class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
@@ -19,26 +19,9 @@
         </li>
         @if (sections != null)
         {
-            @foreach (var sectionData in sections.OrderBy(s => s.Title))
+            @foreach (var section in sections)
             {
-                <li class="nav-item px-3">
-                    <NavLink class="nav-link section-link" href="@sectionData.Url" Match="NavLinkMatch.All">
-                        <span class="oi @sectionData.Glyph" aria-hidden="true"></span>
-                        @sectionData.Title
-                    </NavLink>
-                </li>
-                @if (sectionData.Children.Any())
-                {
-                    @foreach (var child in sectionData.Children.OrderBy(s => s.Title))
-                    {
-                        <li class="nav-item nav-item-child px-3">
-                        <NavLink class="nav-link section-link" href=@child.Url Match="NavLinkMatch.All">
-                            <span class="oi @child.Glyph" aria-hidden="true"></span>
-                            @child.Title
-                        </NavLink>
-                        </li>
-                    }
-                }
+                <web.Controls.NavMenuItem Section=@(section) />
             }
         }
     </ul>

@@ -5,7 +5,9 @@
 @inject HttpClient Http
 @inject IArticlesService service
 
-<h1>All Sections</h1>
+<web.Shared.PageTitle Title="Sections" />
+
+<h1>Sections</h1>
 
 @if (sections == null) {
     <div class="loading">Loading...</div>

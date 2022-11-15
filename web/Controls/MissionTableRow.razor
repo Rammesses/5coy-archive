@@ -1,0 +1,50 @@
+@using Models
+
+@using Services
+
+@inject IArticlesService dataService
+
+<tr>
+    <td>@Mission.EndDate.AddYears(500).ToString("MMM yyyy")</td>
+    <td>@Mission.Name</td>
+    <td>@Mission.Planet (@Mission.Location)</td>
+    <td><button class="flat @hideInfoPanelButton" @onclick="ToggleInfoPane"><span class="oi @collapseButtonIcon" aria-hidden="true"></span></button></td>
+</tr>
+<tr class="@collapseInfoPane">
+    <td></td>
+    <td colspan="3">
+        <web.Controls.MarkdownView ContentUrl="@Mission.Summary"/>
+        @if (RelatedArticles.Any()) {
+            <strong>Related Articles:</strong>
+                    <web.Controls.RelatedArticlesView Articles=@RelatedArticles />
+        }
+    </td>
+</tr>
+
+@code {
+
+    [Parameter]
+    public Mission Mission { get; set; }
+
+    public bool InfoPaneVisible { get; set; } = false;
+
+    private bool infoPanelButtonEnabled => !string.IsNullOrEmpty(Mission.Summary) ||
+                                           RelatedArticles.Any();
+    public string hideInfoPanelButton => infoPanelButtonEnabled ? string.Empty : "collapse";
+
+    private string collapseInfoPane => InfoPaneVisible ? string.Empty : "collapse";
+
+    private string collapseButtonIcon => InfoPaneVisible ? "oi-chevron-top" : "oi-chevron-bottom";
+
+    private void ToggleInfoPane() => InfoPaneVisible = !InfoPaneVisible;   
+
+    private Article[] RelatedArticles { get; set; } = Array.Empty<Article>();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!string.IsNullOrEmpty(Mission?.Reference))
+        {
+            RelatedArticles = await dataService.GetArticleByMissionRef(Mission.Reference);
+        }
+    }
+}

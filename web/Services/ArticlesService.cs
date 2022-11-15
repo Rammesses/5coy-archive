@@ -17,6 +17,8 @@ namespace Services
         Task<Article[]> GetArticles(string sectionRef);
         Task<Article[]> GetAllArticlesInTree(string sectionRef);
         Task<Article> GetArticle(string sectionRef, string articleRef);
+        Task<Article[]> GetArticleByMissionRef(string missionRef);
+        Task<Section> GetSectionForArticle(string articleRef);
     }
 
     public class ArticlesService : IArticlesService
@@ -45,6 +47,13 @@ namespace Services
         {
             await EnsureDataLoaded();
 
+            if (sectionRef == Section.AllArticlesRef)
+            {
+                return new Section() {
+                    Reference = Section.AllArticlesRef,
+                    Title = "All Articles"
+                };
+            }
             var section = Section.Flatten(sectionData).FirstOrDefault(s => s.Reference == sectionRef);
             return section;
         }
@@ -52,6 +61,9 @@ namespace Services
         public async Task<Article[]> GetArticles(string sectionRef)
         {
             await EnsureDataLoaded();
+
+            if (sectionRef == Section.AllArticlesRef)
+                return Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
 
             var section = await GetSection(sectionRef);
             var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
@@ -61,6 +73,9 @@ namespace Services
         public async Task<Article[]> GetAllArticlesInTree(string sectionRef)
         {
             await EnsureDataLoaded();
+
+            if (sectionRef == Section.AllArticlesRef)
+                return Array.Empty<Article>();
 
             var section = await GetSection(sectionRef);
             var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
@@ -72,11 +87,32 @@ namespace Services
         {
             await EnsureDataLoaded();
 
-            var allArticles = await GetAllArticlesInTree(sectionRef);
+            var allArticles = sectionRef == Section.AllArticlesRef ?
+                articleData.SelectMany(g => g.Articles) :
+                await GetAllArticlesInTree(sectionRef);
+
             var article = allArticles.FirstOrDefault(a => a.Reference == articleRef);            
             return article;
         }
 
+        public async Task<Article[]> GetArticleByMissionRef(string missionRef)
+        {
+            await EnsureDataLoaded();
+
+            var articles = articleData.SelectMany(group => group.Articles).Where(a => a.MissionRef == missionRef).ToArray();
+
+            return articles;
+        }
+
+        public async Task<Section> GetSectionForArticle(string articleRef)
+        {
+            await EnsureDataLoaded();
+
+            var group = articleData.FirstOrDefault(g => g.Articles.Any(a => a.Reference == articleRef));
+            var section = sectionData.FirstOrDefault(s => s.Reference == group.Reference);
+            return section;
+        }
+        
         private async Task EnsureDataLoaded()
         {
             // load the section data from `data/sections.json`
@@ -96,6 +132,20 @@ namespace Services
             if (articleData == null)
             {
                 var loadedData = await httpClient.GetFromJsonAsync<ArticleGroup[]>("data/articles.json");
+                foreach(var section in loadedData)
+                {
+                    if (section.Data != null)
+                    {
+                        var additionalArticles = await httpClient.GetFromJsonAsync<Article[]>(section.Data);
+                        if (additionalArticles.Any())
+                        {
+                            var combinedArticles = section.Articles.ToList();
+                            combinedArticles.AddRange(additionalArticles);
+                            section.Articles = combinedArticles.ToArray();
+                        }
+                    }
+                }
+
                 lock(this)
                 {
                     articleData = loadedData;

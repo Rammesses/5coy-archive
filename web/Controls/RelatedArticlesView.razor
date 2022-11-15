@@ -1,0 +1,41 @@
+@using Models
+@using Services;
+
+@inject IArticlesService dataService;
+
+<div class="row">
+@foreach (var child in Articles)
+{
+    <div class="col-md-6">
+        <span class="lead">
+            @if (!string.IsNullOrEmpty(child.Reference)) {
+            <a href="/articles/@GetSectionReference(@child)/@child.Reference">@child.Title</a>
+            } else {
+                @child.Title
+            }
+        </span>
+        &nbsp;
+        <web.Controls.PdfDownload PdfUrl="@child.PdfUrl" />
+        </div>
+}
+</div>
+
+@code {
+
+    [Parameter]
+    public Article[] Articles { get; set; }
+
+    [Parameter]
+    public Section Section { get; set; }
+
+    private string GetSectionReference(Article article) => GetSectionReferenceForArticle(article).GetAwaiter().GetResult();
+
+    private async Task<string> GetSectionReferenceForArticle(Article article)
+    {
+        if (Section != null)
+            return Section.Reference;
+
+        var articleSection = await dataService.GetSectionForArticle(article.Reference);
+        return articleSection?.Reference ?? "all-articles";
+    }
+}        

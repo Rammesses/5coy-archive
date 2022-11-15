@@ -189,6 +189,27 @@ div.sidebar-bang-rotated {
     clear: both;
 }
 
-li.nav-item-child {
+.nav-item-child {
     margin-left: 0.75rem;
+}
+
+button.flat {
+    border-style: hidden;
+}
+
+span.small-icon {
+    font-size: smaller;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+ul.nav {
+    padding: 0px;
 }
