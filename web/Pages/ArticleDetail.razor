@@ -1,4 +1,4 @@
-@page "/articles/{SectionRef}/{ArticleRef}"
+@page "/article/{SectionRef}/{ArticleRef}"
 
 @using Services
 
@@ -28,13 +28,13 @@
     </h1>
     <h5>
         @if (!string.IsNullOrEmpty(sectionData.Reference)) {
-        <a href="/articles/@sectionData.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@sectionData.Title</a>
+        <a href="/section/@sectionData.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@sectionData.Title</a>
         } else {
             @sectionData.Title
         }
 
         @if (!string.IsNullOrEmpty(articleData.Parent?.Reference)) {
-        <a href="/articles/@sectionData.Reference/@articleData.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@articleData.Parent.Title</a>
+        <a href="/article/@sectionData.Reference/@articleData.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@articleData.Parent.Title</a>
         } 
     </h5>
     @if (articleData.Children.Any())
@@ -57,14 +57,14 @@
     [Parameter]
     public string ArticleRef { get; set; }
 
-    private Models.Section sectionData;
+    private Models.Section<Models.Article> sectionData;
     private Models.Article[] allArticles;
     private Models.Article articleData;
 
     protected override async Task OnParametersSetAsync()
     {
         sectionData = await dataService.GetSection(SectionRef);
-        allArticles = await dataService.GetAllArticlesInTree(SectionRef);
-        articleData = await dataService.GetArticle(SectionRef, ArticleRef);
+        allArticles = await dataService.GetAllItemsInTree(SectionRef);
+        articleData = await dataService.GetItem(SectionRef, ArticleRef);
     }
 }

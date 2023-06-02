@@ -1,0 +1,9 @@
+[
+    { "Reference": "krystal-speirs",
+      "Data": "/data/videos/in-character/krystal-speirs.json"
+      },
+    
+      { "Reference": "2495-05_cnn-mariecelestaspecial-excerpt",
+        "Title": "Celestial News Network - Marie Celesta Special (Excerpt)",
+        "MissionRef": "2495-05_boarding-report-mariecelesta"}
+]

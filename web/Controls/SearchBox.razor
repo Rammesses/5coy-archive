@@ -1,0 +1,19 @@
+﻿@using System.Timers
+
+<section style="margin-top: 10px">
+    <input type="text" class="form-control" placeholder="Search for anything"
+           @bind-value="@SearchTerm" @bind-value:event="oninput"
+           @onkeyup="async () => await OnSearchChanged.InvokeAsync(SearchTerm)" />
+</section>
+
+@code {
+
+    public string SearchTerm { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnSearchChanged { get; set; }
+
+    private void SearchChanged()
+    {
+    }
+}

@@ -2,7 +2,8 @@
 
 @using Services
 
-@inject IArticlesService dataService
+@inject IArticlesService articlesService
+@inject IVideoService videoService
 
 <tr>
     <td>@Mission.EndDate.AddYears(500).ToString("MMM yyyy")</td>
@@ -40,11 +41,14 @@
 
     private Article[] RelatedArticles { get; set; } = Array.Empty<Article>();
 
+    private Video[] RelatedVideos { get; set; } = Array.Empty<Video>();
+
     protected override async Task OnParametersSetAsync()
     {
         if (!string.IsNullOrEmpty(Mission?.Reference))
         {
-            RelatedArticles = await dataService.GetArticleByMissionRef(Mission.Reference);
+            RelatedArticles = await articlesService.GetItemsByMissionRef(Mission.Reference);
+            RelatedVideos = await videoService.GetItemsByMissionRef(Mission.Reference);
         }
     }
 }
