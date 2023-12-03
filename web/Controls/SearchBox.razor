@@ -1,19 +1,27 @@
-﻿@using System.Timers
+﻿@using System.Net
+@using System.Timers
 
 <section style="margin-top: 10px">
     <input type="text" class="form-control" placeholder="Search for anything"
            @bind-value="@SearchTerm" @bind-value:event="oninput"
-           @onkeyup="async () => await OnSearchChanged.InvokeAsync(SearchTerm)" />
+           @onkeydown="HandleKeyDown" />
 </section>
 
 @code {
 
     public string SearchTerm { get; set; }
 
-    [Parameter]
-    public EventCallback<string> OnSearchChanged { get; set; }
+    [Inject]
+    private NavigationManager navManager {get; set;}
 
-    private void SearchChanged()
+    private Task HandleKeyDown(KeyboardEventArgs e)
     {
+        if (e.Key == "Enter")
+        {
+            navManager.NavigateTo($"/search/{WebUtility.UrlEncode(SearchTerm)}");
+        }
+
+        // TODO: Provide top-5 matches as you type
+        return Task.CompletedTask;
     }
 }
