@@ -1,10 +1,15 @@
 ﻿@using System.Timers
 
-<section style="margin-top: 10px">
-    <input type="text" class="form-control" placeholder="Search for anything"
-           @bind-value="@SearchTerm" @bind-value:event="oninput"
-           @onkeyup="async () => await OnSearchChanged.InvokeAsync(SearchTerm)" />
-</section>
+<div style="margin-top: 4px; width: 300px">
+    <form class="search">
+        <fieldset disabled="disabled">
+        <input type="text" placeholder="Search for anything..."
+            @bind-value="@SearchTerm" @bind-value:event="oninput"
+            @onkeyup="async () => await OnSearchChanged.InvokeAsync(SearchTerm)" />
+        <button type="submit"><span class="oi oi-magnifying-glass" aria-hidden="true"></span></button>
+        </fieldset>
+    </form>
+</div>
 
 @code {
 
