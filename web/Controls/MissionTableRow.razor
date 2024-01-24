@@ -7,7 +7,11 @@
 
 <tr>
     <td>@Mission.EndDate.AddYears(500).ToString("MMM yyyy")</td>
-    <td>@Mission.Name</td>
+    @if (@MissionUrl != string.Empty) {
+        <td><a href="@MissionUrl">@Mission.Name</a></td>
+    } else {
+        <td>@Mission.Name</td>        
+    }
     <td>@Mission.Planet (@Mission.Location)</td>
     <td><button class="flat @hideInfoPanelButton" @onclick="ToggleInfoPane"><span class="oi @collapseButtonIcon" aria-hidden="true"></span></button></td>
 </tr>
@@ -42,6 +46,8 @@
     private Article[] RelatedArticles { get; set; } = Array.Empty<Article>();
 
     private Video[] RelatedVideos { get; set; } = Array.Empty<Video>();
+
+    private string MissionUrl => (Mission?.Reference != null) ? $"/mission/{Mission.Reference}" : string.Empty;
 
     protected override async Task OnParametersSetAsync()
     {

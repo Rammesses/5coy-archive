@@ -3,17 +3,21 @@
         "Title": "2492-10 - Mission 'Procyon'",
         "ContentUrl": "",
         "PdfUrl": "",
+        "MissionRef": "2492-10_mission-procyon",
         "Children" : [
           { "Reference": "2492-10_mission-procyon-intel",
             "Title": "Intelligence Briefing Notes",
             "ContentUrl": "/content/mission-reports/2492-10_mission-procyon-intel.md",
-            "PdfUrl": "/media/Mission+Reports/2496-00+Mission+%22Procyon%22+-+Intel.pdf"                
+            "PdfUrl": "/media/Mission+Reports/2496-00+Mission+%22Procyon%22+-+Intel.pdf",
+            "MissionRef": "2492-10_mission-procyon"                
           }
         ]},
         { "Reference": "2494-03_mission-sidewinder",
           "Title": "2494-03 - Mission 'Sidewinder' (Calvin)",
           "ContentUrl": "/content/mission-reports/2494-03_mission-sidewinder.md",
-          "PdfUrl": "/media/Mission+Reports/2494-03+Mission+%22Sidewinder%22+(Calvin).pdf"},
+          "PdfUrl": "/media/Mission+Reports/2494-03+Mission+%22Sidewinder%22+(Calvin).pdf",
+          "MissionRef": "2494-03_mission-sidewinder"
+        },
         { "Reference": "2494-04_mission-ogre",
           "Title": "2494-04 - Mission 'Ogre' (Calvin)",
           "ContentUrl": "/content/mission-reports/2494-04_mission-ogre.md",
@@ -34,7 +38,7 @@
           "Title": "2495-05 - Boarding Report 'SS Marie Celesta' (Oslo).",
           "ContentUrl": "/content/mission-reports/2495-05_boarding-report-mariecelesta.md",
           "PdfUrl": "/media/Mission+Reports/2495-05+Boarding+Report+%22SS+Marie+Celesta%22+(Oslo).pdf",
-          "MissionRef": "2495-05_boarding-report-mariecelesta"},
+          "MissionRef": "2495-05_boarding-action-mariecelesta"},
         { "Reference": "2495-07_mission-omaha",
           "Title": "2495-07 - Mission 'Omaha' (Calvin)",
           "ContentUrl": "/content/mission-reports/2495-07_mission-omaha.md",
