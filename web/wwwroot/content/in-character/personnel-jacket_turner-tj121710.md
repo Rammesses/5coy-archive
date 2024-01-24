@@ -9,67 +9,47 @@
 
 ### Rank: 
 
-- **Marine:** _____
-- **MFC:** _____
-- **Corporal:** March 2490
-- **Sargeant:** _____
-- **Sargeant Major:** _____
-- **Officer Cadet:** ______
-- **Lieutenant:** _____
-- **Captain:** _____
-- **Major:** _____ 
-- **Colonel:** _____
-
-- **Specialist:** _____
+| Rank | Date |   |  Rank | Date |    | Rank | Date |
+| ---- | ---- | - | ---- | ---- | - | ---- | ---- |
+| |
+| **Marine** |  _____ | |  **MFC** |  _____ |   | **Corporal** | March 2490 |
+| **Sargeant** |  _____ |  | **Sargeant Major** | _____ |
+| |
+| **Specialist** | _____ | 
+| |
+| **Officer Cadet** |  ______ | | **Lieutenant** | _____ |   | **Captain** | _____ |
+| **Major** | _____ |  | **Colonel** | _____ |
+| |
 
 ### CMC Qualifications:
 
-- **Basic Training:** March 2490
-- **Patrolling:** _____
-- **Scouting:** _____
-- **Sniper:** _____
-- **Advanced Combat Training:** _____
-- **NCO Training:** _____
-- **Officer Training:** _____
-
-- **Med-Tech 4:** _____
-- **Med-Tech 3:** _____
-- **Med-Tech 2:** _____
-- **Med-Tech 1:** _____
-- **Field Surgeon:** _____
-
-- **Radio-Ops 4:** _____
-- **Radio-Ops 2:** _____
-- **Comms-Tech 4:** _____
-- **Comms-Tech 3:** _____
-- **Comms-Tech 2:** March 2490
-- **Comms-Tech 1:** _____
-- **EComms 2:** _____
-
-- **Armourer 4:** _____
-- **Armourer 2:** _____
-- **EOD 4:** March 2490
-- **EOD 3:** _____
-- **EOD 2:** _____
-- **SurSat 4:** _____
-- **SurSat 2:** _____
-
-- **Comp-Tech 4:** _____
-- **Comp-Tech 3:** _____
-- **Comp-Tech 2:** _____
-- **Comp-Tech 1:** March 2490
-
-- **Intel 4:** _____
-- **Intel 3:** _____
-- **Intel 2:** _____
-
-- **ISL 4:** _____
-- **ISL 2:** _____
-- **Contact 4:** _____
-- **Contact 2:** _____
-
-- **TacOps 2:** _____
-- **TacOps Officer 2:** _____
+| Qualification | Date |   | Qualification | Date |   | Qualification | Date | 
+| ------------- | ---- | - | ------------- | ---- | - | ------------- | ---- |
+| |
+| **Basic Training** | March 2490 |   | **Advanced Combat Training** | _____ |
+| **Patrolling** | _____ |   | **Scouting** | _____ |   | **Sniper** | _____ |
+| **NCO Training** | _____ |   | **Officer Training** | _____ |
+| |
+| **Med-Tech 4** | _____ |   | **Med-Tech 3** | _____ |   | **Med-Tech 2** | _____ |
+| **Med-Tech 1** | _____ |   | **Field Surgeon** | _____ |
+| **Radio-Ops 4** | _____ |   | **Radio-Ops 2** | _____ |   |  **Comms-Tech 4** | _____ |
+| **Comms-Tech 3** | _____ |   | **Comms-Tech 2** | March 2490 |   | **Comms-Tech 1**  | _____ |
+| **EComms 2** | _____ | 
+| |
+| **Armourer 4** | _____ |   | **Armourer 2** | _____ |
+| **EOD 4** | March 2490 |   | **EOD 3** | _____ |  | **EOD 2** | _____ |
+| |
+| **SurSat 4** | _____ |   | **SurSat 2** | _____ |
+| **Comp-Tech 4** | _____ |   | **Comp-Tech 3** | _____ |   | **Comp-Tech 2** | _____|
+| **Comp-Tech 1** | March 2490 |
+| |
+| **Intel 4** | _____ |   | **Intel 3** | _____ |   | **Intel 2** | _____ |
+| |
+| **ISL 4** | _____ |  | **ISL 2** | _____ |
+| **Contact 4** | _____ |  | **Contact 2** | _____ |
+| |
+| **TacOps 2** | _____ |   | **TacOps Officer 2** | _____ |
+| |
 
 ##### Other Skills:
 
