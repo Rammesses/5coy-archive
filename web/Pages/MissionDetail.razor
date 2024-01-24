@@ -1,0 +1,59 @@
+@page "/mission/{MissionRef}"
+
+@using Models
+@using Services
+
+@inject HttpClient Http
+@inject IArticlesService articlesService
+@inject IMarkdownService markdownService
+@inject IMissionsService missionsService
+
+<web.Shared.PageTitle Title="@missionData?.Name" />
+
+@if (missionData == null)
+{
+    <h1>'@MissionName'</h1>
+
+    <div class="loading">Loading...</div>
+} else
+{
+    <h1><span class="oi oi-flag" aria-hidden="true"></span>
+        @missionData.Name</h1>
+
+    @* public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string Name { get; set; }
+
+        public string Summary { get; set; }
+
+        public string Location { get; set; }
+        public string Planet { get; set; } *@
+
+    @if (articleData.Any())
+    {
+        <hr />
+        <h5>Related:</h5>
+        <web.Controls.RelatedArticlesView Articles=@articleData />
+    }
+    <hr />
+    <div>
+        <web.Controls.MarkdownView ContentUrl="@missionData.ContentUrl"/>
+    </div>        
+}
+
+@code {
+
+    [Parameter]
+    public string MissionRef { get; set; }    
+
+    private Mission missionData;
+    private Article[] articleData;
+
+    private string MissionName => missionData?.Name ?? $"Mission '{MissionRef}'";
+
+    protected override async Task OnInitializedAsync()
+    {
+        missionData = await missionsService.GetMissionByRef(MissionRef);
+        articleData = await articlesService.GetItemsByMissionRef(MissionRef);        
+    }
+}

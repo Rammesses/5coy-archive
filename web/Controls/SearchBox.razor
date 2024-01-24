@@ -1,0 +1,24 @@
+﻿@using System.Timers
+
+<div style="margin-top: 4px; width: 300px">
+    <form class="search">
+        <fieldset disabled="disabled">
+        <input type="text" placeholder="Search for anything..."
+            @bind-value="@SearchTerm" @bind-value:event="oninput"
+            @onkeyup="async () => await OnSearchChanged.InvokeAsync(SearchTerm)" />
+        <button type="submit"><span class="oi oi-magnifying-glass" aria-hidden="true"></span></button>
+        </fieldset>
+    </form>
+</div>
+
+@code {
+
+    public string SearchTerm { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnSearchChanged { get; set; }
+
+    private void SearchChanged()
+    {
+    }
+}

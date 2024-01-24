@@ -1,4 +1,4 @@
-@page "/articles"
+@page "/sections"
 
 @using Services
 
@@ -25,7 +25,7 @@
 
 @code {
 
-    private Models.Section[] sections;
+    private Models.Section<Models.Article>[] sections;
 
     protected override async Task OnParametersSetAsync()
     {

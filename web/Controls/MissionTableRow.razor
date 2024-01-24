@@ -2,11 +2,16 @@
 
 @using Services
 
-@inject IArticlesService dataService
+@inject IArticlesService articlesService
+@inject IVideoService videoService
 
 <tr>
     <td>@Mission.EndDate.AddYears(500).ToString("MMM yyyy")</td>
-    <td>@Mission.Name</td>
+    @if (@MissionUrl != string.Empty) {
+        <td><a href="@MissionUrl">@Mission.Name</a></td>
+    } else {
+        <td>@Mission.Name</td>        
+    }
     <td>@Mission.Planet (@Mission.Location)</td>
     <td><button class="flat @hideInfoPanelButton" @onclick="ToggleInfoPane"><span class="oi @collapseButtonIcon" aria-hidden="true"></span></button></td>
 </tr>
@@ -40,11 +45,16 @@
 
     private Article[] RelatedArticles { get; set; } = Array.Empty<Article>();
 
+    private Video[] RelatedVideos { get; set; } = Array.Empty<Video>();
+
+    private string MissionUrl => (Mission?.Reference != null) ? $"/mission/{Mission.Reference}" : string.Empty;
+
     protected override async Task OnParametersSetAsync()
     {
         if (!string.IsNullOrEmpty(Mission?.Reference))
         {
-            RelatedArticles = await dataService.GetArticleByMissionRef(Mission.Reference);
+            RelatedArticles = await articlesService.GetItemsByMissionRef(Mission.Reference);
+            RelatedVideos = await videoService.GetItemsByMissionRef(Mission.Reference);
         }
     }
 }

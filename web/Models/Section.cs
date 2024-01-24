@@ -1,29 +1,28 @@
 using System;
 using System.Collections.Generic;
 
-namespace Models
-{   
-    public class Section : IHeirarchicalItem<Section>
-    {
-        public const string AllArticlesRef = @"all-articles";
-        
-        public string Reference { get; set; }
-        public string Title { get; set;}
-        public string ContentUrl { get; set; }
-        public string NavigateUrl { get; set; }
+namespace Models;
 
-        public string Glyph { get; set; }
+public class Section<T> : IHeirarchicalItem<Section<T>>
+{
+    public const string AllItemsRef = @"all";
+    
+    public string Reference { get; set; }
+    public string Title { get; set;}
+    public string ContentUrl { get; set; }
+    public string NavigateUrl { get; set; }
 
-        public string Url => NavigateUrl ?? $"/articles/{Reference}";
+    public string Glyph { get; set; }
 
-        public Article[] Articles { get; set; } = Array.Empty<Article>();
+    public string Url => NavigateUrl ?? $"/section/{Reference}";
 
-        public Section[] Children { get; set; } = Array.Empty<Section>();
+    public T[] Items { get; set; } = Array.Empty<T>();
 
-        public Section Parent { get; set; }
+    public Section<T>[] Children { get; set; } = Array.Empty<Section<T>>();
 
-        public static IEnumerable<Section> Flatten (IEnumerable<Section> list)
-            => Extensions.EnumerableExtensions.Flatten<Section>(list, a => a.Children);
+    public Section<T> Parent { get; set; }
 
-    }
+    public static IEnumerable<Section<T>> Flatten (IEnumerable<Section<T>> list)
+        => Extensions.EnumerableExtensions.Flatten<Section<T>>(list, a => a.Children);
+
 }

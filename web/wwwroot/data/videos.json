@@ -1,0 +1,8 @@
+[
+    { "Reference": "out-of-character",
+      "Data": "/data/videos/out-of-character.json"
+      },
+    { "Reference": "in-character",
+      "Data": "/data/videos/in-character.json"
+      }
+]

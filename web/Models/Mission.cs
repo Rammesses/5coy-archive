@@ -5,6 +5,8 @@ namespace Models
 {
     public class Mission
     {
+        public string Reference { get; set; }
+
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Name { get; set; }
@@ -14,6 +16,6 @@ namespace Models
         public string Location { get; set; }
         public string Planet { get; set; }
 
-        public string Reference { get; set; }
+        public string ContentUrl { get; set; }
     }
 }

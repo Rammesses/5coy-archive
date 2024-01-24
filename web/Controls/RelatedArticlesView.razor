@@ -9,7 +9,7 @@
     <div class="col-md-6">
         <span class="lead">
             @if (!string.IsNullOrEmpty(child.Reference)) {
-            <a href="/articles/@GetSectionReference(@child)/@child.Reference">@child.Title</a>
+            <a href="/article/@GetSectionReference(@child)/@child.Reference">@child.Title</a>
             } else {
                 @child.Title
             }
@@ -26,7 +26,7 @@
     public Article[] Articles { get; set; }
 
     [Parameter]
-    public Section Section { get; set; }
+    public Section<Article> Section { get; set; }
 
     private string GetSectionReference(Article article) => GetSectionReferenceForArticle(article).GetAwaiter().GetResult();
 
@@ -35,7 +35,7 @@
         if (Section != null)
             return Section.Reference;
 
-        var articleSection = await dataService.GetSectionForArticle(article.Reference);
-        return articleSection?.Reference ?? "all-articles";
+        var articleSection = await dataService.GetSectionForItem(article.Reference);
+        return articleSection?.Reference ?? Section<Article>.AllItemsRef;
     }
 }        

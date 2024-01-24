@@ -1,7 +1,9 @@
 ﻿@page "/missions"
 
 @using Models
-@inject HttpClient Http
+@using Services
+
+@inject IMissionsService missionService;
 
 <h1><span class="sectionIcon oi oi-flag" aria-hidden="true"></span>Missions</h1>
 <div>
@@ -37,6 +39,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        missions = await Http.GetFromJsonAsync<Mission[]>("data/missions.json");
+        missions = await missionService.GetAllMissions();
     }
 }
