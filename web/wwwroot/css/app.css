@@ -58,14 +58,26 @@ div.homepage-hero {
 }
 
 div.sidebar-bang-rotated {
-    background-image: url("/images/bang-background-rotated.jpg"); 
+    background-image: url("/images/bang-background.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: left;
+    background-position-x: -65em;
     width: 250px;
         height: 100vh;
         position: sticky;
         top: 0;
+    animation-name: MOVE-BG;
+    animation-duration: 480s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+@keyframes MOVE-BG {
+    0% { background-position-x: 0em }
+    50% { background-position-x: 100% }
+    100% { background-position-x: 0em }
+}
+
 
 .callout {
     padding: 1.25rem;
