@@ -8,6 +8,7 @@ using Blazor.Extensions.Logging;
 
 using Ganss.Xss;
 
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,6 +16,8 @@ using Microsoft.Extensions.Logging;
 
 using Services;
 using BlazorApplicationInsights;
+using Microsoft.Extensions.Options;
+using System.Security.Authentication.ExtendedProtection;
 
 namespace web
 {
@@ -40,6 +43,8 @@ namespace web
             });
 
             builder.RootComponents.Add<App>("#app");
+
+            builder.Services.AddBlazorBootstrap();
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddScoped<IArticlesService, ArticlesService>();
