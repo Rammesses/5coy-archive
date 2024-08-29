@@ -1,0 +1,49 @@
+@using Microsoft.Extensions.Configuration
+@using BlazorBootstrap;
+
+@inject IConfiguration configuration
+
+@if (!string.IsNullOrEmpty(resolvedPdfUrl)) {
+    <a title="View original PDF" @onclick="OnShowModalClick">
+        <span class="oi oi-document small-icon" aria-hidden="true"></span>
+    </a>
+}
+
+<Modal @ref="viewModal" Title="Original PDF" Size="ModalSize.ExtraLarge">
+    <FooterTemplate>
+        <div><span style="float:right"><web.Controls.PdfDownloadButton PdfUrl="@PdfUrl" /></span>
+        </div>
+    </FooterTemplate>
+    <BodyTemplate>
+       
+        <PdfViewer @ref="pdfViewer" Url="@resolvedPdfUrl" />
+    </BodyTemplate>
+</Modal>
+
+@code {
+
+    [Parameter]
+    public string PdfUrl { get; set; }
+
+    private Modal viewModal;
+    private PdfViewer pdfViewer;
+
+    public string resolvedPdfUrl { get; set; }
+
+    private async Task OnShowModalClick()
+    {
+        await viewModal?.ShowAsync();
+    }
+
+    protected override Task OnParametersSetAsync()
+    {
+        var mediaBaseUrl = configuration["Media:BaseUrl"];
+        if (!string.IsNullOrEmpty(mediaBaseUrl) && !string.IsNullOrEmpty(PdfUrl)) {
+            resolvedPdfUrl = new Uri(new Uri(mediaBaseUrl), this.PdfUrl).ToString();
+        } else {
+            resolvedPdfUrl = PdfUrl;
+        }
+        
+        return Task.CompletedTask;
+    }
+}
