@@ -15,8 +15,11 @@
         </div>
     </FooterTemplate>
     <BodyTemplate>
-       
-        <PdfViewer @ref="pdfViewer" Url="@resolvedPdfUrl" />
+        <PdfViewer @ref="pdfViewer" Url="@resolvedPdfUrl" OnDocumentLoaded="HideSpinner" />
+        <div hidden="@hideSpinner" class="pdf-loading-spinner">
+                <div class="spinner-border" role="status"></div>
+                Loading document...
+        </div>
     </BodyTemplate>
 </Modal>
 
@@ -27,12 +30,18 @@
 
     private Modal viewModal;
     private PdfViewer pdfViewer;
+    private bool hideSpinner = false;
 
     public string resolvedPdfUrl { get; set; }
 
     private async Task OnShowModalClick()
     {
         await viewModal?.ShowAsync();
+    }
+
+    private void HideSpinner(PdfViewerEventArgs args)
+    {
+        hideSpinner = true;
     }
 
     protected override Task OnParametersSetAsync()
@@ -44,6 +53,7 @@
             resolvedPdfUrl = PdfUrl;
         }
         
+        hideSpinner = false;
         return Task.CompletedTask;
     }
 }
