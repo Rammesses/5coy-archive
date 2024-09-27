@@ -34,12 +34,12 @@ namespace web
                 .SetMinimumLevel(LogLevel.Information)
             );
 
-            builder.Services.AddBlazorApplicationInsights(async applicationInsights =>
+            builder.Services.AddBlazorApplicationInsights(applicationInsights =>
             {
                 // var appInsightsKey = config["ApplicationInsights:InstrumentationKey"] ?? Guid.Empty.ToString();
                 var appInsightsKey = "181e8816-8264-4b24-9b0e-0951727e5c76";
-                await applicationInsights.SetInstrumentationKey(appInsightsKey);        
-                await applicationInsights.TrackPageView();
+                applicationInsights.InstrumentationKey = appInsightsKey;        
+                applicationInsights.AutoTrackPageVisitTime = true;
             });
 
             builder.RootComponents.Add<App>("#app");
