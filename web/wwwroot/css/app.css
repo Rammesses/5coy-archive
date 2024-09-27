@@ -6,6 +6,7 @@ html, body {
 
 a, .btn-link {
     color: #0366d6;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -51,6 +52,29 @@ a, .btn-link {
 
 span.sectionIcon {
     padding-right: 0.25em;
+}
+
+div.wasm-loading-spinner {
+    display:flex; 
+    gap:10px; 
+    justify-content:center; 
+    align-items:center; 
+    margin-top:2em
+}
+
+div.pdf-loading-spinner {
+    display:flex; 
+    gap:10px; 
+    justify-content:center; 
+    align-items:center; 
+    margin-top:-2.5em; 
+    position:relative
+}
+
+div.pdf-loading-spinner:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 div.homepage-hero {

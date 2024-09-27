@@ -5,12 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="blazor.bootstrap" Version="3.0.0" />
     <PackageReference Include="Blazor.Extensions.Logging" Version="2.0.4" />
     <PackageReference Include="BlazorApplicationInsights" Version="2.0.0" />
-    <PackageReference Include="HtmlSanitizer" Version="8.0.601" />
+    <PackageReference Include="HtmlSanitizer" Version="8.0.723" />
     <PackageReference Include="Markdig" Version="0.30.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
   </ItemGroup>
 
