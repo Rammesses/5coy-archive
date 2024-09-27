@@ -71,7 +71,7 @@ div.pdf-loading-spinner {
     position:relative
 }
 
-div.pdf-loading-spinner:adter {
+div.pdf-loading-spinner:after {
     content: '';
     display: block;
     clear: both;
