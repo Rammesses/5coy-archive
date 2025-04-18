@@ -1,0 +1,36 @@
+name: BuildAndDeployToAWS
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '7.0.x'  # Replace with your desired .NET version
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build Blazor WebAssembly
+        run: dotnet publish -c Release -o ./publish
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Publish to AWS S3
+        run: aws s3 sync ./publish/wwwroot s3://${{ secrets.AWS_PRODUCTION_BUCKET_NAME }} --delete
