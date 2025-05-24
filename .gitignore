@@ -458,3 +458,6 @@ $RECYCLE.BIN/
 
 ## Don't check in obj folders
 **/obj/*
+
+## Don't check in pip modules for the aws lambdas
+ingest/Python

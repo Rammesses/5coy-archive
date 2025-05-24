@@ -1,0 +1,59 @@
+@using Microsoft.Extensions.Configuration
+@using BlazorBootstrap;
+
+@inject IConfiguration configuration
+
+@if (!string.IsNullOrEmpty(resolvedPdfUrl)) {
+    <a class="btn-link" title="View original PDF" @onclick="OnShowModalClick">
+        <span class="oi oi-document small-icon" aria-hidden="true"></span>
+    </a>
+}
+
+<Modal @ref="viewModal" Title="Original PDF" Size="ModalSize.ExtraLarge">
+    <FooterTemplate>
+        <div><span style="float:right"><web.Controls.PdfDownloadButton PdfUrl="@PdfUrl" /></span>
+        </div>
+    </FooterTemplate>
+    <BodyTemplate>
+        <PdfViewer @ref="pdfViewer" Url="@resolvedPdfUrl" OnDocumentLoaded="HideSpinner" />
+        <div hidden="@hideSpinner" class="pdf-loading-spinner">
+                <div class="spinner-border" role="status"></div>
+                Loading document...
+        </div>
+    </BodyTemplate>
+</Modal>
+
+@code {
+
+    [Parameter]
+    public string PdfUrl { get; set; }
+
+    private Modal viewModal;
+    private PdfViewer pdfViewer;
+    private bool hideSpinner = false;
+
+    public string resolvedPdfUrl { get; set; }
+
+    private async Task OnShowModalClick()
+    {
+        await viewModal?.ShowAsync();
+    }
+
+    private void HideSpinner(PdfViewerEventArgs args)
+    {
+        hideSpinner = true;
+    }
+
+    protected override Task OnParametersSetAsync()
+    {
+        var mediaBaseUrl = configuration["Media:BaseUrl"];
+        if (!string.IsNullOrEmpty(mediaBaseUrl) && !string.IsNullOrEmpty(PdfUrl)) {
+            resolvedPdfUrl = new Uri(new Uri(mediaBaseUrl), this.PdfUrl).ToString();
+        } else {
+            resolvedPdfUrl = PdfUrl;
+        }
+        
+        hideSpinner = false;
+        return Task.CompletedTask;
+    }
+}
