@@ -463,3 +463,4 @@ $RECYCLE.BIN/
 ingest/Python
 
 .wrangler/*
+.idea/*
