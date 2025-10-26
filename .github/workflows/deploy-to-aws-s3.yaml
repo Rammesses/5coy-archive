@@ -3,8 +3,8 @@ name: BuildAndDeployToAWS
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    paths-ignore: 
+      - infra/**
 
 jobs:
   build-and-publish:
