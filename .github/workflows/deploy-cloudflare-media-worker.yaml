@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - Infra
+    paths:
+      - infra/cloudflare/**
 
 jobs:
   deploy:
