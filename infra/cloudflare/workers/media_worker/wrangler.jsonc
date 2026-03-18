@@ -1,0 +1,11 @@
+{
+  "name": "5coy-media-redirect",
+  "main": "./media_worker.js",
+  "compatibility_date": "2023-01-01",
+  "workers_dev": false,
+  "routes": [
+    {
+        "pattern": "*.5coy-cmc.org.uk/media/*",
+        "zone_name": "5coy-cmc.org.uk"
+    }]
+}

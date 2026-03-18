@@ -7,14 +7,28 @@
     "Planet": "Laverii 42-6 / Station X243"
   },
 
-  { "Name": "?",
+  { "Name": "Mission 'Argos'",
+    "StartDate": "1993-03-01",
+    "EndDate": "1993-03-03",
+    "Location": "?",
+    "Reference": "2493-03_mission-argos",
+    "Planet": "Kruger"
+  },
+  { "Name": "Mission 'Vortex'",
     "StartDate": "1993-11-01",
     "EndDate": "1993-11-03",
     "Location": "?",
-    "Reference": "2493-11_mission-??????",
+    "Reference": "2493-11_mission-vortex",
     "Planet": "Groombridge"
   },
 
+  { "Name": "Mission 'Triton'",
+    "StartDate": "1994-02-01",
+    "EndDate": "1994-02-03",
+    "Location": "?",
+    "Reference": "2494-03_mission-triton",
+    "Planet": "K685"
+  },
   { "Name": "Mission 'Sidewinder'",
     "StartDate": "1994-03-01",
     "EndDate": "1994-03-03",
@@ -124,6 +138,14 @@
     "EndDate": "1996-10-20",
     "Location": "Hesley Wood",
     "Reference": "2496-10_operation-sable"
+  },
+
+  { "Name": "Operation 'Strongarm'",
+    "StartDate": "2002-05-01",
+    "EndDate": "2002-05-03",
+    "Location": "Hesley Wood",
+    "Reference": "2502-05_operation-strongarm",
+    "Planet": "Chau Sara"
   },
 
   { "Name": "?",

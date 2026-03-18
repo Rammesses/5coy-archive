@@ -1,0 +1,22 @@
+name: DeployCloudflareMediaWorker
+
+on:
+  push:
+    branches:
+      - Infra
+    paths:
+      - infra/cloudflare/**
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy MediaWorker to Cloudflare
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: "infra/cloudflare/workers/media_worker"
+          preCommands: echo "Working directory" && pwd
+          command: deploy --config ./wrangler.jsonc
