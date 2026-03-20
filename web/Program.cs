@@ -8,7 +8,6 @@ using Blazor.Extensions.Logging;
 
 using Ganss.Xss;
 
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
