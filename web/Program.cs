@@ -1,23 +1,17 @@
 using System;
 using System.Net.Http;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Text;
 
 using Blazor.Extensions.Logging;
 
 using Ganss.Xss;
 
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 using Services;
 using BlazorApplicationInsights;
-using Microsoft.Extensions.Options;
-using System.Security.Authentication.ExtendedProtection;
 
 namespace web
 {
@@ -27,19 +21,14 @@ namespace web
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
-            var config = builder.Build().Configuration;
-
             builder.Services.AddLogging(builder => builder
                 .AddBrowserConsole()
                 .SetMinimumLevel(LogLevel.Information)
             );
 
-            builder.Services.AddBlazorApplicationInsights(async applicationInsights =>
+            builder.Services.AddBlazorApplicationInsights(x =>
             {
-                // var appInsightsKey = config["ApplicationInsights:InstrumentationKey"] ?? Guid.Empty.ToString();
-                var appInsightsKey = "181e8816-8264-4b24-9b0e-0951727e5c76";
-                await applicationInsights.SetInstrumentationKey(appInsightsKey);        
-                await applicationInsights.TrackPageView();
+                x.InstrumentationKey = "181e8816-8264-4b24-9b0e-0951727e5c76";
             });
 
             builder.RootComponents.Add<App>("#app");
