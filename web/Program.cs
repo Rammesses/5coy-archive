@@ -11,7 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
 using Services;
-using BlazorApplicationInsights;
 
 namespace web
 {
@@ -25,11 +24,6 @@ namespace web
                 .AddBrowserConsole()
                 .SetMinimumLevel(LogLevel.Information)
             );
-
-            builder.Services.AddBlazorApplicationInsights(x =>
-            {
-                x.InstrumentationKey = "181e8816-8264-4b24-9b0e-0951727e5c76";
-            });
 
             builder.RootComponents.Add<App>("#app");
 
