@@ -134,13 +134,12 @@ Use the official Microsoft dev container feature approach rather than a custom `
   "features": {
     "ghcr.io/devcontainers/features/dotnet:2": { "version": "10.0" },
     "ghcr.io/devcontainers/features/node:1": { "version": "lts" },
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers-contrib/features/azure-functions-core-tools:2": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   }
 }
 ```
 
-Claude Code CLI is installed in `post-create.sh` via `npm install -g @anthropic-ai/claude-code` since there is no official dev container feature for it yet.
+Azure Functions Core Tools v4 and Claude Code CLI are both installed in `post-create.sh` via npm. The `devcontainers-contrib` feature for Azure Functions Core Tools was archived and is no longer resolvable; npm is the supported cross-platform install method.
 
 ### 4.2 Architecture compatibility
 

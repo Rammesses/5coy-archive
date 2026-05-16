@@ -4,8 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/dotnet:2": { "version": "10.0" },
     "ghcr.io/devcontainers/features/node:1": { "version": "lts" },
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers-contrib/features/azure-functions-core-tools:2": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "postCreateCommand": "bash .devcontainer/post-create.sh",
   "forwardPorts": [5000, 7071],
