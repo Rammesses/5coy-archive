@@ -1,7 +1,11 @@
 {
-    "azureFunctions.deploySubpath": "api/bin/Release/net8.0/publish",
-    "azureFunctions.projectLanguage": "C#",
-    "azureFunctions.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish (functions)"
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "dotnet-test-explorer.testProjectPath": "**/*.test.csproj",
+  "[razor]": {
+    "editor.formatOnSave": false
+  }
 }
