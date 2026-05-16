@@ -80,7 +80,7 @@ AI assistants are only as useful as the context they are given. Without explicit
 - (b) `settings.json` — workspace settings for formatting, linting and test discovery consistent with project conventions;
 - (c) `tasks.json` — VS Code task definitions for build, test, run and publish.
 
-**FR-06** The repository SHOULD contain equivalent configuration for JetBrains Rider (`.idea/` run configurations and code style settings).
+**FR-06** ~~The repository SHOULD contain equivalent configuration for JetBrains Rider.~~ *Out of scope: supported IDEs are limited to VS Code only. JetBrains Rider and Visual Studio are explicitly out of scope.*
 
 **FR-07** IDE configuration SHALL NOT contain user-specific paths, API keys, or settings that would break on another developer's machine.
 
@@ -97,6 +97,8 @@ AI assistants are only as useful as the context they are given. Without explicit
 
 **FR-10** A developer SHALL be able to clone the repository, open it in the dev container, and run the full build and test suite without installing anything on their host machine.
 
+**FR-10a** The dev container SHALL be compatible with both GitHub Codespaces and local Docker Desktop (including Docker Desktop for Mac with Apple Silicon).
+
 **FR-11** The dev container SHOULD include a post-create script that runs `dotnet restore` and validates the environment.
 
 ### 6.4 Coding Standards Documentation
@@ -111,14 +113,17 @@ AI assistants are only as useful as the context they are given. Without explicit
 
 ### 6.5 CI/CD AI Integration
 
-**FR-14** The repository SHALL contain a GitHub Actions workflow that performs an automated AI code review on every pull request targeting `dev` or `master`.
+**FR-14** The repository SHALL contain a GitHub Actions workflow that performs an automated AI code review on every pull request targeting `dev` or `master`. *(Phase 2 only — no AI invoked from GitHub Actions in Phase 1.)*
 
 **FR-15** The automated review SHALL post its findings as a PR comment, covering as a minimum:
 - (a) adherence to coding standards;
 - (b) potential security issues;
 - (c) missing or inadequate tests.
 
-**FR-16** The automated review SHOULD use a provider-agnostic mechanism (e.g. the Claude Code CLI or a configurable action) so the underlying model can be changed without modifying the workflow.
+**FR-16** The automated review SHALL support at minimum three AI backends, selectable via repository variable with no workflow code changes required:
+- (a) Claude Code CLI (Anthropic);
+- (b) GitHub Copilot;
+- (c) Amazon Kiro.
 
 **FR-17** The repository SHOULD include a workflow that generates a structured PR summary when one is not provided by the author.
 
@@ -178,9 +183,9 @@ AI assistants are only as useful as the context they are given. Without explicit
 
 ## 10. Open Questions
 
-| # | Question | Owner | Due |
+| # | Question | Owner | Resolution |
 |---|---|---|---|
-| OQ-01 | Which AI provider / model should be the default for CI workflows? | Rammesses | Before Phase 2 |
-| OQ-02 | Should the dev container be GitHub Codespaces-compatible, or local Docker only? | Rammesses | Before Phase 1 |
-| OQ-03 | Are there any constraints on what code can be sent to an external AI API (e.g. data classification)? | Rammesses | Before Phase 2 |
-| OQ-04 | Should JetBrains Rider support (FR-06) be in scope for Phase 1 or deferred? | Rammesses | Before Phase 1 |
+| ~~OQ-01~~ | ~~Which AI provider / model should be the default for CI workflows?~~ | ~~Rammesses~~ | **Resolved:** CI SHALL support Claude Code CLI, GitHub Copilot and Amazon Kiro, selectable via repo variable. No AI in GitHub Actions in Phase 1. |
+| ~~OQ-02~~ | ~~Should the dev container be GitHub Codespaces-compatible, or local Docker only?~~ | ~~Rammesses~~ | **Resolved:** dev container SHALL support both GitHub Codespaces and local Docker (including Apple Silicon). |
+| ~~OQ-03~~ | ~~Are there any constraints on what code can be sent to an external AI API?~~ | ~~Rammesses~~ | **Resolved:** repo is MIT-licensed; no restrictions on sending code to external AI APIs. |
+| ~~OQ-04~~ | ~~Should JetBrains Rider support be in scope for Phase 1?~~ | ~~Rammesses~~ | **Resolved:** Rider and Visual Studio are out of scope. VS Code is the only supported IDE. |
