@@ -1,6 +1,11 @@
 {
   "recommendations": [
-    "ms-azuretools.vscode-azurefunctions",
-    "ms-dotnettools.csharp"
+    "ms-dotnettools.csdevkit",
+    "ms-dotnettools.blazorwasm-companion",
+    "anthropic.claude-code",
+    "github.copilot",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one"
   ]
 }
