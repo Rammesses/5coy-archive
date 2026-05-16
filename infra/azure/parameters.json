@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "staticSites_5coy_cmc_webapp_name": {
+            "value": null
+        },
+        "vaults_kv_5coy_cmc_keyvault_name": {
+            "value": null
+        },
+        "searchServices_5coy_cmc_search_name": {
+            "value": null
+        },
+        "storageAccounts_5coycmcstorage_name": {
+            "value": null
+        },
+        "components_5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "configurationStores_5coy_cmc_appconfig_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_exception_anomalies___5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_potential_memory_leak___5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_trace_severity_degradation___5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_response_latency_degradation___5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_dependency_latency_degradation___5coy_cmc_appinsights_name": {
+            "value": null
+        },
+        "actiongroups_application_insights_smart_detection_externalid": {
+            "value": null
+        },
+        "workspaces_defaultworkspace_a2ea3a46_8476_4251_8278_5fe8dbb5465b_weu_externalid": {
+            "value": null
+        }
+    }
+}
