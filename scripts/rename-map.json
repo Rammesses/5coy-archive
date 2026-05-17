@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-17T11:09:13.522931Z",
+  "generated_at": "2026-05-17T11:39:07.157556Z",
   "source": "docs/specs/51-corpus-cleanup.md \u00a77 + web/wwwroot/data/articles/*.json crawl",
   "counts": {
     "pdf_moves": 72,
@@ -323,8 +323,9 @@
     },
     {
       "legacy": "/media/Mission+Reports/2494-12+Mission+%22-C-L-A-S-S-I-F-I-E-D%22+(Calvin).pdf",
-      "canonical": "/media/in-character/mission-reports/2494-12-mission-c-l-a-s-s-i-f-i-e-d-calvin.pdf",
-      "kind": "pdf"
+      "canonical": "/media/in-character/mission-reports/2494-12-mission-classified-calvin.pdf",
+      "kind": "pdf",
+      "override": true
     },
     {
       "legacy": "/media/Mission+Reports/2495-01+Mission+%22Nightside%22+(Calvin).pdf",
