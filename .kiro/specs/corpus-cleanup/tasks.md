@@ -216,11 +216,14 @@ Use the `build.command` field of `wrangler.jsonc` or document the manual step.
 
 These do NOT block the PR but must complete before `#51` is closed:
 
-1. Run `./scripts/migrate-media-paths.sh <bucket-name>` (dry-run) — verify expected move count.
-2. Run `./scripts/migrate-media-paths.sh <bucket-name> --execute`.
-3. Deploy updated worker via `wrangler deploy`.
-4. Smoke test: `curl -I -L https://media.5coy-cmc.org.uk/media/Mission+Reports/2495-11+Mission+%22Nova%22+(Calvin).pdf` returns 301 then 200; bytes match the canonical fetch.
-5. Close `#51`; unblock `#50` production deployment.
+1. **Back up the bucket first.** Run `./scripts/backup-media-bucket.sh <bucket-name>`. This enables S3 versioning (if not already on), writes an inventory manifest to `backups/<bucket>-<date>/`, and syncs every object to a local tarball. The migration is destructive (`aws s3 mv`); do not skip this step.
+2. Run `./scripts/migrate-media-paths.sh <bucket-name>` (dry-run) — verify expected move count.
+3. Run `./scripts/migrate-media-paths.sh <bucket-name> --execute`.
+4. Deploy updated worker via `wrangler deploy` from `infra/cloudflare/workers/media_worker/`.
+5. Smoke test: `curl -I -L https://media.5coy-cmc.org.uk/media/Mission+Reports/2495-11+Mission+%22Nova%22+(Calvin).pdf` returns 301 then 200; bytes match the canonical fetch.
+6. Close `#51`; unblock `#50` production deployment.
+
+**Rollback** (if smoke test fails): run `./scripts/migrate-media-paths.sh <bucket-name> --execute --reverse` to move canonical → legacy. If the move itself is what corrupted the bucket, restore from `backups/<bucket>-<date>/objects/` via `aws s3 sync`.
 
 ---
 

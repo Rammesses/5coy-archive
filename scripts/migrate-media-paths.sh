@@ -150,6 +150,12 @@ if [[ $PLANNED -eq 0 ]]; then
   exit 0
 fi
 
+if [[ $EXECUTE -eq 1 ]]; then
+  echo "*** REMINDER: have you run scripts/backup-media-bucket.sh ${BUCKET} ?"
+  echo "*** aws s3 mv is destructive; bucket versioning + local sync are your safety net."
+  echo
+fi
+
 # --- execute / dry-run ---
 do_move() {
   local src="$1" dst="$2"
