@@ -1,41 +1,38 @@
 [
-    { "Reference": "out-of-character",
-      "Data": "/data/articles/out-of-character.json"
-      },
-
-      { "Reference": "miscellanea",
-        "Articles": [
-        { "reference": "prop-designs",
-          "Title": "Prop Designs",
-          "ContentUrl": "",
-          "PdfUrl": "/media/Miscellanea/Prop-Designs.pdf"}
-          ]
-      },
-
-      { "Reference": "in-the-line-of-fire",
-        "Data": "/data/articles/in-the-line-of-fire.json"
-      },
-
-      { "Reference": "interstella",
-        "Data": "/data/articles/interstella.json"
-      },
-
-      { "Reference": "scenarios",
-        "Data": "/data/articles/scenarios.json"
-      },
-
-      { "Reference": "in-character",
-        "Data": "/data/articles/in-character.json" 
-    },
-
-    { "Reference": "mexals-letters",
-      "Data": "/data/articles/mexals-letters.json"},
-
-    { "Reference": "mission-reports",
-      "Data": "/data/articles/mission-reports.json"
-    },
-
-    { "Reference": "marines-handbook",
-      "Data": "/data/articles/marines-handbook.json"
-    }
+  {
+    "Reference": "out-of-character",
+    "Data": "/data/articles/out-of-character.json"
+  },
+  {
+    "Reference": "miscellanea",
+    "Data": "/data/articles/miscellanea.json"
+  },
+  {
+    "Reference": "in-the-line-of-fire",
+    "Data": "/data/articles/in-the-line-of-fire.json"
+  },
+  {
+    "Reference": "interstella",
+    "Data": "/data/articles/interstella.json"
+  },
+  {
+    "Reference": "scenarios",
+    "Data": "/data/articles/scenarios.json"
+  },
+  {
+    "Reference": "in-character",
+    "Data": "/data/articles/in-character.json"
+  },
+  {
+    "Reference": "mexals-letters",
+    "Data": "/data/articles/mexals-letters.json"
+  },
+  {
+    "Reference": "mission-reports",
+    "Data": "/data/articles/mission-reports.json"
+  },
+  {
+    "Reference": "marines-handbook",
+    "Data": "/data/articles/marines-handbook.json"
+  }
 ]

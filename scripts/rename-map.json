@@ -1,0 +1,540 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-17T11:39:07.157556Z",
+  "source": "docs/specs/51-corpus-cleanup.md \u00a77 + web/wwwroot/data/articles/*.json crawl",
+  "counts": {
+    "pdf_moves": 72,
+    "content_moves": 29,
+    "total": 101
+  },
+  "moves": [
+    {
+      "legacy": "/media/A+Brief+Guide+to+History.pdf",
+      "canonical": "/media/out-of-character/a-brief-guide-to-history.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Companies+%26+Corporations.pdf",
+      "canonical": "/media/out-of-character/companies-and-corporations.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Drive-Wars-II.pdf",
+      "canonical": "/media/out-of-character/scenarios/drive-wars-2.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Drive-Wars.pdf",
+      "canonical": "/media/out-of-character/scenarios/drive-wars.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Groups+%26+Organisations.pdf",
+      "canonical": "/media/out-of-character/groups-and-organisations.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/In-Character/Briefing+Notes+-+Mission+%22Hydra%22.pdf",
+      "canonical": "/media/in-character/briefing-notes-mission-hydra.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/In-Character/Briefing+Notes+-+Mission+%22Vortex%22.pdf",
+      "canonical": "/media/in-character/briefing-notes-mission-vortex.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/In-Character/Briefing+Notes+-+Type+12+Experimental+Station.pdf",
+      "canonical": "/media/in-character/briefing-notes-type-12-experimental-station.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/In-Character/Briefing+Notes+-+Type+23+Exo-Suit.pdf",
+      "canonical": "/media/in-character/briefing-notes-type-23-exo-suit.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-01.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-01.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-02.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-02.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-03.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-03.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-04.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-04.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-05.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-05.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-06.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-06.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-07.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-07.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-12.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2495-12.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2496-01.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2496-01.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2496-03.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2496-03.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2496-04.pdf",
+      "canonical": "/media/in-character/in-the-line-of-fire/itlof-2496-04.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/Message+2495-11-09+Martins+to+Turner+-+Mission+%22Intruder%22.pdf",
+      "canonical": "/media/in-character/mission-reports/message-2495-11-09-martins-to-turner-mission-nova.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/Message+2496-01-28+Calvin+to+Turner+-+Mission+%22Intruder%22.pdf",
+      "canonical": "/media/in-character/mission-reports/message-2496-01-28-calvin-to-turner-mission-intruder.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/In-Character/Personnel+Jacket+-+Turner+J+TJ121710.pdf",
+      "canonical": "/media/in-character/personnel-jacket-turner-j-tj121710.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/In-Character/Tactical+Operations+-+Terms+of+Reference.pdf",
+      "canonical": "/media/in-character/tactical-operations-terms-of-reference.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Armourer+4.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-armourer-4.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Basic+Combat+Training.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-basic-combat-training.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+CompTech+-+Course+Overview.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-comptech-course-overview.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+CompTech+2.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-comptech-2.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+CompTech+3.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-comptech-3.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+EOD+Specialist+4.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-eod-specialist-4.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+MedTech+1.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-medtech-1.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+MedTech+2.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-medtech-2.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+MedTech+3.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-medtech-3.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+MedTech+4.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-medtech-4.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+NCO+%26+Officer+Training+-+Abridged.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-nco-and-officer-training-abridged.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Patrolling.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-patrolling.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Radio+Operator+2.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-radio-operator-2.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Scouting.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-scouting.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Sniper.pdf",
+      "canonical": "/media/in-character/marines-handbook/marines-handbook-sniper.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2493-03++-+Kruger.pdf",
+      "canonical": "/media/in-character/mexals-letters/2493-03-kruger.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2493-06++-+Laverii-426.pdf",
+      "canonical": "/media/in-character/mexals-letters/2493-06-laverii-426.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2493-09+-+X244.pdf",
+      "canonical": "/media/in-character/mexals-letters/2493-09-x244.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2493-12+-+Juliette.pdf",
+      "canonical": "/media/in-character/mexals-letters/2493-12-juliette.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2495-01+-+Grant%27s+World.pdf",
+      "canonical": "/media/in-character/mexals-letters/2495-01-grants-world.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2495-02+-+Heurls.pdf",
+      "canonical": "/media/in-character/mexals-letters/2495-02-heurls.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2495-03+-+Connet.pdf",
+      "canonical": "/media/in-character/mexals-letters/2495-03-connet.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2495-04+-+Groombridge.pdf",
+      "canonical": "/media/in-character/mexals-letters/2495-04-groombridge.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2495-05+-+Marie+Celesta.pdf",
+      "canonical": "/media/in-character/mexals-letters/2495-05-marie-celesta.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mexal%27s+Letters/2495-07+-+Hal.pdf",
+      "canonical": "/media/in-character/mexals-letters/2495-07-hal.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Miscellanea/How-Much-For-Just-The-Planet.pdf",
+      "canonical": "/media/out-of-character/scenarios/how-much-for-just-the-planet.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Miscellanea/One-Of-Our-Drones-Is-Missing.pdf",
+      "canonical": "/media/out-of-character/scenarios/one-of-our-drones-is-missing.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Miscellanea/Prop-Designs.pdf",
+      "canonical": "/media/out-of-character/miscellanea/prop-designs.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Miscellanea/Scenario-Summaries-93-94.pdf",
+      "canonical": "/media/out-of-character/scenarios/scenario-summaries-93-94.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Miscellanea/Welcome-to-the-Marie-Celeste-Audio-Script.pdf",
+      "canonical": "/media/out-of-character/scenarios/welcome-to-the-marie-celesta-audio-script.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Miscellanea/Welcome-to-the-Marie-Celeste-Monster-Notes.pdf",
+      "canonical": "/media/out-of-character/scenarios/welcome-to-the-marie-celesta-monster-notes.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Miscellanea/Welcome-to-the-Marie-Celeste.pdf",
+      "canonical": "/media/out-of-character/scenarios/welcome-to-the-marie-celesta.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Mission+Reports/2494-03+Mission+%22Sidewinder%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2494-03-mission-sidewinder-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2494-04+Mission+%22Ogre%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2494-04-mission-ogre-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2494-06+Mission+%22Pegasus%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2494-06-mission-pegasus-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2494-12+Mission+%22-C-L-A-S-S-I-F-I-E-D%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2494-12-mission-classified-calvin.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Mission+Reports/2495-01+Mission+%22Nightside%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2495-01-mission-nightside-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2495-05+Boarding+Report+%22SS+Marie+Celesta%22+(Oslo).pdf",
+      "canonical": "/media/in-character/mission-reports/2495-05-boarding-report-ss-marie-celesta-oslo.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2495-07+Mission+%22Omaha%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2495-07-mission-omaha-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2495-11+Mission+%22Nova%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2495-11-mission-nova-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2496-00+Mission+%22Procyon%22+-+Intel.pdf",
+      "canonical": "/media/in-character/mission-reports/2492-10-mission-procyon-intel.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Mission+Reports/2496-02+Mission+%22Intruder%22+(Calvin).pdf",
+      "canonical": "/media/in-character/mission-reports/2496-02-mission-intruder-calvin.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2496-02+Mission+%22Intruder%22+-+SIB+Report+(Rumpole).pdf",
+      "canonical": "/media/in-character/mission-reports/2496-02-mission-intruder-sib-report-rumpole.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Mission+Reports/2496-03+Mission+%22Red+Storm%22+(Turner).pdf",
+      "canonical": "/media/in-character/mission-reports/2496-03-mission-red-storm-turner.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Out-Of-Character/Bill+Chivers%27s+Training+Ideas.pdf",
+      "canonical": "/media/out-of-character/bill-chivers-training-ideas.pdf",
+      "kind": "pdf",
+      "override": true
+    },
+    {
+      "legacy": "/media/Out-Of-Character/Safety+Rules+%26+Game+Play+Guidelines.pdf",
+      "canonical": "/media/out-of-character/safety-rules-and-game-play-guidelines.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Planetary+Database.pdf",
+      "canonical": "/media/out-of-character/planetary-database.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/media/Writer%27s+Guide.pdf",
+      "canonical": "/media/out-of-character/writers-guide.pdf",
+      "kind": "pdf"
+    },
+    {
+      "legacy": "/content/in-character/briefing-notes_mision-vortex.md",
+      "canonical": "/content/in-character/briefing-notes_mission-vortex.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2492-10_mission-procyon-intel.md",
+      "canonical": "/content/in-character/mission-reports/2492-10_mission-procyon-intel.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2494-03_mission-sidewinder.md",
+      "canonical": "/content/in-character/mission-reports/2494-03_mission-sidewinder.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2494-04_mission-ogre.md",
+      "canonical": "/content/in-character/mission-reports/2494-04_mission-ogre.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2494-06_mission-pegasus.md",
+      "canonical": "/content/in-character/mission-reports/2494-06_mission-pegasus.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2494-12_mission-classified.md",
+      "canonical": "/content/in-character/mission-reports/2494-12_mission-classified.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2495-01_mission-nightside.md",
+      "canonical": "/content/in-character/mission-reports/2495-01_mission-nightside.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2495-05_boarding-report-mariecelesta.md",
+      "canonical": "/content/in-character/mission-reports/2495-05_boarding-report-mariecelesta.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2495-07_mission-omaha.md",
+      "canonical": "/content/in-character/mission-reports/2495-07_mission-omaha.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2495-11_mission-nova.md",
+      "canonical": "/content/in-character/mission-reports/2495-11_mission-nova.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2496-02_mission-intruder.md",
+      "canonical": "/content/in-character/mission-reports/2496-02_mission-intruder.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2496-02_mission-intruder_sibreport.md",
+      "canonical": "/content/in-character/mission-reports/2496-02_mission-intruder_sibreport.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/mission-reports/2496-03_mission-redstorm.md",
+      "canonical": "/content/in-character/mission-reports/2496-03_mission-redstorm.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/drive-wars-2.md",
+      "canonical": "/content/out-of-character/scenarios/drive-wars-2.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/drive-wars.md",
+      "canonical": "/content/out-of-character/scenarios/drive-wars.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/how-much-for-just-the-planet.md",
+      "canonical": "/content/out-of-character/scenarios/how-much-for-just-the-planet.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/mission-achilles.md",
+      "canonical": "/content/out-of-character/scenarios/mission-achilles.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/mission-flag.md",
+      "canonical": "/content/out-of-character/scenarios/mission-flag.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/mission-intruder.md",
+      "canonical": "/content/out-of-character/scenarios/mission-intruder.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/mission-kraken.md",
+      "canonical": "/content/out-of-character/scenarios/mission-kraken.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/mission-nova.md",
+      "canonical": "/content/out-of-character/scenarios/mission-nova.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/mission-troy.md",
+      "canonical": "/content/out-of-character/scenarios/mission-troy.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/one-of-our-drones-is-missing.md",
+      "canonical": "/content/out-of-character/scenarios/one-of-our-drones-is-missing.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/scenario-summaries-for-93-94.md",
+      "canonical": "/content/out-of-character/scenarios/scenario-summaries-for-93-94.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/welcome-to-the-marie-celesta-audio-script.md",
+      "canonical": "/content/out-of-character/scenarios/welcome-to-the-marie-celesta-audio-script.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/welcome-to-the-marie-celesta-monster-notes.md",
+      "canonical": "/content/out-of-character/scenarios/welcome-to-the-marie-celesta-monster-notes.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/scenarios/welcome-to-the-marie-celesta.md",
+      "canonical": "/content/out-of-character/scenarios/welcome-to-the-marie-celesta.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/in-character/message_2495-11-09-martins-to-turner_mission-nova.md",
+      "canonical": "/content/in-character/mission-reports/message_2495-11-09-martins-to-turner_mission-nova.md",
+      "kind": "content",
+      "extra": true
+    },
+    {
+      "legacy": "/content/in-character/message_2496-01-28_calvin-to-turner_mission-Intruder.md",
+      "canonical": "/content/in-character/mission-reports/message_2496-01-28_calvin-to-turner_mission-Intruder.md",
+      "kind": "content",
+      "extra": true
+    }
+  ]
+}

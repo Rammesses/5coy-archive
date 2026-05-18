@@ -1,0 +1,39 @@
+{
+  "_comment": "Per-file overrides for canonical names when the deterministic rules in generate-rename-map.py get it wrong. Add { legacy: canonical } pairs under 'overrides'. PR review adjudicates additions.",
+  "overrides": {
+    "/media/Miscellanea/Welcome-to-the-Marie-Celeste.pdf": "/media/out-of-character/scenarios/welcome-to-the-marie-celesta.pdf",
+    "/media/Miscellanea/Welcome-to-the-Marie-Celeste-Audio-Script.pdf": "/media/out-of-character/scenarios/welcome-to-the-marie-celesta-audio-script.pdf",
+    "/media/Miscellanea/Welcome-to-the-Marie-Celeste-Monster-Notes.pdf": "/media/out-of-character/scenarios/welcome-to-the-marie-celesta-monster-notes.pdf",
+    "/media/Miscellanea/Prop-Designs.pdf": "/media/out-of-character/miscellanea/prop-designs.pdf",
+    "/media/Mission+Reports/2496-00+Mission+%22Procyon%22+-+Intel.pdf": "/media/in-character/mission-reports/2492-10-mission-procyon-intel.pdf",
+    "/media/Drive-Wars-II.pdf": "/media/out-of-character/scenarios/drive-wars-2.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-01.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-01.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-02.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-02.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-03.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-03.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-04.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-04.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-05.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-05.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-06.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-06.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-07.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-07.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-12.pdf": "/media/in-character/in-the-line-of-fire/itlof-2495-12.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2496-01.pdf": "/media/in-character/in-the-line-of-fire/itlof-2496-01.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2496-03.pdf": "/media/in-character/in-the-line-of-fire/itlof-2496-03.pdf",
+    "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2496-04.pdf": "/media/in-character/in-the-line-of-fire/itlof-2496-04.pdf",
+    "/media/Out-Of-Character/Bill+Chivers%27s+Training+Ideas.pdf": "/media/out-of-character/bill-chivers-training-ideas.pdf",
+    "/media/Mission+Reports/2494-12+Mission+%22-C-L-A-S-S-I-F-I-E-D%22+(Calvin).pdf": "/media/in-character/mission-reports/2494-12-mission-classified-calvin.pdf",
+    "/media/In-Character/Message+2495-11-09+Martins+to+Turner+-+Mission+%22Intruder%22.pdf": "/media/in-character/mission-reports/message-2495-11-09-martins-to-turner-mission-nova.pdf",
+    "/media/In-Character/Message+2496-01-28+Calvin+to+Turner+-+Mission+%22Intruder%22.pdf": "/media/in-character/mission-reports/message-2496-01-28-calvin-to-turner-mission-intruder.pdf"
+  },
+  "_extras_comment": "Files whose old paths aren't represented in the original data (i.e. the source path is also being changed). Required by FR-06: child entries of mission-reports must have their content/media live inside the mission-reports path.",
+  "extras": [
+    {
+      "legacy": "/content/in-character/message_2495-11-09-martins-to-turner_mission-nova.md",
+      "canonical": "/content/in-character/mission-reports/message_2495-11-09-martins-to-turner_mission-nova.md",
+      "kind": "content"
+    },
+    {
+      "legacy": "/content/in-character/message_2496-01-28_calvin-to-turner_mission-Intruder.md",
+      "canonical": "/content/in-character/mission-reports/message_2496-01-28_calvin-to-turner_mission-Intruder.md",
+      "kind": "content"
+    }
+  ]
+}

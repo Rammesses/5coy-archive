@@ -1,30 +1,74 @@
 [
-    { "Reference": "a-brief-guide-to-history",
-      "Title": "A Brief Guide to History",
-      "ContentUrl": "/content/out-of-character/a-brief-guide-to-history.md",
-      "PdfUrl": "/media/A+Brief+Guide+to+History.pdf"},
-    { "Reference": "companies-and-corporations",
-        "Title": "Companies & Corporations",
-        "ContentUrl": "/content/out-of-character/companies-and-corporations.md",
-        "PdfUrl": "/media/Companies+%26+Corporations.pdf"},
-    { "Reference": "groups-and-organisations",
-        "Title": "Groups & Organisations",
-        "ContentUrl": "/content/out-of-character/groups-and-organisations.md",
-        "PdfUrl": "/media/Groups+%26+Organisations.pdf"},
-    { "Reference": "planetary-Database",
-        "Title": "Planetary Database",
-        "ContentUrl": "/content/out-of-character/planetary-database.md",
-        "PdfUrl": "/media/Planetary+Database.pdf"},
-    { "Reference": "safety-rules-and-game-play-guidelines",
-        "Title": "Safety Rules & Game Play Guidelines",
-        "ContentUrl": "/content/out-of-character/safety-rules-and-game-play-guidelines.md",
-        "PdfUrl": "/media/Out-Of-Character/Safety+Rules+%26+Game+Play+Guidelines.pdf"},
-    { "Reference": "writers-guide",
-        "Title": "The Writer's Guide",
-        "ContentUrl": "/content/out-of-character/writers-guide.md",
-        "PdfUrl": "/media/Writer%27s+Guide.pdf"},
-    { "Reference": "bill-chivers-training-ideas",
-        "Title": "Bill Chiver's Training Ideas",
-        "ContentUrl": "/content/out-of-character/bill-chivers-training-ideas.md",
-        "PdfUrl": "/media/Out-Of-Character/Bill+Chivers%27s+Training+Ideas.pdf"}
+  {
+    "Reference": "a-brief-guide-to-history",
+    "Title": "A Brief Guide to History",
+    "ContentUrl": "/content/out-of-character/a-brief-guide-to-history.md",
+    "PdfUrl": "/media/out-of-character/a-brief-guide-to-history.pdf"
+  },
+  {
+    "Reference": "companies-and-corporations",
+    "Title": "Companies & Corporations",
+    "ContentUrl": "/content/out-of-character/companies-and-corporations.md",
+    "PdfUrl": "/media/out-of-character/companies-and-corporations.pdf"
+  },
+  {
+    "Reference": "groups-and-organisations",
+    "Title": "Groups & Organisations",
+    "ContentUrl": "/content/out-of-character/groups-and-organisations.md",
+    "PdfUrl": "/media/out-of-character/groups-and-organisations.pdf"
+  },
+  {
+    "Reference": "planetary-database",
+    "Title": "Planetary Database",
+    "ContentUrl": "",
+    "PdfUrl": "/media/out-of-character/planetary-database.pdf"
+  },
+  {
+    "Reference": "safety-rules-and-game-play-guidelines",
+    "Title": "Safety Rules & Game Play Guidelines",
+    "ContentUrl": "/content/out-of-character/safety-rules-and-game-play-guidelines.md",
+    "PdfUrl": "/media/out-of-character/safety-rules-and-game-play-guidelines.pdf"
+  },
+  {
+    "Reference": "writers-guide",
+    "Title": "The Writer's Guide",
+    "ContentUrl": "/content/out-of-character/writers-guide.md",
+    "PdfUrl": "/media/out-of-character/writers-guide.pdf"
+  },
+  {
+    "Reference": "bill-chivers-training-ideas",
+    "Title": "Bill Chiver's Training Ideas",
+    "ContentUrl": "/content/out-of-character/bill-chivers-training-ideas.md",
+    "PdfUrl": "/media/out-of-character/bill-chivers-training-ideas.pdf"
+  },
+  {
+    "Reference": "cmc-newsletter_1999-02",
+    "Title": "The Colonial Marine Corps - February 1999 Newsletter.",
+    "ContentUrl": "/content/out-of-character/cmc_newsletter_1999-02.md",
+    "PdfUrl": ""
+  },
+  {
+    "Reference": "honours_1995-08-23",
+    "Title": "Honours 1995 08 23",
+    "ContentUrl": "/content/out-of-character/honours_1995-08-23.md",
+    "PdfUrl": ""
+  },
+  {
+    "Reference": "interim-history_2496-to-2501",
+    "Title": "Interim History - 2496/2501",
+    "ContentUrl": "/content/out-of-character/interim-history_2496-to-2501.md",
+    "PdfUrl": ""
+  },
+  {
+    "Reference": "mission-briefing_operation-hammerhead_2501-10",
+    "Title": "Mission Briefing Operation Hammerhead 2501 10",
+    "ContentUrl": "/content/out-of-character/mission-briefing_operation-hammerhead_2501-10.md",
+    "PdfUrl": ""
+  },
+  {
+    "Reference": "mission-notice_operation-dawn_1999-01",
+    "Title": "Mission Notice Operation Dawn 1999 01",
+    "ContentUrl": "/content/out-of-character/mission-notice_operation-dawn_1999-01.md",
+    "PdfUrl": ""
+  }
 ]
