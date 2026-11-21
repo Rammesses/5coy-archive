@@ -41,7 +41,8 @@
     "EndDate": "1994-04-03",
     "Location": "?",
     "Reference": "2494-04_mission-ogre",
-    "Planet": "Hal"
+    "Planet": "Hal",
+    "ContentUrl": "/content/missions/2494-04_mission-ogre.md"
   },
   { "Name": "Mission 'Pegasus'",
     "StartDate": "1994-06-01",
@@ -63,14 +64,16 @@
     "EndDate": "1995-01-03",
     "Location": "?",
     "Reference": "2495-01_mission-nightside",
-    "Planet": "Grant's World"
+    "Planet": "Grant's World",
+    "ContentUrl": "/content/missions/2495-01_mission-nightside.md"
   },
-  { "Name": "?",
+  { "Name": "Mission Unknown",
     "StartDate": "1995-04-01",
     "EndDate": "1995-04-03",
     "Location": "?",
-    "Reference": "2495-04_mission-??????",
-    "Planet": "Groombridge"
+    "Reference": "2495-04_mission-unknown",
+    "Planet": "Groombridge",
+    "ContentUrl": "/content/missions/2495-04_mission-unknown.md"
   },
   { "Name": "Boarding Action - Marie Celesta",
     "StartDate": "1995-05-01",
@@ -109,14 +112,16 @@
     "EndDate": "1996-02-11",
     "Location": "Thriftwood",
     "Reference": "2496-02_mission-intruder",
-    "Planet": "Homeworld / Main"
+    "Planet": "Homeworld / Main",
+    "ContentUrl": "/content/missions/2496-02_mission-intruder.md"
   },
   { "Name": "Mission 'Red Storm'",
     "StartDate": "1996-03-15",
     "EndDate": "1996-03-17",
     "Location": "Squirrel Wood",
     "Reference": "2496-03_mission-redstorm",
-    "Planet": "Sirius"
+    "Planet": "Sirius",
+    "ContentUrl": "/content/missions/2496-03_mission-redstorm.md"
   },
   
   { "Name": "?",
