@@ -28,7 +28,9 @@ else
         <tbody>
             @foreach (var mission in missions.OrderBy(m => m.StartDate))
             {
-                <web.Controls.MissionTableRow Mission=@mission />
+                <web.Controls.MissionTableRow Mission=@mission
+                                               IsExpanded="@ReferenceEquals(mission, expandedMission)"
+                                               OnToggle="@(() => ToggleMission(mission))" />
             }
         </tbody>
     </table>
@@ -36,6 +38,12 @@ else
 
 @code {
     private Mission[] missions;
+
+    private Mission expandedMission;
+
+    // Expanding a row collapses any other; clicking the open row closes it.
+    private void ToggleMission(Mission mission)
+        => expandedMission = ReferenceEquals(expandedMission, mission) ? null : mission;
 
     protected override async Task OnInitializedAsync()
     {

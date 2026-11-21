@@ -13,15 +13,14 @@
         <td>@Mission.Name</td>        
     }
     <td>@Mission.Planet (@Mission.Location)</td>
-    <td><button class="flat @hideInfoPanelButton" @onclick="ToggleInfoPane"><span class="oi @collapseButtonIcon" aria-hidden="true"></span></button></td>
+    <td><button class="flat @hideInfoPanelButton" @onclick="OnToggle" title="@toggleTooltip" aria-label="@toggleTooltip" aria-expanded="@(IsExpanded ? "true" : "false")"><span class="oi @collapseButtonIcon" aria-hidden="true"></span></button></td>
 </tr>
 <tr class="@collapseInfoPane">
     <td></td>
     <td colspan="3">
         <web.Controls.MarkdownView ContentUrl="@Mission.Summary"/>
         @if (RelatedArticles.Any()) {
-            <strong>Related Articles:</strong>
-                    <web.Controls.RelatedArticlesView Articles=@RelatedArticles />
+            <web.Controls.RelatedArticlesBreadcrumbList Articles=@RelatedArticles />
         }
     </td>
 </tr>
@@ -31,17 +30,21 @@
     [Parameter]
     public Mission Mission { get; set; }
 
-    public bool InfoPaneVisible { get; set; } = false;
+    [Parameter]
+    public bool IsExpanded { get; set; }
+
+    [Parameter]
+    public EventCallback OnToggle { get; set; }
+
+    private string toggleTooltip => IsExpanded ? "Hide related..." : "Show related...";
 
     private bool infoPanelButtonEnabled => !string.IsNullOrEmpty(Mission.Summary) ||
                                            RelatedArticles.Any();
     public string hideInfoPanelButton => infoPanelButtonEnabled ? string.Empty : "collapse";
 
-    private string collapseInfoPane => InfoPaneVisible ? string.Empty : "collapse";
+    private string collapseInfoPane => IsExpanded ? string.Empty : "collapse";
 
-    private string collapseButtonIcon => InfoPaneVisible ? "oi-chevron-top" : "oi-chevron-bottom";
-
-    private void ToggleInfoPane() => InfoPaneVisible = !InfoPaneVisible;   
+    private string collapseButtonIcon => IsExpanded ? "oi-chevron-top" : "oi-chevron-bottom";
 
     private Article[] RelatedArticles { get; set; } = Array.Empty<Article>();
 

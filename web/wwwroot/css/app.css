@@ -233,6 +233,23 @@ div.sidebar-bang-rotated {
 
 button.flat {
     border-style: hidden;
+    background-color: transparent;
+    padding: 0 0.25rem;
+}
+
+ul.related-breadcrumbs {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+ul.related-breadcrumbs li {
+    margin-bottom: 0.25rem;
+}
+
+span.breadcrumb-separator {
+    margin: 0 0.4rem;
+    color: var(--bs-secondary-color, #6c757d);
 }
 
 span.small-icon {

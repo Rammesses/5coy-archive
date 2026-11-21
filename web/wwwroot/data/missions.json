@@ -54,7 +54,7 @@
     "StartDate": "1994-12-01",
     "EndDate": "1994-12-03",
     "Location": "?",
-    "Reference": "2494-06_mission-classified",
+    "Reference": "2494-12_mission-classified",
     "Planet": "C-L-A-S-S-I-F-I-E-D"
   },
     
@@ -126,11 +126,11 @@
     "Location": "?" },
   { "Name": "?",
     "StartDate": "1996-06-14",
-    "EndDate": "1997-06-16",
+    "EndDate": "1996-06-16",
     "Location": "Bedale" },
   { "Name": "?",
     "StartDate": "1996-07-19",
-    "EndDate": "1997-07-21",
+    "EndDate": "1996-07-21",
     "Location": "Ipswich" },
 
   { "Name": "Operation 'Sable'",
@@ -138,6 +138,20 @@
     "EndDate": "1996-10-20",
     "Location": "Hesley Wood",
     "Reference": "2496-10_operation-sable"
+  },
+
+  { "Name": "Operation 'Hammerhead'",
+    "StartDate": "2001-10-23",
+    "EndDate": "2001-10-25",
+    "Location": "Squirrel Wood",
+    "Reference": "2501-10_operation-hammerhead"
+  },
+
+  { "Name": "Operation 'Dawn'",
+    "StartDate": "2002-01-29",
+    "EndDate": "2002-01-31",
+    "Location": "Squirrel Wood",
+    "Reference": "2502-01_operation-dawn"
   },
 
   { "Name": "Operation 'Strongarm'",

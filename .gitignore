@@ -464,3 +464,6 @@ ingest/Python
 
 .wrangler/*
 .idea/*
+## web.test build output
+web.test/bin/
+web.test/obj/
