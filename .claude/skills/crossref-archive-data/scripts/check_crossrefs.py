@@ -4,7 +4,7 @@
 Usage: python3 check_crossrefs.py [path/to/web/wwwroot]
 Exits 1 if any ERROR is found; WARN lines are for human judgement.
 """
-import collections, glob, json, os, sys
+import collections, glob, json, os, re, sys
 
 root = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
     os.path.dirname(__file__), *[".."] * 4, "web", "wwwroot")
@@ -80,6 +80,9 @@ for r in dups:
     locs = [(g, d) for g, x, _, d in arts if x == r]
     report("WARN", f"duplicate article Reference '{r}' at {locs}")
 
+# mission summaries (missions.json ContentUrl) count as references too
+used_content.update(m["ContentUrl"] for m in missions if m.get("ContentUrl"))
+
 # 3. content files not referenced anywhere
 for f in sorted(glob.glob("content/**/*.md", recursive=True)):
     u = "/" + f
@@ -87,6 +90,18 @@ for f in sorted(glob.glob("content/**/*.md", recursive=True)):
     if u == "/content/missions.md": continue  # Missions.razor header
     size = os.path.getsize(f)
     report("WARN" if size == 0 else "ERROR", f"unreferenced content {u}" + (" (empty file)" if size == 0 else ""))
+
+# 3b. internal links in markdown: /mission/<ref>, /article/<section>/<ref>, /section/<ref>
+art_keys = {(g, r) for g, r, _, _ in arts}
+link_re = re.compile(r"\]\((/(?:mission|article|section)/[^)\s#?]*)")
+for f in sorted(glob.glob("content/**/*.md", recursive=True)):
+    with open(f, encoding="utf-8") as fh:
+        for u in link_re.findall(fh.read()):
+            parts = u.strip("/").split("/")
+            ok = ((parts[0] == "mission" and len(parts) == 2 and parts[1] in mref_set) or
+                  (parts[0] == "section" and len(parts) == 2 and parts[1] in section_refs) or
+                  (parts[0] == "article" and len(parts) == 3 and tuple(parts[1:]) in art_keys))
+            if not ok: report("ERROR", f"/{f}: broken link {u}")
 
 # 4. missions
 for r, n in collections.Counter(mission_refs).items():

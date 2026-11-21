@@ -10,6 +10,8 @@
 
 - `.claude/skills/crossref-archive-data` — audit/fix cross-references between `wwwroot/data` JSON and `wwwroot/content`.
   Run its checker: `python3 .claude/skills/crossref-archive-data/scripts/check_crossrefs.py web/wwwroot`
+- `.claude/skills/write-mission-summary` - draft the Mission Summary markdown shown on a mission page
+  (third person, Joel's voice, character names only, with links) from the archive's articles, then link it via `ContentUrl` in `missions.json`.
 
 ## Data layout notes
 

@@ -77,21 +77,24 @@
     "EndDate": "1995-05-03",
     "Location": "?",
     "Reference": "2495-05_boarding-action-mariecelesta",
-    "Planet": ""
+    "Planet": "",
+    "ContentUrl": "/content/missions/2495-05_marie-celesta.md"
   },
   { "Name": "Mission 'Omaha'",
-    "StartDate": "1995-07-01",
-    "EndDate": "1995-07-03",
+    "StartDate": "1995-07-15",
+    "EndDate": "1995-07-16",
     "Location": "?",
     "Reference": "2495-07_mission-omaha",
-    "Planet": "Hal"
+    "Planet": "Hal",
+    "ContentUrl": "/content/missions/2495-07_mission-omaha.md"
   },
   { "Name": "Mission 'Nova'",
     "StartDate": "1995-11-01",
     "EndDate": "1995-11-03",
     "Location": "?",
     "Reference": "2495-11_mission-nova",
-    "Planet": "Liahn"
+    "Planet": "Liahn",
+    "ContentUrl": "/content/missions/2495-11_mission-nova.md"
   },
 
   { "Name": "Mission 'Kraken'",

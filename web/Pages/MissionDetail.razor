@@ -20,25 +20,22 @@
     <h1><span class="oi oi-flag" aria-hidden="true"></span>
         @missionData.Name</h1>
 
-    @* public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public string Name { get; set; }
+    @if (!string.IsNullOrEmpty(missionData.ContentUrl))
+    {
+        @* Hidden until the summary markdown has actually loaded, so a missing file shows nothing *@
+        <div class="mission-summary @(hasSummary ? string.Empty : "collapse")">
+            <hr />
+            <web.Controls.MarkdownView ContentUrl="@missionData.ContentUrl"
+                                       ContentLoaded="@((bool loaded) => hasSummary = loaded)" />
+        </div>
+    }
 
-        public string Summary { get; set; }
-
-        public string Location { get; set; }
-        public string Planet { get; set; } *@
-
-    @if (articleData.Any())
+    @if (articleData?.Any() == true)
     {
         <hr />
         <h5>Related:</h5>
-        <web.Controls.RelatedArticlesView Articles=@articleData />
+        <web.Controls.RelatedArticlesBreadcrumbList Articles=@articleData />
     }
-    <hr />
-    <div>
-        <web.Controls.MarkdownView ContentUrl="@missionData.ContentUrl"/>
-    </div>        
 }
 
 @code {
@@ -48,6 +45,7 @@
 
     private Mission missionData;
     private Article[] articleData;
+    private bool hasSummary;
 
     private string MissionName => missionData?.Name ?? $"Mission '{MissionRef}'";
 
