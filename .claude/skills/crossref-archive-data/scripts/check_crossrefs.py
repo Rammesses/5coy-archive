@@ -4,7 +4,7 @@
 Usage: python3 check_crossrefs.py [path/to/web/wwwroot]
 Exits 1 if any ERROR is found; WARN lines are for human judgement.
 """
-import collections, glob, json, os, re, sys
+import collections, datetime, glob, json, os, re, sys
 
 root = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
     os.path.dirname(__file__), *[".."] * 4, "web", "wwwroot")
@@ -114,6 +114,12 @@ for m in missions:
         ingame = f"{int(r[:4]) - 500:04d}-{r[5:7]}"
         if not s.startswith(ingame):
             report("WARN", f"mission ref '{r}' doesn't match StartDate {s} (expected {ingame}-..)")
+    try:
+        sd, ed = datetime.date.fromisoformat(s), datetime.date.fromisoformat(e)
+        if sd.year < 2000 and (sd.weekday() != 4 or ed.weekday() != 6 or (ed - sd).days != 2):
+            report("WARN", f"mission {r or m['Name']}: {s}..{e} is not a Fri-Sun weekend")
+    except ValueError:
+        report("ERROR", f"mission {r or m['Name']}: unparseable dates {s}..{e}")
     if m.get("ContentUrl") and not os.path.exists("." + m["ContentUrl"]):
         report("ERROR", f"mission {r}: ContentUrl not found {m['ContentUrl']}")
 

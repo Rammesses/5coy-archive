@@ -1,6 +1,6 @@
 ---
 name: write-mission-summary
-description: Write the 3-4 paragraph Mission Summary shown on a 5coy-archive mission page, drawn from the archive's own articles (mission reports, Mexal's letters, scenarios, In the Line of Fire, honours) and written in Joel's voice in the third person. Use when asked to write, draft or add a summary for a mission, or to fill in summaries for missions that don't have one.
+description: Write the 3-paragraph Mission Summary shown on a 5coy-archive mission page, drawn from the archive's own articles (mission reports, Mexal's letters, scenarios, In the Line of Fire, honours) and written in Joel's voice in the third person. Use when asked to write, draft or add a summary for a mission, or to fill in summaries for missions that don't have one.
 ---
 
 # Write a mission summary
@@ -65,15 +65,17 @@ If he isn't around to answer, draft without the out-of-character credit and say 
 Load the `in-joels-voice` skill and follow it, with these overrides for mission summaries:
 
 - **Third person**, narrated from outside the story. Never "I", and no real names (see step 2).
-- **3-4 paragraphs, around 400-600 words.** No heading, because the page already shows the
+- **3 paragraphs, around 350-450 words.** No heading, because the page already shows the
   mission name as its `<h1>`. No TLDR, no lists, no emoji.
 - **Shape:**
   1. Setup: where it sits in the campaign (e.g. Drive Wars) and any earlier missions it follows
      on from, the premise, and how the Marines went in.
-  2. What they found: the situation, the memorable characters, and the turn the weekend hinged on.
-  3. The climax: how it ended, plus casualties and decorations, with names and ranks from the
-     report and honours list.
-  4. The fallout: inquiries, news coverage, what was really going on (from scenario notes or
+  2. The weekend, in one paragraph: the high points only. That means the situation they found,
+     the turn it hinged on, how it ended, and the casualties, with names and ranks from the report
+     and honours list. Tell it as one story, not a timeline: **no "Day 1" / "Day 2" structure**, no
+     blow-by-blow of patrols and firefights, and no more than 2 or 3 of the memorable characters.
+     Pick the moments a veteran would retell in the bar, and leave the rest to the Related articles.
+  3. The fallout: inquiries, news coverage, what was really going on (from scenario notes or
      intercepts), and how it fed into later missions.
 - Don't open with "So…": Joel's blog voice uses it a lot, but for summaries it gets repetitive across the archive. Open straight into the situation instead, and use "So" at most once in a summary, mid-text. Use British spelling. Short punchy sentences are fine
   ("Spot the mistake?"), but keep it to 1 or 2 per summary. Use spaced hyphens " - " rather than
