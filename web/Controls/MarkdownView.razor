@@ -16,6 +16,10 @@
     [Parameter]
     public string ContentUrl { get; set; }
 
+    /// <summary>Raised once loading finishes: true if markdown was found and rendered.</summary>
+    [Parameter]
+    public EventCallback<bool> ContentLoaded { get; set; }
+
     private static MarkupString EmptyMarkup = new MarkupString(string.Empty);
     
     protected override async Task OnParametersSetAsync()
@@ -23,13 +27,19 @@
         if (string.IsNullOrEmpty(this.ContentUrl))
         {
             this.HtmlContent = EmptyMarkup;
+            await ContentLoaded.InvokeAsync(false);
             return;
         }
 
         var markdownResponse = await httpClient.GetAsync(this.ContentUrl);
-        if (!markdownResponse.IsSuccessStatusCode)
+
+        // A missing file can come back as the SPA's index.html (200, text/html) via the
+        // navigation fallback, so treat an HTML response as "not found" too.
+        if (!markdownResponse.IsSuccessStatusCode ||
+            markdownResponse.Content.Headers.ContentType?.MediaType == "text/html")
         {
             this.HtmlContent = EmptyMarkup;
+            await ContentLoaded.InvokeAsync(false);
             return;
         }
 
@@ -42,5 +52,6 @@
                     .UseCustomContainers()
                     .Build());
         this.HtmlContent = new MarkupString(this.Rendered);
+        await ContentLoaded.InvokeAsync(true);
     } 
 }

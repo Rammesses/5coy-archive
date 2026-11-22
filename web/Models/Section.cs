@@ -9,6 +9,11 @@ public class Section<T> : IHeirarchicalItem<Section<T>>
     
     public string Reference { get; set; }
     public string Title { get; set;}
+
+    /// <summary>Optional abbreviation used in breadcrumbs (e.g. "IC"); falls back to Title.</summary>
+    public string ShortTitle { get; set; }
+
+    public string BreadcrumbTitle => string.IsNullOrEmpty(ShortTitle) ? Title : ShortTitle;
     public string ContentUrl { get; set; }
     public string NavigateUrl { get; set; }
 

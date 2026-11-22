@@ -41,7 +41,8 @@
     "EndDate": "1994-04-03",
     "Location": "?",
     "Reference": "2494-04_mission-ogre",
-    "Planet": "Hal"
+    "Planet": "Hal",
+    "ContentUrl": "/content/missions/2494-04_mission-ogre.md"
   },
   { "Name": "Mission 'Pegasus'",
     "StartDate": "1994-06-01",
@@ -54,7 +55,7 @@
     "StartDate": "1994-12-01",
     "EndDate": "1994-12-03",
     "Location": "?",
-    "Reference": "2494-06_mission-classified",
+    "Reference": "2494-12_mission-classified",
     "Planet": "C-L-A-S-S-I-F-I-E-D"
   },
     
@@ -63,35 +64,40 @@
     "EndDate": "1995-01-03",
     "Location": "?",
     "Reference": "2495-01_mission-nightside",
-    "Planet": "Grant's World"
+    "Planet": "Grant's World",
+    "ContentUrl": "/content/missions/2495-01_mission-nightside.md"
   },
-  { "Name": "?",
+  { "Name": "Mission Unknown",
     "StartDate": "1995-04-01",
     "EndDate": "1995-04-03",
     "Location": "?",
-    "Reference": "2495-04_mission-??????",
-    "Planet": "Groombridge"
+    "Reference": "2495-04_mission-unknown",
+    "Planet": "Groombridge",
+    "ContentUrl": "/content/missions/2495-04_mission-unknown.md"
   },
   { "Name": "Boarding Action - Marie Celesta",
     "StartDate": "1995-05-01",
     "EndDate": "1995-05-03",
     "Location": "?",
     "Reference": "2495-05_boarding-action-mariecelesta",
-    "Planet": ""
+    "Planet": "",
+    "ContentUrl": "/content/missions/2495-05_marie-celesta.md"
   },
   { "Name": "Mission 'Omaha'",
-    "StartDate": "1995-07-01",
-    "EndDate": "1995-07-03",
+    "StartDate": "1995-07-15",
+    "EndDate": "1995-07-16",
     "Location": "?",
     "Reference": "2495-07_mission-omaha",
-    "Planet": "Hal"
+    "Planet": "Hal",
+    "ContentUrl": "/content/missions/2495-07_mission-omaha.md"
   },
   { "Name": "Mission 'Nova'",
     "StartDate": "1995-11-01",
     "EndDate": "1995-11-03",
     "Location": "?",
     "Reference": "2495-11_mission-nova",
-    "Planet": "Liahn"
+    "Planet": "Liahn",
+    "ContentUrl": "/content/missions/2495-11_mission-nova.md"
   },
 
   { "Name": "Mission 'Kraken'",
@@ -106,14 +112,16 @@
     "EndDate": "1996-02-11",
     "Location": "Thriftwood",
     "Reference": "2496-02_mission-intruder",
-    "Planet": "Homeworld / Main"
+    "Planet": "Homeworld / Main",
+    "ContentUrl": "/content/missions/2496-02_mission-intruder.md"
   },
   { "Name": "Mission 'Red Storm'",
     "StartDate": "1996-03-15",
     "EndDate": "1996-03-17",
     "Location": "Squirrel Wood",
     "Reference": "2496-03_mission-redstorm",
-    "Planet": "Sirius"
+    "Planet": "Sirius",
+    "ContentUrl": "/content/missions/2496-03_mission-redstorm.md"
   },
   
   { "Name": "?",
@@ -126,11 +134,11 @@
     "Location": "?" },
   { "Name": "?",
     "StartDate": "1996-06-14",
-    "EndDate": "1997-06-16",
+    "EndDate": "1996-06-16",
     "Location": "Bedale" },
   { "Name": "?",
     "StartDate": "1996-07-19",
-    "EndDate": "1997-07-21",
+    "EndDate": "1996-07-21",
     "Location": "Ipswich" },
 
   { "Name": "Operation 'Sable'",
@@ -138,6 +146,20 @@
     "EndDate": "1996-10-20",
     "Location": "Hesley Wood",
     "Reference": "2496-10_operation-sable"
+  },
+
+  { "Name": "Operation 'Hammerhead'",
+    "StartDate": "2001-10-23",
+    "EndDate": "2001-10-25",
+    "Location": "Squirrel Wood",
+    "Reference": "2501-10_operation-hammerhead"
+  },
+
+  { "Name": "Operation 'Dawn'",
+    "StartDate": "2002-01-29",
+    "EndDate": "2002-01-31",
+    "Location": "Squirrel Wood",
+    "Reference": "2502-01_operation-dawn"
   },
 
   { "Name": "Operation 'Strongarm'",

@@ -9,6 +9,7 @@
     { 
         "Reference": "in-character",
         "Title": "In-Character",
+        "ShortTitle": "IC",
         "Glyph": "oi-person",
         "ContentUrl": "/content/in-character.md",
         "Children": [
@@ -52,6 +53,7 @@
     { 
         "Reference": "out-of-character",
         "Title": "Out of Character",
+        "ShortTitle": "OOC",
         "Glyph": "oi-people",
         "ContentUrl": "/content/out-of-character/out-of-character.md",
         "Children": [

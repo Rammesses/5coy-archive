@@ -58,5 +58,9 @@
       { "Reference": "marines-handbook_officer-nco-abridged-course",
         "Title": "NCO & Officer Training - Abridged",
         "ContentUrl": "/content/in-character/marines-handbook/marines-handbook_officer-nco-abridged-course.md",
-        "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+NCO+%26+Officer+Training+-+Abridged.pdf"}
+        "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+NCO+%26+Officer+Training+-+Abridged.pdf"},
+      { "Reference": "marines-handbook_m99a-uws",
+        "Title": "M99A UWS Operating Manual",
+        "ContentUrl": "/content/in-character/marines-handbook/marines-handbook_m99a-uws.md",
+        "PdfUrl": ""}
       ]
