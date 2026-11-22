@@ -8,8 +8,8 @@
   },
 
   { "Name": "Mission 'Procyon'",
-    "StartDate": "1992-10-01",
-    "EndDate": "1992-10-03",
+    "StartDate": "1992-10-02",
+    "EndDate": "1992-10-04",
     "Location": "?",
     "Reference": "2492-10_mission-procyon",
     "Planet": "Laverii 42-6 / Station X243",
@@ -33,8 +33,8 @@
   },
 
   { "Name": "Mission 'Triton'",
-    "StartDate": "1994-02-01",
-    "EndDate": "1994-02-03",
+    "StartDate": "1994-02-04",
+    "EndDate": "1994-02-06",
     "Location": "?",
     "Reference": "2494-03_mission-triton",
     "Planet": "K685"
@@ -168,8 +168,8 @@
     "Location": "Drum Hill",
     "Reference": "2496-04_mission-unknown" },
   { "Name": "Mission Unknown",
-    "StartDate": "1996-05-15",
-    "EndDate": "1996-05-17",
+    "StartDate": "1996-05-10",
+    "EndDate": "1996-05-12",
     "Location": "?",
     "Reference": "2496-05_mission-unknown" },
   { "Name": "?",

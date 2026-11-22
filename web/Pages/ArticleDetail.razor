@@ -92,16 +92,31 @@
 
     protected override async Task OnParametersSetAsync()
     {
-        sectionData = await dataService.GetSection(SectionRef);
-        allArticles = await dataService.GetAllItemsInTree(SectionRef);
-        articleData = await dataService.GetItem(SectionRef, ArticleRef);
-        missionData = string.IsNullOrEmpty(articleData?.MissionRef)
-            ? null
-            : await missionsService.GetMissionByRef(articleData.MissionRef);
+        // Following a link from one article to another reuses this component instance, so a
+        // slower load for the previous article can finish after this one: only apply the
+        // results if the route parameters are still the ones they were loaded for.
+        var (sectionRef, articleRef) = (SectionRef, ArticleRef);
 
-        relatedArticles = await dataService.GetRelatedItems(articleData);
-        relatedMissions = articleData == null
+        var section = await dataService.GetSection(sectionRef);
+        var articles = await dataService.GetAllItemsInTree(sectionRef);
+        var article = await dataService.GetItem(sectionRef, articleRef);
+        var mission = string.IsNullOrEmpty(article?.MissionRef)
+            ? null
+            : await missionsService.GetMissionByRef(article.MissionRef);
+
+        var related = await dataService.GetRelatedItems(article);
+        var missions = article == null
             ? Array.Empty<Models.Mission>()
-            : await missionsService.GetRelatedMissions(articleData.Reference, articleData.Related);
+            : await missionsService.GetRelatedMissions(article.Reference, article.Related);
+
+        if (sectionRef != SectionRef || articleRef != ArticleRef)
+            return;
+
+        sectionData = section;
+        allArticles = articles;
+        articleData = article;
+        missionData = mission;
+        relatedArticles = related;
+        relatedMissions = missions;
     }
 }

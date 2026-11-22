@@ -70,9 +70,7 @@ public class ArticlesService : IArticlesService
         if (sectionRef == Section<Article>.AllItemsRef)
             return Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
 
-        var section = await GetSection(sectionRef);
-        var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
-        return sectionArticles;
+        return await GetGroupArticles(sectionRef);
     }
 
     public async Task<Article[]> GetAllItemsInTree(string sectionRef)
@@ -82,10 +80,7 @@ public class ArticlesService : IArticlesService
         if (sectionRef == Section<Article>.AllItemsRef)
             return Array.Empty<Article>();
 
-        var section = await GetSection(sectionRef);
-        var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
-        var allArticles = Article.Flatten(sectionArticles);
-        return allArticles.ToArray();
+        return Article.Flatten(await GetGroupArticles(sectionRef)).ToArray();
     }
 
     public async Task<Article> GetItem(string sectionRef, string articleRef)
@@ -179,6 +174,18 @@ public class ArticlesService : IArticlesService
         return FindSectionPath(sectionData, group.Reference) ?? Array.Empty<Section<Article>>();
     }
 
+    // Top-level articles of the group for a section; empty (not a crash) when the section is
+    // unknown (e.g. a mistyped /article/{section}/... URL) or has no article group.
+    private async Task<Article[]> GetGroupArticles(string sectionRef)
+    {
+        var section = await GetSection(sectionRef);
+        if (section == null)
+            return Array.Empty<Article>();
+
+        return articleData.FirstOrDefault(g => g.Reference == section.Reference)?.Articles
+            ?? Array.Empty<Article>();
+    }
+
     private static Section<Article>[] FindSectionPath(IEnumerable<Section<Article>> sections, string sectionRef)
     {
         foreach (var section in sections)
@@ -203,10 +210,9 @@ public class ArticlesService : IArticlesService
             lock(this)
             {
                 sectionData = loadedData;
-                foreach (var section in sectionData)
-                {
-                    section.Children.PopulateParentage(null);
-                }
+                // Top-level sections have no parent; their sub-sections point back at them
+                // (used for the back-link on the section page).
+                sectionData.PopulateParentage(null);
             }
         }
 

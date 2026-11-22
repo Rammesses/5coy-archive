@@ -1,14 +1,9 @@
 using System;
-using System.Net;
-using System.Net.Http;
-using System.Threading;
 using System.Threading.Tasks;
 
 using Bunit;
 
 using FluentAssertions;
-
-using Microsoft.Extensions.DependencyInjection;
 
 using Models;
 
@@ -16,9 +11,10 @@ using Moq;
 
 using NUnit.Framework;
 
-using Services;
-
 using web.Pages;
+using web.test.TestSupport;
+
+using static web.test.TestSupport.TestData;
 
 namespace web.test.Pages;
 
@@ -27,13 +23,8 @@ namespace web.test.Pages;
 /// URL to another (e.g. a link from Procyon's summary to Pegasus), only changing MissionRef.
 /// These tests drive that by re-rendering the page with a new parameter.
 /// </summary>
-public class MissionDetailTests
+public class MissionDetailTests : ComponentTestBase
 {
-    private BunitContext ctx;
-    private Mock<IMissionsService> missions;
-    private Mock<IArticlesService> articles;
-    private StubContentHandler content;
-
     private static readonly Mission Procyon = new()
     {
         Reference = "2492-10_mission-procyon",
@@ -55,38 +46,17 @@ public class MissionDetailTests
     [SetUp]
     public void SetUp()
     {
-        ctx = new BunitContext();
-        ctx.JSInterop.Mode = JSRuntimeMode.Loose;
+        Missions.Setup(m => m.GetMissionByRef(Procyon.Reference)).ReturnsAsync(Procyon);
+        Missions.Setup(m => m.GetMissionByRef(Pegasus.Reference)).ReturnsAsync(Pegasus);
+        Missions.Setup(m => m.GetRelatedMissions(Procyon.Reference, It.IsAny<string[]>())).ReturnsAsync(new[] { Pegasus });
+        Missions.Setup(m => m.GetRelatedMissions(Pegasus.Reference, It.IsAny<string[]>())).ReturnsAsync(new[] { Procyon });
 
-        missions = new Mock<IMissionsService>();
-        missions.Setup(m => m.GetMissionByRef(Procyon.Reference)).ReturnsAsync(Procyon);
-        missions.Setup(m => m.GetMissionByRef(Pegasus.Reference)).ReturnsAsync(Pegasus);
-        missions.Setup(m => m.GetRelatedMissions(Procyon.Reference, It.IsAny<string[]>()))
-                .ReturnsAsync(new[] { Pegasus });
-        missions.Setup(m => m.GetRelatedMissions(Pegasus.Reference, It.IsAny<string[]>()))
-                .ReturnsAsync(new[] { Procyon });
-
-        articles = new Mock<IArticlesService>();
-        articles.Setup(a => a.GetItemsByMissionRef(It.IsAny<string>())).ReturnsAsync(Array.Empty<Article>());
-        articles.Setup(a => a.GetRelatedItemsForMission(It.IsAny<Mission>())).ReturnsAsync(Array.Empty<Article>());
-
-        content = new StubContentHandler
-        {
-            [Procyon.ContentUrl] = "Procyon summary. See [Pegasus](/mission/2494-06_mission-pegasus).",
-            [Pegasus.ContentUrl] = "Pegasus summary. See [Procyon](/mission/2492-10_mission-procyon).",
-        };
-
-        ctx.Services.AddSingleton(missions.Object);
-        ctx.Services.AddSingleton(articles.Object);
-        ctx.Services.AddSingleton(Mock.Of<IMarkdownService>());
-        ctx.Services.AddSingleton(new HttpClient(content) { BaseAddress = new Uri("http://localhost/") });
+        Http[Procyon.ContentUrl] = "Procyon summary. See [Pegasus](/mission/2494-06_mission-pegasus).";
+        Http[Pegasus.ContentUrl] = "Pegasus summary. See [Procyon](/mission/2492-10_mission-procyon).";
     }
 
-    [TearDown]
-    public void TearDown() => ctx.Dispose();
-
     private IRenderedComponent<MissionDetail> RenderMission(Mission mission)
-        => ctx.Render<MissionDetail>(p => p.Add(c => c.MissionRef, mission.Reference));
+        => Ctx.Render<MissionDetail>(p => p.Add(c => c.MissionRef, mission.Reference));
 
     [Test]
     public void Renders_the_requested_mission()
@@ -98,6 +68,55 @@ public class MissionDetailTests
             cut.Find("h1").TextContent.Should().Contain("Mission Procyon");
             cut.Find(".mission-summary").TextContent.Should().Contain("Procyon summary");
         });
+    }
+
+    [Test]
+    public void Lists_reports_and_related_articles_together()
+    {
+        var report = Article("report-procyon", "2492-10_mission-procyon");
+        var newsletter = Article("newsletter");
+        Articles.Setup(a => a.GetItemsByMissionRef(Procyon.Reference)).ReturnsAsync(new[] { report });
+        Articles.Setup(a => a.GetRelatedItemsForMission(Procyon)).ReturnsAsync(new[] { newsletter });
+
+        var cut = RenderMission(Procyon);
+
+        cut.WaitForAssertion(() =>
+        {
+            cut.Markup.Should().Contain("Title of report-procyon");
+            cut.Markup.Should().Contain("Title of newsletter");
+        });
+    }
+
+    [Test]
+    public void Related_missions_show_their_in_game_date()
+    {
+        var cut = RenderMission(Procyon);
+
+        cut.WaitForAssertion(() =>
+            cut.Find("ul.related-breadcrumbs li").TextContent.Should().Contain("Mission Pegasus").And.Contain("Jun 2494"));
+    }
+
+    [Test]
+    public void An_unknown_mission_shows_the_loading_placeholder()
+    {
+        var cut = Ctx.Render<MissionDetail>(p => p.Add(c => c.MissionRef, "nope"));
+
+        cut.WaitForAssertion(() =>
+        {
+            cut.Find("h1").TextContent.Should().Contain("nope");
+            cut.FindAll(".mission-summary").Should().BeEmpty();
+        });
+    }
+
+    [Test]
+    public void A_summary_that_fails_to_load_stays_hidden()
+    {
+        var noFile = new Mission { Reference = "m", Name = "Mission M", ContentUrl = "/content/missions/missing.md" };
+        Missions.Setup(m => m.GetMissionByRef("m")).ReturnsAsync(noFile);
+
+        var cut = Ctx.Render<MissionDetail>(p => p.Add(c => c.MissionRef, "m"));
+
+        cut.WaitForAssertion(() => cut.Find(".mission-summary").ClassList.Should().Contain("collapse"));
     }
 
     [Test]
@@ -134,9 +153,7 @@ public class MissionDetailTests
     public void Navigating_to_a_mission_without_a_summary_shows_no_stale_summary()
     {
         var noSummary = new Mission { Reference = "2493-01_mission-unknown", Name = "Mission Unknown" };
-        missions.Setup(m => m.GetMissionByRef(noSummary.Reference)).ReturnsAsync(noSummary);
-        missions.Setup(m => m.GetRelatedMissions(noSummary.Reference, It.IsAny<string[]>()))
-                .ReturnsAsync(Array.Empty<Mission>());
+        Missions.Setup(m => m.GetMissionByRef(noSummary.Reference)).ReturnsAsync(noSummary);
 
         var cut = RenderMission(Procyon);
         cut.WaitForAssertion(() => cut.Find(".mission-summary").TextContent.Should().Contain("Procyon summary"));
@@ -159,14 +176,15 @@ public class MissionDetailTests
         cut.Render(p => p.Add(c => c.MissionRef, Pegasus.Reference));
         cut.WaitForAssertion(() => cut.Find(".mission-summary").TextContent.Should().Contain("Pegasus summary"));
 
-        content.RequestCount.Should().Be(2);
+        Http.RequestsFor(Procyon.ContentUrl).Should().Be(1);
+        Http.RequestsFor(Pegasus.ContentUrl).Should().Be(1);
     }
 
     [Test]
     public void A_slow_load_for_the_previous_mission_does_not_overwrite_the_current_one()
     {
         var slowProcyon = new TaskCompletionSource<Mission>();
-        missions.Setup(m => m.GetMissionByRef(Procyon.Reference)).Returns(slowProcyon.Task);
+        Missions.Setup(m => m.GetMissionByRef(Procyon.Reference)).Returns(slowProcyon.Task);
 
         var cut = RenderMission(Procyon);
         cut.Render(p => p.Add(c => c.MissionRef, Pegasus.Reference));
@@ -177,24 +195,5 @@ public class MissionDetailTests
 
         cut.WaitForAssertion(() => cut.Find("h1").TextContent.Should().Contain("Mission Pegasus"));
         cut.Find(".mission-summary").TextContent.Should().Contain("Pegasus summary");
-    }
-}
-
-/// <summary>Serves markdown by request path; anything else is a 404.</summary>
-internal sealed class StubContentHandler : HttpMessageHandler
-{
-    private readonly System.Collections.Generic.Dictionary<string, string> files = new();
-
-    public string this[string path] { set => files[path] = value; }
-
-    public int RequestCount { get; private set; }
-
-    protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
-    {
-        RequestCount++;
-        var response = files.TryGetValue(request.RequestUri!.AbsolutePath, out var body)
-            ? new HttpResponseMessage(HttpStatusCode.OK) { Content = new StringContent(body, System.Text.Encoding.UTF8, "text/markdown") }
-            : new HttpResponseMessage(HttpStatusCode.NotFound);
-        return Task.FromResult(response);
     }
 }

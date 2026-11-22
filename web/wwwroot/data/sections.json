@@ -3,8 +3,7 @@
         "Reference": "missions",
         "Title": "Missions",
         "Glyph": "oi-flag",
-        "NavigateUrl": "/missions",
-        "ChildRefs": []        
+        "NavigateUrl": "/missions"
     },
     { 
         "Reference": "in-character",
@@ -17,36 +16,31 @@
                 "Reference": "in-the-line-of-fire",
                 "Title": "In The Line Of Fire",
                 "Glyph": "oi-pulse",
-                "ContentUrl": "/content/in-the-line-of-fire.md",
-                "ChildRefs": []        
+                "ContentUrl": "/content/in-the-line-of-fire.md"
             },
             {
                 "Reference": "interstella",
                 "Title": "Interstella!",
                 "Glyph": "oi-star",
-                "ContentUrl": "/content/interstella.md",
-                "ChildRefs": []        
+                "ContentUrl": "/content/interstella.md"
             },
             {
                 "Reference": "marines-handbook",
                 "Title": "Marine's Handbook",
                 "Glyph": "oi-book",
-                "ContentUrl": "/content/marines-handbook.md",
-                "ChildRefs": []        
+                "ContentUrl": "/content/marines-handbook.md"
             },
             {
                 "Reference": "mexals-letters",
                 "Title": "Mexal's Letters Home",
                 "Glyph": "oi-envelope-closed",
-                "ContentUrl": "/content/mexals-letters.md",
-                "ChildRefs": []
+                "ContentUrl": "/content/mexals-letters.md"
             },
             {
                 "Reference": "mission-reports",
                 "Title": "Mission Reports",
                 "Glyph": "oi-document",
-                "ContentUrl": "/content/mission-reports.md",
-                "ChildRefs": []        
+                "ContentUrl": "/content/mission-reports.md"
             }
         ]
     },
@@ -61,16 +55,13 @@
                 "Reference": "miscellanea",
                 "Title": "Miscellanea",
                 "Glyph": "oi-check",
-                "ContentUrl": "/content/miscellanea.md",
-                "ChildRefs": [
-                ]
+                "ContentUrl": "/content/miscellanea.md"
             },    
             {
                 "Reference": "scenarios",
                 "Title": "Scenarios",
                 "Glyph": "oi-compass",
-                "ContentUrl": "/content/scenarios.md",
-                "ChildRefs": []
+                "ContentUrl": "/content/scenarios.md"
             }        
         ]
     }
