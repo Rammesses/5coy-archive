@@ -17,5 +17,11 @@ namespace Models
         public string Planet { get; set; }
 
         public string ContentUrl { get; set; }
+
+        /// <summary>
+        /// References of articles and missions linked from this mission's summary (other than
+        /// articles that already have this mission as their MissionRef).
+        /// </summary>
+        public string[] Related { get; set; } = Array.Empty<string>();
     }
 }

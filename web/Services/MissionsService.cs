@@ -14,6 +14,12 @@ public interface IMissionsService // : ISectionService<Mission>, IItemsService<M
 {
     Task<Mission[]> GetAllMissions();
     Task<Mission> GetMissionByRef(string missionRef);
+
+    /// <summary>
+    /// Missions named in <paramref name="related"/>, plus missions whose own Related list names
+    /// <paramref name="reference"/> (an article or mission Reference).
+    /// </summary>
+    Task<Mission[]> GetRelatedMissions(string reference, string[] related);
 }
 
 public class MissionsService : IMissionsService
@@ -53,5 +59,21 @@ public class MissionsService : IMissionsService
         await EnsureDataLoaded();
 
         return missionData.FirstOrDefault(m => m.Reference == missionRef);
+    }
+
+    public async Task<Mission[]> GetRelatedMissions(string reference, string[] related)
+    {
+        await EnsureDataLoaded();
+
+        var linkedFrom = (related ?? Array.Empty<string>())
+            .Select(r => missionData.FirstOrDefault(m => m.Reference == r))
+            .Where(m => m != null);
+        var linkedTo = missionData.Where(m => m.Related?.Contains(reference) == true);
+
+        return linkedFrom.Concat(linkedTo)
+            .Where(m => m.Reference != reference)
+            .GroupBy(m => m.Reference)
+            .Select(g => g.First())
+            .ToArray();
     }
 }

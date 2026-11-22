@@ -19,6 +19,12 @@ namespace Models
         public string PdfUrl { get; set; }
 
         public string MissionRef { get; set; }
+
+        /// <summary>
+        /// References of related articles or missions that this article doesn't report on
+        /// (background, build-up, follow-ups). Shown under "Related Articles" on the article page.
+        /// </summary>
+        public string[] Related { get; set; } = Array.Empty<string>();
         public Article Parent { get; set; }
 
         public Article[] Children { get; set; } = Array.Empty<Article>();

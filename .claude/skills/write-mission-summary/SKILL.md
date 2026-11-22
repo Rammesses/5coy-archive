@@ -106,6 +106,8 @@ Link to other pages in the archive where it helps the reader, using site-relativ
   and add a link back where it fits (e.g. Marie Celesta links forward to Mission 'Nova', where
   CNN were still chasing the story).
 - The cross-reference checker validates every `/mission/`, `/article/` and `/section/` link.
+- Every mission and article the summary links to must also be **recorded in the data** (step 4),
+  so it shows in the Related lists on both pages, not only in the summary text.
 
 **Show Joel the draft in chat first** and revise until he approves it. Only then write the file.
 
@@ -116,12 +118,20 @@ Link to other pages in the archive where it helps the reader, using site-relativ
    `content/`. Use device tools/scripts to write it; never retype it from earlier tool output.
 2. Add `"ContentUrl": "/content/missions/<file>.md"` to the mission's entry in `data/missions.json`.
    Edit only that entry and keep the file's existing formatting (LF endings, field layout).
-3. Run the cross-reference checker. It treats mission `ContentUrl`s as references and errors if
-   the file is missing:
+3. Record the summary's cross-references in the same `missions.json` entry, as
+   `"Related": ["<ref>", ...]`: the Reference of every mission and article the summary links to,
+   in order of first mention. Leave out the mission itself, and any article whose `MissionRef`
+   is already this mission (those are listed on the page anyway). Both directions follow from
+   this: the mission page lists them, and each linked article or mission page lists this mission.
+   If you also added a link back in another mission's summary, add this mission to that
+   mission's `Related` too.
+4. Run the cross-reference checker. It treats mission `ContentUrl`s as references, errors if
+   the file is missing, and errors for any summary link that isn't in `Related` (or covered by
+   the article's `MissionRef`):
    ```bash
    python3 .claude/skills/crossref-archive-data/scripts/check_crossrefs.py web/wwwroot
    ```
-4. Show Joel `git status` and `git diff --stat`.
+5. Show Joel `git status` and `git diff --stat`.
 
 ## 5. Report what you noticed
 

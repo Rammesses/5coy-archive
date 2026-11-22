@@ -15,6 +15,15 @@ public interface IArticlesService : ISectionService<Article>, IItemsService<Arti
 {
     /// <summary>The chain of sections (root first) that contains the given article.</summary>
     Task<Section<Article>[]> GetSectionPathForItem(Article article);
+
+    /// <summary>Articles named in the article's Related list, plus articles whose Related list names it.</summary>
+    Task<Article[]> GetRelatedItems(Article article);
+
+    /// <summary>
+    /// Articles linked to a mission without having it as their MissionRef: those named in the
+    /// mission's Related list, plus articles whose Related list names the mission.
+    /// </summary>
+    Task<Article[]> GetRelatedItemsForMission(Mission mission);
 }
 
 public class ArticlesService : IArticlesService
@@ -98,6 +107,48 @@ public class ArticlesService : IArticlesService
         var articles = articleData.SelectMany(group => group.Articles).Where(a => a.MissionRef == missionRef).ToArray();
 
         return articles;
+    }
+
+    public async Task<Article[]> GetRelatedItems(Article article)
+    {
+        await EnsureDataLoaded();
+
+        if (article == null)
+            return Array.Empty<Article>();
+
+        var allArticles = Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
+
+        var linkedFrom = (article.Related ?? Array.Empty<string>())
+            .Select(r => allArticles.FirstOrDefault(a => a.Reference == r))
+            .Where(a => a != null);
+        var linkedTo = allArticles.Where(a => a.Related?.Contains(article.Reference) == true);
+
+        return linkedFrom.Concat(linkedTo)
+            .Where(a => a.Reference != article.Reference)
+            .GroupBy(a => a.Reference)
+            .Select(g => g.First())
+            .ToArray();
+    }
+
+    public async Task<Article[]> GetRelatedItemsForMission(Mission mission)
+    {
+        await EnsureDataLoaded();
+
+        if (mission == null)
+            return Array.Empty<Article>();
+
+        var allArticles = Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
+
+        var linkedFrom = (mission.Related ?? Array.Empty<string>())
+            .Select(r => allArticles.FirstOrDefault(a => a.Reference == r))
+            .Where(a => a != null);
+        var linkedTo = allArticles.Where(a => a.Related?.Contains(mission.Reference) == true);
+
+        return linkedFrom.Concat(linkedTo)
+            .Where(a => a.MissionRef != mission.Reference)
+            .GroupBy(a => a.Reference)
+            .Select(g => g.First())
+            .ToArray();
     }
 
     public async Task<Section<Article>> GetSectionForItem(string articleRef)

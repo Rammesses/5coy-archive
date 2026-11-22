@@ -15,12 +15,26 @@
 - `.claude/skills/transcribe-pdf-resource` - transcribe a PDF with no markdown (local Tesseract OCR for scans),
   find and fix transcription errors, and re-verify existing markdown against its PDF. Scratch and state live in `.transcribe/`.
 
+- `.claude/skills/maintain-knowledge-graph` - keep the people/organisations knowledge graph in `web/wwwroot/data/kg`
+  current when content changes, and use it to answer questions about the archive.
+  Validate with `python3 .claude/skills/maintain-knowledge-graph/scripts/check_kg.py web/wwwroot`,
+  then regenerate with `build_generated.py`. Run it after transcribing or summarising anything.
+
 ## Data layout notes
 
 - `web/wwwroot/data/articles.json` lists article groups; each group either inlines `Articles`
   or points at a `Data` file under `data/articles/`. Group `Reference` must match a section
   in `data/sections.json`.
-- Articles (`Models/Article.cs`): `Reference`, `Title`, `ContentUrl`, `PdfUrl`, `MissionRef`, `Children`.
+- Articles (`Models/Article.cs`): `Reference`, `Title`, `ContentUrl`, `PdfUrl`, `MissionRef`, `Related`, `Children`.
+  `MissionRef` is only for the mission an article actually reports on (it lists the article on the mission page).
+  Background, build-up or follow-up (e.g. a newsletter previewing the next mission) goes in `Related`: an array
+  of article and/or mission References, shown under "Related Articles" at the bottom of the article page
+  (both directions for articles).
+- Missions (`Models/Mission.cs`) also have `Related`: every mission and article that the mission's summary
+  (`ContentUrl`) links to must be listed there (except articles whose `MissionRef` is already that mission),
+  so cross-references show on both pages, not only in the summary text. The checker enforces this.
+- Missions whose codename isn't known are named "Mission Unknown" with Reference `<yyyy-mm>_mission-unknown`;
+  the date prefix de-conflicts them.
   `ContentUrl` must point at an existing file under `wwwroot/content/`; PDFs live in S3
   (`/media/*`), so they can't be checked locally.
 - `MissionRef` must match a `Reference` in `data/missions.json` (not an article reference).
@@ -35,3 +49,6 @@
 - Missions are displayed as `EndDate.AddYears(500)`, so post-1996 events (after the in-game
   2496→2501 jump) are stored as in-game year minus 500 (e.g. Strongarm 2502 → `2002-05-01`).
 - `data/personnel.json` (`Name`, `PdfUrl`, `ArticleRef`) is not read by the app yet.
+- `data/kg/` (characters.json, organisations.json) is the curated knowledge graph; `data/kg/generated/` is
+  rebuilt by script. Graph IDs are type-prefixed (`character/`, `organisation/`, `mission/`, `article/`) because
+  article and mission References can collide. Not read by the app yet.

@@ -30,11 +30,23 @@
         </div>
     }
 
-    @if (articleData?.Any() == true)
+    @if (articleData?.Any() == true || relatedMissions.Any())
     {
         <hr />
         <h5>Related:</h5>
-        <web.Controls.RelatedArticlesBreadcrumbList Articles=@articleData />
+        @if (articleData?.Any() == true)
+        {
+            <web.Controls.RelatedArticlesBreadcrumbList Articles=@articleData />
+        }
+        @if (relatedMissions.Any())
+        {
+            <ul class="related-breadcrumbs">
+            @foreach (var mission in relatedMissions)
+            {
+                <li><a href="/mission/@mission.Reference">@mission.Name</a> (@mission.EndDate.AddYears(500).ToString("MMM yyyy"))</li>
+            }
+            </ul>
+        }
     }
 }
 
@@ -45,6 +57,7 @@
 
     private Mission missionData;
     private Article[] articleData;
+    private Mission[] relatedMissions = Array.Empty<Mission>();
     private bool hasSummary;
 
     private string MissionName => missionData?.Name ?? $"Mission '{MissionRef}'";
@@ -53,5 +66,11 @@
     {
         missionData = await missionsService.GetMissionByRef(MissionRef);
         articleData = await articlesService.GetItemsByMissionRef(MissionRef);        
+        if (missionData != null)
+        {
+            var relatedArticles = await articlesService.GetRelatedItemsForMission(missionData);
+            articleData = articleData.Concat(relatedArticles).ToArray();
+            relatedMissions = await missionsService.GetRelatedMissions(missionData.Reference, missionData.Related);
+        }
     }
 }

@@ -14,8 +14,8 @@ Keeps `web/wwwroot/data` consistent with `web/wwwroot/content`. Follow the steps
 |---|---|---|
 | `data/sections.json` | `Section`: Reference, Title, Glyph, ContentUrl, NavigateUrl, Children | Section `ContentUrl`s are landing pages, not articles |
 | `data/articles.json` | `ArticleGroup[]`: Reference, `Articles` (inline) and/or `Data` (path to `data/articles/<group>.json`) | Group Reference must match a section Reference |
-| `data/articles/*.json` | `Article[]`: Reference, Title, ContentUrl, PdfUrl, MissionRef, Children | Reference unique (except deliberate duplicates, below); ContentUrl must exist; MissionRef must be a **mission** Reference |
-| `data/missions.json` | `Mission[]`: Reference, Name, StartDate, EndDate, Location, Planet, Summary, ContentUrl | Reference = `<in-game yyyy-mm>_<kebab-name>` |
+| `data/articles/*.json` | `Article[]`: Reference, Title, ContentUrl, PdfUrl, MissionRef, Related, Children | Reference unique (except deliberate duplicates, below); ContentUrl must exist; MissionRef must be a **mission** Reference and only for the mission the article reports on; `Related` (array of article or mission References) for background/build-up/follow-ups |
+| `data/missions.json` | `Mission[]`: Reference, Name, StartDate, EndDate, Location, Planet, Summary, ContentUrl, Related | Reference = `<in-game yyyy-mm>_<kebab-name>`, or `<yyyy-mm>_mission-unknown` (Name "Mission Unknown") when the codename isn't known; `Related` must list every mission/article the summary (`ContentUrl`) links to, except articles whose MissionRef is this mission |
 | `data/personnel.json` | Name (`"Surname, I"`), PdfUrl, ArticleRef | Not read by the app yet; ArticleRef → the personnel-jacket article |
 
 How the app behaves (`web/Services/ArticlesService.cs`, `MissionTableRow.razor`):

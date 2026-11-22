@@ -1,0 +1,2784 @@
+[
+  {
+    "Reference": "1-coy",
+    "Name": "1st Company",
+    "Aliases": [
+      "1 Coy"
+    ],
+    "Type": "military",
+    "Description": "CMC company relieved by 5 Coy on Groombridge; its men attacked civilians on sight.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "mission/2495-04_mission-unknown"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Relieved by 5 Coy",
+        "Sources": [
+          "mission/2495-04_mission-unknown"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "2-coy",
+    "Name": "2nd Company",
+    "Aliases": [
+      "2 Coy",
+      "2Coy"
+    ],
+    "Type": "military",
+    "Description": "CMC company.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/writers-guide"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "3-coy",
+    "Name": "3rd Company",
+    "Aliases": [
+      "3 Coy"
+    ],
+    "Type": "military",
+    "Description": "CMC company whose rescue team was lost in the Sirent Cing system.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Role": "Lost rescue team; one survivor",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "5-coy",
+    "Name": "5th Company",
+    "Aliases": [
+      "5 Coy",
+      "5-Coy",
+      "5th Coy",
+      "Fifth Company",
+      "CMC IV Field Regt 5 Coy",
+      "CMC 5th Company",
+      "V Coy"
+    ],
+    "Type": "military",
+    "Description": "The Colonial Marine company the archive is about.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/cmc-iv-field-regiment",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Stood down into a training rotation",
+        "Date": "2497-09",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "All members transferred and company colours laid up at regimental HQ",
+        "Date": "2497-12",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "partOf",
+        "O": "organisation/cmc-immediate-response-battalion",
+        "Date": "2494-06",
+        "Note": "Mexal: 'the Immediate Response Battalion of the CMC - in other words, us'",
+        "Sources": [
+          "article/mexals-letters_2493-09_x244"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "alfatek-systems",
+    "Name": "Alfatek Systems",
+    "Aliases": [
+      "Alfatek"
+    ],
+    "Type": "corporation",
+    "Description": "High-quality military and security hardware.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "amish-homeworld",
+    "Name": "Amish of Homeworld",
+    "Aliases": [
+      "Amish",
+      "Amish Christian sect"
+    ],
+    "Type": "religious",
+    "Description": "Anti-technological Amish Christian sect settled on Homeworld early in the 21st century.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Neutral population",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "amish-zealots",
+    "Name": "Amish Zealots",
+    "Aliases": [
+      "Zealots"
+    ],
+    "Type": "religious",
+    "Description": "Militant Amish who declared a jihad against all outsiders on Homeworld.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/amish-homeworld",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "argaran-corporation",
+    "Name": "The Argaran Corporation",
+    "Aliases": [
+      "Argaran"
+    ],
+    "Type": "corporation",
+    "Description": "Secretive bio-engineering specialists.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "banordyne",
+    "Name": "Banordyne Inc",
+    "Aliases": [
+      "Banordyne",
+      "Banodyne"
+    ],
+    "Type": "corporation",
+    "Description": "Military equipment and genetics; denies having had a facility on Insulon III.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Hostile (security teams)",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "black-flaggers",
+    "Name": "Black Flaggers",
+    "Type": "military",
+    "Description": "Elite CMC Special Forces squad from 3 Coy, sent to rescue the kidnapped Diplo Team.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/3-coy",
+        "Sources": [
+          "article/interstella_2492-07"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "blackwell-power",
+    "Name": "Blackwell Power",
+    "Aliases": [
+      "BP",
+      "Blackwell Power Corporation"
+    ],
+    "Type": "corporation",
+    "Description": "Power generation and starship systems; built the first starship with Parnell. Rumoured teleportation research.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Built the first starship, the Santa Marie, with Parnell Industries (2065)",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "chidanians",
+    "Name": "Chidanian groups",
+    "Aliases": [
+      "Chidanians",
+      "Chidanean terrorists",
+      "Chidanian’s"
+    ],
+    "Type": "terrorist",
+    "Description": "Groups from the Chidan region of Groombridge who raided Bush War weapons dumps; captured Marines in 2493 and set off a nuclear device.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-11_mission-vortex",
+        "Role": "Hostile (mission target)",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Chidan province declared independence in the Groombridge Central House",
+        "Date": "2492-05",
+        "Sources": [
+          "article/interstella_2492-05"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "chronicallers",
+    "Name": "Chronicallers",
+    "Type": "religious",
+    "Description": "Earth-based body through which Hengists route evidence of Maker contact.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/hengists",
+        "Sources": [
+          "article/groups-and-organisations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cib",
+    "Name": "CIB",
+    "Type": "government",
+    "Description": "Ran an investigation, part of the GEMS inquiry, that pulled in all former members of 5 Coy after Dec 2497.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interim-history_2496-to-2501",
+        "Note": "Described here",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-area-command",
+    "Name": "CMC Area Command",
+    "Aliases": [
+      "Area Command",
+      "AHQ"
+    ],
+    "Type": "military",
+    "Description": "CMC area headquarters; Colonel Nasco commanded it around 2491-92.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/2492-10_mission-procyon-intel"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-central-command",
+    "Name": "CMC Central Command",
+    "Aliases": [
+      "Central Command",
+      "CHQ"
+    ],
+    "Type": "military",
+    "Description": "CMC central headquarters; General Sullivan was based there.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/2492-10_mission-procyon-intel"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-combat-engineering-department",
+    "Name": "Combat Engineering Department",
+    "Aliases": [
+      "CED",
+      "CED dept"
+    ],
+    "Type": "military",
+    "Description": "CMC technical support group proposed by Mexal at Colonel Svjenson's request in early 2495; still referred to in 2602.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/mexals-letters_2495-01_grants-world"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/general-orders_2602-05-16",
+        "Sources": [
+          "article/general-orders_2602-05-16"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-covert-operations",
+    "Name": "CMC Covert Operations",
+    "Type": "military",
+    "Description": "CMC branch whose specialists were escorted to Hal to train the rebels.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-high-command",
+    "Name": "CMC High Command",
+    "Aliases": [
+      "High Command"
+    ],
+    "Type": "military",
+    "Description": "Top level of the CMC; in Feb 2496 it refused UW orders to kill all surviving GEMs as illegal.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-immediate-response-battalion",
+    "Name": "CMC Immediate Response Battalion",
+    "Aliases": [
+      "Immediate Response Battalion",
+      "IRB"
+    ],
+    "Type": "military",
+    "Description": "CMC battalion that Mexal says 5 Coy belonged to in 2494.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/mexals-letters_2493-09_x244"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-iv-field-regiment",
+    "Name": "CMC IV Field Regiment",
+    "Aliases": [
+      "IV Field Regt",
+      "CMC IV Field Regt",
+      "4th Field Regiment"
+    ],
+    "Type": "military",
+    "Description": "CMC field regiment that 5 Coy belonged to.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-provost-marshals-office",
+    "Name": "CMC Provost Marshal's Office",
+    "Aliases": [
+      "Provost Marshals Office"
+    ],
+    "Type": "military",
+    "Description": "CMC military police office.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/2496-02_mission-intruder",
+        "Note": "Described here",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cmc-sib",
+    "Name": "CMC Special Investigation Branch",
+    "Aliases": [
+      "SIB",
+      "CMC SIB"
+    ],
+    "Type": "military",
+    "Description": "CMC investigators who looked into charges after the Homeworld shuttle rescue.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Board of Inquiry",
+        "Sources": [
+          "article/2496-02_mission-intruder_sibreport"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cnn",
+    "Name": "Celestial News Network",
+    "Aliases": [
+      "CNN",
+      "CNN Newsline"
+    ],
+    "Type": "press",
+    "Description": "News network; a CNN crew interviewed 5 Coy on Liahn in 2495, and CNN Newsline reported General Sjvenson's death in Oct 2501.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Role": "Press crew; interviewed 5 Coy and the Marie Celeste survivors",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Press; reporters ejected from base",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "coedarian",
+    "Name": "CoedArian",
+    "Aliases": [
+      "Coed'Arian",
+      "Coedarian"
+    ],
+    "Type": "government",
+    "Description": "Elven world that made contact with the UW; Mexal was the first of its people to serve with UW forces.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/mexals-letters_2493-03_kruger",
+        "Note": "Described here",
+        "Sources": [
+          "article/mexals-letters_2493-03_kruger"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "colonial-marine-corps",
+    "Name": "Colonial Marine Corps",
+    "Aliases": [
+      "CMC",
+      "CMS",
+      "Colonial Marines",
+      "the Corps",
+      "Marine Corps"
+    ],
+    "Type": "military",
+    "Description": "The UW's military arm, grown out of the space watchdog authority set up after the Groombridge Bush War, enforcing UW edicts and the arms limitation laws.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      },
+      {
+        "P": "successorOf",
+        "O": "organisation/uw-watchdog-authority",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "colonial-survey",
+    "Name": "Colonial Survey",
+    "Aliases": [
+      "CS",
+      "Colonial Survey Department",
+      "CSD"
+    ],
+    "Type": "government",
+    "Description": "UW survey service whose investigators blamed the Grant's Place colonists; its shuttle from the CSS Lone Star vanished.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Role": "Lost investigation team",
+        "Sources": [
+          "article/2495-01_mission-nightside"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "corporate-data-intercept",
+    "Name": "Corporate data-tap operation (Sheridan/Frankin)",
+    "Aliases": [
+      "Corporate HQ, Lumiere",
+      "Data Centre 32"
+    ],
+    "Type": "corporation",
+    "Description": "Unnamed corporation whose data tap intercepted Mexal's letters home from 2493; its staff pass them between Data Centre 32 (Sol) and Corporate HQ on Lumiere.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/mexals-letters_2493-03_kruger",
+        "Note": "Described here",
+        "Sources": [
+          "article/mexals-letters_2493-03_kruger"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "de-witt-mining",
+    "Name": "De Witt Mining Inc",
+    "Aliases": [
+      "De Witt Mining",
+      "De Witt",
+      "Dewitt"
+    ],
+    "Type": "corporation",
+    "Description": "Environmentally destructive miner; co-owner of Sirius after it seceded in 2496.",
+    "Facts": [
+      {
+        "P": "owns",
+        "V": "Sirius (from March 2496, with GARP)",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Role": "Hostile; bought Sirius from DeSignieur and began fortifying it against the UW",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Rival claimant to the draken ore deposit",
+        "Sources": [
+          "article/mexals-letters_2495-02_heurls"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "dea",
+    "Name": "DEA",
+    "Type": "government",
+    "Description": "Drugs agency that raided the 5 Coy base on Liahn on a tip-off.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Role": "Raided the base",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "deep-space-research-unit",
+    "Name": "Deep Space Research unit",
+    "Type": "military",
+    "Description": "Took over the Garavaglia II as a deep space survey vessel in March 2499.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interim-history_2496-to-2501",
+        "Note": "Described here",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "designieur-security",
+    "Name": "Roger DeSignieur's Security Forces",
+    "Type": "military",
+    "Description": "Bodyguard force for DeSignieur, believed trained and led by Farquar.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "douglas-clan",
+    "Name": "Douglas clan",
+    "Aliases": [
+      "the Douglas’",
+      "Douglas family"
+    ],
+    "Type": "clan",
+    "Description": "Feuding clan of Nyytoda.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Role": "Local faction",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/plougher-clan",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "erasmus-corporation",
+    "Name": "The Erasmus Corporation",
+    "Aliases": [
+      "Erasmus Corporation"
+    ],
+    "Type": "corporation",
+    "Description": "Industrial chemicals; denies chemical weapons research.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "evolution-party",
+    "Name": "Evolution Party",
+    "Aliases": [
+      "EP"
+    ],
+    "Type": "political",
+    "Description": "Political party on Groombridge.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/groombridge-planetary-government",
+        "Note": "One of the main parties",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "freemen-for-freedom",
+    "Name": "Freemen For Freedom",
+    "Aliases": [
+      "FFF"
+    ],
+    "Type": "political",
+    "Description": "Hal resistance force made up of freemen.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Friendly (rebel force)",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "future-party",
+    "Name": "Future Party",
+    "Aliases": [
+      "FP"
+    ],
+    "Type": "political",
+    "Description": "Political party on Groombridge.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/groombridge-planetary-government",
+        "Note": "One of the main parties",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/chidanians",
+        "Note": "Claims persecution of its members by puritanistic Chidanians",
+        "Sources": [
+          "article/interstella_2492-06"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "garp-corporation",
+    "Name": "GARP Corporation",
+    "Aliases": [
+      "GARP"
+    ],
+    "Type": "corporation",
+    "Description": "Shadowy corporation; co-owner of Sirius after it seceded in 2496.",
+    "Facts": [
+      {
+        "P": "owns",
+        "V": "Sirius (from March 2496, with De Witt Mining)",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Role": "Hostile; bought Sirius from DeSignieur and began fortifying it against the UW",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "gem-star-holdings",
+    "Name": "Gem-Star Holdings",
+    "Aliases": [
+      "Gem-Star"
+    ],
+    "Type": "corporation",
+    "Description": "Scientific and medical equipment and cybernetic implants; major medical supplier to the CMC.",
+    "Facts": [
+      {
+        "P": "supplies",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "gems",
+    "Name": "GEMs",
+    "Aliases": [
+      "Genetically Engineered Marines",
+      "GEM"
+    ],
+    "Type": "other",
+    "Description": "Long-lived Genetically Engineered Marines from Project Gemstone (c.2376), passive but prone to berserk rage; imprisoned, written off and dumped on Homeworld.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/uw-special-forces",
+        "Note": "Former SF members",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Subjects of the mission",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "grant-clan",
+    "Name": "Grant clan",
+    "Aliases": [
+      "the Grants",
+      "Grants"
+    ],
+    "Type": "clan",
+    "Description": "Largest of the three feuding clans of Nyytoda; claims the land the Marine base stands on.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Role": "Local faction",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/douglas-clan",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/plougher-clan",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "groombridge-central-house",
+    "Name": "Groombridge Central House",
+    "Aliases": [
+      "Central House"
+    ],
+    "Type": "government",
+    "Description": "Chamber of the Groombridge parliament.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/groombridge-planetary-government",
+        "Sources": [
+          "article/interstella_2492-05"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "groombridge-democrats",
+    "Name": "Groombridge Democrats",
+    "Aliases": [
+      "GD"
+    ],
+    "Type": "political",
+    "Description": "Political party on Groombridge.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/groombridge-planetary-government",
+        "Note": "One of the main parties",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "groombridge-environmentalists",
+    "Name": "Groombridge environmentalists",
+    "Type": "political",
+    "Description": "Locals and environmentalists who violently opposed the nuclear plan.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Hostile",
+        "Sources": [
+          "mission/2495-04_mission-unknown"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "groombridge-planetary-government",
+    "Name": "Groombridge Planetary Government",
+    "Type": "government",
+    "Description": "Awarded a Disaster Relief Medal to all Marines on the April 2495 mission to stabilise Groombridge.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Awarding government",
+        "Sources": [
+          "article/honours_1995-08-23"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "groombridge-puritan-party",
+    "Name": "Groombridge Puritan Party",
+    "Aliases": [
+      "GPP"
+    ],
+    "Type": "political",
+    "Description": "Political party on Groombridge.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/groombridge-planetary-government",
+        "Note": "One of the main parties",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/puritans",
+        "V": "Name suggests affiliation",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hadens-worthy",
+    "Name": "Hadens-Worthy",
+    "Aliases": [
+      "Hainsworthy",
+      "Haden-Worthy",
+      "Haoins-Worthy Starways",
+      "Haines-Worthy Starways",
+      "Hadens-Worthy Starways"
+    ],
+    "Type": "corporation",
+    "Description": "Owners of the starship Marie Celeste, whose obstruction contributed to the deaths on board in 2495. A \"Hainsworthy\" luxury liner was destroyed in Jan 2501 (probably the same company).",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Role": "Ship owner; obstructed requests for data",
+        "Sources": [
+          "article/2495-05_boarding-report-mariecelesta"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hal-12th-cohort",
+    "Name": "12th Cohort",
+    "Type": "military",
+    "Description": "Hal Armed Forces unit commanded by an Ensign.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/hal-planetary-defence",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hal-49th-unified",
+    "Name": "49th Unified",
+    "Type": "military",
+    "Description": "Hal Armed Forces unit on Hal in 2495.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/hal-planetary-defence",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hal-freedom-army",
+    "Name": "Hal Freedom Army",
+    "Aliases": [
+      "HFA"
+    ],
+    "Type": "political",
+    "Description": "Hal resistance force, possibly ex-army.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Friendly (rebel force)",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hal-planetary-defence",
+    "Name": "Hal Planetary Defence",
+    "Aliases": [
+      "Hal regulars",
+      "Hal Militia",
+      "Hal Armed Forces",
+      "HAF",
+      "Hal Army"
+    ],
+    "Type": "military",
+    "Description": "Armed forces of Hal: regulars, special forces and reserve/militia legions using naval ranks.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-04_mission-ogre",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2494-04_mission-ogre"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hal-revolutionary-movement",
+    "Name": "Hal Revolutionary Movement",
+    "Aliases": [
+      "Hal rebels",
+      "the Rebels"
+    ],
+    "Type": "political",
+    "Description": "Resistance movement on Hal with wide popular and military support.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-04_mission-ogre",
+        "Role": "Hostile (mission target)",
+        "Sources": [
+          "article/2494-04_mission-ogre"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hal-slave-security",
+    "Name": "Slave Security",
+    "Aliases": [
+      "SS"
+    ],
+    "Type": "other",
+    "Description": "Bounty-hunting slave security units on Hal.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hengists",
+    "Name": "The Hengists",
+    "Aliases": [
+      "Hengists"
+    ],
+    "Type": "religious",
+    "Description": "Harmless believers that alien Makers shaped humanity; name taken from Stonehenge.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Role": "Hostile (sabotage crew and hard-line strike team)",
+        "Sources": [
+          "article/2495-01_mission-nightside"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hommilabs",
+    "Name": "Hommilabs",
+    "Type": "corporation",
+    "Description": "Drug and cybernetic implant manufacturer.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "ickthyn-services",
+    "Name": "Ickthyn Services",
+    "Type": "corporation",
+    "Description": "Unknown.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "in-the-line-of-fire",
+    "Name": "In The Line Of Fire",
+    "Aliases": [
+      "ITLOF"
+    ],
+    "Type": "press",
+    "Description": "Gossip magazine for CMC Marines, distributed by the CMC from 2495.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/itlof_2495-01",
+        "Note": "Described here",
+        "Sources": [
+          "article/itlof_2495-01"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "independance-for-clones",
+    "Name": "Independance for Clones",
+    "Aliases": [
+      "IFC",
+      "I.F.C."
+    ],
+    "Type": "political",
+    "Description": "Movement campaigning for the rights of clones, founded by Angus McCall.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/groups-and-organisations",
+        "Note": "Described here",
+        "Sources": [
+          "article/groups-and-organisations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "intelcorp",
+    "Name": "Intelcorp",
+    "Aliases": [
+      "Intel-Corp",
+      "Inter-Corp"
+    ],
+    "Type": "corporation",
+    "Description": "Communications; with Network Systems holds a near-monopoly on sat-links.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "interstella",
+    "Name": "Interstella!",
+    "Aliases": [
+      "Interstella"
+    ],
+    "Type": "press",
+    "Description": "News publication (\"Interstella!\") whose reporters included Krystal Spyers and Morgan Blake; covered Sirius, Groombridge, Nasco and 5 Coy from 2491.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-05",
+        "Note": "Described here",
+        "Sources": [
+          "article/interstella_2492-05"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "interstellar-communications-group",
+    "Name": "Interstellar Communications Group",
+    "Aliases": [
+      "ICG"
+    ],
+    "Type": "press",
+    "Description": "Media organisation employing Krysal Spyers.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/2494-04_mission-ogre",
+        "Note": "Described here",
+        "Sources": [
+          "article/2494-04_mission-ogre"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "iowa-power",
+    "Name": "Iowa Power",
+    "Aliases": [
+      "IWOA Power"
+    ],
+    "Type": "corporation",
+    "Description": "Power systems and fuels; owners of Golgotha, declared unsafe in 2490 after a chemical plant explosion.",
+    "Facts": [
+      {
+        "P": "owns",
+        "V": "Golgotha",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Complained to the UW about CMC presence on Golgotha",
+        "Date": "2491",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Rival claimant to the draken ore deposit",
+        "Sources": [
+          "article/mexals-letters_2495-02_heurls"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "irag",
+    "Name": "IRAG",
+    "Aliases": [
+      "I.R.A.G",
+      "IRAG division"
+    ],
+    "Type": "military",
+    "Description": "CMC division created in 2492 to provide specialist computing and data retrieval for Marine operations; headed by Joel Turner from May 2492.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Note": "Inferred from CMC comnet routing",
+        "Sources": [
+          "article/2496-02_mission-intruder_comms-002"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "ixtyl",
+    "Name": "Ixtyl",
+    "Type": "corporation",
+    "Description": "Unknown.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "jefferson-electronic-systems",
+    "Name": "Jefferson Electronic Systems",
+    "Aliases": [
+      "JES"
+    ],
+    "Type": "corporation",
+    "Description": "Military equipment and starship navigation/control; unofficial genetic research into better soldiers.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "juliette-government",
+    "Name": "Juliette Government",
+    "Type": "government",
+    "Description": "Government of the planet Juliette, with a feudal nobility, an old-fashioned Space Navy, ground troops and a Special Police.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/mexals-letters_2494-12_juliette",
+        "Note": "Described here",
+        "Sources": [
+          "article/mexals-letters_2494-12_juliette"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "juliette-space-navy",
+    "Name": "Juliette Space Navy",
+    "Type": "military",
+    "Description": "Space navy of Juliette that shadowed the Garavaglia's drones.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/juliette-government",
+        "Sources": [
+          "article/mexals-letters_2494-12_juliette"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-12_mission-classified",
+        "Role": "Shadowed the Garavaglia",
+        "Sources": [
+          "article/mexals-letters_2494-12_juliette"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "juliette-special-police",
+    "Name": "Juliette Special Police",
+    "Aliases": [
+      "Special Police"
+    ],
+    "Type": "police",
+    "Description": "Police with authority over everyone else on Juliette; a patrol was wiped out by 5 Coy.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/juliette-government",
+        "Sources": [
+          "article/mexals-letters_2494-12_juliette"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-12_mission-classified",
+        "Role": "Hostile",
+        "Sources": [
+          "article/mexals-letters_2494-12_juliette"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "jvc",
+    "Name": "JVC",
+    "Type": "corporation",
+    "Description": "Corporation; Mr Farquhar was a former executive.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/2495-01_mission-nightside",
+        "Note": "Described here",
+        "Sources": [
+          "article/2495-01_mission-nightside"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "kasdunni",
+    "Name": "Kasdunni",
+    "Aliases": [
+      "Kasdun"
+    ],
+    "Type": "political",
+    "Description": "Region and faction of Groombridge at war with the Chidanian separatists from 2492.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/chidanians",
+        "Sources": [
+          "article/interstella_2492-08"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "krugan-militia",
+    "Name": "Krugan Militia",
+    "Aliases": [
+      "KRGN MILL",
+      "Kruger militia"
+    ],
+    "Type": "military",
+    "Description": "Militia of the planet Kruger, based at Villhamstead.",
+    "Facts": [
+      {
+        "P": "relatedTo",
+        "O": "organisation/5-coy",
+        "V": "Loaned the CMC a training area on Kruger",
+        "Sources": [
+          "article/mexals-letters_2493-03_kruger"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "league-against-warfare",
+    "Name": "League Against Warfare",
+    "Aliases": [
+      "LAW",
+      "L.A.W."
+    ],
+    "Type": "terrorist",
+    "Description": "Pacifist movement founded by Zandra Constella that turned to bombing military and UW sites; membership is a criminal offence.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/groups-and-organisations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "li-sung-leisure",
+    "Name": "Li Sung Leisure",
+    "Type": "corporation",
+    "Description": "Leisure equipment and domes; opened a whole pleasure planet.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "liane-planetary-government",
+    "Name": "Liane Planetary Government",
+    "Aliases": [
+      "Liahn government"
+    ],
+    "Type": "government",
+    "Description": "Government of Liahn; renegade SF tried to persuade it to secede from the UW. Awarded the Liane Merit Star for the renegades' removal.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Role": "Local government",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "malenski-transportation",
+    "Name": "Malenski Transportation Corporation",
+    "Aliases": [
+      "Malenski Transportation"
+    ],
+    "Type": "corporation",
+    "Description": "Transport; rumoured teleportation prototype.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "marie-celeste-mercenaries",
+    "Name": "Mercenaries aboard the Marie Celeste",
+    "Type": "mercenary",
+    "Description": "Unnamed hostile mercenaries on board the Marie Celeste.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2495-05_boarding-report-mariecelesta"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "medi-care",
+    "Name": "Medi-Care",
+    "Type": "corporation",
+    "Description": "Drug manufacturer with a substantial R&D section.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "merton-publishing",
+    "Name": "Merton Publishing Inc",
+    "Aliases": [
+      "Merton Publishing"
+    ],
+    "Type": "corporation",
+    "Description": "Publishers of vid-discs, news-slugs and books.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "military-mercantile",
+    "Name": "Military Mercantile",
+    "Type": "corporation",
+    "Description": "Weapons and armour; major CMC supplier that grew rich in the Colonial War.",
+    "Facts": [
+      {
+        "P": "supplies",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge (head office)",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "nas-corp",
+    "Name": "Nas-Corp",
+    "Aliases": [
+      "Nascorp"
+    ],
+    "Type": "corporation",
+    "Description": "Military equipment; suspected of raiding a Banordyne testing lab on Insulon III. Spokesman Mr Colton.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/banordyne",
+        "Note": "Suspected raid on Banordyne testing station, Insulon III",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "nautilus",
+    "Name": "Nautilus",
+    "Type": "corporation",
+    "Description": "Corporation (and undersea vessel with a crew of 50-60) employing deep sea miners on Heurls.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Sources": [
+          "article/mexals-letters_2495-02_heurls"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "network-systems",
+    "Name": "Network Systems",
+    "Type": "corporation",
+    "Description": "Communications and computer equipment; rumoured brain-computer link research.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Groombridge (head office)",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "new-worlds-inc",
+    "Name": "New Worlds Inc",
+    "Aliases": [
+      "New Worlds"
+    ],
+    "Type": "corporation",
+    "Description": "Terraformers campaigning against the rule that worlds must be proven free of sentient life first.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Role": "Operated the atmosphere processor",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "night-hawks",
+    "Name": "Night Hawks",
+    "Aliases": [
+      "Night-Hawks"
+    ],
+    "Type": "military",
+    "Description": "Paramilitary secret police on Sirius under Nasco, working for Roger DeSignieur; slaughtered the late Baron's staff.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/puritans",
+        "V": "Possible links through Nasco",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "nordberg-shipping",
+    "Name": "Nordberg Shipping Corporation",
+    "Aliases": [
+      "Nordberg Shipping"
+    ],
+    "Type": "corporation",
+    "Description": "Interplanetary and interstellar transport.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "nu-phoenicians",
+    "Name": "The Nu Phoenicians",
+    "Aliases": [
+      "Nu Phoenicians"
+    ],
+    "Type": "mercenary",
+    "Description": "Mercenaries from the world Nu Phoenicia, with a strong code of honour and a terrible accent.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/groups-and-organisations",
+        "Note": "Described here",
+        "Sources": [
+          "article/groups-and-organisations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "nyytoda-federal-police",
+    "Name": "Nyytoda Federal Police",
+    "Aliases": [
+      "local Federal Police"
+    ],
+    "Type": "police",
+    "Description": "Local police who arrested the Smythes.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "odonnald-family",
+    "Name": "O'Donnald family",
+    "Aliases": [
+      "O’Donnalds",
+      "the O'Donnalds"
+    ],
+    "Type": "family",
+    "Description": "Civilians stranded on X243 who traded salvage for passage off planet.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Role": "Survivors",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "one-true-church",
+    "Name": "One True Church",
+    "Type": "religious",
+    "Description": "Officially recognised as the main religion.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/a-brief-guide-to-history",
+        "Note": "Described here",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "palmini-defence-systems",
+    "Name": "Palmini Defence Systems Inc",
+    "Aliases": [
+      "Palmini Defence"
+    ],
+    "Type": "corporation",
+    "Description": "Planetary and orbital defence systems.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "parnell-industries",
+    "Name": "Parnell Industries",
+    "Aliases": [
+      "Parnell",
+      "PI",
+      "Parnell Corporation"
+    ],
+    "Type": "corporation",
+    "Description": "The most powerful corporation, through its hold on the Jump Synchronicity Enabler; its head held the UW presidency from its inception until 2497. Also electronics and computers.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/tyrell-corporation",
+        "Note": "Charged with trying to suppress Tyrell's new Jump Drive Controller",
+        "Sources": [
+          "article/scenario-drive-wars-2-scenario-notes"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Discovered the Jump Synchronicity Enabler (JSE)",
+        "Date": "2135",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "parnell-security-force",
+    "Name": "Parnell Security Force",
+    "Type": "military",
+    "Description": "Parnell Industries security force (Drive Wars scenario notes).",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/parnell-industries",
+        "Sources": [
+          "article/scenario-drive-wars-scenario-notes"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "plougher-clan",
+    "Name": "Plougher clan",
+    "Aliases": [
+      "the Ploughers",
+      "Plougher family"
+    ],
+    "Type": "clan",
+    "Description": "Feuding clan of Nyytoda.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Role": "Local faction",
+        "Sources": [
+          "article/2494-03_mission-sidewinder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "puritans",
+    "Name": "Puritans",
+    "Aliases": [
+      "The Puritans"
+    ],
+    "Type": "political",
+    "Description": "Xenophobic movement seeking the destruction of mutated or non-pure humans such as the Urthankoi; under CMC investigation.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/nas-corp",
+        "Note": "Nas-Corp is a common target of Puritan protests",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Hostile (insurgents and cleansing teams)",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Rumoured (\"Purity\") to want the Corps kept strictly human",
+        "Date": "2493-03",
+        "Sources": [
+          "article/mexals-letters_2493-03_kruger"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "restyk-corporation",
+    "Name": "The Restyk Corporation",
+    "Aliases": [
+      "Restyk",
+      "Restryk",
+      "Rystryk",
+      "Restryk Corporation"
+    ],
+    "Type": "corporation",
+    "Description": "Clone growth and Mem-Rec memory recording for paying customers.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Hostile (security teams); partner in Project Gemstone",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "senator-francis-guard",
+    "Name": "Personal Guard of Senator Deter Francis",
+    "Type": "military",
+    "Description": "The Senator's personal army and bodyguards.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-04_mission-ogre",
+        "Role": "Neutral/Friendly",
+        "Sources": [
+          "article/2494-04_mission-ogre"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "sigma-mining",
+    "Name": "Sigma Mining Corporation",
+    "Aliases": [
+      "Sigma Mining"
+    ],
+    "Type": "corporation",
+    "Description": "Planetary and asteroid mining, plus salvage.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "sirian-defence-forces",
+    "Name": "Sirian Defence forces",
+    "Type": "military",
+    "Description": "Armed forces of Sirius.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/2496-03_mission-redstorm",
+        "Note": "Described here",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "sirius-insurgents",
+    "Name": "Sirius local insurgents",
+    "Aliases": [
+      "Viper's rebels"
+    ],
+    "Type": "political",
+    "Description": "Rebel cells on Sirius coordinated by \"Viper\".",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Role": "Friendly",
+        "Sources": [
+          "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "sjvenson-fire-and-rescue",
+    "Name": "Sjvenson Fire and Rescue",
+    "Aliases": [
+      "Sjvenson Fire and Safety Company",
+      "Sjvenson Company"
+    ],
+    "Type": "corporation",
+    "Description": "Sjvenson family firm based on Sol3; General J. Sjvenson became its CEO in 2500.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Sol3 (testing base on Neptune)",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "slaves-for-freedom",
+    "Name": "Slaves For Freedom",
+    "Aliases": [
+      "SFF"
+    ],
+    "Type": "political",
+    "Description": "Hal resistance force made up of former slaves.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Friendly (rebel force)",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "solrebrians",
+    "Name": "Solrebrians",
+    "Aliases": [
+      "Sol'rebrans",
+      "Sol'rebros",
+      "Solrebria"
+    ],
+    "Type": "government",
+    "Description": "Alien civilisation; its diplomats left Sol3 in Jan 2496, six months after full UW membership.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Sources": [
+          "article/mission-kraken"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Broke diplomatic ties and left Sol3",
+        "Date": "2496-01",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "space-accident-investigation-board",
+    "Name": "Space Accident Investigation Board",
+    "Type": "government",
+    "Description": "Body to which the Marie Celeste incident was to be referred.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/2495-05_boarding-report-mariecelesta",
+        "Note": "Described here",
+        "Sources": [
+          "article/2495-05_boarding-report-mariecelesta"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "stoppers",
+    "Name": "Stoppers",
+    "Type": "mercenary",
+    "Description": "Group paid by corporate interests to wreck the Groombridge plan.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Hostile (paid saboteurs)",
+        "Sources": [
+          "mission/2495-04_mission-unknown"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "sugar-mice",
+    "Name": "Sugar Mice",
+    "Aliases": [
+      "the Mice"
+    ],
+    "Type": "mercenary",
+    "Description": "Mercenary unit from Lumiere; Avo Stetto (AWOL from 2 Coy CMC) took command in 2487. Joel Turner was its computer specialist (\"ICEMan\") until 2490.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/personnel-jacket_turner-tj121710",
+        "Note": "Described here",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "svensonn-automation",
+    "Name": "Svensonn Automation Inc",
+    "Aliases": [
+      "Svensonn Automation"
+    ],
+    "Type": "corporation",
+    "Description": "Robotics and droids; rumoured combat-droid work.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "tadson-romburg",
+    "Name": "Tadson & Romburg Construction",
+    "Aliases": [
+      "Tadson & Romburg"
+    ],
+    "Type": "corporation",
+    "Description": "Builders of planetary infrastructure, starports and stations.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "tedmann-controls",
+    "Name": "Tedmann Controls Inc",
+    "Aliases": [
+      "Tedmann Controls"
+    ],
+    "Type": "corporation",
+    "Description": "Unknown.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "the-brotherhood",
+    "Name": "The Brotherhood",
+    "Aliases": [
+      "Brotherhood"
+    ],
+    "Type": "terrorist",
+    "Description": "Terrorist group that claims to fight UW repression and treats the CMC as its military face; hireable and unpredictable.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/groups-and-organisations"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/groups-and-organisations"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Took the CMC to the UW courts over projectile weapons",
+        "Date": "2491",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Role": "Hostile (combat team)",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/chidanians",
+        "V": "Involvement with the Chidanians on Groombridge",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Role": "Hostile",
+        "Sources": [
+          "article/mexals-letters_2493-03_kruger"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "tyrell-corporation",
+    "Name": "Tyrell Corporation",
+    "Aliases": [
+      "Tyrell Corp",
+      "Tyrell"
+    ],
+    "Type": "corporation",
+    "Description": "Small corporation that, in the Drive Wars scenario notes, develops a superior Jump Drive Controller that Parnell tries to suppress.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/scenario-drive-wars-scenario-notes",
+        "Note": "Described here",
+        "Sources": [
+          "article/scenario-drive-wars-scenario-notes"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "united-europe",
+    "Name": "United Europe",
+    "Aliases": [
+      "UE"
+    ],
+    "Type": "government",
+    "Description": "Earth power bloc; employer of Henri Le Geere; claimed the Groombridge system in 2075 and fought the Groombridge Bush War.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/a-brief-guide-to-history",
+        "Note": "Described here",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/blackwell-power",
+        "Note": "First recorded space combat, Groombridge system, 2075",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "united-worlds",
+    "Name": "United Worlds",
+    "Aliases": [
+      "UW",
+      "the UW"
+    ],
+    "Type": "government",
+    "Description": "Federation of worlds formed after Earth lost the Colonial War; a council with a seat per world, in practice dominated by the corporations.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/a-brief-guide-to-history",
+        "Note": "Described here",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-colonial-intelligence-agency",
+    "Name": "UW Colonial Intelligence Agency",
+    "Aliases": [
+      "CIA"
+    ],
+    "Type": "government",
+    "Description": "UW intelligence agency whose operatives had infiltrated Hal's Slave Security for over two years.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Role": "Friendly (undercover in Slave Security)",
+        "Sources": [
+          "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-colonial-navy",
+    "Name": "UW Colonial Navy",
+    "Type": "military",
+    "Description": "UW naval service; Surgeon Commander Mimiannapandawawa served in it.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/2495-01_mission-nightside"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-colonisation-team-grants-world",
+    "Name": "UW Colonisation Team, Grant's Place",
+    "Aliases": [
+      "Grant's Place colonists"
+    ],
+    "Type": "other",
+    "Description": "UW-funded colony on Grant's World being prepared for Groombridge survivors.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Role": "Neutral/Friendly",
+        "Sources": [
+          "article/2495-01_mission-nightside"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-combat-medical-team",
+    "Name": "UW Combat Medical Team",
+    "Type": "government",
+    "Description": "UW medical unit named in the Vortex cover story.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/briefing-notes_mision-vortex",
+        "Note": "Described here",
+        "Sources": [
+          "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-courts",
+    "Name": "UW Courts",
+    "Aliases": [
+      "UW Court"
+    ],
+    "Type": "government",
+    "Description": "UW judiciary; issued the injunction 5 Coy enforced on Heurls.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/mexals-letters_2495-02_heurls"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Issued the orders (interim injunction)",
+        "Sources": [
+          "article/mexals-letters_2495-02_heurls"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-diplo-team-groombridge",
+    "Name": "UW Diplo Team (Groombridge)",
+    "Aliases": [
+      "Diplo Team",
+      "UW Diplomatic Corps",
+      "Diplos"
+    ],
+    "Type": "government",
+    "Description": "UW diplomatic team sent to Chidan on Groombridge in 2492; kidnapped in July 2492.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/interstella_2492-07"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-diplomatic-service",
+    "Name": "UW Diplomatic Service",
+    "Aliases": [
+      "United Worlds Diplomatic Corps"
+    ],
+    "Type": "government",
+    "Description": "Awarded the Medal of Merit to Col A Gillham and Sgt Ruby Axe.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/honours_1995-08-23"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-military-intelligence",
+    "Name": "UW Military Intelligence",
+    "Aliases": [
+      "UW MilInt",
+      "Mil Int",
+      "Military Intelligence",
+      "UWI"
+    ],
+    "Type": "military",
+    "Description": "UW military intelligence; had operatives undercover with the renegade SF on Liahn.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Role": "Friendly (undercover operatives)",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-rapid-reaction-battalion",
+    "Name": "UW Rapid Reaction Battalion",
+    "Aliases": [
+      "UWRRB",
+      "RRB",
+      "Rapid Reaction Battalion",
+      "Rapid Response battalion",
+      "CMC Rapid Reaction Force",
+      "Rapid Reaction Force"
+    ],
+    "Type": "military",
+    "Description": "Battalion created by Col A Gillham; its success led the UW to disband Special Forces in its favour. Disbanded Dec 2497.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Disbanded; members redeployed to other CMC units",
+        "Date": "2497-12",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-special-forces",
+    "Name": "UW Special Forces",
+    "Aliases": [
+      "Special Forces",
+      "SF"
+    ],
+    "Type": "military",
+    "Description": "UW special forces structure disbanded in favour of the RRB (c.2495); renegade units mounted the operation on Liahn. Reformed under direct control of the UW President in Nov 2497.",
+    "Facts": [
+      {
+        "P": "status",
+        "V": "Disbanded in favour of the RRB",
+        "Date": "2495",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Reformed under the direct control of the UW President",
+        "Date": "2497-11",
+        "Sources": [
+          "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Role": "Hostile (renegade units)",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-12_mission-classified",
+        "Role": "Opposing force in a live-fire training exercise",
+        "Sources": [
+          "article/2494-12_mission-classified"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Renegade units funded by mining and marketing Bodonite ore",
+        "Date": "2495-11",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/restyk-corporation",
+        "V": "Project Gemstone partners",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-special-forces-bravo-coy",
+    "Name": "Special Forces Bravo Company",
+    "Aliases": [
+      "Bravo company"
+    ],
+    "Type": "military",
+    "Description": "Former UW Special Forces company that was the main hostile force on Liahn.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/uw-special-forces",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Role": "Hostile",
+        "Sources": [
+          "article/2495-11_mission-nova"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-survey",
+    "Name": "UW Survey",
+    "Aliases": [
+      "UW Survey Team"
+    ],
+    "Type": "government",
+    "Description": "UW survey service; joint partner in Pegasus and sponsor of the 2492 X244 survey team.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Role": "Joint mission partner",
+        "Sources": [
+          "article/2494-06_mission-pegasus"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-watchdog-authority",
+    "Name": "Investigative/watch-dog authority",
+    "Type": "government",
+    "Description": "Body formed after the Groombridge Bush War (2125) to police space; later given a military arm and renamed the Colonial Marine Corps.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/a-brief-guide-to-history",
+        "Note": "Described here",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Formed after the Groombridge Bush War (from 2125)",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uwbi",
+    "Name": "UWBI",
+    "Type": "government",
+    "Description": "UW investigative body that returned Baron Lukel of Sirius to power in 2492, through 5 Coy.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/a-brief-guide-to-history"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "valen-pharmaceuticals",
+    "Name": "Valen Pharmaceuticals Inc",
+    "Aliases": [
+      "Valen Pharmaceuticals"
+    ],
+    "Type": "corporation",
+    "Description": "Drugs, with probably the largest medical R&D department.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/companies-and-corporations",
+        "Note": "Described here",
+        "Sources": [
+          "article/companies-and-corporations"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "www-news",
+    "Name": "WWW News",
+    "Aliases": [
+      "WWW"
+    ],
+    "Type": "press",
+    "Description": "News agency on Homeworld ahead of the CMC.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Role": "Press",
+        "Sources": [
+          "article/2496-02_mission-intruder"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "xeno-corps-security",
+    "Name": "Xeno Corps Security",
+    "Type": "mercenary",
+    "Description": "Rumoured identity of mercenaries who seized a main charge on Groombridge.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Hostile (rumoured)",
+        "Sources": [
+          "mission/2495-04_mission-unknown"
+        ]
+      }
+    ]
+  }
+]
