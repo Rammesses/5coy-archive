@@ -28,7 +28,8 @@
     <h1><span class="sectionIcon oi @sectionData.Glyph" aria-hidden="true"></span>@articleData.Title
     <span style="float:right"><web.Controls.PdfViewButton PdfUrl="@articleData.PdfUrl" /></span>
     </h1>
-    <h5>
+    <h5 class="page-nav">
+        <span class="page-breadcrumbs">
         @if (!string.IsNullOrEmpty(sectionData.Reference)) {
         <a href="/section/@sectionData.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@sectionData.Title</a>
         } else {
@@ -37,40 +38,27 @@
 
         @if (!string.IsNullOrEmpty(articleData.Parent?.Reference)) {
         <a href="/article/@sectionData.Reference/@articleData.Parent.Reference"><span class="oi oi-chevron-left"></span>&nbsp;@articleData.Parent.Title</a>
-        } 
+        }
+        </span>
+        @if (missionData != null)
+        {
+            <span class="page-mission">Mission: <a href="/mission/@missionData.Reference">@missionData.Name</a> (@missionData.EndDate.AddYears(500).ToString("MMM yyyy"))</span>
+        }
     </h5>
-    @if (missionData != null)
-    {
-        <h5>Mission: <a href="/mission/@missionData.Reference">@missionData.Name</a> (@missionData.EndDate.AddYears(500).ToString("MMM yyyy"))</h5>
-    }
-    @if (articleData.Children.Any())
-    {
+    @* Hidden until the markdown has actually loaded, so an article that's only a PDF shows no empty block *@
+    <div class="article-content @(hasContent ? string.Empty : "collapse")">
         <hr />
-        <h5>Related:</h5>
-        <web.Controls.RelatedArticlesView Articles=@articleData.Children Section=@(sectionData) />
-    }
-    <hr />
-    <div>
-        <web.Controls.MarkdownView ContentUrl="@articleData.ContentUrl"/>
+        <web.Controls.MarkdownView ContentUrl="@articleData.ContentUrl"
+                                   ContentLoaded="@((bool loaded) => hasContent = loaded)" />
     </div>
-    @if (relatedMissions.Any() || relatedArticles.Any())
+    @if (RelatedArticles.Any() || relatedMissions.Any())
     {
+        @* Same layout as the mission page: one alphabetical list of child articles, related
+           articles and related missions. *@
         <div class="related-articles">
         <hr />
-        <h5>Related Articles:</h5>
-        @if (relatedMissions.Any())
-        {
-            <ul class="related-breadcrumbs">
-            @foreach (var mission in relatedMissions)
-            {
-                <li><a href="/mission/@mission.Reference">@mission.Name</a> (@mission.EndDate.AddYears(500).ToString("MMM yyyy"))</li>
-            }
-            </ul>
-        }
-        @if (relatedArticles.Any())
-        {
-            <web.Controls.RelatedArticlesBreadcrumbList Articles=@relatedArticles />
-        }
+        <h5>Related:</h5>
+        <web.Controls.RelatedBreadcrumbList Articles=@RelatedArticles Missions=@relatedMissions />
         </div>
     }
 }
@@ -89,6 +77,14 @@
     private Models.Mission missionData;
     private Models.Mission[] relatedMissions = Array.Empty<Models.Mission>();
     private Models.Article[] relatedArticles = Array.Empty<Models.Article>();
+    private bool hasContent;
+
+    // Child articles (e.g. a report's intelligence briefing) are listed with the related ones.
+    private Models.Article[] RelatedArticles => (articleData?.Children ?? Array.Empty<Models.Article>())
+        .Concat(relatedArticles)
+        .GroupBy(a => a.Reference)
+        .Select(g => g.First())
+        .ToArray();
 
     protected override async Task OnParametersSetAsync()
     {

@@ -18,7 +18,7 @@ using static web.test.TestSupport.TestData;
 
 namespace web.test.Controls;
 
-public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
+public class RelatedBreadcrumbListArticleTests : ComponentTestBase
 {
     [Test]
     public void Shows_the_section_trail_then_the_article()
@@ -28,7 +28,7 @@ public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
         var report = Article("report-procyon");
         Articles.Setup(a => a.GetSectionPathForItem(report)).ReturnsAsync(new[] { ic, reports });
 
-        var cut = Ctx.Render<RelatedArticlesBreadcrumbList>(p => p.Add(c => c.Articles, new[] { report }));
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, new[] { report }));
 
         cut.WaitForAssertion(() =>
         {
@@ -49,7 +49,7 @@ public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
         child.Parent = parent;
         Articles.Setup(a => a.GetSectionPathForItem(child)).ReturnsAsync(new[] { reports });
 
-        var cut = Ctx.Render<RelatedArticlesBreadcrumbList>(p => p.Add(c => c.Articles, new[] { child }));
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, new[] { child }));
 
         cut.WaitForAssertion(() =>
             cut.FindAll("li a").Select(a => a.GetAttribute("href")).Should().Equal(
@@ -59,7 +59,7 @@ public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
     [Test]
     public void Falls_back_to_the_all_section_when_the_article_has_no_section()
     {
-        var cut = Ctx.Render<RelatedArticlesBreadcrumbList>(p => p.Add(c => c.Articles, new[] { Article("orphan") }));
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, new[] { Article("orphan") }));
 
         cut.WaitForAssertion(() =>
             cut.Find("li a").GetAttribute("href").Should().Be("/article/all/orphan"));
@@ -68,7 +68,7 @@ public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
     [Test]
     public void An_article_without_a_reference_is_plain_text()
     {
-        var cut = Ctx.Render<RelatedArticlesBreadcrumbList>(p => p.Add(c => c.Articles, new[] { new Article { Title = "Untitled scrap" } }));
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, new[] { new Article { Title = "Untitled scrap" } }));
 
         cut.WaitForAssertion(() => cut.Find("li").TextContent.Should().Contain("Untitled scrap"));
         cut.FindAll("li a").Should().BeEmpty();
@@ -80,7 +80,7 @@ public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
         var article = Article("with-pdf");
         article.PdfUrl = "/media/with-pdf.pdf";
 
-        var cut = Ctx.Render<RelatedArticlesBreadcrumbList>(p => p.Add(c => c.Articles, new[] { article }));
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, new[] { article }));
 
         cut.WaitForAssertion(() =>
             cut.Find("a[title='Download as PDF']").GetAttribute("href").Should().Be("/media/with-pdf.pdf"));
@@ -89,9 +89,115 @@ public class RelatedArticlesBreadcrumbListTests : ComponentTestBase
     [Test]
     public void Handles_null_articles()
     {
-        var cut = Ctx.Render<RelatedArticlesBreadcrumbList>(p => p.Add(c => c.Articles, (Article[])null));
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, (Article[])null));
 
         cut.FindAll("li").Should().BeEmpty();
+    }
+}
+
+public class RelatedBreadcrumbListMissionTests : ComponentTestBase
+{
+    [Test]
+    public void Each_mission_is_IC_then_Missions_then_the_mission_and_date()
+    {
+        var missions = new[]
+        {
+            new Mission { Reference = "2494-06_mission-pegasus", Name = "Mission 'Pegasus'", EndDate = new DateTime(1994, 6, 12) },
+            new Mission { Reference = "2502-05_operation-strongarm", Name = "Operation 'Strongarm'", EndDate = new DateTime(2002, 5, 5) },
+        };
+
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Missions, missions));
+
+        var items = cut.FindAll("li.related-mission");
+        items.Should().HaveCount(2);
+        items[0].QuerySelectorAll("a").Select(a => (a.TextContent, a.GetAttribute("href"))).Should().Equal(
+            ("IC", "/section/in-character"),
+            ("Missions", "/missions"),
+            ("Mission 'Pegasus' (Jun 2494)", "/mission/2494-06_mission-pegasus"));
+        items[1].QuerySelectorAll("a").Last().TextContent.Should().Be("Operation 'Strongarm' (May 2502)");
+        items[0].TextContent.Should().MatchRegex(@"IC\s*→\s*Missions\s*→\s*Mission 'Pegasus' \(Jun 2494\)");
+    }
+
+    [Test]
+    public void Handles_null_missions()
+        => Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Missions, (Mission[])null))
+              .FindAll("li").Should().BeEmpty();
+}
+
+public class RelatedBreadcrumbListOrderingTests : ComponentTestBase
+{
+    private static readonly Section<Article> Ic = new() { Reference = "in-character", Title = "In-Character", ShortTitle = "IC" };
+    private static readonly Section<Article> Interstella = new() { Reference = "interstella", Title = "Interstella!" };
+    private static readonly Section<Article> Reports = new() { Reference = "mission-reports", Title = "Mission Reports" };
+
+    private Article InSection(Section<Article> section, string reference, string title)
+    {
+        var article = new Article { Reference = reference, Title = title };
+        Articles.Setup(a => a.GetSectionPathForItem(article)).ReturnsAsync(new[] { Ic, section });
+        return article;
+    }
+
+    [Test]
+    public void Articles_and_missions_form_one_list_in_alphabetical_order_of_the_displayed_line()
+    {
+        var articles = new[]
+        {
+            InSection(Reports, "2494-06_mission-pegasus", "2494-06 - Mission 'Pegasus' (Calvin)"),
+            InSection(Interstella, "interstella_2492-08", "Interstella! August 2492"),
+            InSection(Reports, "2492-10_mission-procyon", "2492-10 - Mission 'Procyon'"),
+            InSection(Interstella, "interstella_2492-07", "Interstella! July 2492"),
+        };
+        var missions = new[]
+        {
+            new Mission { Reference = "2494-06_mission-pegasus", Name = "Mission 'Pegasus'", EndDate = new DateTime(1994, 6, 12) },
+            new Mission { Reference = "2494-04_mission-ogre", Name = "Mission 'Ogre'", EndDate = new DateTime(1994, 4, 17) },
+        };
+
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, articles).Add(c => c.Missions, missions));
+
+        cut.WaitForAssertion(() =>
+            cut.FindAll("li").Select(li => li.QuerySelectorAll("a").Last().TextContent).Should().Equal(
+                "Interstella! August 2492",          // IC → Interstella! → ...
+                "Interstella! July 2492",
+                "2492-10 - Mission 'Procyon'",       // IC → Mission Reports → ...
+                "2494-06 - Mission 'Pegasus' (Calvin)",
+                "Mission 'Ogre' (Apr 2494)",         // IC → Missions → ...
+                "Mission 'Pegasus' (Jun 2494)"));
+    }
+
+    [Test]
+    public void Ordering_ignores_case()
+    {
+        var articles = new[]
+        {
+            InSection(Interstella, "b", "beta"),
+            InSection(Interstella, "a", "Alpha"),
+            InSection(Interstella, "c", "Charlie"),
+        };
+
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, articles));
+
+        cut.WaitForAssertion(() =>
+            cut.FindAll("li").Select(li => li.QuerySelectorAll("a").Last().TextContent).Should().Equal("Alpha", "beta", "Charlie"));
+    }
+
+    [Test]
+    public void Article_and_mission_lines_are_laid_out_identically()
+    {
+        // Whitespace between the links and the arrows is visible, so both kinds of line must
+        // render exactly the same structure (no stray text nodes in one and not the other).
+        var article = InSection(Interstella, "interstella_2492-07", "Interstella! July 2492");
+        var mission = new Mission { Reference = "m", Name = "Mission 'Ogre'", EndDate = new DateTime(1994, 4, 17) };
+
+        var cut = Ctx.Render<RelatedBreadcrumbList>(p => p.Add(c => c.Articles, new[] { article }).Add(c => c.Missions, new[] { mission }));
+
+        cut.WaitForAssertion(() =>
+        {
+            var shapes = cut.FindAll("li").Select(li => string.Join("|", li.ChildNodes.Select(n =>
+                n is AngleSharp.Dom.IElement e ? e.TagName : $"text:{n.TextContent.Trim().Length}"))).ToArray();
+            shapes.Should().HaveCount(2);
+            shapes[0].Should().Be(shapes[1]);
+        });
     }
 }
 

@@ -20,7 +20,7 @@
     <td colspan="3">
         <web.Controls.MarkdownView ContentUrl="@Mission.Summary"/>
         @if (RelatedArticles.Any()) {
-            <web.Controls.RelatedArticlesBreadcrumbList Articles=@RelatedArticles />
+            <web.Controls.RelatedBreadcrumbList Articles=@RelatedArticles />
         }
     </td>
 </tr>

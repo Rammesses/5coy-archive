@@ -76,9 +76,34 @@ public class ArticleDetailTests : ComponentTestBase
 
         cut.WaitForAssertion(() =>
         {
-            var missionLink = cut.FindAll("h5 a").Single(a => a.GetAttribute("href") == "/mission/procyon");
-            missionLink.ParentElement!.TextContent.Should().Contain("Mission Procyon").And.Contain("Oct 2492");
+            var mission = cut.Find("h5.page-nav .page-mission");
+            mission.QuerySelector("a")!.GetAttribute("href").Should().Be("/mission/procyon");
+            mission.TextContent.Should().Contain("Mission Procyon").And.Contain("Oct 2492");
         });
+    }
+
+    [Test]
+    public void The_mission_link_shares_the_breadcrumb_line()
+    {
+        var cut = RenderArticle("reports", "report-procyon");
+
+        cut.WaitForAssertion(() =>
+        {
+            cut.FindAll("h5.page-nav").Should().HaveCount(1);
+            var nav = cut.Find("h5.page-nav");
+            nav.QuerySelector(".page-breadcrumbs a")!.GetAttribute("href").Should().Be("/section/reports");
+            // Breadcrumbs first, mission last: the CSS pushes the last item to the right.
+            nav.Children.Select(c => c.ClassName).Should().Equal("page-breadcrumbs", "page-mission");
+        });
+    }
+
+    [Test]
+    public void Articles_without_a_mission_have_no_mission_link()
+    {
+        var cut = RenderArticle("reports", "report-pegasus");
+
+        cut.WaitForAssertion(() => cut.Find("h1").TextContent.Should().Contain("Title of report-pegasus"));
+        cut.FindAll(".page-mission").Should().BeEmpty();
     }
 
     [Test]
@@ -107,6 +132,53 @@ public class ArticleDetailTests : ComponentTestBase
             var related = cut.Find(".related-articles");
             related.QuerySelectorAll("a").Select(a => a.GetAttribute("href"))
                    .Should().Contain(new[] { "/mission/pegasus", "/article/all/report-pegasus" });
+            related.QuerySelector("li.related-mission")!.TextContent
+                   .Should().MatchRegex(@"IC\s*→\s*Missions\s*→\s*Mission Pegasus \(Jun 2494\)");
+        });
+    }
+
+    [Test]
+    public void Child_articles_are_listed_with_the_related_articles_and_missions_in_one_list()
+    {
+        var briefing = Article("report-procyon-intel");
+        briefing.Title = "Intelligence Briefing Notes";
+        briefing.Parent = reportProcyon;
+        reportProcyon.Children = new[] { briefing };
+        var pegasus = new Mission { Reference = "pegasus", Name = "Mission 'Pegasus'", EndDate = new DateTime(1994, 6, 12) };
+        Missions.Setup(m => m.GetRelatedMissions("report-procyon", It.IsAny<string[]>())).ReturnsAsync(new[] { pegasus });
+
+        var cut = RenderArticle("reports", "report-procyon");
+
+        cut.WaitForAssertion(() =>
+        {
+            cut.FindAll("h5").Select(h => h.TextContent.Trim()).Where(t => t.StartsWith("Related")).Should().Equal("Related:");
+            cut.FindAll(".related-articles ul.related-breadcrumbs").Should().HaveCount(1);
+            cut.FindAll(".related-articles li").Select(li => li.QuerySelectorAll("a").Last().TextContent).Should().Equal(
+                "Mission 'Pegasus' (Jun 2494)",           // IC → Missions → ...
+                "Title of report-pegasus",                // Title of report-pegasus
+                "Intelligence Briefing Notes");           // Title of report-procyon → Intelligence...
+        });
+    }
+
+    [Test]
+    public void An_article_with_no_transcription_shows_no_empty_content_block()
+    {
+        reportPegasus.ContentUrl = null;
+
+        var cut = RenderArticle("reports", "report-pegasus");
+
+        cut.WaitForAssertion(() => cut.Find(".article-content").ClassList.Should().Contain("collapse"));
+    }
+
+    [Test]
+    public void An_article_with_a_transcription_shows_it()
+    {
+        var cut = RenderArticle("reports", "report-procyon");
+
+        cut.WaitForAssertion(() =>
+        {
+            cut.Find(".article-content").ClassList.Should().NotContain("collapse");
+            cut.Find(".article-content").TextContent.Should().Contain("Procyon report text.");
         });
     }
 

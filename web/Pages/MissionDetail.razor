@@ -13,12 +13,14 @@
 @if (missionData == null)
 {
     <h1>'@MissionName'</h1>
+    @MissionsBreadcrumb
 
     <div class="loading">Loading...</div>
 } else
 {
     <h1><span class="oi oi-flag" aria-hidden="true"></span>
         @missionData.Name</h1>
+    @MissionsBreadcrumb
 
     @if (!string.IsNullOrEmpty(missionData.ContentUrl))
     {
@@ -32,21 +34,11 @@
 
     @if (articleData?.Any() == true || relatedMissions.Any())
     {
+        <div class="related-articles">
         <hr />
         <h5>Related:</h5>
-        @if (articleData?.Any() == true)
-        {
-            <web.Controls.RelatedArticlesBreadcrumbList Articles=@articleData />
-        }
-        @if (relatedMissions.Any())
-        {
-            <ul class="related-breadcrumbs">
-            @foreach (var mission in relatedMissions)
-            {
-                <li><a href="/mission/@mission.Reference">@mission.Name</a> (@mission.EndDate.AddYears(500).ToString("MMM yyyy"))</li>
-            }
-            </ul>
-        }
+        <web.Controls.RelatedBreadcrumbList Articles=@articleData Missions=@relatedMissions />
+        </div>
     }
 }
 
@@ -63,6 +55,9 @@
     private string MissionName => missionData?.Name ?? $"Mission '{MissionRef}'";
 
     private string loadedRef;
+
+    private static readonly RenderFragment MissionsBreadcrumb =
+        @<h5 class="page-nav"><span class="page-breadcrumbs"><a href="/missions"><span class="oi oi-chevron-left"></span>&nbsp;Missions</a></span></h5>;
 
     // OnParametersSet, not OnInitialized: following a link from one mission to another
     // (/mission/a -> /mission/b) reuses this component instance and only changes MissionRef.

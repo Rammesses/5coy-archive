@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 using Bunit;
@@ -88,12 +89,39 @@ public class MissionDetailTests : ComponentTestBase
     }
 
     [Test]
-    public void Related_missions_show_their_in_game_date()
+    public void Has_a_breadcrumb_back_to_the_missions_page()
     {
         var cut = RenderMission(Procyon);
 
         cut.WaitForAssertion(() =>
-            cut.Find("ul.related-breadcrumbs li").TextContent.Should().Contain("Mission Pegasus").And.Contain("Jun 2494"));
+        {
+            var back = cut.Find("h5.page-nav a");
+            back.GetAttribute("href").Should().Be("/missions");
+            back.TextContent.Trim().Should().Be("Missions");
+        });
+    }
+
+    [Test]
+    public void Still_has_the_breadcrumb_while_loading_or_for_an_unknown_mission()
+    {
+        var cut = Ctx.Render<MissionDetail>(p => p.Add(c => c.MissionRef, "nope"));
+
+        cut.WaitForAssertion(() => cut.Find("h5.page-nav a").GetAttribute("href").Should().Be("/missions"));
+    }
+
+    [Test]
+    public void Related_missions_are_shown_as_IC_Missions_breadcrumbs_with_the_date_in_the_link()
+    {
+        var cut = RenderMission(Procyon);
+
+        cut.WaitForAssertion(() =>
+        {
+            var links = cut.FindAll("li.related-mission a").Select(a => (a.TextContent, a.GetAttribute("href")));
+            links.Should().Equal(
+                ("IC", "/section/in-character"),
+                ("Missions", "/missions"),
+                ("Mission Pegasus (Jun 2494)", "/mission/2494-06_mission-pegasus"));
+        });
     }
 
     [Test]
@@ -141,12 +169,12 @@ public class MissionDetailTests : ComponentTestBase
     {
         var cut = RenderMission(Procyon);
         cut.WaitForAssertion(() =>
-            cut.Find(".related-breadcrumbs a").GetAttribute("href").Should().Be($"/mission/{Pegasus.Reference}"));
+            cut.Find("li.related-mission a[href^='/mission/']").GetAttribute("href").Should().Be($"/mission/{Pegasus.Reference}"));
 
         cut.Render(p => p.Add(c => c.MissionRef, Pegasus.Reference));
 
         cut.WaitForAssertion(() =>
-            cut.Find(".related-breadcrumbs a").GetAttribute("href").Should().Be($"/mission/{Procyon.Reference}"));
+            cut.Find("li.related-mission a[href^='/mission/']").GetAttribute("href").Should().Be($"/mission/{Procyon.Reference}"));
     }
 
     [Test]

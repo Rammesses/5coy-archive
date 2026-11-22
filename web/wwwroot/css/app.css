@@ -245,6 +245,20 @@ button.flat {
     padding: 0 0.25rem;
 }
 
+/* Breadcrumb line under a page title; an optional item (e.g. the article's mission) sits at
+   the right-hand end, wrapping beneath the breadcrumbs on narrow screens. */
+h5.page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.25rem 1rem;
+}
+
+h5.page-nav .page-mission {
+    margin-left: auto;
+}
+
 ul.related-breadcrumbs {
     list-style: none;
     padding-left: 0;

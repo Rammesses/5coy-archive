@@ -1,0 +1,86 @@
+@using Models
+@using Services
+
+@inject IArticlesService dataService
+
+@* Related articles and missions, one per line, each prefixed with a breadcrumb trail showing
+   where it sits, and all in alphabetical order of the line as displayed:
+     "IC → Mission Reports → 2492-10 - Mission 'Procyon'"
+     "IC → Missions → Mission 'Pegasus' (Jun 2494)"   (a mission's in-game date is part of its link) *@
+<ul class="related-breadcrumbs">
+@foreach (var item in items)
+{
+    <li class="@item.CssClass">
+        @foreach (var crumb in item.Trail)
+        {
+            <a href="@crumb.Url">@crumb.Title</a>
+            <span class="breadcrumb-separator" aria-hidden="true">&rarr;</span>
+        }
+        @if (item.Target.Url != null) {
+            <a href="@item.Target.Url">@item.Target.Title</a>
+        } else {
+            @item.Target.Title
+        }
+        @if (!string.IsNullOrEmpty(item.PdfUrl)) {
+            <text>&nbsp;</text>
+            <web.Controls.PdfDownloadButton PdfUrl="@item.PdfUrl" />
+        }
+    </li>
+}
+</ul>
+
+@code {
+
+    public const string InCharacterUrl = "/section/in-character";
+    public const string InCharacterTitle = "IC";
+    public const string MissionsUrl = "/missions";
+    public const string MissionsTitle = "Missions";
+
+    [Parameter]
+    public Article[] Articles { get; set; } = Array.Empty<Article>();
+
+    [Parameter]
+    public Mission[] Missions { get; set; } = Array.Empty<Mission>();
+
+    private List<Item> items = new();
+
+    private sealed record Crumb(string Title, string Url);
+
+    private sealed record Item(Crumb[] Trail, Crumb Target, string PdfUrl, string CssClass)
+    {
+        public string SortKey => string.Join(" → ", Trail.Append(Target).Select(c => c.Title));
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        var result = new List<Item>();
+
+        foreach (var article in Articles ?? Array.Empty<Article>())
+        {
+            var sections = await dataService.GetSectionPathForItem(article);
+            var sectionRef = sections.LastOrDefault()?.Reference ?? Section<Article>.AllItemsRef;
+
+            var parents = new List<Article>();
+            for (var p = article.Parent; p != null; p = p.Parent)
+                parents.Insert(0, p);
+
+            var trail = sections.Select(s => new Crumb(s.BreadcrumbTitle, s.Url))
+                .Concat(parents.Select(p => new Crumb(p.Title, $"/article/{sectionRef}/{p.Reference}")))
+                .ToArray();
+            var target = new Crumb(article.Title,
+                string.IsNullOrEmpty(article.Reference) ? null : $"/article/{sectionRef}/{article.Reference}");
+
+            result.Add(new Item(trail, target, article.PdfUrl, "related-article"));
+        }
+
+        foreach (var mission in Missions ?? Array.Empty<Mission>())
+        {
+            var trail = new[] { new Crumb(InCharacterTitle, InCharacterUrl), new Crumb(MissionsTitle, MissionsUrl) };
+            var target = new Crumb($"{mission.Name} ({mission.EndDate.AddYears(500):MMM yyyy})", $"/mission/{mission.Reference}");
+
+            result.Add(new Item(trail, target, null, "related-mission"));
+        }
+
+        items = result.OrderBy(i => i.SortKey, StringComparer.OrdinalIgnoreCase).ToList();
+    }
+}
