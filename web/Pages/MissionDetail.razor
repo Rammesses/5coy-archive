@@ -13,12 +13,14 @@
 @if (missionData == null)
 {
     <h1>'@MissionName'</h1>
+    @MissionsBreadcrumb
 
     <div class="loading">Loading...</div>
 } else
 {
     <h1><span class="oi oi-flag" aria-hidden="true"></span>
         @missionData.Name</h1>
+    @MissionsBreadcrumb
 
     @if (!string.IsNullOrEmpty(missionData.ContentUrl))
     {
@@ -30,11 +32,13 @@
         </div>
     }
 
-    @if (articleData?.Any() == true)
+    @if (articleData?.Any() == true || relatedMissions.Any())
     {
+        <div class="related-articles">
         <hr />
         <h5>Related:</h5>
-        <web.Controls.RelatedArticlesBreadcrumbList Articles=@articleData />
+        <web.Controls.RelatedBreadcrumbList Articles=@articleData Missions=@relatedMissions />
+        </div>
     }
 }
 
@@ -45,13 +49,47 @@
 
     private Mission missionData;
     private Article[] articleData;
+    private Mission[] relatedMissions = Array.Empty<Mission>();
     private bool hasSummary;
 
     private string MissionName => missionData?.Name ?? $"Mission '{MissionRef}'";
 
-    protected override async Task OnInitializedAsync()
+    private string loadedRef;
+
+    private static readonly RenderFragment MissionsBreadcrumb =
+        @<h5 class="page-nav"><span class="page-breadcrumbs"><a href="/missions"><span class="oi oi-chevron-left"></span>&nbsp;Missions</a></span></h5>;
+
+    // OnParametersSet, not OnInitialized: following a link from one mission to another
+    // (/mission/a -> /mission/b) reuses this component instance and only changes MissionRef.
+    protected override async Task OnParametersSetAsync()
     {
-        missionData = await missionsService.GetMissionByRef(MissionRef);
-        articleData = await articlesService.GetItemsByMissionRef(MissionRef);        
+        if (MissionRef == loadedRef)
+            return;
+
+        var requestedRef = loadedRef = MissionRef;
+
+        // Clear the previous mission so its summary and related list don't linger while loading.
+        missionData = null;
+        articleData = null;
+        relatedMissions = Array.Empty<Mission>();
+        hasSummary = false;
+
+        var mission = await missionsService.GetMissionByRef(requestedRef);
+        var articles = await articlesService.GetItemsByMissionRef(requestedRef);
+        var missions = Array.Empty<Mission>();
+        if (mission != null)
+        {
+            var relatedArticles = await articlesService.GetRelatedItemsForMission(mission);
+            articles = articles.Concat(relatedArticles).ToArray();
+            missions = await missionsService.GetRelatedMissions(mission.Reference, mission.Related);
+        }
+
+        // The user may have moved on to another mission while this one was loading.
+        if (requestedRef != MissionRef)
+            return;
+
+        missionData = mission;
+        articleData = articles;
+        relatedMissions = missions;
     }
 }

@@ -1,0 +1,4727 @@
+{
+ "ByDocument": {
+  "article/a-brief-guide-to-history": [
+   "character/baron-lukel",
+   "character/henri-le-geere",
+   "character/marvin-parnell",
+   "character/nasco",
+   "character/vanessa-parnell",
+   "character/warlock",
+   "organisation/5-coy",
+   "organisation/blackwell-power",
+   "organisation/cmc-area-command",
+   "organisation/cmc-iv-field-regiment",
+   "organisation/colonial-marine-corps",
+   "organisation/erasmus-corporation",
+   "organisation/iowa-power",
+   "organisation/one-true-church",
+   "organisation/parnell-industries",
+   "organisation/the-brotherhood",
+   "organisation/united-europe",
+   "organisation/united-worlds",
+   "organisation/uw-watchdog-authority",
+   "organisation/uwbi"
+  ],
+  "article/companies-and-corporations": [
+   "character/colton",
+   "character/vanessa-parnell",
+   "organisation/alfatek-systems",
+   "organisation/argaran-corporation",
+   "organisation/banordyne",
+   "organisation/blackwell-power",
+   "organisation/de-witt-mining",
+   "organisation/erasmus-corporation",
+   "organisation/gem-star-holdings",
+   "organisation/hommilabs",
+   "organisation/ickthyn-services",
+   "organisation/intelcorp",
+   "organisation/iowa-power",
+   "organisation/ixtyl",
+   "organisation/jefferson-electronic-systems",
+   "organisation/li-sung-leisure",
+   "organisation/malenski-transportation",
+   "organisation/medi-care",
+   "organisation/merton-publishing",
+   "organisation/military-mercantile",
+   "organisation/nas-corp",
+   "organisation/network-systems",
+   "organisation/new-worlds-inc",
+   "organisation/nordberg-shipping",
+   "organisation/palmini-defence-systems",
+   "organisation/parnell-industries",
+   "organisation/puritans",
+   "organisation/sigma-mining",
+   "organisation/svensonn-automation",
+   "organisation/tadson-romburg",
+   "organisation/tedmann-controls",
+   "organisation/united-worlds",
+   "organisation/valen-pharmaceuticals"
+  ],
+  "article/groups-and-organisations": [
+   "character/angus-mccall",
+   "character/tanki-lee-ho",
+   "character/zandra-constella",
+   "organisation/chronicallers",
+   "organisation/colonial-marine-corps",
+   "organisation/hengists",
+   "organisation/independance-for-clones",
+   "organisation/iowa-power",
+   "organisation/league-against-warfare",
+   "organisation/nu-phoenicians",
+   "organisation/one-true-church",
+   "organisation/puritans",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/safety-rules-and-game-play-guidelines": [],
+  "article/writers-guide": [
+   "character/avo-stetto",
+   "character/charles-gibson",
+   "character/crisp-john",
+   "character/crisp-jonas",
+   "character/david-wolverton",
+   "character/dexter-d6",
+   "character/diane-king",
+   "character/edward-carter",
+   "character/jonathon-shade",
+   "character/julian-maynard",
+   "character/nasco",
+   "character/nathan-archer",
+   "character/stephani-perry",
+   "character/turner-j",
+   "character/williams-wild-bill",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/colonial-marine-corps",
+   "organisation/network-systems",
+   "organisation/sugar-mice",
+   "organisation/the-brotherhood",
+   "organisation/tyrell-corporation",
+   "organisation/united-worlds"
+  ],
+  "article/bill-chivers-training-ideas": [
+   "character/zwalf"
+  ],
+  "article/honours_1995-08-23": [
+   "character/adder",
+   "character/angel-mi",
+   "character/axe-ruby",
+   "character/bean",
+   "character/beck-thorius",
+   "character/blackthorne-w",
+   "character/burke",
+   "character/calvin-a",
+   "character/cardinal",
+   "character/cassell",
+   "character/chaos-k",
+   "character/darling-t",
+   "character/dibbley-dwane",
+   "character/gillham-a",
+   "character/gillham-major",
+   "character/harris-reece",
+   "character/jarvis",
+   "character/johnson-c",
+   "character/krinly",
+   "character/martins-julian",
+   "character/mexal",
+   "character/miller",
+   "character/mimiannapandawawa",
+   "character/nix",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/ratch-sc",
+   "character/rell-emma",
+   "character/rider-knight",
+   "character/rocktansky",
+   "character/sabre",
+   "character/sad-person",
+   "character/sjvenson-j",
+   "character/smith-j",
+   "character/sparky",
+   "character/sterling",
+   "character/stryker",
+   "character/trader",
+   "character/turner-j",
+   "character/vanessa-parnell",
+   "character/winston",
+   "character/woe-w",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/chidanians",
+   "organisation/groombridge-planetary-government",
+   "organisation/liane-planetary-government",
+   "organisation/uw-diplomatic-service",
+   "organisation/uw-rapid-reaction-battalion"
+  ],
+  "article/interim-history_2496-to-2501": [
+   "character/axe-ruby",
+   "character/diamond-tane",
+   "character/elhana-parnell",
+   "character/h-zachary-nathan-smith",
+   "character/oslo-sven",
+   "character/sjvenson-j",
+   "character/vanessa-parnell",
+   "organisation/5-coy",
+   "organisation/cib",
+   "organisation/cmc-high-command",
+   "organisation/cnn",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/deep-space-research-unit",
+   "organisation/garp-corporation",
+   "organisation/hadens-worthy",
+   "organisation/parnell-industries",
+   "organisation/sjvenson-fire-and-rescue",
+   "organisation/solrebrians",
+   "organisation/united-worlds",
+   "organisation/uw-rapid-reaction-battalion",
+   "organisation/uw-special-forces"
+  ],
+  "article/mission-briefing_operation-hammerhead_2501-10": [],
+  "article/mission-notice_operation-dawn_1999-01": [],
+  "article/cmc-newsletter_1999-02": [
+   "character/calvin-a",
+   "character/mexal",
+   "character/peterson-olaf",
+   "character/turner-j",
+   "organisation/colonial-marine-corps"
+  ],
+  "article/itlof_2495-01": [
+   "character/claudia-goldine",
+   "organisation/in-the-line-of-fire"
+  ],
+  "article/itlof_2495-02": [],
+  "article/itlof_2495-03": [
+   "character/blackthorne-w",
+   "character/lucifer"
+  ],
+  "article/itlof_2495-04": [],
+  "article/itlof_2495-05": [],
+  "article/itlof_2495-06": [
+   "character/ratch-sc",
+   "character/trader"
+  ],
+  "article/itlof_2495-07": [
+   "organisation/league-against-warfare"
+  ],
+  "article/itlof_2495-12": [],
+  "article/itlof_2496-01": [],
+  "article/itlof_2496-03": [
+   "character/smith-j"
+  ],
+  "article/itlof_2496-04": [
+   "character/dibbley-dwane",
+   "character/martins-julian",
+   "character/woe-w"
+  ],
+  "article/itlof_2496-05": [
+   "character/cyber-knight"
+  ],
+  "article/itlof_2496-06": [
+   "character/jacques"
+  ],
+  "article/interstella_specialedition_2491-12": [
+   "character/derrin-sal",
+   "character/diamond-tane",
+   "character/gill-lt",
+   "character/harris-reece",
+   "character/haze-torboran",
+   "character/housten",
+   "character/krysal-spyers",
+   "character/meller",
+   "character/steele-cpl",
+   "character/terner-mfc",
+   "organisation/5-coy",
+   "organisation/colonial-marine-corps",
+   "organisation/interstella",
+   "organisation/skeleton-news-crew",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2492-01": [
+   "character/angus-mccall",
+   "character/aunty-trisha",
+   "character/browning-johan",
+   "character/cantrell-rachel",
+   "character/haze-torboran",
+   "character/karpov-daphne",
+   "character/kramm-victor",
+   "organisation/de-witt-mining",
+   "organisation/eagle-supernova",
+   "organisation/erasmus-corporation",
+   "organisation/independance-for-clones",
+   "organisation/intergalactic-lottery-co",
+   "organisation/interstella",
+   "organisation/league-against-warfare",
+   "organisation/new-worlds-inc",
+   "organisation/restyk-corporation",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2492-02": [
+   "character/aunty-trisha",
+   "character/haze-torboran",
+   "character/judge-judas",
+   "character/krysal-spyers",
+   "character/nasco",
+   "character/platinno-minsi",
+   "organisation/5-coy",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/eagle-supernova",
+   "organisation/hengists",
+   "organisation/intergalactic-lottery-co",
+   "organisation/interstella",
+   "organisation/united-worlds",
+   "organisation/uw-fraud-team"
+  ],
+  "article/interstella_2492-03": [
+   "character/aunty-trisha",
+   "character/baron-lukel",
+   "character/diamond-tane",
+   "character/gillham-major",
+   "character/kev-lin-draksfor",
+   "character/krysal-spyers",
+   "character/matlocke-jaz",
+   "character/nasco",
+   "character/riccotonini",
+   "character/ricottanini-gino",
+   "organisation/5-coy",
+   "organisation/de-witt-mining",
+   "organisation/erasmus-corporation",
+   "organisation/hengists",
+   "organisation/intergalactic-lottery-co",
+   "organisation/league-against-warfare",
+   "organisation/new-worlds-inc",
+   "organisation/puritans",
+   "organisation/ricottanini-family",
+   "organisation/united-worlds",
+   "organisation/urthankoi-government",
+   "organisation/uw-fraud-team"
+  ],
+  "article/interstella_2492-04": [
+   "character/aunty-trisha",
+   "character/baron-haze",
+   "character/baron-lukel",
+   "character/browning-johan",
+   "character/cantrell-domonic",
+   "character/cantrell-rachel",
+   "character/diamond-tane",
+   "character/gillham-major",
+   "character/haze-torboran",
+   "character/krysal-spyers",
+   "character/mickelhob",
+   "character/morgan-blake",
+   "character/stone-nick",
+   "character/terner-jon",
+   "organisation/5-coy",
+   "organisation/cmc-central-command",
+   "organisation/colonial-marine-corps",
+   "organisation/hengists",
+   "organisation/independance-for-clones",
+   "organisation/intergalactic-lottery-co",
+   "organisation/interstella",
+   "organisation/investment-team",
+   "organisation/iowa-power",
+   "organisation/jefferson-electronic-systems",
+   "organisation/league-against-warfare",
+   "organisation/new-worlds-inc",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds",
+   "organisation/uw-fraud-team"
+  ],
+  "article/interstella_2492-05": [
+   "character/baron-haze",
+   "character/baron-lukel",
+   "character/diamond-tane",
+   "character/oshaunessy-cassandra",
+   "character/warlock",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/cmc-central-command",
+   "organisation/colonial-marine-corps",
+   "organisation/evolution-party",
+   "organisation/future-party",
+   "organisation/groombridge-central-house",
+   "organisation/interstella",
+   "organisation/league-against-warfare",
+   "organisation/puritans",
+   "organisation/united-worlds",
+   "organisation/uw-diplo-team-groombridge"
+  ],
+  "article/interstella_2492-06": [
+   "character/apone",
+   "character/diamond-tane",
+   "character/judge-judas",
+   "character/morgan-blake",
+   "character/nasco",
+   "character/oshaunessy-caitlin",
+   "character/warlock",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/future-party",
+   "organisation/groombridge-central-house",
+   "organisation/kasdunni",
+   "organisation/new-worlds-inc",
+   "organisation/puritans",
+   "organisation/united-worlds",
+   "organisation/uw-diplo-team-groombridge"
+  ],
+  "article/interstella_2492-07": [
+   "character/alemco-leopold-drahvet",
+   "character/aunty-trisha",
+   "character/baron-lukel",
+   "character/diamond-tane",
+   "character/gillham-major",
+   "character/judge-judas",
+   "character/krysal-spyers",
+   "character/limpz-schmidt",
+   "character/nasco",
+   "character/william-zaithin",
+   "organisation/3-coy",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/black-flaggers",
+   "organisation/cmc-central-command",
+   "organisation/colonial-marine-corps",
+   "organisation/evolution-party",
+   "organisation/future-party",
+   "organisation/groombridge-central-house",
+   "organisation/intergalactic-press-corps",
+   "organisation/kasdunni",
+   "organisation/puritans",
+   "organisation/united-worlds",
+   "organisation/uw-diplo-team-groombridge",
+   "organisation/uw-special-forces"
+  ],
+  "article/interstella_2492-08": [
+   "character/alemco-leopold-drahvet",
+   "character/baron-haze",
+   "character/gillham-major",
+   "character/krysal-spyers",
+   "character/limpz-schmidt",
+   "character/morgan-blake",
+   "character/oshaunessy-cassandra",
+   "character/william-zaithin",
+   "organisation/2-coy",
+   "organisation/chidanians",
+   "organisation/colonial-marine-corps",
+   "organisation/future-party",
+   "organisation/groombridge-central-house",
+   "organisation/hengists",
+   "organisation/kasdunni",
+   "organisation/league-against-warfare",
+   "organisation/puritans",
+   "organisation/united-worlds",
+   "organisation/uw-diplo-team-groombridge",
+   "organisation/uw-special-forces"
+  ],
+  "article/interstella_2492-10": [
+   "character/barnacal-b-m",
+   "character/baron-haze",
+   "character/cantrell-rachel",
+   "character/haze-cantrell-lucian",
+   "character/haze-torboran",
+   "character/tyler-kelly",
+   "organisation/5-coy",
+   "organisation/interstella",
+   "organisation/planetary-research-institute"
+  ],
+  "article/interstella_2492-11": [
+   "character/cantrell-rachel",
+   "character/gillham-major",
+   "character/haze-cantrell-lucian",
+   "character/haze-torboran",
+   "character/katz",
+   "character/krysal-spyers",
+   "organisation/5-coy",
+   "organisation/banordyne",
+   "organisation/cmc-central-command",
+   "organisation/eagle-supernova",
+   "organisation/nas-corp",
+   "organisation/puritans",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2492-12": [
+   "character/jerratt-flovine",
+   "character/krysal-spyers",
+   "character/oshaunessy-cassandra",
+   "character/ravaldez",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/banordyne",
+   "organisation/chidanians",
+   "organisation/colonial-marine-corps",
+   "organisation/eagle-supernova",
+   "organisation/freedom-for-chidan-movement",
+   "organisation/future-party",
+   "organisation/groombridge-planetary-government",
+   "organisation/intergalactic-press-corps",
+   "organisation/interstella",
+   "organisation/kasdunni",
+   "organisation/military-mercantile",
+   "organisation/nas-corp",
+   "organisation/network-systems",
+   "organisation/one-true-church",
+   "organisation/puritans",
+   "organisation/uw-survey",
+   "organisation/zyatamosis-lab"
+  ],
+  "article/interstella_2493-03": [
+   "character/baron-lukel",
+   "character/ftha-cedric",
+   "character/harris-reece",
+   "character/honell",
+   "character/johansson-sevvi",
+   "character/krysal-spyers",
+   "character/nasco",
+   "character/oshaunessy-caitlin",
+   "character/oshaunessy-cassandra",
+   "character/paris",
+   "character/winno",
+   "organisation/2-coy",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/cmc-area-command",
+   "organisation/cmc-central-command",
+   "organisation/colonial-marine-corps",
+   "organisation/eagle-supernova",
+   "organisation/first-bank-of-groombridge",
+   "organisation/interstella",
+   "organisation/kasdunni",
+   "organisation/league-against-warfare",
+   "organisation/pec",
+   "organisation/pizza-planet"
+  ],
+  "article/interstella_2493-04": [
+   "character/beyo-mella",
+   "character/cyber-knight",
+   "character/diamond-tane",
+   "character/jerratt-flovine",
+   "character/krysal-spyers",
+   "character/limpz-schmidt",
+   "character/marine-x",
+   "character/maroc-phillipe",
+   "character/mckiernan",
+   "character/william-zaithin",
+   "character/winno",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/colonial-marine-corps",
+   "organisation/eagle-supernova",
+   "organisation/interstella",
+   "organisation/kasdunni",
+   "organisation/kruger-authorities",
+   "organisation/one-true-church",
+   "organisation/parnell-industries",
+   "organisation/pec",
+   "organisation/puritans",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2493-06": [
+   "character/aunty-trisha",
+   "character/baron-lukel",
+   "character/harris-reece",
+   "character/oshaunessy-caitlin",
+   "character/oshaunessy-cassandra",
+   "character/parnell-sean-devlin",
+   "character/pinucchi-jupiter",
+   "character/pinucchi-marcus",
+   "character/vanessa-parnell",
+   "character/warlock",
+   "character/winno",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/alfatek-systems",
+   "organisation/blackwell-power",
+   "organisation/colonial-marine-corps",
+   "organisation/first-bank-of-groombridge",
+   "organisation/hengists",
+   "organisation/interstella",
+   "organisation/kruger-authorities",
+   "organisation/league-against-warfare",
+   "organisation/pec",
+   "organisation/sigma-mining",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2494-09": [
+   "character/ashnak",
+   "character/bill-ryans-world",
+   "character/blackthorne-w",
+   "character/catherine-ryans-world",
+   "character/charity-ryans-world",
+   "character/co-co",
+   "character/dane-ryans-world",
+   "character/drake-ryans-world",
+   "character/gibson",
+   "character/harry-ryans-world",
+   "character/heggarty",
+   "character/jac-t-we",
+   "character/jones-halo",
+   "character/jones-ms-de-witt",
+   "character/mackenzie-don",
+   "character/maclean-duncan",
+   "character/martins-bob",
+   "character/martins-julian",
+   "character/naylor-helen",
+   "character/nikita-colonel",
+   "character/pineapples-joe",
+   "character/randor",
+   "character/sharra",
+   "character/shimmerman-tau",
+   "character/sparky-ryans-world",
+   "character/talim",
+   "character/turner-j",
+   "character/vanessa-parnell",
+   "character/waylander-ryans-world",
+   "character/zack-ryans-world",
+   "character/zed-ryans-world",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/cnn",
+   "organisation/columbian-combo",
+   "organisation/de-witt-mining",
+   "organisation/interstella",
+   "organisation/irag",
+   "organisation/network-systems",
+   "organisation/parnell-industries",
+   "organisation/sigma-mining"
+  ],
+  "article/interstella_2494-10": [
+   "character/calvin-august",
+   "character/couchon-sabatini",
+   "character/diamond-tane",
+   "character/elhana-parnell",
+   "character/faulk-eldon",
+   "character/gibson",
+   "character/jacobs-alec",
+   "character/jones-ms-de-witt",
+   "character/naylor-helen",
+   "character/north-nixon-richard",
+   "character/parnell-sean-devlin",
+   "character/pinucchi-jupiter",
+   "character/pinucchi-marcus",
+   "character/vanessa-parnell",
+   "organisation/1-coy",
+   "organisation/2-coy",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/aldebaran-union",
+   "organisation/barnard-puritan-party",
+   "organisation/cds",
+   "organisation/colonial-marine-corps",
+   "organisation/csca",
+   "organisation/dea",
+   "organisation/hengists",
+   "organisation/interstella",
+   "organisation/marine-training-corps",
+   "organisation/puritans",
+   "organisation/saf-band"
+  ],
+  "article/interstella_2494-11": [
+   "character/alemco-leopold-drahvet",
+   "character/belzakath",
+   "character/dan-yabutsu",
+   "character/diamond-tane",
+   "character/dutrere-s",
+   "character/elhana-parnell",
+   "character/gibson",
+   "character/h-zachary-nathan-smith",
+   "character/harris-reece",
+   "character/ingrams-stephan",
+   "character/jones-ms-de-witt",
+   "character/jones-mst-sgt",
+   "character/katz",
+   "character/kramer",
+   "character/krysal-spyers",
+   "character/nasco",
+   "character/naylor-helen",
+   "character/paris-lt",
+   "character/ratch-sc",
+   "character/stevenson-aj",
+   "character/talim",
+   "character/x243-station-commander",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/interstella",
+   "organisation/kasdunni",
+   "organisation/marine-training-corps",
+   "organisation/new-light",
+   "organisation/old-earth-tourism-authority",
+   "organisation/one-true-church",
+   "organisation/the-brotherhood",
+   "organisation/united-europe",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2494-12": [
+   "character/axe-ruby",
+   "character/calvin-a",
+   "character/chaos-k",
+   "character/claudia-goldine",
+   "character/diamond-tane",
+   "character/edmonds-thille",
+   "character/fugazi",
+   "character/gibson",
+   "character/jackson-cpl",
+   "character/johnson-frazer",
+   "character/jones-ms-de-witt",
+   "character/kist-annabel",
+   "character/krysal-spyers",
+   "character/marion-oeta-rep",
+   "character/martins-julian",
+   "character/merrilion-thom",
+   "character/nasco",
+   "character/naylor-helen",
+   "character/ratch-sc",
+   "character/riccotonini",
+   "character/silver",
+   "character/vanessa-parnell",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/blackwell-power",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/df-associates",
+   "organisation/hengists",
+   "organisation/intergalactic-lottery-co",
+   "organisation/interstella",
+   "organisation/malenski-transportation",
+   "organisation/old-earth-tourism-authority",
+   "organisation/parnell-industries",
+   "organisation/united-europe",
+   "organisation/uwbi"
+  ],
+  "article/interstella_2495-01": [
+   "character/axe-ruby",
+   "character/cassell",
+   "character/chaos-k",
+   "character/cybil-shepherd",
+   "character/fugazi",
+   "character/harris-reece",
+   "character/hunter",
+   "character/igot-thadirt",
+   "character/kramer",
+   "character/krysal-spyers",
+   "character/naylor-helen",
+   "character/oshaunessy-caitlin",
+   "character/silver",
+   "character/zeus",
+   "organisation/5-coy",
+   "organisation/interstella",
+   "organisation/united-worlds"
+  ],
+  "article/interstella_2495-02": [
+   "character/apone",
+   "character/axe-ruby",
+   "character/blackthorne-w",
+   "character/bryant-colonist",
+   "character/bryant-gem",
+   "character/calvin-a",
+   "character/cassell",
+   "character/chaos-k",
+   "character/dibbley-dwane",
+   "character/elan-joshua",
+   "character/farquhar",
+   "character/fugazi",
+   "character/gibson",
+   "character/harris-reece",
+   "character/hobbes",
+   "character/holtmann-r",
+   "character/hornsblow-kieth",
+   "character/jones-ms-de-witt",
+   "character/krysal-spyers",
+   "character/martins-julian",
+   "character/merrilion-thom",
+   "character/mexal",
+   "character/naylor-helen",
+   "character/oshaunessy-caitlin",
+   "character/regan-kelly",
+   "character/regan-kerry",
+   "character/riccotonini",
+   "character/throwt-ivor",
+   "character/transk-ilsa",
+   "character/turner-j",
+   "character/welesley",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/colonial-survey",
+   "organisation/de-witt-mining",
+   "organisation/hengists",
+   "organisation/in-the-line-of-fire",
+   "organisation/interstella",
+   "organisation/iowa-power",
+   "organisation/juliette-government",
+   "organisation/juliette-space-navy",
+   "organisation/kasdunni",
+   "organisation/marquee-models",
+   "organisation/new-light",
+   "organisation/one-true-church",
+   "organisation/united-worlds",
+   "organisation/uw-colonisation-team-grants-world",
+   "organisation/uw-courts"
+  ],
+  "article/interstella_2495-03": [
+   "character/claudia-goldine",
+   "character/councillor-giorgio",
+   "character/councillor-holly",
+   "character/councillor-morrison",
+   "character/dibbley-dwane",
+   "character/gavin-julie",
+   "character/ivan-bilk",
+   "character/krysal-spyers",
+   "character/merrilion-thom",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/naylor-helen",
+   "character/ratch-sc",
+   "character/regan-kelly",
+   "character/renny-vark",
+   "character/simon-heurls",
+   "character/vanessa-parnell",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/cmc-combat-engineering-department",
+   "organisation/de-witt-mining",
+   "organisation/hengists",
+   "organisation/in-the-line-of-fire",
+   "organisation/interstella",
+   "organisation/iowa-power",
+   "organisation/juliette-government",
+   "organisation/malenski-transportation",
+   "organisation/united-worlds",
+   "organisation/uw-courts",
+   "organisation/warmth"
+  ],
+  "article/interstella_2495-04": [
+   "character/arios-e",
+   "character/bean",
+   "character/diamond-tane",
+   "character/fugazi",
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "character/kshell",
+   "character/le-conte-sirac",
+   "character/mexal",
+   "character/nasco",
+   "character/naylor-helen",
+   "character/nix",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/peace-witchfinder",
+   "character/welesley",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/aldsys-spaceyards",
+   "organisation/df-associates",
+   "organisation/hobygames",
+   "organisation/interstella",
+   "organisation/lone-star-security",
+   "organisation/military-mercantile",
+   "organisation/nordberg-shipping",
+   "organisation/parnell-industries",
+   "organisation/puritans",
+   "organisation/united-worlds",
+   "organisation/valen-pharmaceuticals",
+   "organisation/wondergames"
+  ],
+  "article/interstella_2495-05": [
+   "character/apone",
+   "character/blackthorne-w",
+   "character/cardinal",
+   "character/chaos-k",
+   "character/cybil-shepherd",
+   "character/darling-t",
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "character/maelstrom-chivelda",
+   "character/martins-julian",
+   "character/mexal",
+   "character/miller",
+   "character/mimiannapandawawa",
+   "character/nasco",
+   "character/naylor-helen",
+   "character/oshaunessy-caitlin",
+   "character/pruwitt",
+   "character/sabre",
+   "character/silver",
+   "character/welesley",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/1-coy",
+   "organisation/5-coy",
+   "organisation/interstella",
+   "organisation/juliette-government",
+   "organisation/league-against-warfare"
+  ],
+  "article/interstella_2495-06": [
+   "character/arnold-ek",
+   "character/axe-ruby",
+   "character/beck-thorius",
+   "character/bstard",
+   "character/cassell",
+   "character/cybil-shepherd",
+   "character/dibbley-dwane",
+   "character/harris-reece",
+   "character/housenons",
+   "character/hunter",
+   "character/jacques",
+   "character/janine-marie-celesta",
+   "character/jarvis",
+   "character/krinly",
+   "character/krysal-spyers",
+   "character/martins-julian",
+   "character/mexal",
+   "character/naylor-helen",
+   "character/oslo-sven",
+   "character/ratch-sc",
+   "character/rocktansky",
+   "character/sabre",
+   "character/silver",
+   "character/slug",
+   "character/trader",
+   "character/welesley",
+   "organisation/5-coy",
+   "organisation/hadens-worthy",
+   "organisation/interstella"
+  ],
+  "article/interstella_2495-07": [
+   "character/collins-franklin",
+   "character/elhana-parnell",
+   "character/goldsmith-gerald",
+   "character/h-zachary-nathan-smith",
+   "character/henri-le-geere",
+   "character/krysal-spyers",
+   "character/naylor-helen",
+   "character/savotti-del-zambese",
+   "character/vanessa-parnell",
+   "organisation/5-coy",
+   "organisation/billabong-regional-government",
+   "organisation/interstella",
+   "organisation/kasdunni",
+   "organisation/united-worlds",
+   "organisation/university-of-europe"
+  ],
+  "article/mission-achilles": [
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "character/pruwitt",
+   "organisation/united-worlds"
+  ],
+  "article/mission-flag": [
+   "character/harris-reece",
+   "character/mexal",
+   "character/nasco",
+   "character/zwalf",
+   "organisation/united-worlds"
+  ],
+  "article/mission-troy": [
+   "character/lt-col-rue",
+   "character/majare-pakin",
+   "character/ranklin",
+   "character/sjvenson-j",
+   "character/vanessa-parnell",
+   "organisation/2-coy",
+   "organisation/de-witt-mining",
+   "organisation/puritans",
+   "organisation/restyk-corporation",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds",
+   "organisation/uw-military-intelligence"
+  ],
+  "article/mission-nova": [
+   "organisation/cmc-high-command",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/mission-kraken": [
+   "character/latton",
+   "character/leo-permis",
+   "organisation/5-coy",
+   "organisation/solrebrians",
+   "organisation/united-worlds"
+  ],
+  "article/mission-intruder": [
+   "character/armstrong",
+   "character/mexal",
+   "organisation/banordyne",
+   "organisation/gems",
+   "organisation/puritans",
+   "organisation/restyk-corporation",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/background-scenario-summaries-for-93-94": [
+   "character/edward-carter",
+   "character/turner-j",
+   "organisation/colonial-marine-corps",
+   "organisation/new-worlds-inc",
+   "organisation/parnell-industries",
+   "organisation/tyrell-corporation",
+   "organisation/united-worlds"
+  ],
+  "article/mission-welcome-to-the-marie-celesta": [],
+  "article/mission-welcome-to-the-marie-celesta-audio-script": [
+   "character/harris-reece",
+   "character/jacques"
+  ],
+  "article/mission-welcome-to-the-marie-celesta-monster-notes": [
+   "organisation/hadens-worthy"
+  ],
+  "article/scenario-one-of-our-drones-is-missing": [
+   "character/avo-stetto",
+   "character/nick-williams",
+   "character/turner-j",
+   "organisation/argaran-corporation",
+   "organisation/colonial-marine-corps",
+   "organisation/restyk-corporation",
+   "organisation/tyrell-corporation"
+  ],
+  "article/scenario-how-much-for-just-the-planet": [
+   "organisation/new-worlds-inc",
+   "organisation/restyk-corporation"
+  ],
+  "article/scenario-drive-wars-scenario-notes": [
+   "character/avo-stetto",
+   "character/deborah-landry",
+   "character/edward-carter",
+   "character/finch",
+   "character/john-finch",
+   "character/stephen-park",
+   "organisation/argaran-corporation",
+   "organisation/colonial-marine-corps",
+   "organisation/parnell-industries",
+   "organisation/parnell-security-force",
+   "organisation/restyk-corporation",
+   "organisation/tyrell-corporation"
+  ],
+  "article/scenario-drive-wars-2-scenario-notes": [
+   "character/avo-stetto",
+   "character/turner-j",
+   "character/vanessa-parnell",
+   "organisation/parnell-industries",
+   "organisation/tyrell-corporation",
+   "organisation/united-worlds"
+  ],
+  "article/briefing-notes_mission-hydra": [
+   "character/gillham-major",
+   "character/sullivan",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/colonial-marine-corps",
+   "organisation/kasdunni",
+   "organisation/military-mercantile",
+   "organisation/united-europe",
+   "organisation/united-worlds",
+   "organisation/university-of-europe"
+  ],
+  "article/briefing-notes_mision-vortex": [
+   "character/gillham-major",
+   "character/sullivan",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/evolution-party",
+   "organisation/future-party",
+   "organisation/groombridge-democrats",
+   "organisation/groombridge-puritan-party",
+   "organisation/military-mercantile",
+   "organisation/network-systems",
+   "organisation/uw-combat-medical-team"
+  ],
+  "article/briefing-notes_type-12-experimental-station": [],
+  "article/briefing-notes_type-23-exosuit": [],
+  "article/2496-02_mission-nova_comms-001": [
+   "character/martins-julian",
+   "character/turner-j"
+  ],
+  "article/2496-02_mission-intruder_comms-002": [
+   "character/calvin-a",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/irag",
+   "organisation/restyk-corporation"
+  ],
+  "article/personnel-jacket_turner-tj121710": [
+   "character/crisp-john",
+   "character/crisp-jonas",
+   "character/frank-turner",
+   "character/jonathon-shade",
+   "character/martha-turner",
+   "character/martins-julian",
+   "character/nasco",
+   "character/turner-j",
+   "character/williams-wild-bill",
+   "organisation/5-coy",
+   "organisation/sugar-mice"
+  ],
+  "article/tactical-operations_terms-of-reference": [],
+  "article/2492-10_mission-procyon-intel": [
+   "character/devon-a",
+   "character/devon-p",
+   "character/diamond-tane",
+   "character/dutrere-s",
+   "character/gillham-major",
+   "character/maxane-p",
+   "character/nasco",
+   "character/plimmers-d",
+   "character/richmond-j",
+   "character/rippon-r",
+   "character/smith-s",
+   "character/stevenson-aj",
+   "character/sullivan",
+   "character/tortini-a",
+   "character/turner-j",
+   "character/x243-station-commander",
+   "character/yanghshi-c",
+   "organisation/5-coy",
+   "organisation/cmc-area-command",
+   "organisation/cmc-central-command"
+  ],
+  "article/disciplinary-charge_2501-10-25_calvin-vs-havoc": [
+   "character/calvin-a",
+   "character/cassell",
+   "character/havoc",
+   "character/mexal",
+   "character/oslo-sven",
+   "character/turner-j"
+  ],
+  "article/message_chaplain_deaths-of-turner-and-peterson": [
+   "character/arden-catherine",
+   "character/peterson-olaf",
+   "character/turner-j",
+   "organisation/colonial-marine-corps",
+   "organisation/united-worlds"
+  ],
+  "article/general-orders_2602-05-16": [
+   "character/calvin-a",
+   "character/cassell",
+   "character/garribaldi",
+   "character/lanner",
+   "character/mexal",
+   "character/yellan",
+   "organisation/cmc-combat-engineering-department"
+  ],
+  "article/mexals-letters_2493-03_kruger": [
+   "character/belzakath",
+   "character/chaos-k",
+   "character/cyber-knight",
+   "character/frankin-tomas",
+   "character/glayva",
+   "character/mexal",
+   "character/sheridan-john",
+   "character/sparky",
+   "character/tassach",
+   "organisation/5-coy",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/corporate-data-intercept",
+   "organisation/krugan-militia",
+   "organisation/puritans",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/mexals-letters_2493-06_laverii-426": [
+   "character/belzakath",
+   "character/frankin-tomas",
+   "character/gillham-major",
+   "character/martins-julian",
+   "character/mexal",
+   "character/nasco",
+   "character/sheridan-john",
+   "character/tassach",
+   "character/zaylov",
+   "organisation/cmc-area-command",
+   "organisation/cmc-high-command",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/colonial-survey",
+   "organisation/corporate-data-intercept",
+   "organisation/nu-phoenicians",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/mexals-letters_2493-09_x244": [
+   "character/apone",
+   "character/belzakath",
+   "character/biggles",
+   "character/blackthorne-w",
+   "character/calvin-a",
+   "character/crouch-c",
+   "character/diamond-tane",
+   "character/dibbley-dwane",
+   "character/dr-jones",
+   "character/finch",
+   "character/galpin",
+   "character/harris-reece",
+   "character/honer",
+   "character/hunter",
+   "character/locket",
+   "character/mexal",
+   "character/nasco",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/quark",
+   "character/rell-emma",
+   "character/sanderson-dominic",
+   "character/sjvenson-j",
+   "character/stryker",
+   "character/sullivan",
+   "character/tassach",
+   "character/west-j",
+   "character/x243-station-commander",
+   "character/zwalf",
+   "organisation/3-coy",
+   "organisation/5-coy",
+   "organisation/alfatek-systems",
+   "organisation/cmc-area-command",
+   "organisation/cmc-high-command",
+   "organisation/cmc-immediate-response-battalion",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/colonial-survey",
+   "organisation/intelcorp",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/mexals-letters_2494-12_juliette": [
+   "character/apone",
+   "character/axe-ruby",
+   "character/belzakath",
+   "character/blackthorne-w",
+   "character/calvin-a",
+   "character/cassell",
+   "character/chaos-k",
+   "character/dibbley-dwane",
+   "character/fugazi",
+   "character/honer",
+   "character/kramer",
+   "character/krysal-spyers",
+   "character/marmaduke",
+   "character/martins-julian",
+   "character/mexal",
+   "character/oshaunessy-caitlin",
+   "character/ratch-sc",
+   "character/rikki-tikki-tavi",
+   "character/schwartzkopf",
+   "character/sjvenson-j",
+   "character/tassach",
+   "character/turner-j",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/juliette-government",
+   "organisation/juliette-space-navy",
+   "organisation/juliette-special-police",
+   "organisation/one-true-church",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/mexals-letters_2495-01_grants-world": [
+   "character/axe-ruby",
+   "character/belzakath",
+   "character/blackthorne-w",
+   "character/bryant-colonist",
+   "character/bryant-gem",
+   "character/calvin-a",
+   "character/farquhar",
+   "character/frankin-tomas",
+   "character/harris-reece",
+   "character/holtmann-r",
+   "character/honer",
+   "character/krysal-spyers",
+   "character/leo-permis",
+   "character/martins-julian",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/ratch-sc",
+   "character/reed",
+   "character/rikki-tikki-tavi",
+   "character/sheridan-john",
+   "character/sjvenson-j",
+   "character/the-jester",
+   "character/the-soldier",
+   "character/turner-j",
+   "character/welesley",
+   "character/zwalf",
+   "organisation/cmc-combat-engineering-department",
+   "organisation/coedarian",
+   "organisation/colonial-survey",
+   "organisation/corporate-data-intercept",
+   "organisation/hengists",
+   "organisation/lone-star-security",
+   "organisation/united-worlds"
+  ],
+  "article/mexals-letters_2495-02_heurls": [
+   "character/apone",
+   "character/axe-ruby",
+   "character/bean",
+   "character/belzakath",
+   "character/blackthorne-w",
+   "character/calvin-a",
+   "character/cardinal",
+   "character/cassell",
+   "character/claudia-goldine",
+   "character/councillor-holly",
+   "character/dibbley-dwane",
+   "character/franz",
+   "character/harris-reece",
+   "character/honer",
+   "character/ivan-bilk",
+   "character/jacques",
+   "character/lothmore",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/morgan-blake",
+   "character/oshaunessy-caitlin",
+   "character/ratch-sc",
+   "character/renny-vark",
+   "character/sjvenson-j",
+   "character/smith-j",
+   "character/turner-j",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/hengists",
+   "organisation/iowa-power",
+   "organisation/nautilus",
+   "organisation/united-worlds",
+   "organisation/uw-courts"
+  ],
+  "article/mexals-letters_2495-03_connet": [
+   "character/apone",
+   "character/bean",
+   "character/beck-thorius",
+   "character/belzakath",
+   "character/calvin-a",
+   "character/dibbley-dwane",
+   "character/doe",
+   "character/fugazi",
+   "character/gaunt",
+   "character/harris-reece",
+   "character/honer",
+   "character/jacques",
+   "character/kishoshal",
+   "character/lancaster",
+   "character/lothmore",
+   "character/martins-julian",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/nasco",
+   "character/nix",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/peace-witchfinder",
+   "character/schwartzkopf",
+   "character/silver",
+   "character/sjvenson-j",
+   "character/skeln",
+   "character/suzanne-connet",
+   "character/turner-j",
+   "character/welesley",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/cmc-area-command",
+   "organisation/colonial-marine-corps",
+   "organisation/interstella",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/mexals-letters_2495-04_groombridge": [
+   "character/apone",
+   "character/beck-thorius",
+   "character/belzakath",
+   "character/burke",
+   "character/cassell",
+   "character/chaos-k",
+   "character/darling-t",
+   "character/dibbley-dwane",
+   "character/finn",
+   "character/frankin-tomas",
+   "character/fugazi",
+   "character/gibson",
+   "character/harris-reece",
+   "character/honer",
+   "character/jenna",
+   "character/jones-lt",
+   "character/krinly",
+   "character/martins-julian",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/pruwitt",
+   "character/ratch-sc",
+   "character/rocktansky",
+   "character/sad-person",
+   "character/sheridan-john",
+   "character/turner-j",
+   "character/walker",
+   "character/willis",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/1-coy",
+   "organisation/5-coy",
+   "organisation/cmc-high-command",
+   "organisation/colonial-marine-corps",
+   "organisation/corporate-data-intercept",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds",
+   "organisation/xeno-corps-security"
+  ],
+  "article/mexals-letters_2495-05_mariecelesta": [
+   "character/arnold-ek",
+   "character/beck-thorius",
+   "character/belzakath",
+   "character/bstard",
+   "character/cassell",
+   "character/cybil-shepherd",
+   "character/dibbley-dwane",
+   "character/frankin-tomas",
+   "character/havoc",
+   "character/housenons",
+   "character/jacques",
+   "character/krinly",
+   "character/martins-julian",
+   "character/mexal",
+   "character/nasco",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/quark",
+   "character/ratch-sc",
+   "character/rocktansky",
+   "character/sabre",
+   "character/sad-person",
+   "character/schwartzkopf",
+   "character/sheridan-john",
+   "character/silver",
+   "character/trader",
+   "character/welesley",
+   "organisation/corporate-data-intercept",
+   "organisation/hadens-worthy"
+  ],
+  "article/mexals-letters_2495-07_hal": [
+   "character/arnold-ek",
+   "character/belzakath",
+   "character/calvin-a",
+   "character/churchill-j",
+   "character/cyber-knight",
+   "character/deacon",
+   "character/doe",
+   "character/frankin-tomas",
+   "character/fugazi",
+   "character/housenons",
+   "character/hunter",
+   "character/knapp",
+   "character/krinly",
+   "character/martins-julian",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/riccotonini",
+   "character/schwartzkopf",
+   "character/sheridan-john",
+   "character/turner-j",
+   "character/winters",
+   "character/zwalf",
+   "organisation/colonial-marine-corps",
+   "organisation/corporate-data-intercept",
+   "organisation/hal-freedom-army",
+   "organisation/hal-planetary-defence",
+   "organisation/hal-slave-security",
+   "organisation/united-worlds"
+  ],
+  "article/2494-03_mission-sidewinder": [
+   "character/amos-grant",
+   "character/apone",
+   "character/axe-ruby",
+   "character/bart-grant",
+   "character/bean",
+   "character/calvin-a",
+   "character/chaos-k",
+   "character/dibbley-dwane",
+   "character/flank",
+   "character/gibson",
+   "character/harris-reece",
+   "character/oshaunessy-caitlin",
+   "character/smythe-mr",
+   "character/smythe-mrs",
+   "character/uncle-frank",
+   "organisation/colonial-marine-corps",
+   "organisation/douglas-clan",
+   "organisation/grant-clan",
+   "organisation/nyytoda-federal-police",
+   "organisation/plougher-clan"
+  ],
+  "article/2494-04_mission-ogre": [
+   "character/calvin-a",
+   "character/cardinal",
+   "character/claudia-goldine",
+   "character/cyber-knight",
+   "character/deter-francis",
+   "character/harris-reece",
+   "character/johnson-c",
+   "character/krysal-spyers",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/reld",
+   "character/rider-knight",
+   "organisation/5-coy",
+   "organisation/hal-planetary-defence",
+   "organisation/hal-revolutionary-movement",
+   "organisation/interstellar-communications-group",
+   "organisation/senator-francis-guard",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/2494-06_mission-pegasus": [
+   "character/adder",
+   "character/apone",
+   "character/biggles",
+   "character/blackthorne-w",
+   "character/bowman-d",
+   "character/calvin-a",
+   "character/chaos-k",
+   "character/corrington-s",
+   "character/crouch-c",
+   "character/debanti-b",
+   "character/diamond-tane",
+   "character/dr-jones",
+   "character/finch",
+   "character/harris-reece",
+   "character/hawk",
+   "character/honer",
+   "character/johnson-s",
+   "character/kandith-j",
+   "character/khan-j",
+   "character/kiotie-l",
+   "character/krysal-spyers",
+   "character/locket",
+   "character/mcdonnald-o",
+   "character/nasco",
+   "character/odonnald",
+   "character/oshaunessy-caitlin",
+   "character/oslo-sven",
+   "character/reld",
+   "character/rell-emma",
+   "character/robinson",
+   "character/saunders-d",
+   "character/stevenson-aj",
+   "character/stryker",
+   "character/sullivan",
+   "character/talim",
+   "character/thatcher",
+   "character/west-j",
+   "character/williams-b",
+   "character/zwalf",
+   "organisation/3-coy",
+   "organisation/5-coy",
+   "organisation/chidanians",
+   "organisation/colonial-marine-corps",
+   "organisation/intelcorp",
+   "organisation/odonnald-family",
+   "organisation/the-brotherhood",
+   "organisation/uw-survey"
+  ],
+  "article/2494-12_mission-classified": [
+   "character/apone",
+   "character/axe-ruby",
+   "character/calvin-a",
+   "character/cassell",
+   "character/chaos-k",
+   "character/martins-julian",
+   "character/oshaunessy-caitlin",
+   "character/turner-j",
+   "character/zeus",
+   "organisation/5-coy",
+   "organisation/uw-special-forces"
+  ],
+  "article/2495-01_mission-nightside": [
+   "character/beck-thorius",
+   "character/breck",
+   "character/calvin-a",
+   "character/cardinal",
+   "character/chaos-k",
+   "character/dibbley-dwane",
+   "character/farquhar",
+   "character/harris-reece",
+   "character/holtmann-r",
+   "character/joe-colonist",
+   "character/martins-julian",
+   "character/mimiannapandawawa",
+   "character/oslo-sven",
+   "character/quark",
+   "character/ratch-sc",
+   "character/riccotonini",
+   "character/rouge",
+   "character/ryan",
+   "character/smith-j",
+   "character/sparky-jnr",
+   "character/the-jester",
+   "character/the-soldier",
+   "character/welesley",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/colonial-survey",
+   "organisation/hengists",
+   "organisation/jvc",
+   "organisation/lone-star-security",
+   "organisation/uw-colonial-navy",
+   "organisation/uw-colonisation-team-grants-world"
+  ],
+  "article/2495-05_boarding-report-mariecelesta": [
+   "character/arnold-ek",
+   "character/bstard",
+   "character/housenons",
+   "character/jarvis",
+   "character/mexal",
+   "character/oslo-sven",
+   "character/ratch-sc",
+   "character/trader",
+   "organisation/5-coy",
+   "organisation/hadens-worthy",
+   "organisation/marie-celeste-mercenaries",
+   "organisation/space-accident-investigation-board"
+  ],
+  "article/2495-07_mission-omaha": [
+   "character/calvin-a",
+   "character/churchill-j",
+   "character/cyber-knight",
+   "character/fugazi",
+   "character/harris-reece",
+   "character/harry-49",
+   "character/knapp",
+   "character/martins-julian",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/mr-head",
+   "character/oslo-sven",
+   "character/schwartzkopf",
+   "character/simson",
+   "character/tomkin",
+   "character/turner-j",
+   "character/winters",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/cmc-covert-operations",
+   "organisation/freemen-for-freedom",
+   "organisation/hal-12th-cohort",
+   "organisation/hal-49th-unified",
+   "organisation/hal-freedom-army",
+   "organisation/hal-planetary-defence",
+   "organisation/hal-slave-security",
+   "organisation/slaves-for-freedom",
+   "organisation/united-worlds",
+   "organisation/uw-colonial-intelligence-agency"
+  ],
+  "article/2495-11_mission-nova": [
+   "character/anderson",
+   "character/angel-mi",
+   "character/bear",
+   "character/beck-thorius",
+   "character/bstard",
+   "character/calvin-a",
+   "character/cassell",
+   "character/deacon",
+   "character/dibbley-dwane",
+   "character/doe",
+   "character/domminic",
+   "character/farquhar",
+   "character/gillham-a",
+   "character/malcombe",
+   "character/mcdonnald-agent",
+   "character/mexal",
+   "character/rocktansky",
+   "character/scratch",
+   "character/sylvia-domminic",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/cnn",
+   "organisation/de-witt-mining",
+   "organisation/dea",
+   "organisation/liane-planetary-government",
+   "organisation/united-worlds",
+   "organisation/uw-military-intelligence",
+   "organisation/uw-rapid-reaction-battalion",
+   "organisation/uw-special-forces",
+   "organisation/uw-special-forces-bravo-coy"
+  ],
+  "article/2496-02_mission-intruder": [
+   "character/abdijitaparov-djamalodine",
+   "character/armstrong",
+   "character/bryant-gem",
+   "character/calvin-a",
+   "character/cassell",
+   "character/christopher-gem",
+   "character/de-lima",
+   "character/dibbley-dwane",
+   "character/fugazi",
+   "character/havoc",
+   "character/james-gem",
+   "character/kenneth-gem",
+   "character/kshell",
+   "character/luke-daughter",
+   "character/luke-gem",
+   "character/martins-julian",
+   "character/mexal",
+   "character/reed",
+   "character/rumpole",
+   "character/saint",
+   "character/sjvenson-j",
+   "character/turner-j",
+   "character/winters",
+   "organisation/5-coy",
+   "organisation/amish-homeworld",
+   "organisation/amish-zealots",
+   "organisation/banordyne",
+   "organisation/cmc-provost-marshals-office",
+   "organisation/cmc-sib",
+   "organisation/cnn",
+   "organisation/gems",
+   "organisation/puritans",
+   "organisation/restyk-corporation",
+   "organisation/united-worlds",
+   "organisation/uw-rapid-reaction-battalion",
+   "organisation/uw-special-forces",
+   "organisation/www-news"
+  ],
+  "article/2496-02_mission-intruder_sibreport": [
+   "character/calvin-a",
+   "character/cassell",
+   "character/de-lima",
+   "character/dibbley-dwane",
+   "character/fugazi",
+   "character/kshell",
+   "character/martins-julian",
+   "character/rumpole",
+   "character/sjvenson-j",
+   "character/turner-j",
+   "organisation/cmc-iv-field-regiment",
+   "organisation/cmc-sib",
+   "organisation/colonial-marine-corps",
+   "organisation/uw-rapid-reaction-battalion"
+  ],
+  "article/2496-03_mission-redstorm": [
+   "character/amy-lukel",
+   "character/baron-lukel",
+   "character/beck-thorius",
+   "character/brent",
+   "character/calvin-a",
+   "character/de-lima",
+   "character/diamond-tane",
+   "character/dibbley-dwane",
+   "character/doe",
+   "character/dr-floyd",
+   "character/drake",
+   "character/farquhar",
+   "character/fugazi",
+   "character/garp-regional-rep",
+   "character/john-sirius",
+   "character/judge-judas",
+   "character/lothmore",
+   "character/macbeth",
+   "character/martins-julian",
+   "character/maz",
+   "character/mexal",
+   "character/mimiannapandawawa",
+   "character/nasco",
+   "character/riccotonini",
+   "character/roger-designieur",
+   "character/sara-sirius",
+   "character/sjvenson-j",
+   "character/turner-j",
+   "character/viper",
+   "character/woe-w",
+   "organisation/5-coy",
+   "organisation/cnn",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/designieur-security",
+   "organisation/garp-corporation",
+   "organisation/interstella",
+   "organisation/new-worlds-inc",
+   "organisation/night-hawks",
+   "organisation/sirian-defence-forces",
+   "organisation/sirius-insurgents",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/marines-handbook_basic-combat-training": [
+   "character/zwalf",
+   "organisation/colonial-marine-corps"
+  ],
+  "article/marines-handbook_patrolling": [
+   "character/zwalf"
+  ],
+  "article/marines-handbook_scouting": [
+   "character/jonathon-shade",
+   "character/zwalf"
+  ],
+  "article/marines-handbook_sniper": [
+   "character/zwalf"
+  ],
+  "article/marines-handbook_medtech-4": [
+   "character/diamond-tane",
+   "character/zwalf"
+  ],
+  "article/marines-handbook_medtech-3": [
+   "character/diamond-tane",
+   "character/mimiannapandawawa",
+   "character/zwalf"
+  ],
+  "article/marines-handbook_medtech_2": [
+   "character/diamond-tane",
+   "character/mimiannapandawawa",
+   "character/zwalf",
+   "organisation/colonial-marine-corps"
+  ],
+  "article/marines-handbook_medtech_1": [
+   "character/diamond-tane",
+   "character/mimiannapandawawa",
+   "character/zwalf",
+   "organisation/colonial-marine-corps"
+  ],
+  "article/marines-handbook_eod-specialist-4": [
+   "character/mexal"
+  ],
+  "article/marines-handbook_armourer-4": [
+   "character/dibbley-dwane",
+   "character/mexal",
+   "character/zwalf",
+   "organisation/colonial-marine-corps",
+   "organisation/military-mercantile"
+  ],
+  "article/marines-handbook_radio-operator-2": [
+   "character/turner-j"
+  ],
+  "article/marines-handbook_comptech-course-overview": [
+   "character/turner-j"
+  ],
+  "article/marines-handbook_comptech-3": [
+   "character/turner-j"
+  ],
+  "article/marines-handbook_comptech-2": [
+   "character/turner-j"
+  ],
+  "article/marines-handbook_officer-nco-abridged-course": [
+   "organisation/5-coy",
+   "organisation/united-worlds"
+  ],
+  "article/marines-handbook_m99a-uws": [],
+  "mission/2492-10_mission-procyon": [
+   "character/diamond-tane",
+   "character/gillham-major",
+   "character/nasco",
+   "character/sullivan",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/cmc-area-command",
+   "organisation/colonial-marine-corps",
+   "organisation/interstella"
+  ],
+  "mission/2494-03_mission-sidewinder": [
+   "character/amos-grant",
+   "character/bean",
+   "character/calvin-a",
+   "character/flank",
+   "organisation/5-coy",
+   "organisation/grant-clan",
+   "organisation/plougher-clan"
+  ],
+  "mission/2494-04_mission-ogre": [
+   "character/cyber-knight",
+   "character/deter-francis",
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "organisation/5-coy",
+   "organisation/hal-planetary-defence",
+   "organisation/united-worlds"
+  ],
+  "mission/2494-06_mission-pegasus": [
+   "character/calvin-a",
+   "character/diamond-tane",
+   "character/dr-jones",
+   "character/finch",
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "character/locket",
+   "character/nasco",
+   "character/reld",
+   "organisation/3-coy",
+   "organisation/5-coy",
+   "organisation/intelcorp",
+   "organisation/the-brotherhood",
+   "organisation/uw-survey"
+  ],
+  "mission/2494-12_mission-classified": [
+   "character/calvin-a",
+   "character/cassell",
+   "character/harris-reece",
+   "character/martins-julian",
+   "character/mexal",
+   "character/turner-j",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/cmc-high-command",
+   "organisation/juliette-special-police",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "mission/2495-01_mission-nightside": [
+   "character/farquhar",
+   "character/harris-reece",
+   "character/mexal",
+   "character/welesley",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/hengists"
+  ],
+  "mission/2495-04_mission-unknown": [
+   "character/burke",
+   "character/cardinal",
+   "character/cassell",
+   "character/chaos-k",
+   "character/darling-t",
+   "character/fugazi",
+   "character/harris-reece",
+   "character/jenna",
+   "character/martins-julian",
+   "character/mexal",
+   "character/miller",
+   "character/oshaunessy-caitlin",
+   "character/pruwitt",
+   "character/rocktansky",
+   "character/turner-j",
+   "character/zeus",
+   "character/zwalf",
+   "organisation/1-coy",
+   "organisation/5-coy",
+   "organisation/cmc-high-command",
+   "organisation/groombridge-environmentalists",
+   "organisation/stoppers",
+   "organisation/xeno-corps-security"
+  ],
+  "mission/2495-05_boarding-action-mariecelesta": [
+   "character/arnold-ek",
+   "character/housenons",
+   "character/jarvis",
+   "character/mexal",
+   "character/oslo-sven",
+   "character/ratch-sc",
+   "character/trader",
+   "organisation/hadens-worthy",
+   "organisation/united-worlds"
+  ],
+  "mission/2495-07_mission-omaha": [
+   "character/calvin-a",
+   "character/churchill-j",
+   "character/cyber-knight",
+   "character/knapp",
+   "character/martins-julian",
+   "character/mexal",
+   "character/turner-j",
+   "character/winters",
+   "character/zwalf",
+   "organisation/5-coy",
+   "organisation/hal-planetary-defence",
+   "organisation/hal-slave-security",
+   "organisation/united-worlds"
+  ],
+  "mission/2495-11_mission-nova": [
+   "character/angel-mi",
+   "character/calvin-a",
+   "character/deacon",
+   "character/domminic",
+   "character/gibson",
+   "character/mcdonnald-agent",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/united-worlds",
+   "organisation/uw-military-intelligence",
+   "organisation/uw-rapid-reaction-battalion",
+   "organisation/uw-special-forces"
+  ],
+  "mission/2496-02_mission-intruder": [
+   "character/bryant-gem",
+   "character/calvin-a",
+   "character/dibbley-dwane",
+   "character/fugazi",
+   "character/kshell",
+   "character/martins-julian",
+   "character/mexal",
+   "character/sjvenson-j",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/banordyne",
+   "organisation/cmc-high-command",
+   "organisation/gems",
+   "organisation/restyk-corporation",
+   "organisation/uw-special-forces"
+  ],
+  "mission/2496-03_mission-redstorm": [
+   "character/baron-lukel",
+   "character/calvin-a",
+   "character/de-lima",
+   "character/dibbley-dwane",
+   "character/dr-floyd",
+   "character/farquhar",
+   "character/martins-julian",
+   "character/mexal",
+   "character/nasco",
+   "character/roger-designieur",
+   "character/turner-j",
+   "character/woe-w",
+   "organisation/5-coy",
+   "organisation/night-hawks",
+   "organisation/united-worlds"
+  ]
+ },
+ "ByEntity": {
+  "character/abdijitaparov-djamalodine": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/adder": [
+   "article/2494-06_mission-pegasus",
+   "article/honours_1995-08-23"
+  ],
+  "character/alemco-leopold-drahvet": [
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2494-11"
+  ],
+  "character/amos-grant": [
+   "article/2494-03_mission-sidewinder",
+   "mission/2494-03_mission-sidewinder"
+  ],
+  "character/amy-lukel": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/anderson": [
+   "article/2495-11_mission-nova"
+  ],
+  "character/angel-mi": [
+   "article/2495-11_mission-nova",
+   "article/honours_1995-08-23",
+   "mission/2495-11_mission-nova"
+  ],
+  "character/angus-mccall": [
+   "article/groups-and-organisations",
+   "article/interstella_2492-01"
+  ],
+  "character/apone": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-06_mission-pegasus",
+   "article/2494-12_mission-classified",
+   "article/interstella_2492-06",
+   "article/interstella_2495-02",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/arden-catherine": [
+   "article/message_chaplain_deaths-of-turner-and-peterson"
+  ],
+  "character/arios-e": [
+   "article/interstella_2495-04"
+  ],
+  "character/armstrong": [
+   "article/2496-02_mission-intruder",
+   "article/mission-intruder"
+  ],
+  "character/arnold-ek": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/ashnak": [
+   "article/interstella_2494-09"
+  ],
+  "character/aunty-trisha": [
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-07",
+   "article/interstella_2493-06"
+  ],
+  "character/avo-stetto": [
+   "article/scenario-drive-wars-2-scenario-notes",
+   "article/scenario-drive-wars-scenario-notes",
+   "article/scenario-one-of-our-drones-is-missing",
+   "article/writers-guide"
+  ],
+  "character/axe-ruby": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-12_mission-classified",
+   "article/honours_1995-08-23",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/barnacal-b-m": [
+   "article/interstella_2492-10"
+  ],
+  "character/baron-haze": [
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-08",
+   "article/interstella_2492-10"
+  ],
+  "character/baron-lukel": [
+   "article/2496-03_mission-redstorm",
+   "article/a-brief-guide-to-history",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-07",
+   "article/interstella_2493-03",
+   "article/interstella_2493-06",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/bart-grant": [
+   "article/2494-03_mission-sidewinder"
+  ],
+  "character/bean": [
+   "article/2494-03_mission-sidewinder",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-04",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "mission/2494-03_mission-sidewinder"
+  ],
+  "character/bear": [
+   "article/2495-11_mission-nova"
+  ],
+  "character/beck-thorius": [
+   "article/2495-01_mission-nightside",
+   "article/2495-11_mission-nova",
+   "article/2496-03_mission-redstorm",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/belzakath": [
+   "article/interstella_2494-11",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/beyo-mella": [
+   "article/interstella_2493-04"
+  ],
+  "character/biggles": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/bill-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/blackthorne-w": [
+   "article/2494-06_mission-pegasus",
+   "article/honours_1995-08-23",
+   "article/interstella_2494-09",
+   "article/interstella_2495-02",
+   "article/interstella_2495-05",
+   "article/itlof_2495-03",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/bowman-d": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/breck": [
+   "article/2495-01_mission-nightside"
+  ],
+  "character/brent": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/browning-johan": [
+   "article/interstella_2492-01",
+   "article/interstella_2492-04"
+  ],
+  "character/bryant-colonist": [
+   "article/interstella_2495-02",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "character/bryant-gem": [
+   "article/2496-02_mission-intruder",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2495-01_grants-world",
+   "mission/2496-02_mission-intruder"
+  ],
+  "character/bstard": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/2495-11_mission-nova",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/burke": [
+   "article/honours_1995-08-23",
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/calvin-a": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "article/2494-12_mission-classified",
+   "article/2495-01_mission-nightside",
+   "article/2495-07_mission-omaha",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_comms-002",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-03_mission-redstorm",
+   "article/cmc-newsletter_1999-02",
+   "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/general-orders_2602-05-16",
+   "article/honours_1995-08-23",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2494-03_mission-sidewinder",
+   "mission/2494-06_mission-pegasus",
+   "mission/2494-12_mission-classified",
+   "mission/2495-07_mission-omaha",
+   "mission/2495-11_mission-nova",
+   "mission/2496-02_mission-intruder",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/calvin-august": [
+   "article/interstella_2494-10"
+  ],
+  "character/cantrell-domonic": [
+   "article/interstella_2492-04"
+  ],
+  "character/cantrell-rachel": [
+   "article/interstella_2492-01",
+   "article/interstella_2492-04",
+   "article/interstella_2492-10",
+   "article/interstella_2492-11"
+  ],
+  "character/cardinal": [
+   "article/2494-04_mission-ogre",
+   "article/2495-01_mission-nightside",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2495-02_heurls",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/cassell": [
+   "article/2494-12_mission-classified",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/general-orders_2602-05-16",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2494-12_mission-classified",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/catherine-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/chaos-k": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-06_mission-pegasus",
+   "article/2494-12_mission-classified",
+   "article/2495-01_mission-nightside",
+   "article/honours_1995-08-23",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/charity-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/charles-gibson": [
+   "article/writers-guide"
+  ],
+  "character/christopher-gem": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/churchill-j": [
+   "article/2495-07_mission-omaha",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-07_mission-omaha"
+  ],
+  "character/claudia-goldine": [
+   "article/2494-04_mission-ogre",
+   "article/interstella_2494-12",
+   "article/interstella_2495-03",
+   "article/itlof_2495-01",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/co-co": [
+   "article/interstella_2494-09"
+  ],
+  "character/collins-franklin": [
+   "article/interstella_2495-07"
+  ],
+  "character/colton": [
+   "article/companies-and-corporations"
+  ],
+  "character/corrington-s": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/couchon-sabatini": [
+   "article/interstella_2494-10"
+  ],
+  "character/councillor-giorgio": [
+   "article/interstella_2495-03"
+  ],
+  "character/councillor-holly": [
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/councillor-morrison": [
+   "article/interstella_2495-03"
+  ],
+  "character/crisp-john": [
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide"
+  ],
+  "character/crisp-jonas": [
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide"
+  ],
+  "character/crouch-c": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/cyber-knight": [
+   "article/2494-04_mission-ogre",
+   "article/2495-07_mission-omaha",
+   "article/interstella_2493-04",
+   "article/itlof_2496-05",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2494-04_mission-ogre",
+   "mission/2495-07_mission-omaha"
+  ],
+  "character/cybil-shepherd": [
+   "article/interstella_2495-01",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/dan-yabutsu": [
+   "article/interstella_2494-11"
+  ],
+  "character/dane-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/darling-t": [
+   "article/honours_1995-08-23",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/david-wolverton": [
+   "article/writers-guide"
+  ],
+  "character/de-lima": [
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-03_mission-redstorm",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/deacon": [
+   "article/2495-11_mission-nova",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-11_mission-nova"
+  ],
+  "character/debanti-b": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/deborah-landry": [
+   "article/scenario-drive-wars-scenario-notes"
+  ],
+  "character/derrin-sal": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/deter-francis": [
+   "article/2494-04_mission-ogre",
+   "mission/2494-04_mission-ogre"
+  ],
+  "character/devon-a": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/devon-p": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/dexter-d6": [
+   "article/writers-guide"
+  ],
+  "character/diamond-tane": [
+   "article/2492-10_mission-procyon-intel",
+   "article/2494-06_mission-pegasus",
+   "article/2496-03_mission-redstorm",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2493-04",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-04",
+   "article/interstella_specialedition_2491-12",
+   "article/marines-handbook_medtech-3",
+   "article/marines-handbook_medtech-4",
+   "article/marines-handbook_medtech_1",
+   "article/marines-handbook_medtech_2",
+   "article/mexals-letters_2493-09_x244",
+   "mission/2492-10_mission-procyon",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "character/diane-king": [
+   "article/writers-guide"
+  ],
+  "character/dibbley-dwane": [
+   "article/2494-03_mission-sidewinder",
+   "article/2495-01_mission-nightside",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-03_mission-redstorm",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-06",
+   "article/itlof_2496-04",
+   "article/marines-handbook_armourer-4",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2496-02_mission-intruder",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/doe": [
+   "article/2495-11_mission-nova",
+   "article/2496-03_mission-redstorm",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/domminic": [
+   "article/2495-11_mission-nova",
+   "mission/2495-11_mission-nova"
+  ],
+  "character/dr-floyd": [
+   "article/2496-03_mission-redstorm",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/dr-jones": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "character/drake": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/drake-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/dutrere-s": [
+   "article/2492-10_mission-procyon-intel",
+   "article/interstella_2494-11"
+  ],
+  "character/edmonds-thille": [
+   "article/interstella_2494-12"
+  ],
+  "character/edward-carter": [
+   "article/background-scenario-summaries-for-93-94",
+   "article/scenario-drive-wars-scenario-notes",
+   "article/writers-guide"
+  ],
+  "character/elan-joshua": [
+   "article/interstella_2495-02"
+  ],
+  "character/elhana-parnell": [
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2495-07"
+  ],
+  "character/farquhar": [
+   "article/2495-01_mission-nightside",
+   "article/2495-11_mission-nova",
+   "article/2496-03_mission-redstorm",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2495-01_grants-world",
+   "mission/2495-01_mission-nightside",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/faulk-eldon": [
+   "article/interstella_2494-10"
+  ],
+  "character/finch": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244",
+   "article/scenario-drive-wars-scenario-notes",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "character/finn": [
+   "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/flank": [
+   "article/2494-03_mission-sidewinder",
+   "mission/2494-03_mission-sidewinder"
+  ],
+  "character/frank-turner": [
+   "article/personnel-jacket_turner-tj121710"
+  ],
+  "character/frankin-tomas": [
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/franz": [
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/ftha-cedric": [
+   "article/interstella_2493-03"
+  ],
+  "character/fugazi": [
+   "article/2495-07_mission-omaha",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-03_mission-redstorm",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-04",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-04_mission-unknown",
+   "mission/2496-02_mission-intruder"
+  ],
+  "character/galpin": [
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/garp-regional-rep": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/garribaldi": [
+   "article/general-orders_2602-05-16"
+  ],
+  "character/gaunt": [
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/gavin-julie": [
+   "article/interstella_2495-03"
+  ],
+  "character/gibson": [
+   "article/2494-03_mission-sidewinder",
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-11_mission-nova"
+  ],
+  "character/gill-lt": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/gillham-a": [
+   "article/2495-11_mission-nova",
+   "article/honours_1995-08-23"
+  ],
+  "character/gillham-major": [
+   "article/2492-10_mission-procyon-intel",
+   "article/briefing-notes_mision-vortex",
+   "article/briefing-notes_mission-hydra",
+   "article/honours_1995-08-23",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-11",
+   "article/mexals-letters_2493-06_laverii-426",
+   "mission/2492-10_mission-procyon"
+  ],
+  "character/glayva": [
+   "article/mexals-letters_2493-03_kruger"
+  ],
+  "character/goldsmith-gerald": [
+   "article/interstella_2495-07"
+  ],
+  "character/h-zachary-nathan-smith": [
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2494-11",
+   "article/interstella_2495-07"
+  ],
+  "character/harris-reece": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "article/2495-01_mission-nightside",
+   "article/2495-07_mission-omaha",
+   "article/honours_1995-08-23",
+   "article/interstella_2493-03",
+   "article/interstella_2493-06",
+   "article/interstella_2494-11",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/interstella_specialedition_2491-12",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mission-achilles",
+   "article/mission-flag",
+   "article/mission-welcome-to-the-marie-celesta-audio-script",
+   "mission/2494-04_mission-ogre",
+   "mission/2494-06_mission-pegasus",
+   "mission/2494-12_mission-classified",
+   "mission/2495-01_mission-nightside",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/harry-49": [
+   "article/2495-07_mission-omaha"
+  ],
+  "character/harry-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/havoc": [
+   "article/2496-02_mission-intruder",
+   "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/hawk": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/haze-cantrell-lucian": [
+   "article/interstella_2492-10",
+   "article/interstella_2492-11"
+  ],
+  "character/haze-torboran": [
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-04",
+   "article/interstella_2492-10",
+   "article/interstella_2492-11",
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/heggarty": [
+   "article/interstella_2494-09"
+  ],
+  "character/henri-le-geere": [
+   "article/a-brief-guide-to-history",
+   "article/interstella_2495-07"
+  ],
+  "character/hobbes": [
+   "article/interstella_2495-02"
+  ],
+  "character/holtmann-r": [
+   "article/2495-01_mission-nightside",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "character/honell": [
+   "article/interstella_2493-03"
+  ],
+  "character/honer": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/hornsblow-kieth": [
+   "article/interstella_2495-02"
+  ],
+  "character/housenons": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/housten": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/hunter": [
+   "article/interstella_2495-01",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/igot-thadirt": [
+   "article/interstella_2495-01"
+  ],
+  "character/ingrams-stephan": [
+   "article/interstella_2494-11"
+  ],
+  "character/ivan-bilk": [
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/jac-t-we": [
+   "article/interstella_2494-09"
+  ],
+  "character/jackson-cpl": [
+   "article/interstella_2494-12"
+  ],
+  "character/jacobs-alec": [
+   "article/interstella_2494-10"
+  ],
+  "character/jacques": [
+   "article/interstella_2495-06",
+   "article/itlof_2496-06",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mission-welcome-to-the-marie-celesta-audio-script"
+  ],
+  "character/james-gem": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/janine-marie-celesta": [
+   "article/interstella_2495-06"
+  ],
+  "character/jarvis": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-06",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/jenna": [
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/jerratt-flovine": [
+   "article/interstella_2492-12",
+   "article/interstella_2493-04"
+  ],
+  "character/joe-colonist": [
+   "article/2495-01_mission-nightside"
+  ],
+  "character/johansson-sevvi": [
+   "article/interstella_2493-03"
+  ],
+  "character/john-finch": [
+   "article/scenario-drive-wars-scenario-notes"
+  ],
+  "character/john-sirius": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/johnson-c": [
+   "article/2494-04_mission-ogre",
+   "article/honours_1995-08-23"
+  ],
+  "character/johnson-frazer": [
+   "article/interstella_2494-12"
+  ],
+  "character/johnson-s": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/jonathon-shade": [
+   "article/marines-handbook_scouting",
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide"
+  ],
+  "character/jones-halo": [
+   "article/interstella_2494-09"
+  ],
+  "character/jones-lt": [
+   "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/jones-ms-de-witt": [
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02"
+  ],
+  "character/jones-mst-sgt": [
+   "article/interstella_2494-11"
+  ],
+  "character/judge-judas": [
+   "article/2496-03_mission-redstorm",
+   "article/interstella_2492-02",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07"
+  ],
+  "character/julian-maynard": [
+   "article/writers-guide"
+  ],
+  "character/kandith-j": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/karpov-daphne": [
+   "article/interstella_2492-01"
+  ],
+  "character/katz": [
+   "article/interstella_2492-11",
+   "article/interstella_2494-11"
+  ],
+  "character/kenneth-gem": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/kev-lin-draksfor": [
+   "article/interstella_2492-03"
+  ],
+  "character/khan-j": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/kiotie-l": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/kishoshal": [
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/kist-annabel": [
+   "article/interstella_2494-12"
+  ],
+  "character/knapp": [
+   "article/2495-07_mission-omaha",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-07_mission-omaha"
+  ],
+  "character/kramer": [
+   "article/interstella_2494-11",
+   "article/interstella_2495-01",
+   "article/mexals-letters_2494-12_juliette"
+  ],
+  "character/kramm-victor": [
+   "article/interstella_2492-01"
+  ],
+  "character/krinly": [
+   "article/honours_1995-08-23",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/krysal-spyers": [
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-11",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/interstella_2495-07",
+   "article/interstella_specialedition_2491-12",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mission-achilles",
+   "mission/2494-04_mission-ogre",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "character/kshell": [
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/interstella_2495-04",
+   "mission/2496-02_mission-intruder"
+  ],
+  "character/lancaster": [
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/lanner": [
+   "article/general-orders_2602-05-16"
+  ],
+  "character/latton": [
+   "article/mission-kraken"
+  ],
+  "character/le-conte-sirac": [
+   "article/interstella_2495-04"
+  ],
+  "character/leo-permis": [
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mission-kraken"
+  ],
+  "character/limpz-schmidt": [
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2493-04"
+  ],
+  "character/locket": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "character/lothmore": [
+   "article/2496-03_mission-redstorm",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/lt-col-rue": [
+   "article/mission-troy"
+  ],
+  "character/lucifer": [
+   "article/itlof_2495-03"
+  ],
+  "character/luke-daughter": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/luke-gem": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/macbeth": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/mackenzie-don": [
+   "article/interstella_2494-09"
+  ],
+  "character/maclean-duncan": [
+   "article/interstella_2494-09"
+  ],
+  "character/maelstrom-chivelda": [
+   "article/interstella_2495-05"
+  ],
+  "character/majare-pakin": [
+   "article/mission-troy"
+  ],
+  "character/malcombe": [
+   "article/2495-11_mission-nova"
+  ],
+  "character/marine-x": [
+   "article/interstella_2493-04"
+  ],
+  "character/marion-oeta-rep": [
+   "article/interstella_2494-12"
+  ],
+  "character/marmaduke": [
+   "article/mexals-letters_2494-12_juliette"
+  ],
+  "character/maroc-phillipe": [
+   "article/interstella_2493-04"
+  ],
+  "character/martha-turner": [
+   "article/personnel-jacket_turner-tj121710"
+  ],
+  "character/martins-bob": [
+   "article/interstella_2494-09"
+  ],
+  "character/martins-julian": [
+   "article/2494-12_mission-classified",
+   "article/2495-01_mission-nightside",
+   "article/2495-07_mission-omaha",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-02_mission-nova_comms-001",
+   "article/2496-03_mission-redstorm",
+   "article/honours_1995-08-23",
+   "article/interstella_2494-09",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/itlof_2496-04",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_turner-tj121710",
+   "mission/2494-12_mission-classified",
+   "mission/2495-04_mission-unknown",
+   "mission/2495-07_mission-omaha",
+   "mission/2496-02_mission-intruder",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/marvin-parnell": [
+   "article/a-brief-guide-to-history"
+  ],
+  "character/matlocke-jaz": [
+   "article/interstella_2492-03"
+  ],
+  "character/maxane-p": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/maz": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/mcdonnald-agent": [
+   "article/2495-11_mission-nova",
+   "mission/2495-11_mission-nova"
+  ],
+  "character/mcdonnald-o": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/mckiernan": [
+   "article/interstella_2493-04"
+  ],
+  "character/meller": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/merrilion-thom": [
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03"
+  ],
+  "character/mexal": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/2495-07_mission-omaha",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-03_mission-redstorm",
+   "article/cmc-newsletter_1999-02",
+   "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/general-orders_2602-05-16",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/marines-handbook_armourer-4",
+   "article/marines-handbook_eod-specialist-4",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal",
+   "article/mission-flag",
+   "article/mission-intruder",
+   "mission/2494-12_mission-classified",
+   "mission/2495-01_mission-nightside",
+   "mission/2495-04_mission-unknown",
+   "mission/2495-05_boarding-action-mariecelesta",
+   "mission/2495-07_mission-omaha",
+   "mission/2496-02_mission-intruder",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/mickelhob": [
+   "article/interstella_2492-04"
+  ],
+  "character/miller": [
+   "article/honours_1995-08-23",
+   "article/interstella_2495-05",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/mimiannapandawawa": [
+   "article/2495-01_mission-nightside",
+   "article/2495-07_mission-omaha",
+   "article/2496-03_mission-redstorm",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-03",
+   "article/interstella_2495-05",
+   "article/marines-handbook_medtech-3",
+   "article/marines-handbook_medtech_1",
+   "article/marines-handbook_medtech_2",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/morgan-blake": [
+   "article/interstella_2492-04",
+   "article/interstella_2492-06",
+   "article/interstella_2492-08",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/mr-head": [
+   "article/2495-07_mission-omaha"
+  ],
+  "character/nasco": [
+   "article/2492-10_mission-procyon-intel",
+   "article/2494-06_mission-pegasus",
+   "article/2496-03_mission-redstorm",
+   "article/a-brief-guide-to-history",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2493-03",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mission-flag",
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide",
+   "mission/2492-10_mission-procyon",
+   "mission/2494-06_mission-pegasus",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/nathan-archer": [
+   "article/writers-guide"
+  ],
+  "character/naylor-helen": [
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/interstella_2495-07"
+  ],
+  "character/nick-williams": [
+   "article/scenario-one-of-our-drones-is-missing"
+  ],
+  "character/nikita-colonel": [
+   "article/interstella_2494-09"
+  ],
+  "character/nix": [
+   "article/honours_1995-08-23",
+   "article/interstella_2495-04",
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/north-nixon-richard": [
+   "article/interstella_2494-10"
+  ],
+  "character/odonnald": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/oshaunessy-caitlin": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "article/2494-12_mission-classified",
+   "article/honours_1995-08-23",
+   "article/interstella_2492-06",
+   "article/interstella_2493-03",
+   "article/interstella_2493-06",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/oshaunessy-cassandra": [
+   "article/interstella_2492-05",
+   "article/interstella_2492-08",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-06"
+  ],
+  "character/oslo-sven": [
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "article/2495-01_mission-nightside",
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/2495-07_mission-omaha",
+   "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/honours_1995-08-23",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2495-04",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/paris": [
+   "article/interstella_2493-03"
+  ],
+  "character/paris-lt": [
+   "article/interstella_2494-11"
+  ],
+  "character/parnell-sean-devlin": [
+   "article/interstella_2493-06",
+   "article/interstella_2494-10"
+  ],
+  "character/peace-witchfinder": [
+   "article/interstella_2495-04",
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/peterson-olaf": [
+   "article/cmc-newsletter_1999-02",
+   "article/message_chaplain_deaths-of-turner-and-peterson"
+  ],
+  "character/pineapples-joe": [
+   "article/interstella_2494-09"
+  ],
+  "character/pinucchi-jupiter": [
+   "article/interstella_2493-06",
+   "article/interstella_2494-10"
+  ],
+  "character/pinucchi-marcus": [
+   "article/interstella_2493-06",
+   "article/interstella_2494-10"
+  ],
+  "character/platinno-minsi": [
+   "article/interstella_2492-02"
+  ],
+  "character/plimmers-d": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/pruwitt": [
+   "article/interstella_2495-05",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mission-achilles",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/quark": [
+   "article/2495-01_mission-nightside",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/randor": [
+   "article/interstella_2494-09"
+  ],
+  "character/ranklin": [
+   "article/mission-troy"
+  ],
+  "character/ratch-sc": [
+   "article/2495-01_mission-nightside",
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/honours_1995-08-23",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-03",
+   "article/interstella_2495-06",
+   "article/itlof_2495-06",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/ravaldez": [
+   "article/interstella_2492-12"
+  ],
+  "character/reed": [
+   "article/2496-02_mission-intruder",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "character/regan-kelly": [
+   "article/interstella_2495-02",
+   "article/interstella_2495-03"
+  ],
+  "character/regan-kerry": [
+   "article/interstella_2495-02"
+  ],
+  "character/reld": [
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "character/rell-emma": [
+   "article/2494-06_mission-pegasus",
+   "article/honours_1995-08-23",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/renny-vark": [
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/riccotonini": [
+   "article/2495-01_mission-nightside",
+   "article/2496-03_mission-redstorm",
+   "article/interstella_2492-03",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/richmond-j": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/ricottanini-gino": [
+   "article/interstella_2492-03"
+  ],
+  "character/rider-knight": [
+   "article/2494-04_mission-ogre",
+   "article/honours_1995-08-23"
+  ],
+  "character/rikki-tikki-tavi": [
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "character/rippon-r": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/robinson": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/rocktansky": [
+   "article/2495-11_mission-nova",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/roger-designieur": [
+   "article/2496-03_mission-redstorm",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/rouge": [
+   "article/2495-01_mission-nightside"
+  ],
+  "character/rumpole": [
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport"
+  ],
+  "character/ryan": [
+   "article/2495-01_mission-nightside"
+  ],
+  "character/sabre": [
+   "article/honours_1995-08-23",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/sad-person": [
+   "article/honours_1995-08-23",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/saint": [
+   "article/2496-02_mission-intruder"
+  ],
+  "character/sanderson-dominic": [
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/sara-sirius": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/saunders-d": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/savotti-del-zambese": [
+   "article/interstella_2495-07"
+  ],
+  "character/schwartzkopf": [
+   "article/2495-07_mission-omaha",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/scratch": [
+   "article/2495-11_mission-nova"
+  ],
+  "character/sharra": [
+   "article/interstella_2494-09"
+  ],
+  "character/sheridan-john": [
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "character/shimmerman-tau": [
+   "article/interstella_2494-09"
+  ],
+  "character/silver": [
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-05_mariecelesta"
+  ],
+  "character/simon-heurls": [
+   "article/interstella_2495-03"
+  ],
+  "character/simson": [
+   "article/2495-07_mission-omaha"
+  ],
+  "character/sjvenson-j": [
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-03_mission-redstorm",
+   "article/honours_1995-08-23",
+   "article/interim-history_2496-to-2501",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mission-troy",
+   "mission/2496-02_mission-intruder"
+  ],
+  "character/skeln": [
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/slug": [
+   "article/interstella_2495-06"
+  ],
+  "character/smith-j": [
+   "article/2495-01_mission-nightside",
+   "article/honours_1995-08-23",
+   "article/itlof_2496-03",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "character/smith-s": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/smythe-mr": [
+   "article/2494-03_mission-sidewinder"
+  ],
+  "character/smythe-mrs": [
+   "article/2494-03_mission-sidewinder"
+  ],
+  "character/sparky": [
+   "article/honours_1995-08-23",
+   "article/mexals-letters_2493-03_kruger"
+  ],
+  "character/sparky-jnr": [
+   "article/2495-01_mission-nightside"
+  ],
+  "character/sparky-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/steele-cpl": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/stephani-perry": [
+   "article/writers-guide"
+  ],
+  "character/stephen-park": [
+   "article/scenario-drive-wars-scenario-notes"
+  ],
+  "character/sterling": [
+   "article/honours_1995-08-23"
+  ],
+  "character/stevenson-aj": [
+   "article/2492-10_mission-procyon-intel",
+   "article/2494-06_mission-pegasus",
+   "article/interstella_2494-11"
+  ],
+  "character/stone-nick": [
+   "article/interstella_2492-04"
+  ],
+  "character/stryker": [
+   "article/2494-06_mission-pegasus",
+   "article/honours_1995-08-23",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/sullivan": [
+   "article/2492-10_mission-procyon-intel",
+   "article/2494-06_mission-pegasus",
+   "article/briefing-notes_mision-vortex",
+   "article/briefing-notes_mission-hydra",
+   "article/mexals-letters_2493-09_x244",
+   "mission/2492-10_mission-procyon"
+  ],
+  "character/suzanne-connet": [
+   "article/mexals-letters_2495-03_connet"
+  ],
+  "character/sylvia-domminic": [
+   "article/2495-11_mission-nova"
+  ],
+  "character/talim": [
+   "article/2494-06_mission-pegasus",
+   "article/interstella_2494-09",
+   "article/interstella_2494-11"
+  ],
+  "character/tanki-lee-ho": [
+   "article/groups-and-organisations"
+  ],
+  "character/tassach": [
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette"
+  ],
+  "character/terner-jon": [
+   "article/interstella_2492-04"
+  ],
+  "character/terner-mfc": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "character/thatcher": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/the-jester": [
+   "article/2495-01_mission-nightside",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "character/the-soldier": [
+   "article/2495-01_mission-nightside",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "character/throwt-ivor": [
+   "article/interstella_2495-02"
+  ],
+  "character/tomkin": [
+   "article/2495-07_mission-omaha"
+  ],
+  "character/tortini-a": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/trader": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-06",
+   "article/itlof_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/transk-ilsa": [
+   "article/interstella_2495-02"
+  ],
+  "character/turner-j": [
+   "article/2492-10_mission-procyon-intel",
+   "article/2494-12_mission-classified",
+   "article/2495-07_mission-omaha",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_comms-002",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-02_mission-nova_comms-001",
+   "article/2496-03_mission-redstorm",
+   "article/background-scenario-summaries-for-93-94",
+   "article/briefing-notes_mision-vortex",
+   "article/briefing-notes_mission-hydra",
+   "article/cmc-newsletter_1999-02",
+   "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/honours_1995-08-23",
+   "article/interstella_2494-09",
+   "article/interstella_2495-02",
+   "article/marines-handbook_comptech-2",
+   "article/marines-handbook_comptech-3",
+   "article/marines-handbook_comptech-course-overview",
+   "article/marines-handbook_radio-operator-2",
+   "article/message_chaplain_deaths-of-turner-and-peterson",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_turner-tj121710",
+   "article/scenario-drive-wars-2-scenario-notes",
+   "article/scenario-one-of-our-drones-is-missing",
+   "article/writers-guide",
+   "mission/2492-10_mission-procyon",
+   "mission/2494-12_mission-classified",
+   "mission/2495-04_mission-unknown",
+   "mission/2495-07_mission-omaha",
+   "mission/2495-11_mission-nova",
+   "mission/2496-02_mission-intruder",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/tyler-kelly": [
+   "article/interstella_2492-10"
+  ],
+  "character/uncle-frank": [
+   "article/2494-03_mission-sidewinder"
+  ],
+  "character/vanessa-parnell": [
+   "article/a-brief-guide-to-history",
+   "article/companies-and-corporations",
+   "article/honours_1995-08-23",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2493-06",
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-12",
+   "article/interstella_2495-03",
+   "article/interstella_2495-07",
+   "article/mission-troy",
+   "article/scenario-drive-wars-2-scenario-notes"
+  ],
+  "character/viper": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "character/walker": [
+   "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/warlock": [
+   "article/a-brief-guide-to-history",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2493-06"
+  ],
+  "character/waylander-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/welesley": [
+   "article/2495-01_mission-nightside",
+   "article/interstella_2495-02",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "mission/2495-01_mission-nightside"
+  ],
+  "character/west-j": [
+   "article/2494-06_mission-pegasus",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/william-zaithin": [
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2493-04"
+  ],
+  "character/williams-b": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "character/williams-wild-bill": [
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide"
+  ],
+  "character/willis": [
+   "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/winno": [
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2493-06"
+  ],
+  "character/winston": [
+   "article/honours_1995-08-23"
+  ],
+  "character/winters": [
+   "article/2495-07_mission-omaha",
+   "article/2496-02_mission-intruder",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-07_mission-omaha"
+  ],
+  "character/woe-w": [
+   "article/2496-03_mission-redstorm",
+   "article/honours_1995-08-23",
+   "article/itlof_2496-04",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "character/x243-station-commander": [
+   "article/2492-10_mission-procyon-intel",
+   "article/interstella_2494-11",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "character/yanghshi-c": [
+   "article/2492-10_mission-procyon-intel"
+  ],
+  "character/yellan": [
+   "article/general-orders_2602-05-16"
+  ],
+  "character/zack-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/zandra-constella": [
+   "article/groups-and-organisations"
+  ],
+  "character/zaylov": [
+   "article/mexals-letters_2493-06_laverii-426"
+  ],
+  "character/zed-ryans-world": [
+   "article/interstella_2494-09"
+  ],
+  "character/zeus": [
+   "article/2494-12_mission-classified",
+   "article/2495-01_mission-nightside",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "character/zwalf": [
+   "article/2494-06_mission-pegasus",
+   "article/2495-01_mission-nightside",
+   "article/2495-07_mission-omaha",
+   "article/bill-chivers-training-ideas",
+   "article/honours_1995-08-23",
+   "article/interstella_2495-02",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/marines-handbook_armourer-4",
+   "article/marines-handbook_basic-combat-training",
+   "article/marines-handbook_medtech-3",
+   "article/marines-handbook_medtech-4",
+   "article/marines-handbook_medtech_1",
+   "article/marines-handbook_medtech_2",
+   "article/marines-handbook_patrolling",
+   "article/marines-handbook_scouting",
+   "article/marines-handbook_sniper",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-07_hal",
+   "article/mission-flag",
+   "mission/2494-12_mission-classified",
+   "mission/2495-01_mission-nightside",
+   "mission/2495-04_mission-unknown",
+   "mission/2495-07_mission-omaha"
+  ],
+  "organisation/1-coy": [
+   "article/interstella_2494-10",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "organisation/2-coy": [
+   "article/interstella_2492-05",
+   "article/interstella_2492-08",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-06",
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2495-03",
+   "article/mission-troy",
+   "article/writers-guide"
+  ],
+  "organisation/3-coy": [
+   "article/2494-06_mission-pegasus",
+   "article/interstella_2492-07",
+   "article/mexals-letters_2493-09_x244",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "organisation/4-coy": [
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2494-10",
+   "article/interstella_2494-12"
+  ],
+  "organisation/5-coy": [
+   "article/2492-10_mission-procyon-intel",
+   "article/2494-04_mission-ogre",
+   "article/2494-06_mission-pegasus",
+   "article/2494-12_mission-classified",
+   "article/2495-01_mission-nightside",
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/2495-07_mission-omaha",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_comms-002",
+   "article/2496-03_mission-redstorm",
+   "article/a-brief-guide-to-history",
+   "article/briefing-notes_mision-vortex",
+   "article/briefing-notes_mission-hydra",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-10",
+   "article/interstella_2492-11",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2493-06",
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/interstella_2495-07",
+   "article/interstella_specialedition_2491-12",
+   "article/marines-handbook_officer-nco-abridged-course",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mission-kraken",
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide",
+   "mission/2492-10_mission-procyon",
+   "mission/2494-03_mission-sidewinder",
+   "mission/2494-04_mission-ogre",
+   "mission/2494-06_mission-pegasus",
+   "mission/2494-12_mission-classified",
+   "mission/2495-01_mission-nightside",
+   "mission/2495-04_mission-unknown",
+   "mission/2495-07_mission-omaha",
+   "mission/2495-11_mission-nova",
+   "mission/2496-02_mission-intruder",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "organisation/aldebaran-union": [
+   "article/interstella_2494-10"
+  ],
+  "organisation/aldsys-spaceyards": [
+   "article/interstella_2495-04"
+  ],
+  "organisation/alfatek-systems": [
+   "article/companies-and-corporations",
+   "article/interstella_2493-06",
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "organisation/amish-homeworld": [
+   "article/2496-02_mission-intruder"
+  ],
+  "organisation/amish-zealots": [
+   "article/2496-02_mission-intruder"
+  ],
+  "organisation/argaran-corporation": [
+   "article/companies-and-corporations",
+   "article/scenario-drive-wars-scenario-notes",
+   "article/scenario-one-of-our-drones-is-missing"
+  ],
+  "organisation/banordyne": [
+   "article/2496-02_mission-intruder",
+   "article/companies-and-corporations",
+   "article/interstella_2492-11",
+   "article/interstella_2492-12",
+   "article/mission-intruder",
+   "mission/2496-02_mission-intruder"
+  ],
+  "organisation/barnard-puritan-party": [
+   "article/interstella_2494-10"
+  ],
+  "organisation/billabong-regional-government": [
+   "article/interstella_2495-07"
+  ],
+  "organisation/black-flaggers": [
+   "article/interstella_2492-07"
+  ],
+  "organisation/blackwell-power": [
+   "article/a-brief-guide-to-history",
+   "article/companies-and-corporations",
+   "article/interstella_2493-06",
+   "article/interstella_2494-12"
+  ],
+  "organisation/cds": [
+   "article/interstella_2494-10"
+  ],
+  "organisation/chidanians": [
+   "article/2494-06_mission-pegasus",
+   "article/briefing-notes_mision-vortex",
+   "article/honours_1995-08-23",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-08",
+   "article/interstella_2492-12",
+   "article/interstella_2493-04",
+   "article/interstella_2494-11",
+   "article/interstella_2495-02"
+  ],
+  "organisation/chronicallers": [
+   "article/groups-and-organisations"
+  ],
+  "organisation/cib": [
+   "article/interim-history_2496-to-2501"
+  ],
+  "organisation/cmc-area-command": [
+   "article/2492-10_mission-procyon-intel",
+   "article/a-brief-guide-to-history",
+   "article/interstella_2493-03",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-03_connet",
+   "mission/2492-10_mission-procyon"
+  ],
+  "organisation/cmc-central-command": [
+   "article/2492-10_mission-procyon-intel",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-07",
+   "article/interstella_2492-11",
+   "article/interstella_2493-03"
+  ],
+  "organisation/cmc-combat-engineering-department": [
+   "article/general-orders_2602-05-16",
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "organisation/cmc-covert-operations": [
+   "article/2495-07_mission-omaha"
+  ],
+  "organisation/cmc-high-command": [
+   "article/interim-history_2496-to-2501",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mission-nova",
+   "mission/2494-12_mission-classified",
+   "mission/2495-04_mission-unknown",
+   "mission/2496-02_mission-intruder"
+  ],
+  "organisation/cmc-immediate-response-battalion": [
+   "article/mexals-letters_2493-09_x244"
+  ],
+  "organisation/cmc-iv-field-regiment": [
+   "article/2496-02_mission-intruder_sibreport",
+   "article/a-brief-guide-to-history"
+  ],
+  "organisation/cmc-provost-marshals-office": [
+   "article/2496-02_mission-intruder"
+  ],
+  "organisation/cmc-sib": [
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport"
+  ],
+  "organisation/cnn": [
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-03_mission-redstorm",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2494-09"
+  ],
+  "organisation/coedarian": [
+   "article/interstella_2494-11",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "organisation/colonial-marine-corps": [
+   "article/2494-03_mission-sidewinder",
+   "article/2494-06_mission-pegasus",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/2496-03_mission-redstorm",
+   "article/a-brief-guide-to-history",
+   "article/background-scenario-summaries-for-93-94",
+   "article/briefing-notes_mission-hydra",
+   "article/cmc-newsletter_1999-02",
+   "article/groups-and-organisations",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2492-02",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2493-06",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_specialedition_2491-12",
+   "article/marines-handbook_armourer-4",
+   "article/marines-handbook_basic-combat-training",
+   "article/marines-handbook_medtech_1",
+   "article/marines-handbook_medtech_2",
+   "article/message_chaplain_deaths-of-turner-and-peterson",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-07_hal",
+   "article/scenario-drive-wars-scenario-notes",
+   "article/scenario-one-of-our-drones-is-missing",
+   "article/writers-guide",
+   "mission/2492-10_mission-procyon"
+  ],
+  "organisation/colonial-survey": [
+   "article/2495-01_mission-nightside",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "organisation/columbian-combo": [
+   "article/interstella_2494-09"
+  ],
+  "organisation/corporate-data-intercept": [
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "organisation/csca": [
+   "article/interstella_2494-10"
+  ],
+  "organisation/de-witt-mining": [
+   "article/2495-11_mission-nova",
+   "article/2496-03_mission-redstorm",
+   "article/companies-and-corporations",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2494-09",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mission-troy"
+  ],
+  "organisation/dea": [
+   "article/2495-11_mission-nova",
+   "article/interstella_2494-10"
+  ],
+  "organisation/deep-space-research-unit": [
+   "article/interim-history_2496-to-2501"
+  ],
+  "organisation/designieur-security": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "organisation/df-associates": [
+   "article/interstella_2494-12",
+   "article/interstella_2495-04"
+  ],
+  "organisation/douglas-clan": [
+   "article/2494-03_mission-sidewinder"
+  ],
+  "organisation/eagle-supernova": [
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-11",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04"
+  ],
+  "organisation/erasmus-corporation": [
+   "article/a-brief-guide-to-history",
+   "article/companies-and-corporations",
+   "article/interstella_2492-01",
+   "article/interstella_2492-03"
+  ],
+  "organisation/evolution-party": [
+   "article/briefing-notes_mision-vortex",
+   "article/interstella_2492-05",
+   "article/interstella_2492-07"
+  ],
+  "organisation/first-bank-of-groombridge": [
+   "article/interstella_2493-03",
+   "article/interstella_2493-06"
+  ],
+  "organisation/freedom-for-chidan-movement": [
+   "article/interstella_2492-12"
+  ],
+  "organisation/freemen-for-freedom": [
+   "article/2495-07_mission-omaha"
+  ],
+  "organisation/future-party": [
+   "article/briefing-notes_mision-vortex",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-12"
+  ],
+  "organisation/garp-corporation": [
+   "article/2496-03_mission-redstorm",
+   "article/interim-history_2496-to-2501"
+  ],
+  "organisation/gem-star-holdings": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/gems": [
+   "article/2496-02_mission-intruder",
+   "article/mission-intruder",
+   "mission/2496-02_mission-intruder"
+  ],
+  "organisation/grant-clan": [
+   "article/2494-03_mission-sidewinder",
+   "mission/2494-03_mission-sidewinder"
+  ],
+  "organisation/groombridge-central-house": [
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08"
+  ],
+  "organisation/groombridge-democrats": [
+   "article/briefing-notes_mision-vortex"
+  ],
+  "organisation/groombridge-environmentalists": [
+   "mission/2495-04_mission-unknown"
+  ],
+  "organisation/groombridge-planetary-government": [
+   "article/honours_1995-08-23",
+   "article/interstella_2492-12"
+  ],
+  "organisation/groombridge-puritan-party": [
+   "article/briefing-notes_mision-vortex"
+  ],
+  "organisation/hadens-worthy": [
+   "article/2495-05_boarding-report-mariecelesta",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2495-06",
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/mission-welcome-to-the-marie-celesta-monster-notes",
+   "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "organisation/hal-12th-cohort": [
+   "article/2495-07_mission-omaha"
+  ],
+  "organisation/hal-49th-unified": [
+   "article/2495-07_mission-omaha"
+  ],
+  "organisation/hal-freedom-army": [
+   "article/2495-07_mission-omaha",
+   "article/mexals-letters_2495-07_hal"
+  ],
+  "organisation/hal-planetary-defence": [
+   "article/2494-04_mission-ogre",
+   "article/2495-07_mission-omaha",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2494-04_mission-ogre",
+   "mission/2495-07_mission-omaha"
+  ],
+  "organisation/hal-revolutionary-movement": [
+   "article/2494-04_mission-ogre"
+  ],
+  "organisation/hal-slave-security": [
+   "article/2495-07_mission-omaha",
+   "article/mexals-letters_2495-07_hal",
+   "mission/2495-07_mission-omaha"
+  ],
+  "organisation/hengists": [
+   "article/2495-01_mission-nightside",
+   "article/groups-and-organisations",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-08",
+   "article/interstella_2493-06",
+   "article/interstella_2494-10",
+   "article/interstella_2494-12",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "mission/2495-01_mission-nightside"
+  ],
+  "organisation/hobygames": [
+   "article/interstella_2495-04"
+  ],
+  "organisation/hommilabs": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/ickthyn-services": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/in-the-line-of-fire": [
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/itlof_2495-01"
+  ],
+  "organisation/independance-for-clones": [
+   "article/groups-and-organisations",
+   "article/interstella_2492-01",
+   "article/interstella_2492-04"
+  ],
+  "organisation/intelcorp": [
+   "article/2494-06_mission-pegasus",
+   "article/companies-and-corporations",
+   "article/mexals-letters_2493-09_x244",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "organisation/intergalactic-lottery-co": [
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2494-12"
+  ],
+  "organisation/intergalactic-press-corps": [
+   "article/interstella_2492-07",
+   "article/interstella_2492-12"
+  ],
+  "organisation/interstella": [
+   "article/2496-03_mission-redstorm",
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-10",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2493-06",
+   "article/interstella_2494-09",
+   "article/interstella_2494-10",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-04",
+   "article/interstella_2495-05",
+   "article/interstella_2495-06",
+   "article/interstella_2495-07",
+   "article/interstella_specialedition_2491-12",
+   "article/mexals-letters_2495-03_connet",
+   "mission/2492-10_mission-procyon"
+  ],
+  "organisation/interstellar-communications-group": [
+   "article/2494-04_mission-ogre"
+  ],
+  "organisation/investment-team": [
+   "article/interstella_2492-04"
+  ],
+  "organisation/iowa-power": [
+   "article/a-brief-guide-to-history",
+   "article/companies-and-corporations",
+   "article/groups-and-organisations",
+   "article/interstella_2492-04",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "organisation/irag": [
+   "article/2496-02_mission-intruder_comms-002",
+   "article/interstella_2494-09"
+  ],
+  "organisation/ixtyl": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/jefferson-electronic-systems": [
+   "article/companies-and-corporations",
+   "article/interstella_2492-04"
+  ],
+  "organisation/juliette-government": [
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-05",
+   "article/mexals-letters_2494-12_juliette"
+  ],
+  "organisation/juliette-space-navy": [
+   "article/interstella_2495-02",
+   "article/mexals-letters_2494-12_juliette"
+  ],
+  "organisation/juliette-special-police": [
+   "article/mexals-letters_2494-12_juliette",
+   "mission/2494-12_mission-classified"
+  ],
+  "organisation/jvc": [
+   "article/2495-01_mission-nightside"
+  ],
+  "organisation/kasdunni": [
+   "article/briefing-notes_mission-hydra",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-12",
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2494-11",
+   "article/interstella_2495-02",
+   "article/interstella_2495-07"
+  ],
+  "organisation/krugan-militia": [
+   "article/mexals-letters_2493-03_kruger"
+  ],
+  "organisation/kruger-authorities": [
+   "article/interstella_2493-04",
+   "article/interstella_2493-06"
+  ],
+  "organisation/league-against-warfare": [
+   "article/groups-and-organisations",
+   "article/interstella_2492-01",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-08",
+   "article/interstella_2493-03",
+   "article/interstella_2493-06",
+   "article/interstella_2495-05",
+   "article/itlof_2495-07"
+  ],
+  "organisation/li-sung-leisure": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/liane-planetary-government": [
+   "article/2495-11_mission-nova",
+   "article/honours_1995-08-23"
+  ],
+  "organisation/lone-star-security": [
+   "article/2495-01_mission-nightside",
+   "article/interstella_2495-04",
+   "article/mexals-letters_2495-01_grants-world"
+  ],
+  "organisation/malenski-transportation": [
+   "article/companies-and-corporations",
+   "article/interstella_2494-12",
+   "article/interstella_2495-03"
+  ],
+  "organisation/marie-celeste-mercenaries": [
+   "article/2495-05_boarding-report-mariecelesta"
+  ],
+  "organisation/marine-training-corps": [
+   "article/interstella_2494-10",
+   "article/interstella_2494-11"
+  ],
+  "organisation/marquee-models": [
+   "article/interstella_2495-02"
+  ],
+  "organisation/medi-care": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/merton-publishing": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/military-mercantile": [
+   "article/briefing-notes_mision-vortex",
+   "article/briefing-notes_mission-hydra",
+   "article/companies-and-corporations",
+   "article/interstella_2492-12",
+   "article/interstella_2495-04",
+   "article/marines-handbook_armourer-4"
+  ],
+  "organisation/nas-corp": [
+   "article/companies-and-corporations",
+   "article/interstella_2492-11",
+   "article/interstella_2492-12"
+  ],
+  "organisation/nautilus": [
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "organisation/network-systems": [
+   "article/briefing-notes_mision-vortex",
+   "article/companies-and-corporations",
+   "article/interstella_2492-12",
+   "article/interstella_2494-09",
+   "article/writers-guide"
+  ],
+  "organisation/new-light": [
+   "article/interstella_2494-11",
+   "article/interstella_2495-02"
+  ],
+  "organisation/new-worlds-inc": [
+   "article/2496-03_mission-redstorm",
+   "article/background-scenario-summaries-for-93-94",
+   "article/companies-and-corporations",
+   "article/interstella_2492-01",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-06",
+   "article/scenario-how-much-for-just-the-planet"
+  ],
+  "organisation/night-hawks": [
+   "article/2496-03_mission-redstorm",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "organisation/nordberg-shipping": [
+   "article/companies-and-corporations",
+   "article/interstella_2495-04"
+  ],
+  "organisation/nu-phoenicians": [
+   "article/groups-and-organisations",
+   "article/mexals-letters_2493-06_laverii-426"
+  ],
+  "organisation/nyytoda-federal-police": [
+   "article/2494-03_mission-sidewinder"
+  ],
+  "organisation/odonnald-family": [
+   "article/2494-06_mission-pegasus"
+  ],
+  "organisation/old-earth-tourism-authority": [
+   "article/interstella_2494-11",
+   "article/interstella_2494-12"
+  ],
+  "organisation/one-true-church": [
+   "article/a-brief-guide-to-history",
+   "article/groups-and-organisations",
+   "article/interstella_2492-12",
+   "article/interstella_2493-04",
+   "article/interstella_2494-11",
+   "article/interstella_2495-02",
+   "article/mexals-letters_2494-12_juliette"
+  ],
+  "organisation/palmini-defence-systems": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/parnell-industries": [
+   "article/a-brief-guide-to-history",
+   "article/background-scenario-summaries-for-93-94",
+   "article/companies-and-corporations",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2493-04",
+   "article/interstella_2494-09",
+   "article/interstella_2494-12",
+   "article/interstella_2495-04",
+   "article/scenario-drive-wars-2-scenario-notes",
+   "article/scenario-drive-wars-scenario-notes"
+  ],
+  "organisation/parnell-security-force": [
+   "article/scenario-drive-wars-scenario-notes"
+  ],
+  "organisation/pec": [
+   "article/interstella_2493-03",
+   "article/interstella_2493-04",
+   "article/interstella_2493-06"
+  ],
+  "organisation/pizza-planet": [
+   "article/interstella_2493-03"
+  ],
+  "organisation/planetary-research-institute": [
+   "article/interstella_2492-10"
+  ],
+  "organisation/plougher-clan": [
+   "article/2494-03_mission-sidewinder",
+   "mission/2494-03_mission-sidewinder"
+  ],
+  "organisation/puritans": [
+   "article/2496-02_mission-intruder",
+   "article/companies-and-corporations",
+   "article/groups-and-organisations",
+   "article/interstella_2492-03",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-11",
+   "article/interstella_2492-12",
+   "article/interstella_2493-04",
+   "article/interstella_2494-10",
+   "article/interstella_2495-04",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mission-intruder",
+   "article/mission-troy"
+  ],
+  "organisation/restyk-corporation": [
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_comms-002",
+   "article/interstella_2492-01",
+   "article/mission-intruder",
+   "article/mission-troy",
+   "article/scenario-drive-wars-scenario-notes",
+   "article/scenario-how-much-for-just-the-planet",
+   "article/scenario-one-of-our-drones-is-missing",
+   "mission/2496-02_mission-intruder"
+  ],
+  "organisation/ricottanini-family": [
+   "article/interstella_2492-03"
+  ],
+  "organisation/saf-band": [
+   "article/interstella_2494-10"
+  ],
+  "organisation/senator-francis-guard": [
+   "article/2494-04_mission-ogre"
+  ],
+  "organisation/sigma-mining": [
+   "article/companies-and-corporations",
+   "article/interstella_2493-06",
+   "article/interstella_2494-09"
+  ],
+  "organisation/sirian-defence-forces": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "organisation/sirius-insurgents": [
+   "article/2496-03_mission-redstorm"
+  ],
+  "organisation/sjvenson-fire-and-rescue": [
+   "article/interim-history_2496-to-2501"
+  ],
+  "organisation/skeleton-news-crew": [
+   "article/interstella_specialedition_2491-12"
+  ],
+  "organisation/slaves-for-freedom": [
+   "article/2495-07_mission-omaha"
+  ],
+  "organisation/solrebrians": [
+   "article/interim-history_2496-to-2501",
+   "article/mission-kraken"
+  ],
+  "organisation/space-accident-investigation-board": [
+   "article/2495-05_boarding-report-mariecelesta"
+  ],
+  "organisation/stoppers": [
+   "mission/2495-04_mission-unknown"
+  ],
+  "organisation/sugar-mice": [
+   "article/personnel-jacket_turner-tj121710",
+   "article/writers-guide"
+  ],
+  "organisation/svensonn-automation": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/tadson-romburg": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/tedmann-controls": [
+   "article/companies-and-corporations"
+  ],
+  "organisation/the-brotherhood": [
+   "article/2494-06_mission-pegasus",
+   "article/a-brief-guide-to-history",
+   "article/groups-and-organisations",
+   "article/interstella_2492-04",
+   "article/interstella_2493-04",
+   "article/interstella_2494-11",
+   "article/interstella_specialedition_2491-12",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mission-troy",
+   "article/writers-guide",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "organisation/tyrell-corporation": [
+   "article/background-scenario-summaries-for-93-94",
+   "article/scenario-drive-wars-2-scenario-notes",
+   "article/scenario-drive-wars-scenario-notes",
+   "article/scenario-one-of-our-drones-is-missing",
+   "article/writers-guide"
+  ],
+  "organisation/united-europe": [
+   "article/a-brief-guide-to-history",
+   "article/briefing-notes_mission-hydra",
+   "article/interstella_2494-11",
+   "article/interstella_2494-12"
+  ],
+  "organisation/united-worlds": [
+   "article/2494-04_mission-ogre",
+   "article/2495-07_mission-omaha",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-03_mission-redstorm",
+   "article/a-brief-guide-to-history",
+   "article/background-scenario-summaries-for-93-94",
+   "article/briefing-notes_mission-hydra",
+   "article/companies-and-corporations",
+   "article/groups-and-organisations",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2492-01",
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04",
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/interstella_2492-11",
+   "article/interstella_2493-04",
+   "article/interstella_2493-06",
+   "article/interstella_2494-11",
+   "article/interstella_2495-01",
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/interstella_2495-04",
+   "article/interstella_2495-07",
+   "article/interstella_specialedition_2491-12",
+   "article/marines-handbook_officer-nco-abridged-course",
+   "article/message_chaplain_deaths-of-turner-and-peterson",
+   "article/mexals-letters_2493-03_kruger",
+   "article/mexals-letters_2493-06_laverii-426",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2494-12_juliette",
+   "article/mexals-letters_2495-01_grants-world",
+   "article/mexals-letters_2495-02_heurls",
+   "article/mexals-letters_2495-03_connet",
+   "article/mexals-letters_2495-04_groombridge",
+   "article/mexals-letters_2495-07_hal",
+   "article/mission-achilles",
+   "article/mission-flag",
+   "article/mission-intruder",
+   "article/mission-kraken",
+   "article/mission-nova",
+   "article/mission-troy",
+   "article/scenario-drive-wars-2-scenario-notes",
+   "article/writers-guide",
+   "mission/2494-04_mission-ogre",
+   "mission/2494-12_mission-classified",
+   "mission/2495-05_boarding-action-mariecelesta",
+   "mission/2495-07_mission-omaha",
+   "mission/2495-11_mission-nova",
+   "mission/2496-03_mission-redstorm"
+  ],
+  "organisation/university-of-europe": [
+   "article/briefing-notes_mission-hydra",
+   "article/interstella_2495-07"
+  ],
+  "organisation/urthankoi-government": [
+   "article/interstella_2492-03"
+  ],
+  "organisation/uw-colonial-intelligence-agency": [
+   "article/2495-07_mission-omaha"
+  ],
+  "organisation/uw-colonial-navy": [
+   "article/2495-01_mission-nightside"
+  ],
+  "organisation/uw-colonisation-team-grants-world": [
+   "article/2495-01_mission-nightside",
+   "article/interstella_2495-02"
+  ],
+  "organisation/uw-combat-medical-team": [
+   "article/briefing-notes_mision-vortex"
+  ],
+  "organisation/uw-courts": [
+   "article/interstella_2495-02",
+   "article/interstella_2495-03",
+   "article/mexals-letters_2495-02_heurls"
+  ],
+  "organisation/uw-diplo-team-groombridge": [
+   "article/interstella_2492-05",
+   "article/interstella_2492-06",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08"
+  ],
+  "organisation/uw-diplomatic-service": [
+   "article/honours_1995-08-23"
+  ],
+  "organisation/uw-fraud-team": [
+   "article/interstella_2492-02",
+   "article/interstella_2492-03",
+   "article/interstella_2492-04"
+  ],
+  "organisation/uw-military-intelligence": [
+   "article/2495-11_mission-nova",
+   "article/mission-troy",
+   "mission/2495-11_mission-nova"
+  ],
+  "organisation/uw-rapid-reaction-battalion": [
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-02_mission-intruder_sibreport",
+   "article/honours_1995-08-23",
+   "article/interim-history_2496-to-2501",
+   "mission/2495-11_mission-nova"
+  ],
+  "organisation/uw-special-forces": [
+   "article/2494-04_mission-ogre",
+   "article/2494-12_mission-classified",
+   "article/2495-11_mission-nova",
+   "article/2496-02_mission-intruder",
+   "article/2496-03_mission-redstorm",
+   "article/interim-history_2496-to-2501",
+   "article/interstella_2492-07",
+   "article/interstella_2492-08",
+   "article/mexals-letters_2493-09_x244",
+   "article/mexals-letters_2495-03_connet",
+   "article/mission-intruder",
+   "article/mission-nova",
+   "mission/2494-12_mission-classified",
+   "mission/2495-11_mission-nova",
+   "mission/2496-02_mission-intruder"
+  ],
+  "organisation/uw-special-forces-bravo-coy": [
+   "article/2495-11_mission-nova"
+  ],
+  "organisation/uw-survey": [
+   "article/2494-06_mission-pegasus",
+   "article/interstella_2492-12",
+   "mission/2494-06_mission-pegasus"
+  ],
+  "organisation/uw-watchdog-authority": [
+   "article/a-brief-guide-to-history"
+  ],
+  "organisation/uwbi": [
+   "article/a-brief-guide-to-history",
+   "article/interstella_2494-12"
+  ],
+  "organisation/valen-pharmaceuticals": [
+   "article/companies-and-corporations",
+   "article/interstella_2495-04"
+  ],
+  "organisation/warmth": [
+   "article/interstella_2495-03"
+  ],
+  "organisation/wondergames": [
+   "article/interstella_2495-04"
+  ],
+  "organisation/www-news": [
+   "article/2496-02_mission-intruder"
+  ],
+  "organisation/xeno-corps-security": [
+   "article/mexals-letters_2495-04_groombridge",
+   "mission/2495-04_mission-unknown"
+  ],
+  "organisation/zyatamosis-lab": [
+   "article/interstella_2492-12"
+  ]
+ }
+}

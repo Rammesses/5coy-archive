@@ -1,103 +1,139 @@
 [
+  { "Name": "Mission Unknown",
+    "StartDate": "1992-04-24",
+    "EndDate": "1992-04-26",
+    "Location": "?",
+    "Reference": "2492-04_mission-unknown",
+    "Planet": "Sirius"
+  },
+
   { "Name": "Mission 'Procyon'",
-    "StartDate": "1992-10-01",
-    "EndDate": "1992-10-03",
+    "StartDate": "1992-10-02",
+    "EndDate": "1992-10-04",
     "Location": "?",
     "Reference": "2492-10_mission-procyon",
-    "Planet": "Laverii 42-6 / Station X243"
+    "Planet": "Laverii 42-6 / Station X243",
+    "ContentUrl": "/content/missions/2492-10_mission-procyon.md",
+    "Related": ["interstella_2492-07", "interstella_2492-08", "2494-06_mission-pegasus"]
   },
 
   { "Name": "Mission 'Argos'",
-    "StartDate": "1993-03-01",
-    "EndDate": "1993-03-03",
+    "StartDate": "1993-03-19",
+    "EndDate": "1993-03-21",
     "Location": "?",
     "Reference": "2493-03_mission-argos",
     "Planet": "Kruger"
   },
   { "Name": "Mission 'Vortex'",
-    "StartDate": "1993-11-01",
-    "EndDate": "1993-11-03",
+    "StartDate": "1993-11-05",
+    "EndDate": "1993-11-07",
     "Location": "?",
     "Reference": "2493-11_mission-vortex",
     "Planet": "Groombridge"
   },
 
   { "Name": "Mission 'Triton'",
-    "StartDate": "1994-02-01",
-    "EndDate": "1994-02-03",
+    "StartDate": "1994-02-04",
+    "EndDate": "1994-02-06",
     "Location": "?",
     "Reference": "2494-03_mission-triton",
     "Planet": "K685"
   },
   { "Name": "Mission 'Sidewinder'",
-    "StartDate": "1994-03-01",
-    "EndDate": "1994-03-03",
+    "StartDate": "1994-03-11",
+    "EndDate": "1994-03-13",
     "Location": "?",
     "Reference": "2494-03_mission-sidewinder",
-    "Planet": "Nyytoda"
+    "Planet": "Nyytoda",
+    "ContentUrl": "/content/missions/2494-03_mission-sidewinder.md",
+    "Related": ["2494-04_mission-ogre"]
   },
   { "Name": "Mission 'Ogre'",
-    "StartDate": "1994-04-01",
-    "EndDate": "1994-04-03",
+    "StartDate": "1994-04-08",
+    "EndDate": "1994-04-10",
     "Location": "?",
     "Reference": "2494-04_mission-ogre",
     "Planet": "Hal",
-    "ContentUrl": "/content/missions/2494-04_mission-ogre.md"
+    "ContentUrl": "/content/missions/2494-04_mission-ogre.md",
+    "Related": ["2494-06_mission-pegasus", "2495-07_mission-omaha", "itlof_2496-05"]
   },
   { "Name": "Mission 'Pegasus'",
-    "StartDate": "1994-06-01",
-    "EndDate": "1994-06-03",
+    "StartDate": "1994-06-24",
+    "EndDate": "1994-06-26",
     "Location": "?",
     "Reference": "2494-06_mission-pegasus",
-    "Planet": "X244"
+    "Planet": "X244",
+    "ContentUrl": "/content/missions/2494-06_mission-pegasus.md",
+    "Related": ["2494-04_mission-ogre", "2492-10_mission-procyon", "2495-01_mission-nightside", "2496-03_mission-redstorm"]
   },
   { "Name": "Mission 'C-L-A-S-S-I-F-I-E-D'",
-    "StartDate": "1994-12-01",
-    "EndDate": "1994-12-03",
+    "StartDate": "1994-12-02",
+    "EndDate": "1994-12-04",
     "Location": "?",
     "Reference": "2494-12_mission-classified",
-    "Planet": "C-L-A-S-S-I-F-I-E-D"
+    "Planet": "C-L-A-S-S-I-F-I-E-D",
+    "ContentUrl": "/content/missions/2494-12_mission-classified.md",
+    "Related": ["2495-01_mission-nightside", "2495-05_boarding-action-mariecelesta", "2495-07_mission-omaha"]
   },
     
   { "Name": "Mission 'Nightside'",
-    "StartDate": "1995-01-01",
-    "EndDate": "1995-01-03",
+    "StartDate": "1995-01-20",
+    "EndDate": "1995-01-22",
     "Location": "?",
     "Reference": "2495-01_mission-nightside",
     "Planet": "Grant's World",
-    "ContentUrl": "/content/missions/2495-01_mission-nightside.md"
+    "ContentUrl": "/content/missions/2495-01_mission-nightside.md",
+    "Related": ["2495-04_mission-unknown", "2495-05_boarding-action-mariecelesta", "2496-03_mission-redstorm", "honours_1995-08-23"]
   },
   { "Name": "Mission Unknown",
-    "StartDate": "1995-04-01",
-    "EndDate": "1995-04-03",
+    "StartDate": "1995-02-24",
+    "EndDate": "1995-02-26",
+    "Location": "?",
+    "Reference": "2495-02_mission-unknown",
+    "Planet": "Heurls"
+  },
+  { "Name": "Mission Unknown",
+    "StartDate": "1995-03-24",
+    "EndDate": "1995-03-26",
+    "Location": "?",
+    "Reference": "2495-03_mission-unknown",
+    "Planet": "Connet"
+  },
+  { "Name": "Mission Unknown",
+    "StartDate": "1995-04-21",
+    "EndDate": "1995-04-23",
     "Location": "?",
     "Reference": "2495-04_mission-unknown",
     "Planet": "Groombridge",
-    "ContentUrl": "/content/missions/2495-04_mission-unknown.md"
+    "ContentUrl": "/content/missions/2495-04_mission-unknown.md",
+    "Related": ["2493-11_mission-vortex", "2495-01_mission-nightside", "honours_1995-08-23", "2495-07_mission-omaha", "2495-05_boarding-action-mariecelesta"]
   },
   { "Name": "Boarding Action - Marie Celesta",
-    "StartDate": "1995-05-01",
-    "EndDate": "1995-05-03",
+    "StartDate": "1995-05-26",
+    "EndDate": "1995-05-28",
     "Location": "?",
     "Reference": "2495-05_boarding-action-mariecelesta",
     "Planet": "",
-    "ContentUrl": "/content/missions/2495-05_marie-celesta.md"
+    "ContentUrl": "/content/missions/2495-05_marie-celesta.md",
+    "Related": ["honours_1995-08-23", "itlof_2495-12", "2495-11_mission-nova", "interim-history_2496-to-2501"]
   },
   { "Name": "Mission 'Omaha'",
-    "StartDate": "1995-07-15",
+    "StartDate": "1995-07-14",
     "EndDate": "1995-07-16",
     "Location": "?",
     "Reference": "2495-07_mission-omaha",
     "Planet": "Hal",
-    "ContentUrl": "/content/missions/2495-07_mission-omaha.md"
+    "ContentUrl": "/content/missions/2495-07_mission-omaha.md",
+    "Related": ["2494-04_mission-ogre"]
   },
   { "Name": "Mission 'Nova'",
-    "StartDate": "1995-11-01",
-    "EndDate": "1995-11-03",
+    "StartDate": "1995-11-10",
+    "EndDate": "1995-11-12",
     "Location": "?",
     "Reference": "2495-11_mission-nova",
     "Planet": "Liahn",
-    "ContentUrl": "/content/missions/2495-11_mission-nova.md"
+    "ContentUrl": "/content/missions/2495-11_mission-nova.md",
+    "Related": ["2495-05_boarding-action-mariecelesta", "2496-02_mission-intruder", "honours_1995-08-23"]
   },
 
   { "Name": "Mission 'Kraken'",
@@ -113,7 +149,8 @@
     "Location": "Thriftwood",
     "Reference": "2496-02_mission-intruder",
     "Planet": "Homeworld / Main",
-    "ContentUrl": "/content/missions/2496-02_mission-intruder.md"
+    "ContentUrl": "/content/missions/2496-02_mission-intruder.md",
+    "Related": ["2495-11_mission-nova", "interim-history_2496-to-2501"]
   },
   { "Name": "Mission 'Red Storm'",
     "StartDate": "1996-03-15",
@@ -121,17 +158,20 @@
     "Location": "Squirrel Wood",
     "Reference": "2496-03_mission-redstorm",
     "Planet": "Sirius",
-    "ContentUrl": "/content/missions/2496-03_mission-redstorm.md"
+    "ContentUrl": "/content/missions/2496-03_mission-redstorm.md",
+    "Related": ["2494-06_mission-pegasus", "interim-history_2496-to-2501", "2495-05_boarding-action-mariecelesta", "2496-02_mission-intruder"]
   },
   
-  { "Name": "?",
+  { "Name": "Mission Unknown",
     "StartDate": "1996-04-12",
     "EndDate": "1996-04-14",
-    "Location": "Drum Hill" },
-  { "Name": "?",
-    "StartDate": "1996-05-15",
-    "EndDate": "1996-05-17",
-    "Location": "?" },
+    "Location": "Drum Hill",
+    "Reference": "2496-04_mission-unknown" },
+  { "Name": "Mission Unknown",
+    "StartDate": "1996-05-10",
+    "EndDate": "1996-05-12",
+    "Location": "?",
+    "Reference": "2496-05_mission-unknown" },
   { "Name": "?",
     "StartDate": "1996-06-14",
     "EndDate": "1996-06-16",
@@ -142,7 +182,7 @@
     "Location": "Ipswich" },
 
   { "Name": "Operation 'Sable'",
-    "StartDate": "1996-10-19",
+    "StartDate": "1996-10-18",
     "EndDate": "1996-10-20",
     "Location": "Hesley Wood",
     "Reference": "2496-10_operation-sable"
@@ -199,7 +239,7 @@
     "EndDate": "1997-11-09",
     "Location": "Thrift Wood" },
   { "Name": "?",
-    "StartDate": "1997-12-04",
-    "EndDate": "1997-12-06",
+    "StartDate": "1997-12-05",
+    "EndDate": "1997-12-07",
     "Location": "Hesley Wood" }
 ]

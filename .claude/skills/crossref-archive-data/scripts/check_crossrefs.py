@@ -4,7 +4,7 @@
 Usage: python3 check_crossrefs.py [path/to/web/wwwroot]
 Exits 1 if any ERROR is found; WARN lines are for human judgement.
 """
-import collections, glob, json, os, re, sys
+import collections, datetime, glob, json, os, re, sys
 
 root = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
     os.path.dirname(__file__), *[".."] * 4, "web", "wwwroot")
@@ -72,6 +72,11 @@ for g, r, a, d in arts:
     if mr and mr not in mref_set:
         hint = " (that is an ARTICLE reference)" if mr in art_refs else ""
         report("ERROR", f"{where}: MissionRef '{mr}' not in missions.json{hint}")
+    for rel in a.get("Related") or []:
+        if rel not in mref_set and rel not in art_refs:
+            report("ERROR", f"{where}: Related '{rel}' is neither an article nor a mission Reference")
+        if rel == mr:
+            report("WARN", f"{where}: Related '{rel}' duplicates its MissionRef")
     if mr and d > 0 and not any(x[1] == r and x[3] == 0 for x in arts):
         report("WARN", f"{where}: child MissionRef is ignored by GetItemsByMissionRef (top-level only)")
 
@@ -79,6 +84,32 @@ dups = [r for r, n in collections.Counter(r for _, r, _, _ in arts).items() if n
 for r in dups:
     locs = [(g, d) for g, x, _, d in arts if x == r]
     report("WARN", f"duplicate article Reference '{r}' at {locs}")
+
+# mission Related lists: every entry must resolve, and every /mission/ or /article/ link in a
+# mission summary must be recorded (in Related, or by the article's own MissionRef)
+art_missionrefs = collections.defaultdict(set)
+for _, r, a, _ in arts:
+    art_missionrefs[r].add(a.get("MissionRef") or "")
+summary_link_re = re.compile(r"\]\(/(mission|article)/([^)\s#?]*)\)")
+for m in missions:
+    mref = m.get("Reference")
+    related = m.get("Related") or []
+    for rel in related:
+        if rel not in mref_set and rel not in art_refs:
+            report("ERROR", f"mission {mref}: Related '{rel}' is neither an article nor a mission Reference")
+        elif rel in art_refs and mref in art_missionrefs[rel]:
+            report("WARN", f"mission {mref}: Related '{rel}' already has this mission as its MissionRef")
+    cu = m.get("ContentUrl")
+    if not cu or not os.path.exists("." + cu):
+        continue
+    with open("." + cu, encoding="utf-8") as fh:
+        for kind, path in summary_link_re.findall(fh.read()):
+            ref = path.strip("/").split("/")[-1]
+            if ref == mref or ref in related:
+                continue
+            if kind == "article" and mref in art_missionrefs[ref]:
+                continue
+            report("ERROR", f"mission {mref}: summary links {kind} '{ref}' but it isn't in the mission's Related (or the article's MissionRef)")
 
 # mission summaries (missions.json ContentUrl) count as references too
 used_content.update(m["ContentUrl"] for m in missions if m.get("ContentUrl"))
@@ -114,6 +145,12 @@ for m in missions:
         ingame = f"{int(r[:4]) - 500:04d}-{r[5:7]}"
         if not s.startswith(ingame):
             report("WARN", f"mission ref '{r}' doesn't match StartDate {s} (expected {ingame}-..)")
+    try:
+        sd, ed = datetime.date.fromisoformat(s), datetime.date.fromisoformat(e)
+        if sd.year < 2000 and (sd.weekday() != 4 or ed.weekday() != 6 or (ed - sd).days != 2):
+            report("WARN", f"mission {r or m['Name']}: {s}..{e} is not a Fri-Sun weekend")
+    except ValueError:
+        report("ERROR", f"mission {r or m['Name']}: unparseable dates {s}..{e}")
     if m.get("ContentUrl") and not os.path.exists("." + m["ContentUrl"]):
         report("ERROR", f"mission {r}: ContentUrl not found {m['ContentUrl']}")
 

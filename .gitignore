@@ -467,3 +467,8 @@ ingest/Python
 ## web.test build output
 web.test/bin/
 web.test/obj/
+
+# transcribe-pdf-resource scratch (PDFs, page images, OCR output); keep its word list and log
+.transcribe/*
+!.transcribe/lexicon.txt
+!.transcribe/verification-log.md

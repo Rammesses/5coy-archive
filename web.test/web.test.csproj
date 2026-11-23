@@ -16,4 +16,8 @@
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\web\web.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -220,6 +220,14 @@ div.sidebar-bang-rotated {
     clear: both;
 }
 
+/* Sits below any floated two-column content in the article markdown */
+.related-articles
+{
+    clear: both;
+    padding-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
 .page-break
 {
     content: "";
@@ -235,6 +243,20 @@ button.flat {
     border-style: hidden;
     background-color: transparent;
     padding: 0 0.25rem;
+}
+
+/* Breadcrumb line under a page title; an optional item (e.g. the article's mission) sits at
+   the right-hand end, wrapping beneath the breadcrumbs on narrow screens. */
+h5.page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.25rem 1rem;
+}
+
+h5.page-nav .page-mission {
+    margin-left: auto;
 }
 
 ul.related-breadcrumbs {

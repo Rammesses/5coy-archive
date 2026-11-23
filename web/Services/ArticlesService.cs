@@ -15,6 +15,15 @@ public interface IArticlesService : ISectionService<Article>, IItemsService<Arti
 {
     /// <summary>The chain of sections (root first) that contains the given article.</summary>
     Task<Section<Article>[]> GetSectionPathForItem(Article article);
+
+    /// <summary>Articles named in the article's Related list, plus articles whose Related list names it.</summary>
+    Task<Article[]> GetRelatedItems(Article article);
+
+    /// <summary>
+    /// Articles linked to a mission without having it as their MissionRef: those named in the
+    /// mission's Related list, plus articles whose Related list names the mission.
+    /// </summary>
+    Task<Article[]> GetRelatedItemsForMission(Mission mission);
 }
 
 public class ArticlesService : IArticlesService
@@ -61,9 +70,7 @@ public class ArticlesService : IArticlesService
         if (sectionRef == Section<Article>.AllItemsRef)
             return Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
 
-        var section = await GetSection(sectionRef);
-        var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
-        return sectionArticles;
+        return await GetGroupArticles(sectionRef);
     }
 
     public async Task<Article[]> GetAllItemsInTree(string sectionRef)
@@ -73,10 +80,7 @@ public class ArticlesService : IArticlesService
         if (sectionRef == Section<Article>.AllItemsRef)
             return Array.Empty<Article>();
 
-        var section = await GetSection(sectionRef);
-        var sectionArticles = articleData.FirstOrDefault(s => s.Reference == section.Reference).Articles;
-        var allArticles = Article.Flatten(sectionArticles);
-        return allArticles.ToArray();
+        return Article.Flatten(await GetGroupArticles(sectionRef)).ToArray();
     }
 
     public async Task<Article> GetItem(string sectionRef, string articleRef)
@@ -98,6 +102,48 @@ public class ArticlesService : IArticlesService
         var articles = articleData.SelectMany(group => group.Articles).Where(a => a.MissionRef == missionRef).ToArray();
 
         return articles;
+    }
+
+    public async Task<Article[]> GetRelatedItems(Article article)
+    {
+        await EnsureDataLoaded();
+
+        if (article == null)
+            return Array.Empty<Article>();
+
+        var allArticles = Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
+
+        var linkedFrom = (article.Related ?? Array.Empty<string>())
+            .Select(r => allArticles.FirstOrDefault(a => a.Reference == r))
+            .Where(a => a != null);
+        var linkedTo = allArticles.Where(a => a.Related?.Contains(article.Reference) == true);
+
+        return linkedFrom.Concat(linkedTo)
+            .Where(a => a.Reference != article.Reference)
+            .GroupBy(a => a.Reference)
+            .Select(g => g.First())
+            .ToArray();
+    }
+
+    public async Task<Article[]> GetRelatedItemsForMission(Mission mission)
+    {
+        await EnsureDataLoaded();
+
+        if (mission == null)
+            return Array.Empty<Article>();
+
+        var allArticles = Article.Flatten(articleData.SelectMany(g => g.Articles)).ToArray();
+
+        var linkedFrom = (mission.Related ?? Array.Empty<string>())
+            .Select(r => allArticles.FirstOrDefault(a => a.Reference == r))
+            .Where(a => a != null);
+        var linkedTo = allArticles.Where(a => a.Related?.Contains(mission.Reference) == true);
+
+        return linkedFrom.Concat(linkedTo)
+            .Where(a => a.MissionRef != mission.Reference)
+            .GroupBy(a => a.Reference)
+            .Select(g => g.First())
+            .ToArray();
     }
 
     public async Task<Section<Article>> GetSectionForItem(string articleRef)
@@ -128,6 +174,18 @@ public class ArticlesService : IArticlesService
         return FindSectionPath(sectionData, group.Reference) ?? Array.Empty<Section<Article>>();
     }
 
+    // Top-level articles of the group for a section; empty (not a crash) when the section is
+    // unknown (e.g. a mistyped /article/{section}/... URL) or has no article group.
+    private async Task<Article[]> GetGroupArticles(string sectionRef)
+    {
+        var section = await GetSection(sectionRef);
+        if (section == null)
+            return Array.Empty<Article>();
+
+        return articleData.FirstOrDefault(g => g.Reference == section.Reference)?.Articles
+            ?? Array.Empty<Article>();
+    }
+
     private static Section<Article>[] FindSectionPath(IEnumerable<Section<Article>> sections, string sectionRef)
     {
         foreach (var section in sections)
@@ -152,10 +210,9 @@ public class ArticlesService : IArticlesService
             lock(this)
             {
                 sectionData = loadedData;
-                foreach (var section in sectionData)
-                {
-                    section.Children.PopulateParentage(null);
-                }
+                // Top-level sections have no parent; their sub-sections point back at them
+                // (used for the back-link on the section page).
+                sectionData.PopulateParentage(null);
             }
         }
 
