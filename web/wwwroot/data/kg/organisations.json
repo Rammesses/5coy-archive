@@ -22,6 +22,22 @@
         "Sources": [
           "mission/2495-04_mission-unknown"
         ]
+      },
+      {
+        "P": "note",
+        "V": "8 marines arrested at an illegal rave outside Parnell on Lumiere for possessing hallucinogenic drugs (a Boost derivative); they had been in the honour guard escorting Ehlana Parnell to the spaceport",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Present on Groombridge; Capt Zwalf assaulted one of its members",
+        "Sources": [
+          "article/interstella_2495-05"
+        ]
       }
     ]
   },
@@ -40,6 +56,55 @@
         "O": "organisation/colonial-marine-corps",
         "Sources": [
           "article/writers-guide"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Trial of 2 Coy's Doctor ended; verdict due next month",
+        "Date": "2492-12",
+        "Note": "The doctor is presumably Lt O'Shaunessy of 2 Coy, convicted in interstella_2493-03",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its doctor, Lt O'Shaunessy, convicted by CMC court martial of malpractice and LAW membership",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A recruit died two days before his nineteenth birthday during basic training with 2 Coy on Braconis; the second recruit death this year; CMC inquiry",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A 2 Coy marine died despite correct medical procedure, raising suspicions over RVC-877 med units",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A 2 Coy marine died after being resuscitated by an RVC-877 unit; post-mortem showed trauma not consistent with past experience",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "All leave cancelled; on standby in systems neighbouring Juliet",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-03"
         ]
       }
     ]
@@ -66,6 +131,83 @@
         "Role": "Lost rescue team; one survivor",
         "Sources": [
           "article/2494-06_mission-pegasus"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "4-coy",
+    "Name": "4th Company",
+    "Aliases": [
+      "4 Coy",
+      "4 Coy IV Field Regiment"
+    ],
+    "Type": "military",
+    "Description": "CMC company fighting in the Groombridge neutral zone in early 2493.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/interstella_2493-03",
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Groombridge neutral zone (Chidan/Kasdunni region), Feb 2493",
+        "Role": "Operating in the neutral zone; Krystal Spyers covered its action",
+        "Date": "2493-02",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Over 50 members listed missing in action on Groombridge",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Date": "2493-04",
+        "Note": "Assigned for the duration of the conflict; mounting casualties as both sides regard them as enemies",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "partOf",
+        "O": "organisation/cmc-iv-field-regiment",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Arrested alien hoaxer Thille Edmonds in Sharwood Forest, Delors continent",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "partOf",
+        "O": "organisation/cmc-iv-field-regiment",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "2 squads deployed to Sharwood Forest, Delors continent, Bessieres, to investigate a 2.5-3 m pink, yellow-spotted bipedal creature",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
         ]
       }
     ]
@@ -116,6 +258,278 @@
         "Sources": [
           "article/mexals-letters_2493-09_x244"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Arrested Colonel Nasco (Jan 2492); named by his defence as prime movers of a conspiracy to blemish his record",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "On Eta Ceptai uncovered the Urthankoi Government buying components for an artificial virus; arrested Jaz Matlocke and several supposed LAW members; 7 marines reported killed on the planet",
+        "Date": "2492-02",
+        "Note": "'Last month' in the March 2492 issue; no mission record for this weekend in missions.json",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Fomalhaut, 2492 (Iowa Power radioactive delivery)",
+        "Date": "2492-04",
+        "Note": "Fomalhaut deployment reported in the April 2492 issue; not linked to mission/2492-04_mission-unknown (recorded as Sirius)",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Internal security searches of the Fomalhaut base recovered three projectile weapons and an unstable frag grenade; 5 Coy delivered UW radioactive materials to a new Iowa Power site, answered Captain Mickelhob's alert too late, and a radiation alert followed from leaky seals; two members died in Brotherhood attacks",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Society column expects Torboran Haze and Rachel Cantrell to return to 5 Coy after the birth of their son",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-10"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Genetics scandal: genetically engineered \"alien\" creature on an unnamed planet",
+        "Role": "Dispatched to investigate a reported alien; cornered and destroyed the creature with the help of a local trapper",
+        "Date": "2492-10",
+        "Note": "No matching mission in missions.json; marines kept out of public for extensive debriefing",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Annual CMC assessment: launch a real comms satellite within a one-hour window on a neutral planet",
+        "Date": "2492-11",
+        "Note": "Satellite components were stolen from the barracks and recovered on a night mission in which at one point only 2 marines were conscious; the launch succeeded. No matching mission in missions.json",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Groombridge neutral zone (Chidan/Kasdunni region), Feb 2493",
+        "Role": "Posed as new mercenary \"recruits\" at a mercenary enclave; reportedly did not complete the mission and left several marines behind when withdrawing early",
+        "Date": "2493-02",
+        "Note": "No matching mission in missions.json",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Several members reportedly tested positive for human remains in stomach-content tests after being fed a body (said to be a 4 Coy member) in the zone",
+        "Date": "2493-03",
+        "Note": "Undenied rumours; results not released",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Note": "Interstella's account of the Kruger satellite mission, from a recruit's leaked letter home; the CO was lost and later rescued",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Note": "'Kruger Outrage' follow-up: a 5 Coy marine's letter home said Kruger was 15 seconds from nuclear devastation",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A 5 Coy member stole chunks of Boddenite ore from Pholax-3 the previous October (2493); identity may soon be revealed",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Had not seen active duty since X243 (June 2494); members holidayed on Sol after release from quarantine",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Alleged by Interstella! to have been involved in the UW incursion onto Juliet; the CMC admitted the Garavaglia (5 Coy's flagship) was in the area",
+        "At": "mission/2494-12_mission-classified",
+        "Date": "2495-01",
+        "Sources": [
+          "article/interstella_2495-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Held its regimental (Christmas) dinner",
+        "Date": "2495-01",
+        "Sources": [
+          "article/interstella_2495-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Interstella! alleges 5 Coy were the troops who tortured and killed on Juliet after a UW spy craft crashed there",
+        "At": "mission/2494-12_mission-classified",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Interstella!: 5 Coy's first public appearance since the Juliet Affair",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Cleared the disputed site near Sheeple, Heurls, pending the UW Court ruling; overran the merc camp",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Role": "'Flag waving' PR mission to Connet after its application to join the UW; reported a 'dimension gate' and attacks by an 'alternative' 5 Coy",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Role": "Escorted and assisted placing leaking nukes to stabilise Groombridge's core; 26 marines with 5 radiation suits; seven died",
+        "Sources": [
+          "article/interstella_2495-05"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-12_mission-classified",
+        "Role": "Rescue and hide-the-evidence mission to cover up an accidental incursion into Juliet flightspace",
+        "Note": "Per Sgt K Chaos's posthumous letter to Interstella!",
+        "Sources": [
+          "article/interstella_2495-05"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Role": "20 members returning from R&R aboard the Garavaglia boarded the derelict SS Marie Celesta; 17 escaped, 3 marines died",
+        "Sources": [
+          "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Voted top 'Ideal Role Model(s) for a Better Generation' by viewers of teen-vid show Slink XB",
+        "Date": "2495-07",
+        "Sources": [
+          "article/interstella_2495-07"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Refugees on Heurls joked with Ehlana Parnell about 5 Coy's 'hospitality' on their visit early in the year",
+        "At": "mission/2495-02_mission-unknown",
+        "Sources": [
+          "article/interstella_2495-07"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Training base on Altair IV",
+        "Date": "2491-12",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/the-brotherhood",
+        "V": "Running battle on Altair IV",
+        "Date": "2491-12",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Accused by Krystal Spyers of brutality towards her crew and of letting men die of the plague on Altair IV; Brotherhood accusations of projectile weapon use were before UW sessions",
+        "Date": "2491-12",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "aldebaran-union",
+    "Name": "Aldebaran Union",
+    "Aliases": [],
+    "Type": "government",
+    "Description": "Polity to which Ehlana Parnell led a diplomatic mission in 2494.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2494-10",
+        "Note": "Destination of Ehlana Parnell's diplomatic mission",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "aldsys-spaceyards",
+    "Name": "Aldsys Spaceyards",
+    "Aliases": [
+      "Aldsys"
+    ],
+    "Type": "corporation",
+    "Description": "Shipbuilder in the Parnell-led consortium that won Nordberg's super-carrier order.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Part of the Parnell-led consortium that won Nordberg's order for 4 super-carriers",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/parnell-industries",
+        "Role": "Consortium partner",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
       }
     ]
   },
@@ -134,6 +548,23 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "supplies",
+        "O": "organisation/colonial-marine-corps",
+        "V": "Arms and equipment (also for other security forces)",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "An Alfatek employee is believed to be the source of rumours that experimental squad heavy support weapons went missing from CMC Research labs; Alfatek declined to comment",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
         ]
       }
     ]
@@ -220,6 +651,99 @@
         "Sources": [
           "article/2496-02_mission-intruder"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Field testing station on Insalon III raided by Nas-Corp-recruited locals",
+        "Date": "2491-08",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Troops reportedly bombed Nas-Corp's main R&D labs and fled with genetic samples and a rumoured fully developed specimen; their vessel was destroyed fleeing a UW ship through an asteroid belt",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Genetics scandal: genetically engineered \"alien\" creature on an unnamed planet",
+        "Role": "Covert recovery team",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Assets frozen and Directors removed for questioning; CMC forces drafted into all its facilities",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Spokesman strongly denied genetic manipulation, calling the evidence purely circumstantial",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "barnard-puritan-party",
+    "Name": "Barnard Puritan Party",
+    "Aliases": [
+      "BPP"
+    ],
+    "Type": "political",
+    "Description": "Puritan political party on Barnard's Star that attacked the Church of the Second Coming of Arnie.",
+    "Facts": [
+      {
+        "P": "relatedTo",
+        "O": "organisation/puritans",
+        "Note": "Name only; the article does not describe its link to the wider Puritan movement",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/csca",
+        "V": "Accused it of promoting genetic equality and genetically engineered 'freaks'",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Barnards Star",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "billabong-regional-government",
+    "Name": "Billabong Regional Government",
+    "Aliases": [],
+    "Type": "government",
+    "Description": "Regional government on Groombridge accused of inventing the giant rabbit hoax.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Groombridge authorities said it invented the giant-rabbit story to scare aid workers away and secure more aid for its own region",
+        "Date": "2495-07",
+        "Sources": [
+          "article/interstella_2495-07"
+        ]
       }
     ]
   },
@@ -262,6 +786,42 @@
         "Sources": [
           "article/a-brief-guide-to-history"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Managing Director Marcus Pinucchi; Jupiter Pinucchi moved into Blackwell Power's suite in the Galactic Hilton",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Denied that Professor Merrilion sold a prototype to Malenski Transportation; staff searched his labs for anything taken",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "cds",
+    "Name": "Campaign for the Demilitarisation of Society",
+    "Aliases": [
+      "CDS"
+    ],
+    "Type": "political",
+    "Description": "Campaign group opposing the CMC's Marine Training Corps.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/marine-training-corps",
+        "V": "Complained the CMC was forcing militaristic propaganda on youngsters",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
       }
     ]
   },
@@ -290,6 +850,30 @@
         "Date": "2492-05",
         "Sources": [
           "article/interstella_2492-05"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Shelters in Chidan bombed simultaneously with Kasdunni ones about two months earlier; over 500,000 killed in total",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/kasdunni",
+        "V": "Groombridge Civil War; talks broke down",
+        "Date": "2493-04",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Anonymous Chidanian letter from Dawn starport accuses Major Harris of broken promises and demands Chidanian self rule and segregation from Kasdunni refugees on Dawn",
+        "Sources": [
+          "article/interstella_2494-11"
         ]
       }
     ]
@@ -359,6 +943,38 @@
         "O": "organisation/colonial-marine-corps",
         "Sources": [
           "article/2492-10_mission-procyon-intel"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Received an official complaint from Tane Diamond's father about the search for her",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Received the initial report of 5 Coy's investigation of the genetically engineered \"alien\"",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Lt Katz of 5 Coy had not returned from an \"enforced visit\" there earlier in 2492",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Reportedly received a representative of Baron Lukel of Sirius; the CMC would neither confirm nor deny",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
         ]
       }
     ]
@@ -532,6 +1148,14 @@
         "Sources": [
           "article/2496-02_mission-intruder"
         ]
+      },
+      {
+        "P": "note",
+        "V": "A CNN newscrew was murdered on Pholax-3 in September 2493",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
       }
     ]
   },
@@ -551,6 +1175,14 @@
         "Note": "Described here",
         "Sources": [
           "article/mexals-letters_2493-03_kruger"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its Elders attended the consecration of the first Primate of CoedArian in Goldenwood Cathedral",
+        "Date": "2494-09-10",
+        "Sources": [
+          "article/interstella_2494-11"
         ]
       }
     ]
@@ -581,6 +1213,54 @@
         "Sources": [
           "article/a-brief-guide-to-history"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Spokesman refused to comment on Nasco's future after his acquittal",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Suspended an unnamed doctor for alleged negligence and LAW membership",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Annual CMC assessments of each company began, with exercises and mock missions on a neutral planet",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Internal investigation into misappropriation of CMC stores (medical drugs and tech equipment missing over the last year); arrests promised",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Forces on Groombridge to be heavily reinforced",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Declined to comment on Puritan demands to reveal how many clones it employs",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
       }
     ]
   },
@@ -601,6 +1281,40 @@
         "Role": "Lost investigation team",
         "Sources": [
           "article/2495-01_mission-nightside"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its team sent to investigate Grant's World disappeared; the CSD shuttle is believed to have been caught in an opening gate",
+        "At": "mission/2495-01_mission-nightside",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "columbian-combo",
+    "Name": "Columbian Combo",
+    "Aliases": [
+      "the Combo"
+    ],
+    "Type": "military",
+    "Description": "Neighbouring country on Ryan's World whose troops, including elite Dragoons, attacked Bannockburn.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Mortar unit razed Bannockburn (province of Reffley) despite a general truce; Dragoons under Colonel Nikita armed an old nuke when overrun",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Ryan's World",
+        "Sources": [
+          "article/interstella_2494-09"
         ]
       }
     ]
@@ -626,12 +1340,39 @@
     ]
   },
   {
+    "Reference": "csca",
+    "Name": "Church of the Second Coming of Arnie",
+    "Aliases": [
+      "CSCA"
+    ],
+    "Type": "religious",
+    "Description": "Cult on Barnard's Star following 'Arnie', many of whose members are drawn to the Marine Corps.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Barnards Star",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Holds \"Blockbuster Evenings\"; says many members feel drawn to the Marine Corps by Arnie's example; threatened Councillor Calvin with slander proceedings",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "de-witt-mining",
     "Name": "De Witt Mining Inc",
     "Aliases": [
       "De Witt Mining",
       "De Witt",
-      "Dewitt"
+      "Dewitt",
+      "De Witt Mining Corporation"
     ],
     "Type": "corporation",
     "Description": "Environmentally destructive miner; co-owner of Sirius after it seceded in 2496.",
@@ -658,6 +1399,72 @@
         "Sources": [
           "article/mexals-letters_2495-02_heurls"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Accused by the population of the Luthusian area of Chi Draconis of bullying tactics, forcing people off their land and pollution, after a mining accident that killed over 200 people locals believe was deliberate",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Implicated in the Altair IV slaughter; a spokesman denied all knowledge and praised Nasco",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "character/nasco",
+        "V": "Dealt with him 'on a purely professional basis' over the last few years",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Gave a directorship to Colonel Nasco after he resigned from the CMC",
+        "Date": "2492-03",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Former employer of geologist Ms Jones",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "character/diamond-tane",
+        "V": "Reported to be considering suing Diamond over her Interstella! interview remarks",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "One of three claimants (with Iowa Power and the local people of Sheeple) in a contested property claim on Heurls before the UW Court",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Bought a fake claim to the disputed Dracken ore land; Iowa Power tried to frame its operatives for murder",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
       }
     ]
   },
@@ -673,6 +1480,14 @@
         "Role": "Raided the base",
         "Sources": [
           "article/2495-11_mission-nova"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2494-10",
+        "Note": "UW Senate calls for a fuller investigation of the CMC by the 'UQDEA' - probably a typo/OCR for UWDEA; identity with this DEA not certain",
+        "Sources": [
+          "article/interstella_2494-10"
         ]
       }
     ]
@@ -710,6 +1525,36 @@
     ]
   },
   {
+    "Reference": "df-associates",
+    "Name": "D.F. Associates",
+    "Aliases": [
+      "D.F.Associates",
+      "DF Associates"
+    ],
+    "Type": "corporation",
+    "Description": "New personnel management consultancy rumoured to be hiring Claudia Goldine.",
+    "Facts": [
+      {
+        "P": "supplies",
+        "O": "organisation/de-witt-mining",
+        "V": "Contract to revamp training and personnel development in De Witt's mining operations on Aurora",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "supplies",
+        "O": "organisation/valen-pharmaceuticals",
+        "V": "Consultancy on quality and productivity at plantations on Nyottonda",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "douglas-clan",
     "Name": "Douglas clan",
     "Aliases": [
@@ -737,6 +1582,63 @@
     ]
   },
   {
+    "Reference": "eagle-supernova",
+    "Name": "Eagle Supernova",
+    "Aliases": [],
+    "Type": "corporation",
+    "Description": "Insurance company advertising universal insurance policies in Interstella!.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-01",
+        "Note": "Advert for universal insurance policies",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-11",
+        "Note": "Advert beside the horoscopes",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2493-04",
+        "Note": "Advert",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-02",
+        "Note": "Advert",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-12",
+        "Note": "Advert",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2493-03",
+        "Note": "Advert",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "erasmus-corporation",
     "Name": "The Erasmus Corporation",
     "Aliases": [
@@ -751,6 +1653,22 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "An explosion at one of its manufacturing complexes left local citizens needing treatment; it said the chemicals released were legal and blamed LAW for bombing it",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its Third Under-Manager on Eta Ceptai, Jaz Matlocke, was to supply chemicals for an Urthankoi artificial virus; two Erasmus techs were murdered by an Urthankoi thief",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-03"
         ]
       }
     ]
@@ -770,6 +1688,63 @@
         "Note": "One of the main parties",
         "Sources": [
           "article/briefing-notes_mision-vortex"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "first-bank-of-groombridge",
+    "Name": "First Bank of Groombridge",
+    "Aliases": [],
+    "Type": "corporation",
+    "Description": "Groombridge bank whose vaults suffered their first ever theft, of Winno's \"Space Fatigue\".",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "First ever theft from its vaults (Winno's \"Space Fatigue\"); Managing Director unavailable for comment; Board investigating",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Winno's \"Space Fatigue\" stolen from its vaults in February 2493 with no sign of forced entry",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "freedom-for-chidan-movement",
+    "Name": "Freedom for Chidan Movement",
+    "Aliases": [],
+    "Type": "terrorist",
+    "Description": "Chidanian guerrilla movement in the Groombridge war.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "V": "Groombridge war: several guerrilla-style attacks on government forces",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/chidanians",
+        "Note": "Name suggests a Chidanian group; the source does not say how it relates to other Chidanian factions",
+        "Sources": [
+          "article/interstella_2492-12"
         ]
       }
     ]
@@ -816,6 +1791,23 @@
         "Note": "Claims persecution of its members by puritanistic Chidanians",
         "Sources": [
           "article/interstella_2492-06"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/one-true-church",
+        "V": "Claims the OTC intends to persecute those of differing beliefs during the hostilities",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Denied responsibility for a spate of ritual-style killings on Groombridge",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
         ]
       }
     ]
@@ -992,6 +1984,14 @@
         "Sources": [
           "article/honours_1995-08-23"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Groombridge authorities denied that the Groombridge Province Pact had been shattered by the war",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
       }
     ]
   },
@@ -1030,7 +2030,8 @@
       "Haden-Worthy",
       "Haoins-Worthy Starways",
       "Haines-Worthy Starways",
-      "Hadens-Worthy Starways"
+      "Hadens-Worthy Starways",
+      "HainesWorthy"
     ],
     "Type": "corporation",
     "Description": "Owners of the starship Marie Celeste, whose obstruction contributed to the deaths on board in 2495. A \"Hainsworthy\" luxury liner was destroyed in Jan 2501 (probably the same company).",
@@ -1041,6 +2042,21 @@
         "Role": "Ship owner; obstructed requests for data",
         "Sources": [
           "article/2495-05_boarding-report-mariecelesta"
+        ]
+      },
+      {
+        "P": "owns",
+        "V": "SS Marie Celesta",
+        "Sources": [
+          "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its security droids guarded sensitive areas of the Marie Celesta",
+        "At": "mission/2495-05_boarding-action-mariecelesta",
+        "Sources": [
+          "article/interstella_2495-06"
         ]
       }
     ]
@@ -1196,6 +2212,104 @@
         "Sources": [
           "article/2495-01_mission-nightside"
         ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-02",
+        "Note": "Minsi Platinno of Ross, a Hengist since college, reported aliens stole her underwear",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-03",
+        "Note": "A New Worlds exec: 'those loonies in the Hengists would claim anything for publicity'",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-04",
+        "Note": "Aunty Trisha column",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Annual convention on Braconis; their application to visit Stonehenge on Earth was refused the previous year",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Seized on the Bessieres creature sighting as alien contact, identifying it with Nabishu carvings in the Yokada desert on Chi Draconis",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Spokesman eager to inspect Thille Edmonds' family pictures as possible proof of 21st-century alien visitors to Earth",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Role": "Hostile (two groups: saboteurs led by Jarvis Bryant; radical activists led by C J Farquhar)",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Had come to believe Grant's World would be the site of the 'second coming' of the aliens who created the galaxy and founded humanity",
+        "At": "mission/2495-01_mission-nightside",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Senior members condemned violence by the movement's so-called militant wing and offered the UW its membership list; riots on Dawn, Braconis and Heurls may have been outside agitators posing as Hengists",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hobygames",
+    "Name": "Hobygames Universe Store",
+    "Aliases": [
+      "Hobygames"
+    ],
+    "Type": "corporation",
+    "Description": "Games store on Braconis whose card delivery shuttle was hijacked.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Braconis",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Delivery shuttle hijacked by youths queuing for a new Magic release",
+        "Date": "2495-04",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
       }
     ]
   },
@@ -1235,7 +2349,8 @@
     "Reference": "in-the-line-of-fire",
     "Name": "In The Line Of Fire",
     "Aliases": [
-      "ITLOF"
+      "ITLOF",
+      "In the Line of Dire"
     ],
     "Type": "press",
     "Description": "Gossip magazine for CMC Marines, distributed by the CMC from 2495.",
@@ -1246,6 +2361,22 @@
         "Note": "Described here",
         "Sources": [
           "article/itlof_2495-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "First issue appeared in January 2495, written by marines for marines",
+        "Date": "2495-01",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Referred to as 'In the Line of Dire'; 'survived another month'",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-03"
         ]
       }
     ]
@@ -1266,6 +2397,22 @@
         "Note": "Described here",
         "Sources": [
           "article/groups-and-organisations"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Driven underground by corporate opposition; contactable through Interstella!",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-04",
+        "Note": "Aunty Trisha tells 'Anxious of NFA' to contact the IFC",
+        "Sources": [
+          "article/interstella_2492-04"
         ]
       }
     ]
@@ -1291,10 +2438,79 @@
     ]
   },
   {
+    "Reference": "intergalactic-lottery-co",
+    "Name": "Intergalactic Lottery Co",
+    "Aliases": [
+      "Intergalactic Lottery"
+    ],
+    "Type": "corporation",
+    "Description": "Runs the Intergalactic Lottery, with a 500 million credit first prize and 1 KCr tickets.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-01",
+        "Note": "Advert; Zone Box 97875452 - SERTW",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Launched an ad campaign after the 500th anniversary celebrations",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-02",
+        "Note": "Advert",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-03",
+        "Note": "Advert",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-04",
+        "Note": "Advert; tickets via Interstella!",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "intergalactic-press-corps",
+    "Name": "Intergalactic Press Corps",
+    "Aliases": [],
+    "Type": "press",
+    "Description": "Press body whose on-world Groombridge contingent was mostly killed in the shelter bombings of 2492.",
+    "Facts": [
+      {
+        "P": "status",
+        "V": "Three quarters of those stationed on Groombridge killed in the simultaneous Chidan/Kasdunni shelter bombings",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "interstella",
     "Name": "Interstella!",
     "Aliases": [
-      "Interstella"
+      "Interstella",
+      "Insterstella!"
     ],
     "Type": "press",
     "Description": "News publication (\"Interstella!\") whose reporters included Krystal Spyers and Morgan Blake; covered Sirius, Groombridge, Nasco and 5 Coy from 2491.",
@@ -1305,6 +2521,54 @@
         "Note": "Described here",
         "Sources": [
           "article/interstella_2492-05"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-01",
+        "Note": "Editor: Johan Browning; address Zone Box 15364330, Beta Hydri",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-02",
+        "Note": "Also offered personal star-year guides for 5 KCr",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "October 2492 issue: reporting team unable to bring as much news as usual due to the tragic events on Groombridge",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its Juliet investigation was censored by the UW",
+        "Date": "2495-01",
+        "Sources": [
+          "article/interstella_2495-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A copy of an 'Interstella!' recovered from one of the 'other' marines on Connet describes a reality where the Puritan ideal rules",
+        "At": "mission/2495-03_mission-unknown",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_specialedition_2491-12",
+        "Note": "Special edition by Krystal Spyers and the Skeleton News Crew; regular monthly issue to resume January 2492",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
         ]
       }
     ]
@@ -1324,6 +2588,32 @@
         "Note": "Described here",
         "Sources": [
           "article/2494-04_mission-ogre"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "investment-team",
+    "Name": "Investment Team",
+    "Aliases": [],
+    "Type": "other",
+    "Description": "Fraud syndicate behind the 'Intergalactic Swindle' that stung billionaires across the galaxy.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "A founding member had handled Baron Haze's affairs for years as a personal friend",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/uw-fraud-team",
+        "V": "Under investigation by it",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
         ]
       }
     ]
@@ -1359,6 +2649,31 @@
         "Sources": [
           "article/mexals-letters_2495-02_heurls"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Fomalhaut, 2492 (Iowa Power radioactive delivery)",
+        "Role": "Recipient of the delivery; its new planetside site was attacked by the Brotherhood and its staff killed",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "One of three claimants (with De Witt Mining and the local people of Sheeple) in a contested property claim on Heurls before the UW Court",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Bought a fake claim to the disputed Dracken ore land; its security team committed illegal acts including murder and tried to frame De Witt operatives",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
       }
     ]
   },
@@ -1367,7 +2682,8 @@
     "Name": "IRAG",
     "Aliases": [
       "I.R.A.G",
-      "IRAG division"
+      "IRAG division",
+      "Information Retrieval Advancement Group"
     ],
     "Type": "military",
     "Description": "CMC division created in 2492 to provide specialist computing and data retrieval for Marine operations; headed by Joel Turner from May 2492.",
@@ -1378,6 +2694,14 @@
         "Note": "Inferred from CMC comnet routing",
         "Sources": [
           "article/2496-02_mission-intruder_comms-002"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Programme behind schedule and over budget; blamed on Network Systems and Parnell supplying equipment late; 'Beta' software trials due in the next few months",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
         ]
       }
     ]
@@ -1414,6 +2738,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Announced the death of Captain Jon Terner, head of its security force; no successor named",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
       }
     ]
   },
@@ -1430,7 +2762,45 @@
         "Sources": [
           "article/mexals-letters_2494-12_juliette"
         ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/united-worlds",
+        "V": "Expelled all diplo teams; condemned 'a blatant act of war' before the UW Court; demanded certain 5 Coy members face war crimes charges",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Called the anti-UW planet Juliet; its police and security forces cordoned off and searched the 'meteor' crash site",
+        "At": "mission/2494-12_mission-classified",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Juliet authorities close to declaring war on the UW over allegations that 5 Coy ran a shoot-to-kill covert mission there in December",
+        "Date": "2495-03",
+        "At": "mission/2494-12_mission-classified",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A 'true life' documentary, 'Death In The Forest', about the alleged covert CMC mission on Juliet was due to screen there",
+        "Date": "2495-05",
+        "At": "mission/2494-12_mission-classified",
+        "Sources": [
+          "article/interstella_2495-05"
+        ]
       }
+    ],
+    "Aliases": [
+      "Juliet authorities"
     ]
   },
   {
@@ -1453,7 +2823,18 @@
         "Sources": [
           "article/mexals-letters_2494-12_juliette"
         ]
+      },
+      {
+        "P": "status",
+        "V": "Juliet navy and armed forces reported placed on full alert",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
       }
+    ],
+    "Aliases": [
+      "Juliet navy"
     ]
   },
   {
@@ -1513,6 +2894,38 @@
         "Sources": [
           "article/interstella_2492-08"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Shelters in Kasdunni bombed simultaneously with Chidan ones about two months earlier; over 500,000 killed in total",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/chidanians",
+        "V": "Groombridge Civil War; talks broke down",
+        "Date": "2493-04",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Called allies of the One True Church in an anonymous Chidanian letter; Kasdunni refugees moved to Dawn",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "'Silly season' story: a 100m rabbit ate a department store used as the Kasdunni Military Forces' Area HQ",
+        "Date": "2495-07",
+        "Sources": [
+          "article/interstella_2495-07"
+        ]
       }
     ]
   },
@@ -1537,6 +2950,33 @@
     ]
   },
   {
+    "Reference": "kruger-authorities",
+    "Name": "Kruger authorities",
+    "Aliases": [
+      "Krugerians"
+    ],
+    "Type": "government",
+    "Description": "Government of the neutral world of Kruger, shocked by the CMC's nuclear satellite operation there.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Demanded a full explanation from the Corps and the UW and threatened legal proceedings over marines and a nuclear device on Kruger",
+        "Date": "2493-04",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "The Kruger Affair: other UW worlds accuse the Krugerians of collaborating with CMC forces and demand Kruger's neutral status be removed",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "league-against-warfare",
     "Name": "League Against Warfare",
     "Aliases": [
@@ -1551,6 +2991,62 @@
         "O": "organisation/united-worlds",
         "Sources": [
           "article/groups-and-organisations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Campaigning for stricter checks on chemical and biological warfare laws after an explosion at an Erasmus Corporation complex; Erasmus said LAW had bombed the complex",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "organisation/erasmus-corporation",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Several supposed members apprehended by 5 Coy on Eta Ceptai under the Terrorism Acts",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "An unnamed CMC doctor suspended pending investigation into negligence and LAW membership",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Membership is not illegal for the public but is an offence for CMC and other UW personnel (minimum 4 years)",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Former 2 Coy doctor Cassandra O'Shaunessy convicted of membership",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Inflicted heavy losses on 5 Coy in the 'St Valentine's Day Massacre' of 2492",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2495-05"
         ]
       }
     ]
@@ -1591,6 +3087,25 @@
     ]
   },
   {
+    "Reference": "lone-star-security",
+    "Name": "Lone Star Security Firm",
+    "Aliases": [
+      "Lone Star"
+    ],
+    "Type": "police",
+    "Description": "Private law enforcement agency that broke up the Magic card riot on Braconis.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Contracted by the Hobygames Universe Store on Braconis; quelled the riot after a card shipment hijack (33 people treated for minor injuries)",
+        "Date": "2495-04",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "malenski-transportation",
     "Name": "Malenski Transportation Corporation",
     "Aliases": [
@@ -1605,6 +3120,22 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Confirmed exec Frazer Johnson was on the tour but laughed off rumours of a secret transaction",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "One of its execs allegedly bought Professor Thom Merrilion's prototype teleport device",
+        "Date": "2494",
+        "Sources": [
+          "article/interstella_2495-03"
         ]
       }
     ]
@@ -1621,6 +3152,65 @@
         "Role": "Hostile",
         "Sources": [
           "article/2495-05_boarding-report-mariecelesta"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "marine-training-corps",
+    "Name": "Marine Training Corps",
+    "Aliases": [
+      "MTC"
+    ],
+    "Type": "military",
+    "Description": "CMC cadet corps for 12-16 year olds announced in 2494.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Plans revealed by CMC HQ: open to 12-16 year olds of any gender; cadets learn drill, diplomacy and security",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "partOf",
+        "O": "organisation/colonial-marine-corps",
+        "Note": "Cadets will eventually serve with real marines in non-hostile duties",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Flooded by young recruits despite pacifist protests",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "marquee-models",
+    "Name": "Marquee Models",
+    "Aliases": [],
+    "Type": "corporation",
+    "Description": "Chain of shops selling games such as 'Magic' and 'Nuns n Guns'.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Saw unprecedented demand for the 'Magic' card game",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
         ]
       }
     ]
@@ -1679,6 +3269,23 @@
         "Sources": [
           "article/briefing-notes_mision-vortex"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Date": "2492-12",
+        "Note": "Confirmed moving its base of operations to new locations for an unspecified period",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Lost the bid for Nordberg's super-carriers; hinted the decision was swung by back-handers",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
       }
     ]
   },
@@ -1697,6 +3304,47 @@
         "Note": "Suspected raid on Banordyne testing station, Insulon III",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Recruited locals on Insalon III in August 2491 to raid Banordyne's field testing station for research notes and samples, then destroyed the site",
+        "Date": "2491-08",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Main research facility R&D labs destroyed by a bomb in a retaliatory strike attributed to Banordyne troops",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Genetics scandal: genetically engineered \"alien\" creature on an unnamed planet",
+        "Role": "Covert strike-force followed the Banordyne recovery team",
+        "Date": "2492-10",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Assets frozen and Directors removed for questioning; CMC forces drafted into all its facilities",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Spokesman strongly denied genetic manipulation, calling the evidence purely circumstantial",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
         ]
       }
     ]
@@ -1728,6 +3376,49 @@
         "Sources": [
           "article/briefing-notes_mision-vortex"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Date": "2492-12",
+        "Note": "Confirmed moving its base of operations to new locations for an unspecified period",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "supplies",
+        "O": "organisation/irag",
+        "V": "Equipment (delivered late, per CSM Turner)",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "new-light",
+    "Name": "New Light",
+    "Aliases": [],
+    "Type": "other",
+    "Description": "Organisation canvassing Groombridge refugees on Dawn to return and save Groombridge by combined will.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Accused of threatening refugees in the Harfen region on Dawn who would not return to Groombridge; spokesperson laughed off the reports",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Reported to be stirring up trouble in mixed Chidanian/Kasdunni refugee settlements (riot in the Harfen region of Dawn) and persuading refugees to return to Groombridge",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
       }
     ]
   },
@@ -1746,6 +3437,30 @@
         "Role": "Operated the atmosphere processor",
         "Sources": [
           "article/2496-03_mission-redstorm"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Presented a case to the UW to remove the legislation requiring terraformers to prove worlds free of sentient life",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Rumoured to have destroyed alien artifacts to avoid interruption of a terraforming job on an unnamed world; an exec dismissed the claim as Hengist publicity-seeking",
+        "Date": "2492-03",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Continued to deny destroying alien artifacts to get round UW terraforming law",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
         ]
       }
     ]
@@ -1781,7 +3496,8 @@
     "Reference": "nordberg-shipping",
     "Name": "Nordberg Shipping Corporation",
     "Aliases": [
-      "Nordberg Shipping"
+      "Nordberg Shipping",
+      "Nordberg Corp"
     ],
     "Type": "corporation",
     "Description": "Interplanetary and interstellar transport.",
@@ -1792,6 +3508,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Ordered 4 'super-carriers', more than 5 times larger than any current interstellar transporter",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
         ]
       }
     ]
@@ -1854,6 +3578,34 @@
     ]
   },
   {
+    "Reference": "old-earth-tourism-authority",
+    "Name": "Old Earth Tourism Authority",
+    "Aliases": [
+      "OETA",
+      "Olde Earth Tourist Authority"
+    ],
+    "Type": "government",
+    "Description": "Tourism authority for Old Earth (Sol), promoting sites such as Old Athens and Hoods-Nottingham.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Reported a 15% rise in off-world visitors to Old Earth in 2494, citing better packaging and facilities",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Prefers 'Olde Earth'; ran a Theme 500 Special tour of Hoods-Nottingham",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "one-true-church",
     "Name": "One True Church",
     "Type": "religious",
@@ -1866,7 +3618,49 @@
         "Sources": [
           "article/a-brief-guide-to-history"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Groombridge war: sending its own troops to \"protect its interests\", instructed to act in self-defence only",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2493-04",
+        "Note": "'Marine X' is said to be from a well respected family with connections to the One True Church",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Its ArchPrimacy announced the consecration of the first Primate of CoedArian, Belzakath, on 10-09-2494",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Accused in an anonymous Chidanian letter of persecuting the Chidanian people, with Kasdunni allies",
+        "Sources": [
+          "article/interstella_2494-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A spokesman condemned 'Magic' and other role-play games as corrupting youth and encouraging heathen and satanistic worship",
+        "Date": "2495-02",
+        "Note": "Called 'the OTC' here",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
       }
+    ],
+    "Aliases": [
+      "ArchPrimacy of The One True Church"
     ]
   },
   {
@@ -1914,6 +3708,56 @@
         "Sources": [
           "article/a-brief-guide-to-history"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Interstella says all 'elves' originated from the Parnell labs on Lumiere",
+        "Date": "2493-04",
+        "Note": "Text says 'the Parnell labs'",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "supplies",
+        "O": "organisation/irag",
+        "V": "Equipment (delivered late, per CSM Turner)",
+        "Date": "2494-09",
+        "Note": "Text says 'Parnell'",
+        "Sources": [
+          "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Legend has it the early Parnell ancestors made their fortune from a lucky lottery ticket",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Accused in Annabel Kist's letter of controlling the UW council through planetary representatives and using the CMC as bully boys",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Led the consortium, with Aldsys Spaceyards, that won Nordberg's super-carrier order",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "To build a new industrial city in Northvale, Lumiere, for Groombridge refugees; environmentalists' objections dismissed",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
       }
     ]
   },
@@ -1928,6 +3772,90 @@
         "O": "organisation/parnell-industries",
         "Sources": [
           "article/scenario-drive-wars-scenario-notes"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "pec",
+    "Name": "Groombridge Planetary Exhibition Centre",
+    "Aliases": [
+      "Planetary Exhibition Centre"
+    ],
+    "Type": "other",
+    "Description": "Groombridge exhibition centre whose planned complete-works show of Winno, for its fiftieth anniversary, was hit by the theft of \"Space Fatigue\".",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Planned to show Winno's original paintings for its fiftieth anniversary; collection shipment from Sol recalled after the theft",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Inquiry into last month's theft of a Winno drew a complete blank; the painting 'simply vanished into thin air'",
+        "Date": "2493-04",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A PEC official's quote of the painting 'vanishing into thin air' recalled over the continuing art thefts",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "pizza-planet",
+    "Name": "Pizza Planet",
+    "Aliases": [],
+    "Type": "corporation",
+    "Description": "Pizza delivery firm struggling to recruit after two delivery agents were murdered over an incorrect order.",
+    "Facts": [
+      {
+        "P": "status",
+        "V": "Two operatives, Sevvi Johansson and Cedric F'Tha, murdered in a dispute over an incorrect order; difficulty recruiting delivery agents",
+        "Date": "2493-03",
+        "Sources": [
+          "article/interstella_2493-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "planetary-research-institute",
+    "Name": "The Planetary Research Institute",
+    "Aliases": [
+      "Planetary Research Institute"
+    ],
+    "Type": "other",
+    "Description": "Research institute on Sol with an Alien Lifeform Division.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Sol",
+        "Sources": [
+          "article/interstella_2492-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Has an Alien Lifeform Division; correspondence address for Prof. B. M. Barnacal's report",
+        "Sources": [
+          "article/interstella_2492-10"
         ]
       }
     ]
@@ -1984,6 +3912,63 @@
         "Sources": [
           "article/mexals-letters_2493-03_kruger"
         ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_2492-03",
+        "Note": "Colonel Nasco described as a Puritan",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "opposes",
+        "V": "All genetic research (\"twisted mad scientist routines practised by greedy corporate power-mongers\")",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "opposes",
+        "O": "character/cantrell-rachel",
+        "V": "Claim she genetically altered her unborn son; lodged an official complaint with the UW asking that the child be declared non-human, classified as a clone",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Demanded the CMC disclose how many clones it employs and their role",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Decry the use of clones in the Corps and regard 'elves' as sub-human alongside clones",
+        "Date": "2493-04",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Barnard Puritan Party attacked the Church of the Second Coming of Arnie",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "In the alternate reality described by a recovered 'Interstella!', the Puritan ideal is everything and 'deviants' (clones, CoedArianese, Urthankoi) are hunted with the Altair IV plague",
+        "At": "mission/2495-03_mission-unknown",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
       }
     ]
   },
@@ -2005,6 +3990,62 @@
         "Role": "Hostile (security teams); partner in Project Gemstone",
         "Sources": [
           "article/2496-02_mission-intruder"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Advertised gene-typed clones with special reductions for planetary security teams and CMC forces",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "ricottanini-family",
+    "Name": "Ricottanini Family",
+    "Aliases": [
+      "the Ricottanini Family"
+    ],
+    "Type": "family",
+    "Description": "Renowned family from whom an Urthankoi thief stole valuables on Eta Ceptai, and who lost a son, Gino, there.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "V": "Eta Ceptai, Feb 2492",
+        "Role": "Chased the Urthankoi thief who had stolen items of substantial value from them",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "The Head of the Family bore no malice towards 5 Coy: 'the debt had been repaid'",
+        "Date": "2492-03",
+        "Note": "Head of the Family not named. No stated link to 5 Coy Marine Gina Riccotonini (character/riccotonini); not merged",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "saf-band",
+    "Name": "S.A.F.",
+    "Aliases": [
+      "SAF"
+    ],
+    "Type": "other",
+    "Description": "Chart-topping band that played a Groombridge Refugees Fund benefit on Dawn.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Played to a capacity crowd at the Minogue Memorial Stadium on Dawn in aid of the Groombridge Refugees Fund, raising over 2 million creds",
+        "Date": "2494-10",
+        "Sources": [
+          "article/interstella_2494-10"
         ]
       }
     ]
@@ -2040,6 +4081,22 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Calls for it to cease sea bed operations on Alpha Centauri, blamed by many for the kelp blight",
+        "Date": "2493-06",
+        "Sources": [
+          "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Still denies its Alpha Centauri sea bed operations pollute the area, but has fitted expulsion filters to all ocean outlets; kelp yields improving",
+        "Date": "2494-09",
+        "Sources": [
+          "article/interstella_2494-09"
         ]
       }
     ]
@@ -2094,6 +4151,31 @@
         "V": "Sol3 (testing base on Neptune)",
         "Sources": [
           "article/interim-history_2496-to-2501"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "skeleton-news-crew",
+    "Name": "Skeleton News Crew",
+    "Aliases": [],
+    "Type": "press",
+    "Description": "News crew credited with Krystal Spyers on the Interstella! special edition about the Altair IV plague.",
+    "Facts": [
+      {
+        "P": "appearsIn",
+        "O": "article/interstella_specialedition_2491-12",
+        "Note": "Co-credited on the special edition; readers asked to send tips to it or to Interstella!",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/interstella",
+        "V": "Co-produced the December 2491 special edition",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
         ]
       }
     ]
@@ -2307,6 +4389,48 @@
         "Sources": [
           "article/mexals-letters_2493-03_kruger"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Fomalhaut, 2492 (Iowa Power radioactive delivery)",
+        "Role": "Attacked the Iowa Power site using CMC-issue weaponry; killed two members of 5 Coy",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Described as associates of the people Lt Nick Stone murdered on Golgotha in 2491",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Role": "Hostile: suspected of sabotaging the satellite; fought 5 Coy and booby-trapped a returned body",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Role": "Fought 5 Coy",
+        "Date": "2491-12",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Accused 5 Coy before the UW of using projectile weapons against them, backed by vid-tape evidence",
+        "Date": "2491-12",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
       }
     ]
   },
@@ -2374,6 +4498,112 @@
         "Sources": [
           "article/a-brief-guide-to-history"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Investigations under way into the largest intergalactic swindle ever, whose gains appear to match the entire UW budget",
+        "Date": "2492-01",
+        "Sources": [
+          "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "UW inquiry into the Nasco affair cancelled",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Spokesman said it was not UW policy to interfere with the government of worlds (re Sirius) and that terrorism would not be tolerated",
+        "Date": "2492-03",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "New legislation makes possession and use of projectile weapons punishable by death",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Launched an immediate inquiry into illegal genetic research by Nas-Corp and Banordyne; tougher genetic-research laws predicted",
+        "Date": "2492-11",
+        "Sources": [
+          "article/interstella_2492-11"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Threw a cordon around Groombridge to stop attacks on shipping, supplemented by ships from Beta Hydri",
+        "Date": "2493-04",
+        "Sources": [
+          "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Accused of an illegal incursion onto Juliet; censored Interstella!'s investigation",
+        "Date": "2495-01",
+        "At": "mission/2494-12_mission-classified",
+        "Sources": [
+          "article/interstella_2495-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Held urgent sessions on The Brotherhood's accusations that 5 Coy used projectile weapons",
+        "Date": "2491-12",
+        "Sources": [
+          "article/interstella_specialedition_2491-12"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "university-of-europe",
+    "Name": "University of Europe",
+    "Aliases": [],
+    "Type": "other",
+    "Description": "University in Geneva on Earth.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Geneva, Earth (Sol)",
+        "Sources": [
+          "article/interstella_2495-07"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "urthankoi-government",
+    "Name": "Urthankoi Government",
+    "Aliases": [],
+    "Type": "government",
+    "Description": "Government of the Urthankoi of Altair IV, reported to be buying components for an artificial virus in revenge for the plague.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Believed to be buying components for a deadly artificial virus for a revenge attack on those who unleashed the Altair IV plague",
+        "Date": "2492-02",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "99% of the Urthankoi population reported dead of the plague; scientists predicted the rest would die out within two years",
+        "Date": "2492-03",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
       }
     ]
   },
@@ -2422,7 +4652,10 @@
     "Reference": "uw-colonisation-team-grants-world",
     "Name": "UW Colonisation Team, Grant's Place",
     "Aliases": [
-      "Grant's Place colonists"
+      "Grant's Place colonists",
+      "Colony Prep Team",
+      "Prep Team",
+      "CPT"
     ],
     "Type": "other",
     "Description": "UW-funded colony on Grant's World being prepared for Groombridge survivors.",
@@ -2433,6 +4666,22 @@
         "Role": "Neutral/Friendly",
         "Sources": [
           "article/2495-01_mission-nightside"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "UW-contracted 10-strong Colony Prep Team on a 3 year term; about a third through, reported accidents, missing equipment and sabotage, with 5 of the team lost or missing",
+        "At": "mission/2495-01_mission-nightside",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Removed from Grant's World when the UW sealed it off; paid their full contract value",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
         ]
       }
     ]
@@ -2476,6 +4725,30 @@
         "Sources": [
           "article/mexals-letters_2495-02_heurls"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Juliet made representations to the UW Court over the incursion",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Judgement expected on a contested property claim on Heurls between De Witt Mining, Iowa Power and the local people of Sheeple",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Found in favour of Groombridge refugees as the legal owners of the disputed land near Sheeple, Heurls, following 5 Coy's findings",
+        "Date": "2495-02",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
       }
     ]
   },
@@ -2513,6 +4786,49 @@
         "O": "organisation/united-worlds",
         "Sources": [
           "article/honours_1995-08-23"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "uw-fraud-team",
+    "Name": "UW Fraud Team",
+    "Aliases": [
+      "UW Team"
+    ],
+    "Type": "government",
+    "Description": "UW investigation team probing the 'Intergalactic Swindle' investment fraud.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Probing the syndicate that falsely invested millionaires' money into private accounts across many worlds; would not confirm that old titled families were affected",
+        "Date": "2492-02",
+        "Note": "Called 'UW teams' / 'the UW Team' here; 'UW Fraud Team' is the name used in the existing Baron Haze description (from interstella_2492-05)",
+        "Sources": [
+          "article/interstella_2492-02"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Concentrating the Intergalactic Swindle inquiries on Sol and Tremus Dex; five years of transactions being sifted and accounts frozen; arrests imminent",
+        "Date": "2492-03",
+        "Sources": [
+          "article/interstella_2492-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Uncovered evidence that Baron Haze's friend and financial manager was a founding member of the Investment Team",
+        "Date": "2492-04",
+        "Sources": [
+          "article/interstella_2492-04"
         ]
       }
     ]
@@ -2686,6 +5002,15 @@
         "Sources": [
           "article/2494-06_mission-pegasus"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Still no news from the survey team that reported finding alien artifacts, nor from the CMC team sent to investigate",
+        "Date": "2492-12",
+        "Note": "Probably the 2492 X244 survey team; the issue does not name it",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
       }
     ]
   },
@@ -2724,6 +5049,14 @@
         "Sources": [
           "article/a-brief-guide-to-history"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Ms Jones, Gibson's accuser, died whilst under UWBI protection",
+        "Date": "2494-11",
+        "Sources": [
+          "article/interstella_2494-12"
+        ]
       }
     ]
   },
@@ -2742,6 +5075,56 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Brought in consultants D.F.Associates to improve its genetically engineered plant plantations on Nyottonda",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "warmth",
+    "Name": "Warmth",
+    "Aliases": [],
+    "Type": "political",
+    "Description": "Heurls eco-group that protested to 5 Coy and took its name from a marine's greeting.",
+    "Facts": [
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Role": "Local Eco-group that staged a short peaceful demonstration about damage to the disputed site",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Renamed itself 'Warmth' after an expression a marine used as a greeting to his comrades",
+        "Date": "2495-03",
+        "Sources": [
+          "article/interstella_2495-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "wondergames",
+    "Name": "Wondergames",
+    "Aliases": [],
+    "Type": "corporation",
+    "Description": "Producers of the tradeable card game Magic.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Producers of Magic; considering not publicising release dates after the Braconis riot",
+        "Date": "2495-04",
+        "Sources": [
+          "article/interstella_2495-04"
         ]
       }
     ]
@@ -2777,6 +5160,30 @@
         "Role": "Hostile (rumoured)",
         "Sources": [
           "mission/2495-04_mission-unknown"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "zyatamosis-lab",
+    "Name": "Zyatamosis Lab",
+    "Aliases": [],
+    "Type": "other",
+    "Description": "Medical research laboratory on Aurora damaged in the anti-science bombings of late 2492.",
+    "Facts": [
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Sources": [
+          "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Destroyed or damaged in the backlash bombings; hand-written and audio notes and cultures lost",
+        "Date": "2492-12",
+        "Sources": [
+          "article/interstella_2492-12"
         ]
       }
     ]
