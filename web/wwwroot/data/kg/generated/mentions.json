@@ -228,6 +228,22 @@
    "character/turner-j",
    "organisation/colonial-marine-corps"
   ],
+  "article/darkhorizons-flyer_1995": [
+   "character/mexal",
+   "organisation/5-coy",
+   "organisation/cmc-immediate-response-battalion",
+   "organisation/cmc-iv-field-regiment",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/the-brotherhood"
+  ],
+  "article/history-of-the-colonial-war_bessiers": [],
+  "article/incapacitation-radiation": [],
+  "article/monster-conduct": [],
+  "article/prop-designs": [
+   "organisation/landon-industries",
+   "organisation/medi-care"
+  ],
   "article/itlof_2495-01": [
    "character/claudia-goldine",
    "organisation/in-the-line-of-fire"
@@ -1140,6 +1156,11 @@
    "character/yellan",
    "organisation/cmc-combat-engineering-department"
   ],
+  "article/ir-exposure-and-the-uw-medical-system": [
+   "organisation/5-coy",
+   "organisation/united-worlds"
+  ],
+  "article/unofficial-alien-contact-procedure": [],
   "article/cnnnewsline_2496-01": [
    "character/collins-franklin",
    "character/danton-fred",
@@ -2048,6 +2069,7 @@
    "organisation/united-worlds",
    "organisation/uw-special-forces"
   ],
+  "article/marines-handbook_contents": [],
   "article/marines-handbook_basic-combat-training": [
    "character/zwalf",
    "organisation/colonial-marine-corps"
@@ -3456,6 +3478,7 @@
    "article/2496-02_mission-intruder",
    "article/2496-03_mission-redstorm",
    "article/cmc-newsletter_1999-02",
+   "article/darkhorizons-flyer_1995",
    "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
    "article/general-orders_2602-05-16",
    "article/honours_1995-08-23",
@@ -4270,6 +4293,7 @@
    "article/briefing-notes_mission-hydra",
    "article/cnnnewsline_2496-01",
    "article/cnnnewsline_2496-03",
+   "article/darkhorizons-flyer_1995",
    "article/dispatches_2495-unknown",
    "article/dispatches_2496-03",
    "article/interim-history_2496-to-2501",
@@ -4297,6 +4321,7 @@
    "article/interstella_2495-06",
    "article/interstella_2495-07",
    "article/interstella_specialedition_2491-12",
+   "article/ir-exposure-and-the-uw-medical-system",
    "article/marines-handbook_officer-nco-abridged-course",
    "article/mexals-letters_2493-03_kruger",
    "article/mexals-letters_2493-09_x244",
@@ -4444,11 +4469,13 @@
    "mission/2496-02_mission-intruder"
   ],
   "organisation/cmc-immediate-response-battalion": [
+   "article/darkhorizons-flyer_1995",
    "article/mexals-letters_2493-09_x244"
   ],
   "organisation/cmc-iv-field-regiment": [
    "article/2496-02_mission-intruder_sibreport",
-   "article/a-brief-guide-to-history"
+   "article/a-brief-guide-to-history",
+   "article/darkhorizons-flyer_1995"
   ],
   "organisation/cmc-provost-marshals-office": [
    "article/2496-02_mission-intruder"
@@ -4470,6 +4497,7 @@
    "article/personnel-jacket_oslo-os199305"
   ],
   "organisation/coedarian": [
+   "article/darkhorizons-flyer_1995",
    "article/interstella_2494-11",
    "article/mexals-letters_2493-03_kruger",
    "article/mexals-letters_2493-06_laverii-426",
@@ -4489,6 +4517,7 @@
    "article/briefing-notes_mission-hydra",
    "article/cmc-newsletter_1999-02",
    "article/cnnnewsline_2496-03",
+   "article/darkhorizons-flyer_1995",
    "article/groups-and-organisations",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-02",
@@ -4859,6 +4888,9 @@
    "article/interstella_2493-04",
    "article/interstella_2493-06"
   ],
+  "organisation/landon-industries": [
+   "article/prop-designs"
+  ],
   "organisation/league-against-warfare": [
    "article/groups-and-organisations",
    "article/interstella_2492-01",
@@ -4901,7 +4933,8 @@
   ],
   "organisation/medi-care": [
    "article/companies-and-corporations",
-   "article/planetary-Database"
+   "article/planetary-Database",
+   "article/prop-designs"
   ],
   "organisation/merton-publishing": [
    "article/companies-and-corporations",
@@ -5119,6 +5152,7 @@
    "article/2494-06_mission-pegasus",
    "article/a-brief-guide-to-history",
    "article/cnnnewsline_2496-04",
+   "article/darkhorizons-flyer_1995",
    "article/groups-and-organisations",
    "article/interstella_2492-04",
    "article/interstella_2493-04",
@@ -5192,6 +5226,7 @@
    "article/interstella_2495-04",
    "article/interstella_2495-07",
    "article/interstella_specialedition_2491-12",
+   "article/ir-exposure-and-the-uw-medical-system",
    "article/marines-handbook_officer-nco-abridged-course",
    "article/message_chaplain_deaths-of-turner-and-peterson",
    "article/mexals-letters_2493-03_kruger",

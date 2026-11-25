@@ -11,7 +11,8 @@ off the image you looked at. They are scaled to the source resolution before cro
 
 The crop comes from the best source available:
   1. the page's embedded image (`pdfimages`), when the page is a single full-page scan:
-     this is the original pixels, nothing re-rendered;
+     this is the original pixels, nothing re-rendered (turned to match the page's /Rotate,
+     so landscape pages come out the way they're displayed);
   2. otherwise the page rendered with `pdftoppm` at --dpi (default 300).
 
 Output is greyscale unless --colour is given (the scans are black and white or greyscale;
@@ -26,6 +27,16 @@ import _archive as A
 from PIL import Image
 
 VIEW_DPI = 150
+
+
+def page_rotation(pdf, page):
+    """The page's /Rotate in degrees clockwise (0, 90, 180, 270)."""
+    out = subprocess.run(["pdfinfo", "-f", str(page), "-l", str(page), pdf],
+                         capture_output=True, text=True, check=True).stdout
+    for line in out.splitlines():
+        if "rot:" in line:
+            return int(float(line.split("rot:")[1].split()[0])) % 360
+    return 0
 
 
 def page_size_pts(pdf, page):
@@ -82,6 +93,14 @@ def main():
     w_pt, h_pt = page_size_pts(pdf, a.page)
     with tempfile.TemporaryDirectory() as tmp:
         im, src = embedded_scan(pdf, a.page, tmp), "embedded scan (pdfimages)"
+        rot = page_rotation(pdf, a.page)
+        if im is not None and rot:
+            # pdfimages returns the image as stored; the page shows it turned by /Rotate
+            # (clockwise), and the 150 dpi page images are rendered the turned way up.
+            im = im.rotate(-rot, expand=True)
+            src += f", turned {rot} degrees to match the page"
+        if rot in (90, 270):
+            w_pt, h_pt = h_pt, w_pt
         if im is None:
             im, src = rendered(pdf, a.page, a.dpi, tmp), f"rendered at {a.dpi} dpi (pdftoppm)"
         # scale from 150 dpi view pixels to this image's pixels

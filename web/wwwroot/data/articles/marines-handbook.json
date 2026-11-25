@@ -1,4 +1,8 @@
 [
+    { "Reference": "marines-handbook_contents",
+        "Title": "Contents",
+        "ContentUrl": "/content/in-character/marines-handbook/marines-handbook_contents.md",
+        "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Contents.pdf"},
     { "Reference": "marines-handbook_basic-combat-training",
         "Title": "Basic Combat Training",
         "ContentUrl": "/content/in-character/marines-handbook/marines-handbook_basic-combat-training.md",

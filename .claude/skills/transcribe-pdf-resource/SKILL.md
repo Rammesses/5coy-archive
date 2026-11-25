@@ -78,6 +78,10 @@ open them with Read. Crops are small, so stage a batch of them at once when chec
    No page markers or HTML comments in the finished file.
 3. **Write the draft** from `draft.txt`, fixing the layout to match the image.
 4. **Extract the pictures** (step 3b) and reference them where they sit on the page.
+4a. **Redact and check links** (CLAUDE.md, "Personal data and web links"): replace out-of-character emails,
+   addresses and phone numbers with `[email redacted]` / `[address redacted]` / `[phone redacted]`, note any
+   the PDF leaves visible for Joel, and check every web link and add its dated marker.
+   `check_privacy_links.py` (crossref-archive-data skill) must report 0 items.
 5. **Find the errors** (step 4), fix them, and repeat until what's left has been checked against the image.
 6. **Completeness check**: `python3 $S/compare_md.py <reference> --md <your file>`. Any `OMITTED` run
    is text the OCR saw that you dropped. `ADDED` is fine for things you read off the image that OCR missed.
@@ -170,5 +174,7 @@ Keep going until a rerun shows only suspects you've confirmed on the page.
 
 Per resource: what was done (new / verified / fixed), extraction method and confidence, the number and
 kind of corrections, every `[illegible]` / `[word?]`, any handwritten or image-only content you
-transcribed by eye, every picture extracted (file name and where it's used) and any decorative ones skipped, words added to `.transcribe/lexicon.txt`, and the data/ContentUrl changes. Then `git status
+transcribed by eye, every picture extracted (file name and where it's used) and any decorative ones skipped,
+every redaction (and any personal detail the PDF itself leaves unredacted - the PDF needs fixing),
+every web link checked and its result, words added to `.transcribe/lexicon.txt`, and the data/ContentUrl changes. Then `git status
 --short` and `git diff --stat`. Don't commit.

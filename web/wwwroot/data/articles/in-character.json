@@ -51,5 +51,14 @@
     { "Reference": "general-orders_2602-05-16",
       "Title": "General Orders - 16 May 2602 (Calvin)",
       "ContentUrl": "/content/in-character/general-orders_2602-05-16.md",
-      "PdfUrl": ""}
-    ]
+      "PdfUrl": ""},
+    { "Reference": "ir-exposure-and-the-uw-medical-system",
+      "Title": "I.R. Exposure & the U.W. Medical System",
+      "ContentUrl": "/content/in-character/ir-exposure-and-the-uw-medical-system.md",
+      "PdfUrl": "/media/In-Character/IR-Exposure-and-the-UW-Medical-System.pdf",
+      "Related": ["incapacitation-radiation", "prop-designs", "marines-handbook_medtech-4"]},
+    { "Reference": "unofficial-alien-contact-procedure",
+      "Title": "CMC Unofficial Alien Contact Procedure",
+      "ContentUrl": "/content/in-character/unofficial-alien-contact-procedure.md",
+      "PdfUrl": "/media/In-Character/Unofficial_Alien_Contact_Procedure.pdf"}
+]

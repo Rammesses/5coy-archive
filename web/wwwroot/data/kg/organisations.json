@@ -500,6 +500,14 @@
         "Sources": [
           "article/thevoice_2495-07"
         ]
+      },
+      {
+        "P": "partOf",
+        "O": "organisation/cmc-iv-field-regiment",
+        "Note": "'5th Company, 4th Field Regiment CMC, the spearhead of the Immediate Response Battalion'",
+        "Sources": [
+          "article/darkhorizons-flyer_1995"
+        ]
       }
     ]
   },
@@ -3198,6 +3206,32 @@
     ]
   },
   {
+    "Reference": "landon-industries",
+    "Name": "Landon Industries",
+    "Aliases": [
+      "Landon"
+    ],
+    "Type": "corporation",
+    "Description": "Company that designed the 4M74P Medi-Aid for MediCare in 2491 before going into liquidation.",
+    "Facts": [
+      {
+        "P": "supplies",
+        "O": "organisation/medi-care",
+        "V": "4M74P Medi-Aid coprocessing board (2491)",
+        "Sources": [
+          "article/prop-designs"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Liquidated; prototypes destroyed by its own security force during a looting raid",
+        "Sources": [
+          "article/prop-designs"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "league-against-warfare",
     "Name": "League Against Warfare",
     "Aliases": [
@@ -3465,7 +3499,17 @@
         "Sources": [
           "article/planetary-Database"
         ]
+      },
+      {
+        "P": "note",
+        "V": "MediCare research labs on Dawn designed and built the RVC-877 (4M01) medical diagnostic & repair unit, completed 2488",
+        "Sources": [
+          "article/prop-designs"
+        ]
       }
+    ],
+    "Aliases": [
+      "MediCare"
     ]
   },
   {

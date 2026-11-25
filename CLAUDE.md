@@ -20,6 +20,27 @@
   Validate with `python3 .claude/skills/maintain-knowledge-graph/scripts/check_kg.py web/wwwroot`,
   then regenerate with `build_generated.py`. Run it after transcribing or summarising anything.
 
+## Personal data and web links (mandatory)
+
+- **Redact out-of-character contact details.** Real-world email addresses, postal addresses and phone
+  numbers (players, organisers, clubs, mailing lists) are replaced in the markdown with
+  `[email redacted]`, `[address redacted]` and `[phone redacted]`. This applies whether or not the source
+  already blacks them out. In-character contact details (box numbers, in-game comms codes, `+(GRA) 800 ...`)
+  are part of the fiction and stay.
+- **Call out an unredacted source.** If the PDF (or other source) shows a real email address, postal
+  address or phone number that isn't blacked out, say so in the report to Joel, with the file and page:
+  the PDF itself needs redacting before it's (re)published. Don't copy the detail into the report.
+- **Check every web link.** For each URL in a source, check whether it's still live and still has the
+  expected content (WebFetch/WebSearch, or the browser when those can't reach it). Write it as code, not a
+  live link, followed by a dated marker, e.g.
+  `` `http://www.example.co.uk` _(link dead - checked 25 Nov 2026: reason)_ `` or
+  `` [http://www.example.co.uk](http://www.example.co.uk) _(link checked 25 Nov 2026: still live, same content)_ ``.
+  Only a link that is live and still shows what the source describes stays clickable. If you can't
+  reach it at all, say so and ask Joel to check rather than guessing.
+- Run `python3 .claude/skills/crossref-archive-data/scripts/check_privacy_links.py web/wwwroot` after any
+  content change: it flags emails, phone numbers, postcodes and unmarked links (in-game false positives go
+  in its `ALLOW` list).
+
 ## Mission links (mandatory)
 
 - **ALWAYS** write the text of a link to a mission page as

@@ -42,5 +42,8 @@ How the app behaves (`web/Services/ArticlesService.cs`, `MissionTableRow.razor`)
 7. **Mission link text**: run `python3 .claude/skills/crossref-archive-data/scripts/mission_links.py web/wwwroot`.
    Every `/mission/` link must read `Mission '{name}' - {month} {year} ({planet})` (see CLAUDE.md); `--fix`
    rewrites them from missions.json.
-8. **Edit surgically**: use exact-string replacement (python with `assert s.count(old) == 1`), *not* `json.dump`, to keep the diff reviewable. Then re-run the checker until it reports 0 errors, and run `git diff --stat`.
-9. **Report back**: list what changed, grouped (fixed / linked / added), plus everything left for Joel's judgement (uncertain MissionRefs, ref/date mismatches, empty files, renames that would change URLs). Don't commit.
+8. **Personal data and links**: run `python3 .claude/skills/crossref-archive-data/scripts/check_privacy_links.py web/wwwroot`
+   and fix everything it reports as CLAUDE.md describes (redact OOC contact details; check each link and
+   add a dated "link checked/dead" marker).
+9. **Edit surgically**: use exact-string replacement (python with `assert s.count(old) == 1`), *not* `json.dump`, to keep the diff reviewable. Then re-run the checker until it reports 0 errors, and run `git diff --stat`.
+10. **Report back**: list what changed, grouped (fixed / linked / added), plus everything left for Joel's judgement (uncertain MissionRefs, ref/date mismatches, empty files, renames that would change URLs). Don't commit.
