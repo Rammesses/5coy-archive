@@ -6,6 +6,8 @@ using FluentAssertions;
 
 using Models;
 
+using Moq;
+
 using NUnit.Framework;
 
 using web.test.TestSupport;

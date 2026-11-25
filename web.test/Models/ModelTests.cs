@@ -77,22 +77,20 @@ public class HeirarchicalItemTests
 public class VideoServiceTests
 {
     [Test]
-    public async Task GetItemsByMissionRef_finds_videos_in_nested_sections()
+    public async Task GetItemsByMissionRef_finds_videos_inline_and_in_group_data_files()
     {
-        var videos = new[]
+        var groups = new[]
         {
-            new Section<Video>
+            new VideoGroup
             {
                 Reference = "videos",
-                Items = new[] { new Video { Reference = "v1", MissionRef = "pegasus" }, new Video { Reference = "v2", MissionRef = "other" } },
-                Children = new[]
-                {
-                    new Section<Video> { Reference = "nested", Items = new[] { new Video { Reference = "v3", MissionRef = "pegasus" } } },
-                },
+                Videos = new[] { new Video { Reference = "v1", MissionRef = "pegasus" }, new Video { Reference = "v2", MissionRef = "other" } },
             },
+            new VideoGroup { Reference = "more", Data = "data/videos/more.json" },
         };
-        var http = new StubHttpHandler().ServeJson("data/videos.json", videos);
-        var service = new VideoService(http.CreateClient(), NullLogger<VideoService>.Instance);
+        var http = new StubHttpHandler()
+            .ServeJson("data/videos/more.json", new[] { new Video { Reference = "v3", MissionRef = "pegasus" } });
+        var service = VideoService(groups, http);
 
         var found = await service.GetItemsByMissionRef("pegasus");
 

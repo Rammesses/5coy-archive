@@ -120,7 +120,7 @@ public class MissionDetailTests : ComponentTestBase
             links.Should().Equal(
                 ("IC", "/section/in-character"),
                 ("Missions", "/missions"),
-                ("Mission Pegasus (Jun 2494)", "/mission/2494-06_mission-pegasus"));
+                ("Mission Pegasus - June 2494", "/mission/2494-06_mission-pegasus"));
         });
     }
 
