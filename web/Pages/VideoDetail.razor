@@ -1,0 +1,153 @@
+@page "/video/{VideoRef}"
+
+@using Models
+@using Services
+
+@inject IVideoService videoService
+@inject IArticlesService articlesService
+@inject IMissionsService missionsService
+
+<web.Shared.PageTitle Title="@video?.Title" />
+
+<h1><span class="sectionIcon oi oi-video" aria-hidden="true"></span>@(video?.Title ?? VideoRef)</h1>
+<h5 class="page-nav">
+    <span class="page-breadcrumbs">
+        <a href="/videos"><span class="oi oi-chevron-left"></span>&nbsp;Videos</a>
+    </span>
+    @if (mission != null)
+    {
+        <span class="page-mission"><a href="/mission/@mission.Reference">@mission.LinkText</a></span>
+    }
+</h5>
+
+@if (!loaded)
+{
+    <div class="loading">Loading...</div>
+}
+else if (video == null)
+{
+    <p>There's no video called '@VideoRef' in the archive.</p>
+}
+else
+{
+    <web.Controls.EmbeddedVideoPlayer Video="@video" />
+
+    <div class="video-meta">
+        @if (!string.IsNullOrEmpty(video.Description))
+        {
+            <p class="video-description">@video.Description</p>
+        }
+        <p class="video-source">
+            <a href="@video.YouTubeUrl" target="_blank" rel="noopener">Watch on YouTube</a>
+            @if (!string.IsNullOrEmpty(video.Channel))
+            {
+                <text> &middot; uploaded by @video.Channel</text>
+                @if (!string.IsNullOrEmpty(video.Uploaded))
+                {
+                    <text> on @video.Uploaded</text>
+                }
+            }
+            @if (!string.IsNullOrEmpty(video.Duration))
+            {
+                <text> &middot; @video.Duration</text>
+            }
+        </p>
+    </div>
+
+    @if (previous != null || next != null)
+    {
+        <nav class="video-series-nav" aria-label="@video.Series">
+            @if (previous != null)
+            {
+                <a class="video-previous" href="@previous.Url"><span class="oi oi-chevron-left" aria-hidden="true"></span>&nbsp;@previous.Title</a>
+            }
+            @if (next != null)
+            {
+                <a class="video-next" href="@next.Url">@next.Title&nbsp;<span class="oi oi-chevron-right" aria-hidden="true"></span></a>
+            }
+        </nav>
+    }
+
+    @* Hidden until the markdown has actually loaded, so a video with no notes shows no empty block *@
+    <div class="article-content @(hasContent ? string.Empty : "collapse")">
+        <hr />
+        <web.Controls.MarkdownView ContentUrl="@video.ContentUrl"
+                                   ContentLoaded="@((bool ok) => hasContent = ok)" />
+    </div>
+
+    @if (relatedArticles.Any() || relatedMissions.Any())
+    {
+        <div class="related-articles">
+        <hr />
+        <h5>Related:</h5>
+        <web.Controls.RelatedBreadcrumbList Articles=@relatedArticles Missions=@relatedMissions />
+        </div>
+    }
+}
+
+@code {
+
+    [Parameter]
+    public string VideoRef { get; set; }
+
+    private Video video;
+    private Mission mission;
+    private Video previous;
+    private Video next;
+    private Article[] relatedArticles = Array.Empty<Article>();
+    private Mission[] relatedMissions = Array.Empty<Mission>();
+    private bool hasContent;
+    private bool loaded;
+    private string loadedRef;
+
+    // OnParametersSet, not OnInitialized: the previous/next links reuse this component instance.
+    protected override async Task OnParametersSetAsync()
+    {
+        if (VideoRef == loadedRef)
+            return;
+
+        var requestedRef = loadedRef = VideoRef;
+        loaded = false;
+        hasContent = false;
+
+        var v = await videoService.GetVideo(requestedRef);
+        Mission m = null;
+        Video prev = null, nxt = null;
+        var articles = new List<Article>();
+        var missions = Array.Empty<Mission>();
+
+        if (v != null)
+        {
+            if (!string.IsNullOrEmpty(v.MissionRef))
+                m = await missionsService.GetMissionByRef(v.MissionRef);
+
+            var series = await videoService.GetSeries(v);
+            var i = Array.FindIndex(series, x => x.Reference == v.Reference);
+            prev = i > 0 ? series[i - 1] : null;
+            nxt = i >= 0 && i < series.Length - 1 ? series[i + 1] : null;
+
+            foreach (var r in v.Related ?? Array.Empty<string>())
+            {
+                var a = await articlesService.GetItem(Section<Article>.AllItemsRef, r);
+                if (a != null)
+                    articles.Add(a);
+            }
+
+            missions = (await missionsService.GetRelatedMissions(v.Reference, v.Related))
+                .Where(x => x.Reference != v.MissionRef)
+                .ToArray();
+        }
+
+        // The user may have followed a previous/next link while this one was loading.
+        if (requestedRef != VideoRef)
+            return;
+
+        video = v;
+        mission = m;
+        previous = prev;
+        next = nxt;
+        relatedArticles = articles.ToArray();
+        relatedMissions = missions;
+        loaded = true;
+    }
+}

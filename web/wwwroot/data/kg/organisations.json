@@ -508,6 +508,15 @@
         "Sources": [
           "article/darkhorizons-flyer_1995"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Note": "The last company left on Altair IV as the base was evacuated; lifted off by dropship under fire",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01",
+          "video/altair-iv_dropship-bug-out"
+        ]
       }
     ]
   },
@@ -1218,6 +1227,21 @@
         "V": "Published CNN Newsbulletin (Issue 1, January 2496), renamed CNN Newsline from Issue 3 (March 2496); editor Benjamin Maguire",
         "Sources": [
           "article/cnnnewsline_2496-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Made a special report on the loss, discovery and destruction of the Marie Celesta, using the Garavaglia II's flight recorder",
+        "Date": "2495",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/2495-05_cnn-mariecelestaspecial-excerpt",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
         ]
       }
     ]
@@ -2184,6 +2208,14 @@
         "Sources": [
           "article/cnnnewsline_2496-01",
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "owns",
+        "V": "SS Marie Celesta",
+        "Note": "Auto-captions: 'hanesworth Spaceway Starliner'",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
         ]
       }
     ]
@@ -4634,6 +4666,37 @@
         "Sources": [
           "article/interstella_specialedition_2491-12"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Role": "Krystal Spyers' news crew",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01",
+          "video/altair-iv_krystal-spyers-report-07",
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-01",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-07",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-07"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-10",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
       }
     ]
   },
@@ -4928,6 +4991,14 @@
         "Date": "2496-03",
         "Sources": [
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Fighting 5 Coy around its compound on Altair IV; rumoured to be the target of a marine chemical weapon",
+        "Date": "2491-12",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
         ]
       }
     ]

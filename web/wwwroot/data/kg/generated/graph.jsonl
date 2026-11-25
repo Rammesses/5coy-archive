@@ -187,7 +187,7 @@
 {"type": "node", "id": "character/kramer", "kind": "character", "name": "Lieutenant Kramer", "aliases": ["Kramer", "Mst Sgt Kramer"], "description": "Officer on the Juliette mission who beat up a feudal lord's son, earning a knighthood for a Marine.", "props": {}}
 {"type": "node", "id": "character/kramm-victor", "kind": "character", "name": "Victor Kramm", "aliases": [], "description": "Paronis man who won 500 million credits in the Intergalactic Lottery.", "props": {}}
 {"type": "node", "id": "character/krinly", "kind": "character", "name": "Krinly", "aliases": ["Marine Krinly"], "description": null, "props": {}}
-{"type": "node", "id": "character/krysal-spyers", "kind": "character", "name": "Krysal Spyers", "aliases": ["Spyers", "Ms Spyers", "Ms K. Spyers", "K Spyers", "Ms Krysal Spyers", "Krystal Spyers"], "description": "Interstellar Communications Group journalist who exposed 5 Coy on Hal; reported executed on the UW Rep's order, she survived and credited Major Harris with saving her life.", "props": {}}
+{"type": "node", "id": "character/krysal-spyers", "kind": "character", "name": "Krysal Spyers", "aliases": ["Spyers", "Ms Spyers", "Ms K. Spyers", "K Spyers", "Ms Krysal Spyers", "Krystal Spyers", "Crystal Spires", "Krystal Spires"], "description": "Interstellar Communications Group journalist who exposed 5 Coy on Hal; reported executed on the UW Rep's order, she survived and credited Major Harris with saving her life.", "props": {}}
 {"type": "node", "id": "character/kshell", "kind": "character", "name": "Kayshell Dumasin Klay Togin", "aliases": ["Marine KShell", "MFC KShell", "Klay Togin", "Marine Klay Togin", "Kayshell", "Marine Kayshell Dumasin Klay Togin", "Klay", "Kashell Durmas Sin Klaytogin", "Kashell Clay Togin"], "description": "5 Coy Marine/MFC, called \"Devil Spawn\" by the Amish.", "props": {}}
 {"type": "node", "id": "character/kyoke-ao", "kind": "character", "name": "Sgt A.O. Kyoke", "aliases": [], "description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.", "props": {}}
 {"type": "node", "id": "character/lancaster", "kind": "character", "name": "Lancaster", "aliases": [], "description": "Plate-armoured figure on Connet who joined a patrol.", "props": {}}
@@ -232,6 +232,7 @@
 {"type": "node", "id": "character/mickelhob", "kind": "character", "name": "Captain Mickelhob", "aliases": ["Mickelhob"], "description": "Captain at the Iowa Power site on Fomalhaut who broadcast the alert when the Brotherhood attacked.", "props": {}}
 {"type": "node", "id": "character/miller", "kind": "character", "name": "Marine Miller", "aliases": ["Miller", "Sgt Miller"], "description": "5 Coy Marine killed on Groombridge in April 2495.", "props": {}}
 {"type": "node", "id": "character/mimiannapandawawa", "kind": "character", "name": "Ngaogwugwu Mimiannapandawawa", "aliases": ["Mimiannapandawawa", "Commander Mimiannapandawawa", "Surgeon Commander Mimiannapandawawa", "Commander Ngaogwugwu", "Mimiandapandawawa", "Sgn Cmdr M. Mimiandapandawawa", "Pandawawa", "Sgn Mjr Pandawawa", "Sgn Cmdr Mimiannapandawawa"], "description": "CMC Surgeon Commander recognised for services to the CMC medical system.", "props": {}}
+{"type": "node", "id": "character/miracle-sgt", "kind": "character", "name": "Sgt Miracle", "aliases": ["Sergeant Miracle", "Miracle", "Jason Miracle"], "description": "5 Coy medic sergeant on Altair IV whom Krystal Spyers blamed for miscounting the plague cure.", "props": {}}
 {"type": "node", "id": "character/morgan-blake", "kind": "character", "name": "Morgan Blake", "aliases": ["Blake"], "description": "Interstella reporter on Groombridge.", "props": {}}
 {"type": "node", "id": "character/morgan-jane", "kind": "character", "name": "Jane Morgan", "aliases": [], "description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.", "props": {}}
 {"type": "node", "id": "character/mr-head", "kind": "character", "name": "Mr Head", "aliases": ["Head"], "description": "FFF contact on Hal who supplied the rebel data disks.", "props": {}}
@@ -303,7 +304,7 @@
 {"type": "node", "id": "character/simson", "kind": "character", "name": "Simson", "aliases": [], "description": "SFF representative and guide on Hal.", "props": {}}
 {"type": "node", "id": "character/sjvenson-j", "kind": "character", "name": "J. Sjvenson", "aliases": ["Sjvenson", "Svjenson", "Svenson", "Svejenson", "Colonel Svjenson", "Col Svjenson", "General Sjvenson", "Lt Col Svjenson"], "description": "CMC officer who helped develop the RRB; returned to General and Sky Marshall in 2497, retired in 2500 to run the family firm, and died in a shuttle test crash in Oct 2501.", "props": {"ServiceNumber": "SJ008174"}}
 {"type": "node", "id": "character/skeln", "kind": "character", "name": "Skeln", "aliases": [], "description": "5 Coy recruit on Connet.", "props": {}}
-{"type": "node", "id": "character/slug", "kind": "character", "name": "Slug", "aliases": ["'Slug'"], "description": "Marie Celesta passenger rescued by 5 Coy, known only as Slug, later under psychiatric treatment.", "props": {}}
+{"type": "node", "id": "character/slug", "kind": "character", "name": "Slug", "aliases": ["'Slug'", "Robert Anderson"], "description": "Marie Celesta passenger rescued by 5 Coy, known only as Slug, later under psychiatric treatment.", "props": {}}
 {"type": "node", "id": "character/smith-j", "kind": "character", "name": "Sergeant J. Smith", "aliases": ["Sgt Smith", "Sgt. Smith"], "description": "5 Coy Sergeant killed in 2496-01.", "props": {}}
 {"type": "node", "id": "character/smith-s", "kind": "character", "name": "S. Smith", "aliases": [], "description": "Personnel at CMC testing station X243.", "props": {}}
 {"type": "node", "id": "character/smythe-mr", "kind": "character", "name": "Mr Smythe", "aliases": [], "description": "One of a couple claiming to be tourists from Dawn, rescued from the Grants on Nyytoda and then arrested by the local Federal Police.", "props": {}}
@@ -547,7 +548,7 @@
 {"type": "node", "id": "mission/2495-02_mission-unknown", "kind": "mission", "name": "Mission 'Tomkin'", "props": {"StartDate": "1995-02-24", "EndDate": "1995-02-26", "Planet": "Heurls", "Location": "Squirrel Wood (Doncaster)"}}
 {"type": "node", "id": "mission/2495-03_mission-unknown", "kind": "mission", "name": "Mission 'Flag'", "props": {"StartDate": "1995-03-24", "EndDate": "1995-03-26", "Planet": "Connet", "Location": "Thriftwood (Brentford, Essex)"}}
 {"type": "node", "id": "mission/2495-04_mission-unknown", "kind": "mission", "name": "Mission 'Achilles'", "props": {"StartDate": "1995-04-21", "EndDate": "1995-04-23", "Planet": "Groombridge", "Location": "West End Outdoor Centre", "ContentUrl": "/content/missions/2495-04_mission-unknown.md"}}
-{"type": "node", "id": "mission/2495-05_boarding-action-mariecelesta", "kind": "mission", "name": "Boarding Action - Marie Celesta", "props": {"StartDate": "1995-05-26", "EndDate": "1995-05-28", "Location": "Hesley Wood (Sheffield)", "ContentUrl": "/content/missions/2495-05_marie-celesta.md"}}
+{"type": "node", "id": "mission/2495-05_boarding-action-mariecelesta", "kind": "mission", "name": "Boarding Action - Marie Celesta", "props": {"StartDate": "1995-05-26", "EndDate": "1995-05-28", "Location": "?", "ContentUrl": "/content/missions/2495-05_marie-celesta.md"}}
 {"type": "node", "id": "mission/2495-07_mission-omaha", "kind": "mission", "name": "Mission 'Omaha'", "props": {"StartDate": "1995-07-14", "EndDate": "1995-07-16", "Planet": "Hal", "Location": "?", "ContentUrl": "/content/missions/2495-07_mission-omaha.md"}}
 {"type": "node", "id": "mission/2495-11_mission-nova", "kind": "mission", "name": "Mission 'Nova'", "props": {"StartDate": "1995-11-10", "EndDate": "1995-11-12", "Planet": "Liahn", "Location": "?", "ContentUrl": "/content/missions/2495-11_mission-nova.md"}}
 {"type": "node", "id": "mission/2496-01_mission-kraken", "kind": "mission", "name": "Mission 'Kraken'", "props": {"StartDate": "1996-01-12", "EndDate": "1996-01-14", "Planet": "X244", "Location": "Hesley Wood"}}
@@ -710,6 +711,23 @@
 {"type": "node", "id": "article/thevoice_2495-07", "kind": "article", "name": "The Voice - July 2495", "props": {"ContentUrl": "/content/in-character/other-publications/thevoice_2495-07.md", "PdfUrl": "/media/In-Character/TheVoice/TheVoice_2495-07.pdf", "MissionRef": "2495-07_mission-omaha"}}
 {"type": "node", "id": "article/unofficial-alien-contact-procedure", "kind": "article", "name": "CMC Unofficial Alien Contact Procedure", "props": {"ContentUrl": "/content/in-character/unofficial-alien-contact-procedure.md", "PdfUrl": "/media/In-Character/Unofficial_Alien_Contact_Procedure.pdf"}}
 {"type": "node", "id": "article/writers-guide", "kind": "article", "name": "The Writer's Guide", "props": {"ContentUrl": "/content/out-of-character/writers-guide.md", "PdfUrl": "/media/Writer%27s+Guide.pdf"}}
+{"type": "node", "id": "video/2495-05_cnn-mariecelestaspecial-excerpt", "kind": "video", "name": "Celestial News Network - Marie Celesta Special (Excerpt)", "props": {"Series": "Celestial News Network", "YouTubeVideoId": "zNSSDdrQXWY", "ContentUrl": "/content/videos/2495-05_cnn-mariecelestaspecial-excerpt.md", "MissionRef": "2495-05_boarding-action-mariecelesta"}}
+{"type": "node", "id": "video/altair-iv_cure-negotiation-1", "kind": "video", "name": "Cure Negotiation - Part 1", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "hjg3wSdudg8", "ContentUrl": "/content/videos/altair-iv_cure-negotiation-1.md"}}
+{"type": "node", "id": "video/altair-iv_cure-negotiation-2", "kind": "video", "name": "Cure Negotiation - Part 2", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "NmKXEN4V6Tc", "ContentUrl": "/content/videos/altair-iv_cure-negotiation-2.md"}}
+{"type": "node", "id": "video/altair-iv_dropship-bug-out", "kind": "video", "name": "5 Coy Come Under Fire Boarding the Dropship", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "zMQlaMsIcx4", "ContentUrl": "/content/videos/altair-iv_dropship-bug-out.md"}}
+{"type": "node", "id": "video/altair-iv_final-pack-up", "kind": "video", "name": "Altair IV - Final Pack Up", "props": {"Series": "Behind the Scenes", "YouTubeVideoId": "VA0dF2YVV2E", "ContentUrl": "/content/videos/altair-iv_final-pack-up.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-01", "kind": "video", "name": "Krystal Spyers Report 1", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "UF35M-yCeTc", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-01.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-02", "kind": "video", "name": "Krystal Spyers Report 2", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "gi5_L-2uO30", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-02.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-04", "kind": "video", "name": "Krystal Spyers Report 4", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "LqnhyId3nkY", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-04.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-05", "kind": "video", "name": "Krystal Spyers Report 5", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "GDWWlaN5X9c", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-05.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-06", "kind": "video", "name": "Krystal Spyers Report 6", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "5fmEM2dcQfs", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-06.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-07", "kind": "video", "name": "Krystal Spyers Report 7", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "bEAXdNv9BfM", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-07.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-08", "kind": "video", "name": "Krystal Spyers Report 8", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "UvwOuJsh24E", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-08.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-09", "kind": "video", "name": "Krystal Spyers Report 9", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "JlubgarnUgA", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-09.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-10", "kind": "video", "name": "Krystal Spyers Report 10", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "psYWauyI7iI", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-10.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-11", "kind": "video", "name": "Krystal Spyers Report 11", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "1YQEyeWIoeQ", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-11.md"}}
+{"type": "node", "id": "video/altair-iv_marine-assault", "kind": "video", "name": "Marine Assault", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "EpULg3kPe2U", "ContentUrl": "/content/videos/altair-iv_marine-assault.md"}}
+{"type": "node", "id": "video/altair-iv_prepare-to-leave", "kind": "video", "name": "5 Coy Prepare to Leave the Planet", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "NJSV3XgUpDg", "ContentUrl": "/content/videos/altair-iv_prepare-to-leave.md"}}
 {"type": "edge", "from": "character/abdijitaparov-djamalodine", "p": "employedBy", "o": "organisation/www-news", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/abdijitaparov-djamalodine", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Journalist", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/adder", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
@@ -1216,6 +1234,7 @@
 {"type": "edge", "from": "character/derrin-sal", "p": "role", "v": "Camera-man to Krystal Spyers", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/derrin-sal", "p": "relatedTo", "o": "character/krysal-spyers", "v": "Her camera-man", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/derrin-sal", "p": "status", "v": "Never recovered after a close-range IR dose from 5 Coy marines on Altair IV", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "character/derrin-sal", "p": "status", "v": "Reported by Krystal Spyers as killed by the marines on Altair IV", "date": "2491-12", "note": "She says only 'my cameraman'; the Special Edition says Sal never recovered", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
 {"type": "edge", "from": "character/deter-francis", "p": "role", "v": "Senator, Hal", "sources": ["article/2494-04_mission-ogre"]}
 {"type": "edge", "from": "character/deter-francis", "p": "participatedIn", "o": "mission/2494-04_mission-ogre", "role": "Gave 5 Coy its orders on planet", "sources": ["article/2494-04_mission-ogre"]}
 {"type": "edge", "from": "character/deter-francis", "p": "commanded", "o": "organisation/senator-francis-guard", "sources": ["article/2494-04_mission-ogre"]}
@@ -1426,6 +1445,8 @@
 {"type": "edge", "from": "character/gibson", "p": "status", "v": "CMC HQ inquiry into his alleged involvement with stolen Boddenite from Pholax-3 found no grounds to act, the only evidence being the late Ms Jones's statement; file closed", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "character/gill-lt", "p": "rank", "v": "Lieutenant", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/gill-lt", "p": "memberOf", "o": "organisation/5-coy", "date": "2491-12", "note": "'Lt Gill and his men'; possibly a short or garbled form of Gillham/Gillian (character/gillham-major, a Captain in 2492) - not merged, needs review", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "character/gill-lt", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "role": "Named by Krystal Spyers as the officer in charge of the company when her crew was fired on", "note": "Auto-captions: 'leftenant Gil'", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
+{"type": "edge", "from": "character/gill-lt", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
 {"type": "edge", "from": "character/gillham-a", "p": "rank", "v": "Colonel", "sources": ["article/honours_1995-08-23"]}
 {"type": "edge", "from": "character/gillham-a", "p": "founded", "o": "organisation/uw-rapid-reaction-battalion", "sources": ["article/2495-11_mission-nova"]}
 {"type": "edge", "from": "character/gillham-a", "p": "award", "v": "Commendation Decoration (proposed): development of the Rapid Reaction Battalion", "sources": ["article/honours_1995-08-23"]}
@@ -1749,6 +1770,15 @@
 {"type": "edge", "from": "character/krysal-spyers", "p": "note", "v": "Filmed 5 Coy on Altair IV during the plague; hit by IR, struck with a rifle butt by a marine, caught the plague and took a dose of the cure from a dealers' APC; accused 5 Coy of brutality and negligence", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/krysal-spyers", "p": "relatedTo", "o": "character/harris-reece", "v": "Accused Lt Harris of attacking her crew and smashing her camera", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/krysal-spyers", "p": "note", "v": "Treated by the UW medical team at Little Dunnet-on-the-Marsh, Connet; claimed it was for Hansen's Disease", "sources": ["article/cnnnewsline_2496-01"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "role": "News reporter filming 5 Coy", "note": "Video reports; YouTube titles spell her 'Crystal Spires' for reports 2, 4, 5 and 6", "sources": ["video/altair-iv_krystal-spyers-report-01", "video/altair-iv_krystal-spyers-report-09", "video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-02", "sources": ["video/altair-iv_krystal-spyers-report-02"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-05", "sources": ["video/altair-iv_krystal-spyers-report-05"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-07", "sources": ["video/altair-iv_krystal-spyers-report-07"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-08", "sources": ["video/altair-iv_krystal-spyers-report-08"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-09", "sources": ["video/altair-iv_krystal-spyers-report-09"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-10", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-11", "sources": ["video/altair-iv_krystal-spyers-report-11"]}
 {"type": "edge", "from": "character/kshell", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/kshell", "p": "rank", "v": "MFC", "at": "mission/2496-02_mission-intruder", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/kshell", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Charged after the shuttle rescue (SIB)", "sources": ["article/2496-02_mission-intruder"]}
@@ -1989,6 +2019,12 @@
 {"type": "edge", "from": "character/mimiannapandawawa", "p": "rank", "v": "Sgn Mjr", "at": "mission/2495-02_mission-unknown", "note": "Given as 'Sgn Mjr Pandawawa'; other sources call her Surgeon Commander, so possibly an error in the issue", "sources": ["article/interstella_2495-03"]}
 {"type": "edge", "from": "character/mimiannapandawawa", "p": "participatedIn", "o": "mission/2495-04_mission-unknown", "role": "With Sgt Chaos declared Capt Zwalf unfit to command; said the deaths 'should never have happened'", "sources": ["article/interstella_2495-05"]}
 {"type": "edge", "from": "character/mimiannapandawawa", "p": "rank", "v": "Sgn Cmdr", "at": "mission/2495-04_mission-unknown", "sources": ["article/interstella_2495-05"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "rank", "v": "Sergeant", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "role", "v": "Medic", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "memberOf", "o": "organisation/5-coy", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "sources": ["video/altair-iv_krystal-spyers-report-02", "video/altair-iv_krystal-spyers-report-10", "video/altair-iv_cure-negotiation-2"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "note", "v": "Krystal Spyers says he told his lieutenant there was enough cure for everyone when there wasn't enough for his own marines", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-02", "note": "Auto-captions: 'Sergeant Miracle Jason Miracle' - the first name is uncertain", "sources": ["video/altair-iv_krystal-spyers-report-02"]}
 {"type": "edge", "from": "character/morgan-blake", "p": "employedBy", "o": "organisation/interstella", "role": "Reporter", "sources": ["article/interstella_2492-06"]}
 {"type": "edge", "from": "character/morgan-blake", "p": "authored", "o": "article/interstella_2492-04", "role": "'Fraud - Bankrupt Baron!', filed from Tremus Dex", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
 {"type": "edge", "from": "character/morgan-blake", "p": "employedBy", "o": "organisation/interstella", "role": "Reporter (Tremus Dex)", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
@@ -2029,6 +2065,7 @@
 {"type": "edge", "from": "character/nasco", "p": "relatedTo", "o": "organisation/de-witt-mining", "v": "In league with (according to Diamond)", "sources": ["article/interstella_2494-11"]}
 {"type": "edge", "from": "character/nasco", "p": "appearsIn", "o": "mission/2495-03_mission-unknown", "role": "Reported present on Connet, dedicated to spreading plague to eradicate 'deviants'", "note": "In 5 Coy's reports of an 'alternative' 5 Coy from another reality attacking the marines; it is unclear whether this was the real person or an alternate; the article asks 'if there is more than one Nasco'", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "character/nasco", "p": "status", "v": "Rumoured killed in a bungled capture attempt before meeting the Brotherhood to buy a squad captured from Crossroads", "date": "2496-03", "sources": ["article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "character/nasco", "p": "note", "v": "Krystal Spyers' security man on Altair IV waved written orders from Colonel Nasco; the 5 Coy officer used the same orders to take him into custody", "date": "2491-12", "note": "Auto-captions: 'Colonel nasto' / 'colon Nas'", "sources": ["video/altair-iv_krystal-spyers-report-09"]}
 {"type": "edge", "from": "character/nathan-archer", "p": "memberOf", "o": "organisation/sugar-mice", "role": "Equipment Location Specialist (Finder)", "sources": ["article/writers-guide"]}
 {"type": "edge", "from": "character/naylor-helen", "p": "employedBy", "o": "organisation/interstella", "role": "Contributions to be forwarded to her", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
 {"type": "edge", "from": "character/naylor-helen", "p": "employedBy", "o": "organisation/interstella", "role": "Contributions to be forwarded to her", "date": "2494-10", "sources": ["article/interstella_2494-10"]}
@@ -2405,6 +2442,8 @@
 {"type": "edge", "from": "character/skeln", "p": "participatedIn", "o": "mission/2495-03_mission-unknown", "role": "Recruit", "sources": ["article/mexals-letters_2495-03_connet"]}
 {"type": "edge", "from": "character/slug", "p": "participatedIn", "o": "mission/2495-05_boarding-action-mariecelesta", "role": "One of three survivors rescued from the SS Marie Celesta", "sources": ["article/interstella_2495-06"]}
 {"type": "edge", "from": "character/slug", "p": "note", "v": "Issued a cheerfully deranged statement about his voyage; his psychiatric treatment continues", "date": "2495-06", "sources": ["article/interstella_2495-06"]}
+{"type": "edge", "from": "character/slug", "p": "note", "v": "Named as Robert Anderson; made a fortune on talk shows and opened a chain of health farms selling 'high rad' treatment", "date": "2495", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
+{"type": "edge", "from": "character/slug", "p": "appearsIn", "o": "video/2495-05_cnn-mariecelestaspecial-excerpt", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
 {"type": "edge", "from": "character/smith-j", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
 {"type": "edge", "from": "character/smith-j", "p": "rank", "v": "Sergeant", "date": "2496-01", "sources": ["article/honours_1995-08-23"]}
 {"type": "edge", "from": "character/smith-j", "p": "status", "v": "Killed in action", "date": "2496-01", "sources": ["article/honours_1995-08-23"]}
@@ -2427,6 +2466,7 @@
 {"type": "edge", "from": "character/steele-cpl", "p": "rank", "v": "Corporal", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/steele-cpl", "p": "memberOf", "o": "organisation/5-coy", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/steele-cpl", "p": "status", "v": "Died after setting off a booby trap that blew his leg off; medical help took over 20 minutes", "date": "2491-12", "note": "Spelt both Steele and Steel in the article", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "character/steele-cpl", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "note": "Probably: the auto-captions hear 'Ste ... steel' as the crew is pushed out - uncertain", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
 {"type": "edge", "from": "character/stephani-perry", "p": "memberOf", "o": "organisation/sugar-mice", "role": "Pilot (Wings)", "sources": ["article/writers-guide"]}
 {"type": "edge", "from": "character/stephen-park", "p": "relatedTo", "o": "character/edward-carter", "v": "Reporting team", "sources": ["article/scenario-drive-wars-scenario-notes"]}
 {"type": "edge", "from": "character/sterling", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
@@ -2762,6 +2802,7 @@
 {"type": "edge", "from": "organisation/5-coy", "p": "note", "v": "Accused by Krystal Spyers of brutality towards her crew and of letting men die of the plague on Altair IV; Brotherhood accusations of projectile weapon use were before UW sessions", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/5-coy", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "note": "The Voice accuses 5coy of instigating the Hal rebellion and of murdering civilians near Ruaros", "sources": ["article/thevoice_2495-07"]}
 {"type": "edge", "from": "organisation/5-coy", "p": "partOf", "o": "organisation/cmc-iv-field-regiment", "note": "'5th Company, 4th Field Regiment CMC, the spearhead of the Immediate Response Battalion'", "sources": ["article/darkhorizons-flyer_1995"]}
+{"type": "edge", "from": "organisation/5-coy", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "note": "The last company left on Altair IV as the base was evacuated; lifted off by dropship under fire", "sources": ["video/altair-iv_krystal-spyers-report-01", "video/altair-iv_dropship-bug-out"]}
 {"type": "edge", "from": "organisation/aldebaran-union", "p": "appearsIn", "o": "article/interstella_2494-10", "note": "Destination of Ehlana Parnell's diplomatic mission", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/aldsys-spaceyards", "p": "note", "v": "Part of the Parnell-led consortium that won Nordberg's order for 4 super-carriers", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/aldsys-spaceyards", "p": "relatedTo", "o": "organisation/parnell-industries", "role": "Consortium partner", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
@@ -2818,6 +2859,8 @@
 {"type": "edge", "from": "organisation/cnn", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Press; reporters ejected from base", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/cnn", "p": "note", "v": "A CNN newscrew was murdered on Pholax-3 in September 2493", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
 {"type": "edge", "from": "organisation/cnn", "p": "note", "v": "Published CNN Newsbulletin (Issue 1, January 2496), renamed CNN Newsline from Issue 3 (March 2496); editor Benjamin Maguire", "sources": ["article/cnnnewsline_2496-01"]}
+{"type": "edge", "from": "organisation/cnn", "p": "note", "v": "Made a special report on the loss, discovery and destruction of the Marie Celesta, using the Garavaglia II's flight recorder", "date": "2495", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
+{"type": "edge", "from": "organisation/cnn", "p": "appearsIn", "o": "video/2495-05_cnn-mariecelestaspecial-excerpt", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
 {"type": "edge", "from": "organisation/coedarian", "p": "appearsIn", "o": "article/mexals-letters_2493-03_kruger", "note": "Described here", "sources": ["article/mexals-letters_2493-03_kruger"]}
 {"type": "edge", "from": "organisation/coedarian", "p": "note", "v": "Its Elders attended the consecration of the first Primate of CoedArian in Goldenwood Cathedral", "date": "2494-09-10", "sources": ["article/interstella_2494-11"]}
 {"type": "edge", "from": "organisation/colonial-marine-corps", "p": "partOf", "o": "organisation/united-worlds", "sources": ["article/a-brief-guide-to-history"]}
@@ -2898,6 +2941,7 @@
 {"type": "edge", "from": "organisation/hadens-worthy", "p": "owns", "v": "SS Marie Celesta", "sources": ["article/interstella_2495-06"]}
 {"type": "edge", "from": "organisation/hadens-worthy", "p": "note", "v": "Its security droids guarded sensitive areas of the Marie Celesta", "at": "mission/2495-05_boarding-action-mariecelesta", "sources": ["article/interstella_2495-06"]}
 {"type": "edge", "from": "organisation/hadens-worthy", "p": "note", "v": "Contesting salvage claims on the Marie Celesta, which they say no longer exists", "date": "2496-03", "sources": ["article/cnnnewsline_2496-01", "article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "organisation/hadens-worthy", "p": "owns", "v": "SS Marie Celesta", "note": "Auto-captions: 'hanesworth Spaceway Starliner'", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
 {"type": "edge", "from": "organisation/hal-12th-cohort", "p": "partOf", "o": "organisation/hal-planetary-defence", "sources": ["article/2495-07_mission-omaha"]}
 {"type": "edge", "from": "organisation/hal-12th-cohort", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "role": "Hostile", "sources": ["article/2495-07_mission-omaha"]}
 {"type": "edge", "from": "organisation/hal-49th-unified", "p": "partOf", "o": "organisation/hal-planetary-defence", "sources": ["article/2495-07_mission-omaha"]}
@@ -3108,6 +3152,10 @@
 {"type": "edge", "from": "organisation/sjvenson-fire-and-rescue", "p": "relatedTo", "o": "character/sjvenson-j", "note": "Family company of J Svjenson", "sources": ["article/personnel-jacket_svjenson-sj008174"]}
 {"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "article/interstella_specialedition_2491-12", "note": "Co-credited on the special edition; readers asked to send tips to it or to Interstella!", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/skeleton-news-crew", "p": "relatedTo", "o": "organisation/interstella", "v": "Co-produced the December 2491 special edition", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "role": "Krystal Spyers' news crew", "sources": ["video/altair-iv_krystal-spyers-report-01", "video/altair-iv_krystal-spyers-report-07", "video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-07", "sources": ["video/altair-iv_krystal-spyers-report-07"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-10", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
 {"type": "edge", "from": "organisation/slaves-for-freedom", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "role": "Friendly (rebel force)", "sources": ["article/2495-07_mission-omaha"]}
 {"type": "edge", "from": "organisation/solrebrians", "p": "participatedIn", "o": "mission/2496-01_mission-kraken", "sources": ["article/mission-kraken"]}
 {"type": "edge", "from": "organisation/solrebrians", "p": "status", "v": "Broke diplomatic ties and left Sol3", "date": "2496-01", "sources": ["article/interim-history_2496-to-2501"]}
@@ -3133,6 +3181,7 @@
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Accused 5 Coy before the UW of using projectile weapons against them, backed by vid-tape evidence", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Accused of trading proscribed materiel to planets under CMC interdiction", "date": "2493-10", "sources": ["article/thevoice_2493-10"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Reportedly due to buy a squad of marines captured from Crossroads from Nasco", "date": "2496-03", "sources": ["article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Fighting 5 Coy around its compound on Altair IV; rumoured to be the target of a marine chemical weapon", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
 {"type": "edge", "from": "organisation/the-voice", "p": "note", "v": "Hostile to the UW and CMC; claims its plant was sabotaged by UW agents (July 2495)", "sources": ["article/thevoice_2493-05", "article/thevoice_2493-10", "article/thevoice_2495-07"]}
 {"type": "edge", "from": "organisation/tyrell-corporation", "p": "appearsIn", "o": "article/scenario-drive-wars-scenario-notes", "note": "Described here", "sources": ["article/scenario-drive-wars-scenario-notes"]}
 {"type": "edge", "from": "organisation/united-europe", "p": "appearsIn", "o": "article/a-brief-guide-to-history", "note": "Described here", "sources": ["article/a-brief-guide-to-history"]}
@@ -5189,3 +5238,54 @@
 {"type": "edge", "from": "mission/2496-03_mission-redstorm", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "mission/2496-03_mission-redstorm", "p": "mentions", "to": "organisation/night-hawks", "generated": true}
 {"type": "edge", "from": "mission/2496-03_mission-redstorm", "p": "mentions", "to": "organisation/united-worlds", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "character/slug", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "organisation/cnn", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "organisation/colonial-marine-corps", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "organisation/hadens-worthy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-1", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-2", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-2", "p": "mentions", "to": "character/miracle-sgt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-2", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_dropship-bug-out", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_dropship-bug-out", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_dropship-bug-out", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_final-pack-up", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "character/gill-lt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "character/steele-cpl", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/colonial-marine-corps", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/the-brotherhood", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/harris-reece", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/miracle-sgt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/stone-nick", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-04", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-05", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-05", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-06", "p": "mentions", "to": "character/harris-reece", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-06", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-07", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-07", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-07", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "character/harris-reece", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-09", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-09", "p": "mentions", "to": "character/nasco", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-09", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "character/derrin-sal", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "character/miracle-sgt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-11", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-11", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_marine-assault", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_marine-assault", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_prepare-to-leave", "p": "mentions", "to": "organisation/interstella", "generated": true}

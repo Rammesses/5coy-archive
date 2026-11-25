@@ -19,8 +19,8 @@
     <td></td>
     <td colspan="3">
         <web.Controls.MarkdownView ContentUrl="@Mission.Summary"/>
-        @if (RelatedArticles.Any()) {
-            <web.Controls.RelatedBreadcrumbList Articles=@RelatedArticles />
+        @if (RelatedArticles.Any() || RelatedVideos.Any()) {
+            <web.Controls.RelatedBreadcrumbList Articles=@RelatedArticles Videos=@RelatedVideos />
         }
     </td>
 </tr>
@@ -39,7 +39,8 @@
     private string toggleTooltip => IsExpanded ? "Hide related..." : "Show related...";
 
     private bool infoPanelButtonEnabled => !string.IsNullOrEmpty(Mission.Summary) ||
-                                           RelatedArticles.Any();
+                                           RelatedArticles.Any() ||
+                                           RelatedVideos.Any();
     public string hideInfoPanelButton => infoPanelButtonEnabled ? string.Empty : "collapse";
 
     private string collapseInfoPane => IsExpanded ? string.Empty : "collapse";

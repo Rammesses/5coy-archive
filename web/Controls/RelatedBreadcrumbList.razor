@@ -6,7 +6,8 @@
 @* Related articles and missions, one per line, each prefixed with a breadcrumb trail showing
    where it sits, and all in alphabetical order of the line as displayed:
      "IC → Mission Reports → 2492-10 - Mission 'Procyon'"
-     "IC → Missions → Mission 'Pegasus' (Jun 2494)"   (a mission's in-game date is part of its link) *@
+     "IC → Missions → Mission 'Pegasus' (Jun 2494)"   (a mission's in-game date is part of its link)
+     "Videos → Krystal Spyers Report 1" *@
 <ul class="related-breadcrumbs">
 @foreach (var item in items)
 {
@@ -35,12 +36,17 @@
     public const string InCharacterTitle = "IC";
     public const string MissionsUrl = "/missions";
     public const string MissionsTitle = "Missions";
+    public const string VideosUrl = "/videos";
+    public const string VideosTitle = "Videos";
 
     [Parameter]
     public Article[] Articles { get; set; } = Array.Empty<Article>();
 
     [Parameter]
     public Mission[] Missions { get; set; } = Array.Empty<Mission>();
+
+    [Parameter]
+    public Video[] Videos { get; set; } = Array.Empty<Video>();
 
     private List<Item> items = new();
 
@@ -79,6 +85,12 @@
             var target = new Crumb(mission.LinkText, $"/mission/{mission.Reference}");
 
             result.Add(new Item(trail, target, null, "related-mission"));
+        }
+
+        foreach (var video in Videos ?? Array.Empty<Video>())
+        {
+            var trail = new[] { new Crumb(VideosTitle, VideosUrl) };
+            result.Add(new Item(trail, new Crumb(video.Title, video.Url), null, "related-video"));
         }
 
         items = result.OrderBy(i => i.SortKey, StringComparer.OrdinalIgnoreCase).ToList();

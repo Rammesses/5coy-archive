@@ -1,8 +1,12 @@
 [
-    { "Reference": "out-of-character",
-      "Data": "/data/videos/out-of-character.json"
-      },
-    { "Reference": "in-character",
-      "Data": "/data/videos/in-character.json"
-      }
+  {
+    "Reference": "in-character",
+    "Title": "In-Character",
+    "Data": "/data/videos/in-character.json"
+  },
+  {
+    "Reference": "out-of-character",
+    "Title": "Out of Character",
+    "Data": "/data/videos/out-of-character.json"
+  }
 ]

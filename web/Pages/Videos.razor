@@ -1,0 +1,69 @@
+@page "/videos"
+
+@using Models
+@using Services
+
+@inject IVideoService videoService
+@inject IMissionsService missionsService
+
+<web.Shared.PageTitle Title="Videos" />
+
+<h1><span class="sectionIcon oi oi-video" aria-hidden="true"></span>Videos</h1>
+<div>
+    <web.Controls.MarkdownView ContentUrl="/content/videos.md"/>
+</div>
+
+@if (series == null)
+{
+    <div class="loading">Loading...</div>
+}
+else
+{
+    @foreach (var s in series)
+    {
+        <section class="video-series">
+            <h3>@s.Title</h3>
+            <ul class="video-grid">
+            @foreach (var video in s.Videos)
+            {
+                <li class="video-card">
+                    <a href="@video.Url" class="video-thumbnail">
+                        <img src="@video.ThumbnailUrl" alt="" loading="lazy" />
+                        @if (!string.IsNullOrEmpty(video.Duration))
+                        {
+                            <span class="video-duration">@video.Duration</span>
+                        }
+                    </a>
+                    <a href="@video.Url" class="video-title">@video.Title</a>
+                    @if (missions.TryGetValue(video.MissionRef ?? string.Empty, out var mission))
+                    {
+                        <div class="video-mission"><a href="/mission/@mission.Reference">@mission.LinkText</a></div>
+                    }
+                </li>
+            }
+            </ul>
+        </section>
+    }
+}
+
+@code {
+    private sealed record Series(string Title, Video[] Videos);
+
+    private Series[] series;
+    private Dictionary<string, Mission> missions = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var videos = await videoService.GetAllVideos();
+        var allMissions = await missionsService.GetAllMissions();
+
+        missions = allMissions.Where(m => !string.IsNullOrEmpty(m.Reference))
+                              .GroupBy(m => m.Reference)
+                              .ToDictionary(g => g.Key, g => g.First());
+
+        // Series in the order they first appear in the data; videos in data order within each.
+        series = videos.GroupBy(v => string.IsNullOrEmpty(v.Series) ? "Other videos" : v.Series)
+                       .Select(g => new Series(g.Key, g.ToArray()))
+                       .ToArray();
+    }
+}

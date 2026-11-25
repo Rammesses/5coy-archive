@@ -4,6 +4,7 @@
 
 @inject IArticlesService dataService
 @inject IMissionsService missionsService
+@inject IVideoService videoService
 
 <web.Shared.PageTitle Title="@articleData?.Title" />
 
@@ -51,14 +52,14 @@
         <web.Controls.MarkdownView ContentUrl="@articleData.ContentUrl"
                                    ContentLoaded="@((bool loaded) => hasContent = loaded)" />
     </div>
-    @if (RelatedArticles.Any() || relatedMissions.Any())
+    @if (RelatedArticles.Any() || relatedMissions.Any() || relatedVideos.Any())
     {
         @* Same layout as the mission page: one alphabetical list of child articles, related
            articles and related missions. *@
         <div class="related-articles">
         <hr />
         <h5>Related:</h5>
-        <web.Controls.RelatedBreadcrumbList Articles=@RelatedArticles Missions=@relatedMissions />
+        <web.Controls.RelatedBreadcrumbList Articles=@RelatedArticles Missions=@relatedMissions Videos=@relatedVideos />
         </div>
     }
 }
@@ -77,6 +78,7 @@
     private Models.Mission missionData;
     private Models.Mission[] relatedMissions = Array.Empty<Models.Mission>();
     private Models.Article[] relatedArticles = Array.Empty<Models.Article>();
+    private Models.Video[] relatedVideos = Array.Empty<Models.Video>();
     private bool hasContent;
 
     // Child articles (e.g. a report's intelligence briefing) are listed with the related ones.
@@ -104,6 +106,9 @@
         var missions = article == null
             ? Array.Empty<Models.Mission>()
             : await missionsService.GetRelatedMissions(article.Reference, article.Related);
+        var videos = article == null
+            ? Array.Empty<Models.Video>()
+            : await videoService.GetRelatedVideos(article.Reference);
 
         if (sectionRef != SectionRef || articleRef != ArticleRef)
             return;
@@ -114,5 +119,6 @@
         missionData = mission;
         relatedArticles = related;
         relatedMissions = missions;
+        relatedVideos = videos;
     }
 }

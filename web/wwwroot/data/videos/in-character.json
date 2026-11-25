@@ -1,12 +1,244 @@
 [
-    { 
-      "Reference": "krystal-speirs",
-      "Data": "/data/videos/in-character/krystal-speirs.json"
-      },
-    
-      { "Reference": "2495-05_cnn-mariecelestaspecial-excerpt",
-        "Title": "Celestial News Network - Marie Celesta Special (Excerpt)",
-        "MissionRef": "2495-05_boarding-action-mariecelesta",
-        "YoutubeId": "zNSSDdrQXWY"
-      }
+  {
+    "Reference": "altair-iv_krystal-spyers-report-01",
+    "Title": "Krystal Spyers Report 1",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "UF35M-yCeTc",
+    "YouTubeTitle": "Krystal Spyers Report 1.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "7:23",
+    "Description": "Krystal Spyers and her news crew arrive at the 5 Coy compound amid rumours of plague, film the marines fighting the Brotherhood, and are ordered off the base by Lt Gill.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-01.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-02",
+    "Title": "Krystal Spyers Report 2",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "gi5_L-2uO30",
+    "YouTubeTitle": "Crystal Spires Report 2.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-08",
+    "Duration": "10:31",
+    "Description": "Outside the compound gate the crew questions the marines about the plague and a withdrawn company doctor, and is roughly moved on again while a marine is treated.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-02.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-04",
+    "Title": "Krystal Spyers Report 4",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "LqnhyId3nkY",
+    "YouTubeTitle": "Crystal Spires Report 4.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-08",
+    "Duration": "0:39",
+    "Description": "A short report from Altair IV, with a compound guard in the background.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-04.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-05",
+    "Title": "Krystal Spyers Report 5",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "GDWWlaN5X9c",
+    "YouTubeTitle": "Crystal Spires Report 5.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-08",
+    "Duration": "0:46",
+    "Description": "Krystal Spyers mocks the observation skills of the marines on guard duty, who take a while to spot the news crew.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-05.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-06",
+    "Title": "Krystal Spyers Report 6",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "5fmEM2dcQfs",
+    "YouTubeTitle": "Crystal Spires Report 6.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-08",
+    "Duration": "0:37",
+    "Description": "At the compound gate, the marines start to go down with the plague as the crew films.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-06.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-07",
+    "Title": "Krystal Spyers Report 7",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "bEAXdNv9BfM",
+    "YouTubeTitle": "Krystal Spyers Report 7.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "0:42",
+    "Description": "Piece to camera outside the building where the gang that took the plague cure is due to meet buyers; the cure was dropped to the marines the night before and lost.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-07.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-08",
+    "Title": "Krystal Spyers Report 8",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "UvwOuJsh24E",
+    "YouTubeTitle": "Krystal Spyers Report 8.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "4:36",
+    "Description": "5 Coy arrive at the rendezvous for the cure and intercept the news crew as the deal goes wrong.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-08.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-09",
+    "Title": "Krystal Spyers Report 9",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "JlubgarnUgA",
+    "YouTubeTitle": "Krystal Spyers Report 9.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "4:33",
+    "Description": "The marines surround the crew, an officer is challenged over the failed deal, and the crew's security man refuses to hand over his weapon. It doesn't end well.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-09.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-10",
+    "Title": "Krystal Spyers Report 10",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "psYWauyI7iI",
+    "YouTubeTitle": "Krystal Spyers Report 10.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "5:03",
+    "Description": "With her cameraman reported dead, Krystal Spyers talks over a remote feed as 5 Coy administer the cure, and blames the medic, Sgt Miracle, for getting the dose count wrong.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-10.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_krystal-spyers-report-11",
+    "Title": "Krystal Spyers Report 11",
+    "Series": "Krystal Spyers Reports - Altair IV",
+    "YouTubeVideoId": "1YQEyeWIoeQ",
+    "YouTubeTitle": "Krystal Spyers Report 11.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "0:39",
+    "Description": "A last piece to camera as the marines prepare to board the dropship: anyone not cured stays behind rather than risk contaminating the ship.",
+    "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-11.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_marine-assault",
+    "Title": "Marine Assault",
+    "Series": "5 Coy on Altair IV",
+    "YouTubeVideoId": "EpULg3kPe2U",
+    "YouTubeTitle": "Altair IV - Marine Assault.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "6:49",
+    "Description": "5 Coy assault a building and find a very dead body.",
+    "ContentUrl": "/content/videos/altair-iv_marine-assault.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_cure-negotiation-1",
+    "Title": "Cure Negotiation - Part 1",
+    "Series": "5 Coy on Altair IV",
+    "YouTubeVideoId": "hjg3wSdudg8",
+    "YouTubeTitle": "Altair IV - Marine cure negotiation.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-09",
+    "Duration": "3:34",
+    "Description": "5 Coy negotiate for the return of the plague cure.",
+    "ContentUrl": "/content/videos/altair-iv_cure-negotiation-1.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_cure-negotiation-2",
+    "Title": "Cure Negotiation - Part 2",
+    "Series": "5 Coy on Altair IV",
+    "YouTubeVideoId": "NmKXEN4V6Tc",
+    "YouTubeTitle": "Altair IV - Marine cure negotiation - Part 2.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-10",
+    "Duration": "5:18",
+    "Description": "Haggling over the price of the cure (32 credits against 10,000), then a vehicle tries to leave and the stand-off turns into a hostage situation.",
+    "ContentUrl": "/content/videos/altair-iv_cure-negotiation-2.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_prepare-to-leave",
+    "Title": "5 Coy Prepare to Leave the Planet",
+    "Series": "5 Coy on Altair IV",
+    "YouTubeVideoId": "NJSV3XgUpDg",
+    "YouTubeTitle": "Altair IV - 5th Coy prepare to leave the planet.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-10",
+    "Duration": "1:48",
+    "Description": "The marines form up, with a rear guard, to board the dropship off Altair IV.",
+    "ContentUrl": "/content/videos/altair-iv_prepare-to-leave.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "altair-iv_dropship-bug-out",
+    "Title": "5 Coy Come Under Fire Boarding the Dropship",
+    "Series": "5 Coy on Altair IV",
+    "YouTubeVideoId": "zMQlaMsIcx4",
+    "YouTubeTitle": "Altair IV - 5th Coy come under fire boarding the dropship, and finally bug out.wmv",
+    "Channel": "whitewhulf",
+    "Uploaded": "2012-05-10",
+    "Duration": "2:26",
+    "Description": "Fired on while boarding, the marines push the attackers back before the dropship lifts off from Altair IV for the last time.",
+    "ContentUrl": "/content/videos/altair-iv_dropship-bug-out.md",
+    "Related": [
+      "interstella_specialedition_2491-12"
+    ]
+  },
+  {
+    "Reference": "2495-05_cnn-mariecelestaspecial-excerpt",
+    "Title": "Celestial News Network - Marie Celesta Special (Excerpt)",
+    "Series": "Celestial News Network",
+    "YouTubeVideoId": "zNSSDdrQXWY",
+    "YouTubeTitle": "Celestial News Network - Marie Celesta Special (Excerpt)",
+    "Channel": "TJ121710",
+    "Uploaded": "2010-07-10",
+    "Duration": "6:32",
+    "Description": "Cut-down CNN special on the loss, discovery and destruction of the Marie Celesta, made after the event and built around the Garavaglia II's flight recorder.",
+    "MissionRef": "2495-05_boarding-action-mariecelesta",
+    "ContentUrl": "/content/videos/2495-05_cnn-mariecelestaspecial-excerpt.md",
+    "Related": [
+      "mission-welcome-to-the-marie-celesta",
+      "itlof_2495-06"
+    ]
+  }
 ]

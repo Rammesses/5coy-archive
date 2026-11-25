@@ -347,3 +347,78 @@ h1
   font-weight: 700;
   font-style: normal;
 }
+/* ---- videos ------------------------------------------------------------------------------ */
+
+ul.video-grid {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 1rem;
+}
+
+li.video-card a.video-thumbnail {
+    position: relative;
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 0.25rem;
+}
+
+li.video-card a.video-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+span.video-duration {
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.3rem;
+    padding: 0 0.3rem;
+    font-size: smaller;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 0.2rem;
+}
+
+li.video-card a.video-title {
+    display: block;
+    margin-top: 0.3rem;
+}
+
+li.video-card div.video-mission {
+    font-size: smaller;
+}
+
+div.video-player {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    aspect-ratio: 16 / 9;
+    margin: 1rem 0;
+}
+
+div.video-player iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+p.video-source {
+    font-size: smaller;
+    color: var(--bs-secondary-color, #6c757d);
+}
+
+nav.video-series-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+nav.video-series-nav a.video-next {
+    margin-left: auto;
+}
