@@ -500,6 +500,23 @@
         "Sources": [
           "article/thevoice_2495-07"
         ]
+      },
+      {
+        "P": "partOf",
+        "O": "organisation/cmc-iv-field-regiment",
+        "Note": "'5th Company, 4th Field Regiment CMC, the spearhead of the Immediate Response Battalion'",
+        "Sources": [
+          "article/darkhorizons-flyer_1995"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Note": "The last company left on Altair IV as the base was evacuated; lifted off by dropship under fire",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01",
+          "video/altair-iv_dropship-bug-out"
+        ]
       }
     ]
   },
@@ -581,6 +598,14 @@
         "Sources": [
           "article/interstella_2493-06"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Paronis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -646,6 +671,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Chi Draconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -706,6 +739,14 @@
         "Date": "2492-12",
         "Sources": [
           "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Bessieres",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -816,6 +857,14 @@
         "Date": "2494-11",
         "Sources": [
           "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Monro",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -1179,6 +1228,21 @@
         "Sources": [
           "article/cnnnewsline_2496-01"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Made a special report on the loss, discovery and destruction of the Marie Celesta, using the Garavaglia II's flight recorder",
+        "Date": "2495",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/2495-05_cnn-mariecelestaspecial-excerpt",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
+        ]
       }
     ]
   },
@@ -1488,6 +1552,14 @@
         "Sources": [
           "article/interstella_2495-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Braconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -1714,6 +1786,14 @@
         "Sources": [
           "article/interstella_2492-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Kruger",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -1879,6 +1959,14 @@
         "Sources": [
           "article/2496-03_mission-redstorm"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Ross",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -1896,6 +1984,14 @@
         "O": "organisation/colonial-marine-corps",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Dawn",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -2112,6 +2208,14 @@
         "Sources": [
           "article/cnnnewsline_2496-01",
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "owns",
+        "V": "SS Marie Celesta",
+        "Note": "Auto-captions: 'hanesworth Spaceway Starliner'",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
         ]
       }
     ]
@@ -2409,6 +2513,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Barnards",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -2424,6 +2536,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Chi Draconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -2516,6 +2636,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -2757,6 +2885,13 @@
         "Sources": [
           "article/interstella_2495-03"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Heavily represented on Alpha Centurai",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -2802,6 +2937,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Ross",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -2828,6 +2971,14 @@
         "Date": "2492-04",
         "Sources": [
           "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Chi Draconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3087,6 +3238,32 @@
     ]
   },
   {
+    "Reference": "landon-industries",
+    "Name": "Landon Industries",
+    "Aliases": [
+      "Landon"
+    ],
+    "Type": "corporation",
+    "Description": "Company that designed the 4M74P Medi-Aid for MediCare in 2491 before going into liquidation.",
+    "Facts": [
+      {
+        "P": "supplies",
+        "O": "organisation/medi-care",
+        "V": "4M74P Medi-Aid coprocessing board (2491)",
+        "Sources": [
+          "article/prop-designs"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Liquidated; prototypes destroyed by its own security force during a looting raid",
+        "Sources": [
+          "article/prop-designs"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "league-against-warfare",
     "Name": "League Against Warfare",
     "Aliases": [
@@ -3247,6 +3424,14 @@
         "Sources": [
           "article/interstella_2495-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Proxima Centurai",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3338,7 +3523,25 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Dawn",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "MediCare research labs on Dawn designed and built the RVC-877 (4M01) medical diagnostic & repair unit, completed 2488",
+        "Sources": [
+          "article/prop-designs"
+        ]
       }
+    ],
+    "Aliases": [
+      "MediCare"
     ]
   },
   {
@@ -3356,6 +3559,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Beta Hydri",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3411,6 +3622,14 @@
         "Date": "2496-03",
         "Sources": [
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3472,6 +3691,14 @@
         "Sources": [
           "article/interstella_2492-12"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3519,6 +3746,14 @@
         "Date": "2494-09",
         "Sources": [
           "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3587,6 +3822,14 @@
         "Date": "2492-04",
         "Sources": [
           "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Bessieres",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3671,6 +3914,14 @@
         "Sources": [
           "article/cnnnewsline_2496-03",
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Dawn",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3851,6 +4102,14 @@
         "Sources": [
           "article/cnnnewsline_2496-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Barnards",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3945,6 +4204,14 @@
         "Date": "2495-07",
         "Sources": [
           "article/thevoice_2495-07"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Lumiere",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -4196,6 +4463,14 @@
         "Sources": [
           "article/cnnnewsline_2496-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Beta Hydri",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4295,6 +4570,14 @@
         "Sources": [
           "article/interstella_2494-09"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Alpha Centurai",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4382,6 +4665,37 @@
         "V": "Co-produced the December 2491 special edition",
         "Sources": [
           "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Role": "Krystal Spyers' news crew",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01",
+          "video/altair-iv_krystal-spyers-report-07",
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-01",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-07",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-07"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-10",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
         ]
       }
     ]
@@ -4500,6 +4814,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4519,6 +4841,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Bessieres",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4537,6 +4867,15 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Beta Hydri",
+        "Role": "Head Office",
+        "Note": "Planetary Database names 'Stedman Controls Inc' - probably the same company, needs review",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -4652,6 +4991,14 @@
         "Date": "2496-03",
         "Sources": [
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Fighting 5 Coy around its compound on Altair IV; rumoured to be the target of a marine chemical weapon",
+        "Date": "2491-12",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
         ]
       }
     ]
@@ -5325,6 +5672,14 @@
         "Date": "2495-03",
         "Sources": [
           "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Nyottonda",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]

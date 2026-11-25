@@ -33,6 +33,6 @@ Arden was recommended to the CMC by the hierarchy of the Church, a letter from t
 
 #### Missions Attended:
 
-- [Vortex November 2493 (Groombridge)](/mission/2493-11_mission-vortex)
-- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
-- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)
+- [Mission 'Vortex' - November 2493 (Groombridge)](/mission/2493-11_mission-vortex)
+- [Mission 'Nova' - November 2495 (Liahn)](/mission/2495-11_mission-nova)
+- [Operation 'Strongarm' - May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

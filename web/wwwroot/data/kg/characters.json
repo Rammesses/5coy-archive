@@ -1360,6 +1360,13 @@
         "Sources": [
           "article/cnnnewsline_2496-03"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Sirius is a hereditary dictatorship ruled by its owners, the Lukel Barony; colonised by Lukel serfs from 2398",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4925,6 +4932,15 @@
         "Sources": [
           "article/interstella_specialedition_2491-12"
         ]
+      },
+      {
+        "P": "status",
+        "V": "Reported by Krystal Spyers as killed by the marines on Altair IV",
+        "Date": "2491-12",
+        "Note": "She says only 'my cameraman'; the Special Edition says Sal never recovered",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
       }
     ]
   },
@@ -7012,6 +7028,22 @@
         "Note": "'Lt Gill and his men'; possibly a short or garbled form of Gillham/Gillian (character/gillham-major, a Captain in 2492) - not merged, needs review",
         "Sources": [
           "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Role": "Named by Krystal Spyers as the officer in charge of the company when her crew was fired on",
+        "Note": "Auto-captions: 'leftenant Gil'",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-01",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
         ]
       }
     ]
@@ -9878,7 +9910,9 @@
       "Ms K. Spyers",
       "K Spyers",
       "Ms Krysal Spyers",
-      "Krystal Spyers"
+      "Krystal Spyers",
+      "Crystal Spires",
+      "Krystal Spires"
     ],
     "Description": "Interstellar Communications Group journalist who exposed 5 Coy on Hal; reported executed on the UW Rep's order, she survived and credited Major Harris with saving her life.",
     "Facts": [
@@ -10267,6 +10301,73 @@
         "V": "Treated by the UW medical team at Little Dunnet-on-the-Marsh, Connet; claimed it was for Hansen's Disease",
         "Sources": [
           "article/cnnnewsline_2496-01"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Role": "News reporter filming 5 Coy",
+        "Note": "Video reports; YouTube titles spell her 'Crystal Spires' for reports 2, 4, 5 and 6",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01",
+          "video/altair-iv_krystal-spyers-report-09",
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-01",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-02",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-02"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-05",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-05"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-07",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-07"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-08",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-08"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-09",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-09"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-10",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-11",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-11"
         ]
       }
     ]
@@ -12376,6 +12477,14 @@
         "Sources": [
           "article/personnel-jacket_mexal-mx110424"
         ]
+      },
+      {
+        "P": "authored",
+        "V": "Recruiting piece in the 1995 Dark Horizons flyer, by 'the first from my planet CoedArian' to join the CMC",
+        "Note": "The flyer does not name her; identified from the CoedArian reference",
+        "Sources": [
+          "article/darkhorizons-flyer_1995"
+        ]
       }
     ]
   },
@@ -12608,6 +12717,67 @@
         "At": "mission/2495-04_mission-unknown",
         "Sources": [
           "article/interstella_2495-05"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "miracle-sgt",
+    "Name": "Sgt Miracle",
+    "Aliases": [
+      "Sergeant Miracle",
+      "Miracle",
+      "Jason Miracle"
+    ],
+    "Description": "5 Coy medic sergeant on Altair IV whom Krystal Spyers blamed for miscounting the plague cure.",
+    "Facts": [
+      {
+        "P": "rank",
+        "V": "Sergeant",
+        "Date": "2491-12",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "role",
+        "V": "Medic",
+        "Date": "2491-12",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "memberOf",
+        "O": "organisation/5-coy",
+        "Date": "2491-12",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair IV, Dec 2491 (plague)",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-02",
+          "video/altair-iv_krystal-spyers-report-10",
+          "video/altair-iv_cure-negotiation-2"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Krystal Spyers says he told his lieutenant there was enough cure for everyone when there wasn't enough for his own marines",
+        "Date": "2491-12",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-10"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-02",
+        "Note": "Auto-captions: 'Sergeant Miracle Jason Miracle' - the first name is uncertain",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-02"
         ]
       }
     ]
@@ -12995,6 +13165,15 @@
         "Date": "2496-03",
         "Sources": [
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Krystal Spyers' security man on Altair IV waved written orders from Colonel Nasco; the 5 Coy officer used the same orders to take him into custody",
+        "Date": "2491-12",
+        "Note": "Auto-captions: 'Colonel nasto' / 'colon Nas'",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-09"
         ]
       }
     ]
@@ -16659,7 +16838,8 @@
     "Reference": "slug",
     "Name": "Slug",
     "Aliases": [
-      "'Slug'"
+      "'Slug'",
+      "Robert Anderson"
     ],
     "Description": "Marie Celesta passenger rescued by 5 Coy, known only as Slug, later under psychiatric treatment.",
     "Facts": [
@@ -16677,6 +16857,21 @@
         "Date": "2495-06",
         "Sources": [
           "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Named as Robert Anderson; made a fortune on talk shows and opened a chain of health farms selling 'high rad' treatment",
+        "Date": "2495",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/2495-05_cnn-mariecelestaspecial-excerpt",
+        "Sources": [
+          "video/2495-05_cnn-mariecelestaspecial-excerpt"
         ]
       }
     ]
@@ -16924,6 +17119,14 @@
         "Note": "Spelt both Steele and Steel in the article",
         "Sources": [
           "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "appearsIn",
+        "O": "video/altair-iv_krystal-spyers-report-01",
+        "Note": "Probably: the auto-captions hear 'Ste ... steel' as the crew is pushed out - uncertain",
+        "Sources": [
+          "video/altair-iv_krystal-spyers-report-01"
         ]
       }
     ]

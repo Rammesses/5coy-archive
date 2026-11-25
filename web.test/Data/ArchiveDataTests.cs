@@ -72,6 +72,37 @@ public class ArchiveDataTests
         => Read<Article[]>($"data/articles/{file}").Should().NotBeNull();
 
     [Test]
+    public void Videos_json_has_no_unknown_properties()
+        => Read<VideoGroup[]>("data/videos.json").Should().NotBeEmpty();
+
+    private static IEnumerable<string> VideoDataFiles()
+        => Directory.EnumerateFiles(Path.Combine(FindWwwRoot(), "data", "videos"), "*.json")
+                    .Select(Path.GetFileName)
+                    .Order();
+
+    [TestCaseSource(nameof(VideoDataFiles))]
+    public void Video_data_file_has_no_unknown_properties(string file)
+        => Read<Video[]>($"data/videos/{file}").Should().NotBeNull();
+
+    [Test]
+    public async Task Every_video_has_a_unique_reference_a_YouTube_id_and_resolving_links()
+    {
+        var videos = await new VideoService(
+            new HttpClient(new WwwRootHandler(WwwRoot)) { BaseAddress = new Uri("http://localhost/") },
+            NullLogger<VideoService>.Instance).GetAllVideos();
+        var known = allMissions.Select(m => m.Reference).Concat(allArticles.Select(a => a.Reference)).ToHashSet();
+        var missionRefs = allMissions.Select(m => m.Reference).ToHashSet();
+
+        var problems = videos.GroupBy(v => v.Reference).Where(g => g.Count() > 1).Select(g => $"duplicate {g.Key}")
+            .Concat(videos.Where(v => string.IsNullOrEmpty(v.YouTubeVideoId)).Select(v => $"{v.Reference}: no YouTubeVideoId"))
+            .Concat(videos.Where(v => !string.IsNullOrEmpty(v.MissionRef) && !missionRefs.Contains(v.MissionRef)).Select(v => $"{v.Reference}: MissionRef {v.MissionRef}"))
+            .Concat(videos.SelectMany(v => (v.Related ?? Array.Empty<string>()).Where(r => !known.Contains(r)).Select(r => $"{v.Reference}: Related {r}")))
+            .Concat(videos.Where(v => !string.IsNullOrEmpty(v.ContentUrl) && !File.Exists(LocalPath(v.ContentUrl))).Select(v => $"{v.Reference}: ContentUrl {v.ContentUrl}"));
+
+        string.Join(Environment.NewLine, problems).Should().BeEmpty();
+    }
+
+    [Test]
     public void Sections_json_has_no_unknown_properties()
         => Read<Section<Article>[]>("data/sections.json").Should().NotBeEmpty();
 
@@ -171,6 +202,25 @@ public class ArchiveDataTests
 
         // Joined, because FluentAssertions only names the first item of a non-empty collection.
         string.Join(Environment.NewLine, wrong).Should().BeEmpty();
+    }
+
+    // ---- change history --------------------------------------------------------------------
+
+    [Test]
+    public void Change_history_has_one_well_formed_entry_per_day_and_at_least_three_highlights()
+    {
+        var entries = ChangeHistoryService.Parse(File.ReadAllText(LocalPath(ChangeHistoryEntry.ContentUrl)));
+
+        entries.Should().NotBeEmpty();
+        var problems = entries
+            .Where(e => string.IsNullOrEmpty(e.Id) || string.IsNullOrEmpty(e.Date) ||
+                        string.IsNullOrEmpty(e.Title) || string.IsNullOrEmpty(e.SummaryHtml))
+            .Select(e => $"'{e.Date} - {e.Title}' needs '## {{date}} - {{title}} {{#id}}' and a summary paragraph");
+        string.Join(Environment.NewLine, problems).Should().BeEmpty();
+
+        entries.Select(e => e.Id).Should().OnlyHaveUniqueItems();
+        entries.Select(e => e.Date).Should().OnlyHaveUniqueItems("there's one entry per day");
+        entries.Count(e => e.IsHighlight).Should().BeGreaterThanOrEqualTo(3);
     }
 
     // ---- helpers ---------------------------------------------------------------------------

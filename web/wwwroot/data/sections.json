@@ -5,6 +5,12 @@
         "Glyph": "oi-flag",
         "NavigateUrl": "/missions"
     },
+    {
+        "Reference": "videos",
+        "Title": "Videos",
+        "Glyph": "oi-video",
+        "NavigateUrl": "/videos"
+    },
     { 
         "Reference": "in-character",
         "Title": "In-Character",

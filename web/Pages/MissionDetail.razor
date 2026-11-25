@@ -7,6 +7,7 @@
 @inject IArticlesService articlesService
 @inject IMarkdownService markdownService
 @inject IMissionsService missionsService
+@inject IVideoService videoService
 
 <web.Shared.PageTitle Title="@missionData?.Name" />
 
@@ -32,12 +33,12 @@
         </div>
     }
 
-    @if (articleData?.Any() == true || relatedMissions.Any())
+    @if (articleData?.Any() == true || relatedMissions.Any() || videoData.Any())
     {
         <div class="related-articles">
         <hr />
         <h5>Related:</h5>
-        <web.Controls.RelatedBreadcrumbList Articles=@articleData Missions=@relatedMissions />
+        <web.Controls.RelatedBreadcrumbList Articles=@articleData Missions=@relatedMissions Videos=@videoData />
         </div>
     }
 }
@@ -50,6 +51,7 @@
     private Mission missionData;
     private Article[] articleData;
     private Mission[] relatedMissions = Array.Empty<Mission>();
+    private Video[] videoData = Array.Empty<Video>();
     private bool hasSummary;
 
     private string MissionName => missionData?.Name ?? $"Mission '{MissionRef}'";
@@ -72,11 +74,17 @@
         missionData = null;
         articleData = null;
         relatedMissions = Array.Empty<Mission>();
+        videoData = Array.Empty<Video>();
         hasSummary = false;
 
         var mission = await missionsService.GetMissionByRef(requestedRef);
         var articles = await articlesService.GetItemsByMissionRef(requestedRef);
         var missions = Array.Empty<Mission>();
+        var videos = (await videoService.GetItemsByMissionRef(requestedRef))
+            .Concat(await videoService.GetRelatedVideos(requestedRef))
+            .GroupBy(v => v.Reference)
+            .Select(g => g.First())
+            .ToArray();
         if (mission != null)
         {
             var relatedArticles = await articlesService.GetRelatedItemsForMission(mission);
@@ -91,5 +99,6 @@
         missionData = mission;
         articleData = articles;
         relatedMissions = missions;
+        videoData = videos;
     }
 }

@@ -31,6 +31,11 @@
         function SetPageTitle(title) {
             document.title = title;
         }
+
+        function ScrollToElement(id) {
+            var element = document.getElementById(id);
+            if (element) element.scrollIntoView();
+        }
       </script>
 </head>
 

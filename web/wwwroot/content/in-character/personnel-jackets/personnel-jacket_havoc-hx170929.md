@@ -24,10 +24,10 @@ Unknown
 
 #### Missions Attended:
 
-- [Welcome to the Marie Celeste May 2495 (in space)](/mission/2495-05_boarding-action-mariecelesta)
-- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
-- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
-- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
-- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
-- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)
-- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)
+- [Boarding Action - Marie Celesta - May 2495](/mission/2495-05_boarding-action-mariecelesta)
+- [Mission 'Nova' - November 2495 (Liahn)](/mission/2495-11_mission-nova)
+- [Mission 'Kraken' - January 2496 (X244)](/mission/2496-01_mission-kraken)
+- [Mission 'Intruder' - February 2496 (Homeworld / Main)](/mission/2496-02_mission-intruder)
+- [Operation 'Hammerhead' - October 2501](/mission/2501-10_operation-hammerhead)
+- [Operation 'Dawn' - January 2502](/mission/2502-01_operation-dawn)
+- [Operation 'Strongarm' - May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

@@ -31,9 +31,9 @@ political, religious, terrorist, mercenary, press, police, clan, family, other),
 a one-sentence `Description` in your own words, and `Facts`.
 
 Graph IDs are type-prefixed because References collide across types (`article/2495-11_mission-nova` and
-`mission/2495-11_mission-nova` both exist): `character/…`, `organisation/…`, `mission/…`, `article/…`.
+`mission/2495-11_mission-nova` both exist): `character/…`, `organisation/…`, `mission/…`, `article/…`, `video/…`.
 
-A fact: `{"P": predicate, "O": "<id>" and/or "V": "<text>", qualifiers…, "Sources": ["article/…" | "mission/…"]}`.
+A fact: `{"P": predicate, "O": "<id>" and/or "V": "<text>", qualifiers…, "Sources": ["article/…" | "mission/…" | "video/…"]}`.
 
 - **Character predicates:** memberOf, rank, role, participatedIn, commanded, authored, employedBy, founded,
   relative, relatedTo, status, award, born, enlisted, note, appearsIn
@@ -48,8 +48,10 @@ A fact: `{"P": predicate, "O": "<id>" and/or "V": "<text>", qualifiers…, "Sour
 
 ## Rules
 
-1. **Every fact cites at least one source** that resolves to an article or mission reference. Mission summaries
-   (`mission/<ref>`) can be cited, but prefer the primary article.
+1. **Every fact cites at least one source** that resolves to an article, mission or video reference. Mission summaries
+   (`mission/<ref>`) can be cited, but prefer the primary article. A video (`video/<ref>`, from `data/videos.json`)
+   is a source for what can be seen or heard in it; its transcript is YouTube's uncorrected auto-captions, so put
+   the caption spelling in `Note` when a name is a reading of a mishearing.
 2. **Record what the source says, not what you infer.** If you're connecting two things, put the reasoning in
    `Note` (e.g. "probably the same person"), and add "needs review" to the Description when identity is uncertain.
    Don't merge entities on a hunch: Gillian/Gillham, Nim/Nix and the two Bryants are open questions.

@@ -24,6 +24,23 @@ internal static class TestData
         return new ArticlesService(http.CreateClient(), NullLogger<ArticlesService>.Instance);
     }
 
+    public static VideoService VideoService(VideoGroup[] groups, StubHttpHandler http = null)
+    {
+        http ??= new StubHttpHandler();
+        http.ServeJson("data/videos.json", groups);
+        return new VideoService(http.CreateClient(), NullLogger<VideoService>.Instance);
+    }
+
+    public static Video Video(string reference, string series = null, string missionRef = null, params string[] related) => new()
+    {
+        Reference = reference,
+        Title = $"Video {reference}",
+        Series = series,
+        YouTubeVideoId = $"yt-{reference}",
+        MissionRef = missionRef,
+        Related = related,
+    };
+
     public static Mission Mission(string reference, params string[] related) => new()
     {
         Reference = reference,

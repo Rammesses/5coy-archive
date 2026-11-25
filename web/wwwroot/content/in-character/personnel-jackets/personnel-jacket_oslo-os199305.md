@@ -26,13 +26,13 @@ Shot with projectile weapon Dawn January 2496
 
 #### Mentions in the Press:
 
-- Report on visit to Connet, Interstella April 2495
-- Report on Marie Celesta incident, Interstella June 2495
+- Report on visit to Connet, [Interstella April 2495](/article/interstella/interstella_2495-04)
+- Report on Marie Celesta incident, [Interstella June 2495](/article/interstella/interstella_2495-06)
 - Report on shooting outside courthouse, CNN Newsline February 2496
 
 #### Missions attended:
 
-- [Flag March 2495 (Connet)](/mission/2495-03_mission-unknown)
-- [Welcome to the Marie Celesta May 2495 (in space)](/mission/2495-05_boarding-action-mariecelesta)
-- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
-- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
+- [Mission 'Flag' - March 2495 (Connet)](/mission/2495-03_mission-unknown)
+- [Boarding Action - Marie Celesta - May 2495](/mission/2495-05_boarding-action-mariecelesta)
+- [Mission 'Kraken' - January 2496 (X244)](/mission/2496-01_mission-kraken)
+- [Operation 'Hammerhead' - October 2501](/mission/2501-10_operation-hammerhead)

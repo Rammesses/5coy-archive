@@ -187,7 +187,7 @@
 {"type": "node", "id": "character/kramer", "kind": "character", "name": "Lieutenant Kramer", "aliases": ["Kramer", "Mst Sgt Kramer"], "description": "Officer on the Juliette mission who beat up a feudal lord's son, earning a knighthood for a Marine.", "props": {}}
 {"type": "node", "id": "character/kramm-victor", "kind": "character", "name": "Victor Kramm", "aliases": [], "description": "Paronis man who won 500 million credits in the Intergalactic Lottery.", "props": {}}
 {"type": "node", "id": "character/krinly", "kind": "character", "name": "Krinly", "aliases": ["Marine Krinly"], "description": null, "props": {}}
-{"type": "node", "id": "character/krysal-spyers", "kind": "character", "name": "Krysal Spyers", "aliases": ["Spyers", "Ms Spyers", "Ms K. Spyers", "K Spyers", "Ms Krysal Spyers", "Krystal Spyers"], "description": "Interstellar Communications Group journalist who exposed 5 Coy on Hal; reported executed on the UW Rep's order, she survived and credited Major Harris with saving her life.", "props": {}}
+{"type": "node", "id": "character/krysal-spyers", "kind": "character", "name": "Krysal Spyers", "aliases": ["Spyers", "Ms Spyers", "Ms K. Spyers", "K Spyers", "Ms Krysal Spyers", "Krystal Spyers", "Crystal Spires", "Krystal Spires"], "description": "Interstellar Communications Group journalist who exposed 5 Coy on Hal; reported executed on the UW Rep's order, she survived and credited Major Harris with saving her life.", "props": {}}
 {"type": "node", "id": "character/kshell", "kind": "character", "name": "Kayshell Dumasin Klay Togin", "aliases": ["Marine KShell", "MFC KShell", "Klay Togin", "Marine Klay Togin", "Kayshell", "Marine Kayshell Dumasin Klay Togin", "Klay", "Kashell Durmas Sin Klaytogin", "Kashell Clay Togin"], "description": "5 Coy Marine/MFC, called \"Devil Spawn\" by the Amish.", "props": {}}
 {"type": "node", "id": "character/kyoke-ao", "kind": "character", "name": "Sgt A.O. Kyoke", "aliases": [], "description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.", "props": {}}
 {"type": "node", "id": "character/lancaster", "kind": "character", "name": "Lancaster", "aliases": [], "description": "Plate-armoured figure on Connet who joined a patrol.", "props": {}}
@@ -232,6 +232,7 @@
 {"type": "node", "id": "character/mickelhob", "kind": "character", "name": "Captain Mickelhob", "aliases": ["Mickelhob"], "description": "Captain at the Iowa Power site on Fomalhaut who broadcast the alert when the Brotherhood attacked.", "props": {}}
 {"type": "node", "id": "character/miller", "kind": "character", "name": "Marine Miller", "aliases": ["Miller", "Sgt Miller"], "description": "5 Coy Marine killed on Groombridge in April 2495.", "props": {}}
 {"type": "node", "id": "character/mimiannapandawawa", "kind": "character", "name": "Ngaogwugwu Mimiannapandawawa", "aliases": ["Mimiannapandawawa", "Commander Mimiannapandawawa", "Surgeon Commander Mimiannapandawawa", "Commander Ngaogwugwu", "Mimiandapandawawa", "Sgn Cmdr M. Mimiandapandawawa", "Pandawawa", "Sgn Mjr Pandawawa", "Sgn Cmdr Mimiannapandawawa"], "description": "CMC Surgeon Commander recognised for services to the CMC medical system.", "props": {}}
+{"type": "node", "id": "character/miracle-sgt", "kind": "character", "name": "Sgt Miracle", "aliases": ["Sergeant Miracle", "Miracle", "Jason Miracle"], "description": "5 Coy medic sergeant on Altair IV whom Krystal Spyers blamed for miscounting the plague cure.", "props": {}}
 {"type": "node", "id": "character/morgan-blake", "kind": "character", "name": "Morgan Blake", "aliases": ["Blake"], "description": "Interstella reporter on Groombridge.", "props": {}}
 {"type": "node", "id": "character/morgan-jane", "kind": "character", "name": "Jane Morgan", "aliases": [], "description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.", "props": {}}
 {"type": "node", "id": "character/mr-head", "kind": "character", "name": "Mr Head", "aliases": ["Head"], "description": "FFF contact on Hal who supplied the rebel data disks.", "props": {}}
@@ -303,7 +304,7 @@
 {"type": "node", "id": "character/simson", "kind": "character", "name": "Simson", "aliases": [], "description": "SFF representative and guide on Hal.", "props": {}}
 {"type": "node", "id": "character/sjvenson-j", "kind": "character", "name": "J. Sjvenson", "aliases": ["Sjvenson", "Svjenson", "Svenson", "Svejenson", "Colonel Svjenson", "Col Svjenson", "General Sjvenson", "Lt Col Svjenson"], "description": "CMC officer who helped develop the RRB; returned to General and Sky Marshall in 2497, retired in 2500 to run the family firm, and died in a shuttle test crash in Oct 2501.", "props": {"ServiceNumber": "SJ008174"}}
 {"type": "node", "id": "character/skeln", "kind": "character", "name": "Skeln", "aliases": [], "description": "5 Coy recruit on Connet.", "props": {}}
-{"type": "node", "id": "character/slug", "kind": "character", "name": "Slug", "aliases": ["'Slug'"], "description": "Marie Celesta passenger rescued by 5 Coy, known only as Slug, later under psychiatric treatment.", "props": {}}
+{"type": "node", "id": "character/slug", "kind": "character", "name": "Slug", "aliases": ["'Slug'", "Robert Anderson"], "description": "Marie Celesta passenger rescued by 5 Coy, known only as Slug, later under psychiatric treatment.", "props": {}}
 {"type": "node", "id": "character/smith-j", "kind": "character", "name": "Sergeant J. Smith", "aliases": ["Sgt Smith", "Sgt. Smith"], "description": "5 Coy Sergeant killed in 2496-01.", "props": {}}
 {"type": "node", "id": "character/smith-s", "kind": "character", "name": "S. Smith", "aliases": [], "description": "Personnel at CMC testing station X243.", "props": {}}
 {"type": "node", "id": "character/smythe-mr", "kind": "character", "name": "Mr Smythe", "aliases": [], "description": "One of a couple claiming to be tourists from Dawn, rescued from the Grants on Nyytoda and then arrested by the local Federal Police.", "props": {}}
@@ -456,6 +457,7 @@
 {"type": "node", "id": "organisation/kasdunni", "kind": "organisation", "name": "Kasdunni", "aliases": ["Kasdun"], "description": "Region and faction of Groombridge at war with the Chidanian separatists from 2492.", "props": {"Type": "political"}}
 {"type": "node", "id": "organisation/krugan-militia", "kind": "organisation", "name": "Krugan Militia", "aliases": ["KRGN MILL", "Kruger militia"], "description": "Militia of the planet Kruger, based at Villhamstead.", "props": {"Type": "military"}}
 {"type": "node", "id": "organisation/kruger-authorities", "kind": "organisation", "name": "Kruger authorities", "aliases": ["Krugerians"], "description": "Government of the neutral world of Kruger, shocked by the CMC's nuclear satellite operation there.", "props": {"Type": "government"}}
+{"type": "node", "id": "organisation/landon-industries", "kind": "organisation", "name": "Landon Industries", "aliases": ["Landon"], "description": "Company that designed the 4M74P Medi-Aid for MediCare in 2491 before going into liquidation.", "props": {"Type": "corporation"}}
 {"type": "node", "id": "organisation/league-against-warfare", "kind": "organisation", "name": "League Against Warfare", "aliases": ["LAW", "L.A.W."], "description": "Pacifist movement founded by Zandra Constella that turned to bombing military and UW sites; membership is a criminal offence.", "props": {"Type": "terrorist"}}
 {"type": "node", "id": "organisation/li-sung-leisure", "kind": "organisation", "name": "Li Sung Leisure", "aliases": [], "description": "Leisure equipment and domes; opened a whole pleasure planet.", "props": {"Type": "corporation"}}
 {"type": "node", "id": "organisation/liane-planetary-government", "kind": "organisation", "name": "Liane Planetary Government", "aliases": ["Liahn government"], "description": "Government of Liahn; renegade SF tried to persuade it to secede from the UW. Awarded the Liane Merit Star for the renegades' removal.", "props": {"Type": "government"}}
@@ -464,7 +466,7 @@
 {"type": "node", "id": "organisation/marie-celeste-mercenaries", "kind": "organisation", "name": "Mercenaries aboard the Marie Celeste", "aliases": [], "description": "Unnamed hostile mercenaries on board the Marie Celeste.", "props": {"Type": "mercenary"}}
 {"type": "node", "id": "organisation/marine-training-corps", "kind": "organisation", "name": "Marine Training Corps", "aliases": ["MTC"], "description": "CMC cadet corps for 12-16 year olds announced in 2494.", "props": {"Type": "military"}}
 {"type": "node", "id": "organisation/marquee-models", "kind": "organisation", "name": "Marquee Models", "aliases": [], "description": "Chain of shops selling games such as 'Magic' and 'Nuns n Guns'.", "props": {"Type": "corporation"}}
-{"type": "node", "id": "organisation/medi-care", "kind": "organisation", "name": "Medi-Care", "aliases": [], "description": "Drug manufacturer with a substantial R&D section.", "props": {"Type": "corporation"}}
+{"type": "node", "id": "organisation/medi-care", "kind": "organisation", "name": "Medi-Care", "aliases": ["MediCare"], "description": "Drug manufacturer with a substantial R&D section.", "props": {"Type": "corporation"}}
 {"type": "node", "id": "organisation/merton-publishing", "kind": "organisation", "name": "Merton Publishing Inc", "aliases": ["Merton Publishing"], "description": "Publishers of vid-discs, news-slugs and books.", "props": {"Type": "corporation"}}
 {"type": "node", "id": "organisation/military-mercantile", "kind": "organisation", "name": "Military Mercantile", "aliases": [], "description": "Weapons and armour; major CMC supplier that grew rich in the Colonial War.", "props": {"Type": "corporation"}}
 {"type": "node", "id": "organisation/nas-corp", "kind": "organisation", "name": "Nas-Corp", "aliases": ["Nascorp"], "description": "Military equipment; suspected of raiding a Banordyne testing lab on Insulon III. Spokesman Mr Colton.", "props": {"Type": "corporation"}}
@@ -542,17 +544,17 @@
 {"type": "node", "id": "mission/2494-04_mission-ogre", "kind": "mission", "name": "Mission 'Ogre'", "props": {"StartDate": "1994-04-08", "EndDate": "1994-04-10", "Planet": "Hal", "Location": "?", "ContentUrl": "/content/missions/2494-04_mission-ogre.md"}}
 {"type": "node", "id": "mission/2494-06_mission-pegasus", "kind": "mission", "name": "Mission 'Pegasus'", "props": {"StartDate": "1994-06-24", "EndDate": "1994-06-26", "Planet": "X244", "Location": "?", "ContentUrl": "/content/missions/2494-06_mission-pegasus.md"}}
 {"type": "node", "id": "mission/2494-12_mission-classified", "kind": "mission", "name": "Mission 'C-L-A-S-S-I-F-I-E-D'", "props": {"StartDate": "1994-12-02", "EndDate": "1994-12-04", "Planet": "C-L-A-S-S-I-F-I-E-D", "Location": "?", "ContentUrl": "/content/missions/2494-12_mission-classified.md"}}
-{"type": "node", "id": "mission/2495-01_mission-nightside", "kind": "mission", "name": "Mission 'Nightside'", "props": {"StartDate": "1995-01-20", "EndDate": "1995-01-22", "Planet": "Grant's World", "Location": "?", "ContentUrl": "/content/missions/2495-01_mission-nightside.md"}}
-{"type": "node", "id": "mission/2495-02_mission-unknown", "kind": "mission", "name": "Mission Unknown", "props": {"StartDate": "1995-02-24", "EndDate": "1995-02-26", "Planet": "Heurls", "Location": "?"}}
-{"type": "node", "id": "mission/2495-03_mission-unknown", "kind": "mission", "name": "Mission Unknown", "props": {"StartDate": "1995-03-24", "EndDate": "1995-03-26", "Planet": "Connet", "Location": "?"}}
-{"type": "node", "id": "mission/2495-04_mission-unknown", "kind": "mission", "name": "Mission Unknown", "props": {"StartDate": "1995-04-21", "EndDate": "1995-04-23", "Planet": "Groombridge", "Location": "?", "ContentUrl": "/content/missions/2495-04_mission-unknown.md"}}
+{"type": "node", "id": "mission/2495-01_mission-nightside", "kind": "mission", "name": "Mission 'Nightside'", "props": {"StartDate": "1995-01-20", "EndDate": "1995-01-22", "Planet": "Grant's World", "Location": "Drum Hill (Derby)", "ContentUrl": "/content/missions/2495-01_mission-nightside.md"}}
+{"type": "node", "id": "mission/2495-02_mission-unknown", "kind": "mission", "name": "Mission 'Tomkin'", "props": {"StartDate": "1995-02-24", "EndDate": "1995-02-26", "Planet": "Heurls", "Location": "Squirrel Wood (Doncaster)"}}
+{"type": "node", "id": "mission/2495-03_mission-unknown", "kind": "mission", "name": "Mission 'Flag'", "props": {"StartDate": "1995-03-24", "EndDate": "1995-03-26", "Planet": "Connet", "Location": "Thriftwood (Brentford, Essex)"}}
+{"type": "node", "id": "mission/2495-04_mission-unknown", "kind": "mission", "name": "Mission 'Achilles'", "props": {"StartDate": "1995-04-21", "EndDate": "1995-04-23", "Planet": "Groombridge", "Location": "West End Outdoor Centre", "ContentUrl": "/content/missions/2495-04_mission-unknown.md"}}
 {"type": "node", "id": "mission/2495-05_boarding-action-mariecelesta", "kind": "mission", "name": "Boarding Action - Marie Celesta", "props": {"StartDate": "1995-05-26", "EndDate": "1995-05-28", "Location": "?", "ContentUrl": "/content/missions/2495-05_marie-celesta.md"}}
 {"type": "node", "id": "mission/2495-07_mission-omaha", "kind": "mission", "name": "Mission 'Omaha'", "props": {"StartDate": "1995-07-14", "EndDate": "1995-07-16", "Planet": "Hal", "Location": "?", "ContentUrl": "/content/missions/2495-07_mission-omaha.md"}}
 {"type": "node", "id": "mission/2495-11_mission-nova", "kind": "mission", "name": "Mission 'Nova'", "props": {"StartDate": "1995-11-10", "EndDate": "1995-11-12", "Planet": "Liahn", "Location": "?", "ContentUrl": "/content/missions/2495-11_mission-nova.md"}}
 {"type": "node", "id": "mission/2496-01_mission-kraken", "kind": "mission", "name": "Mission 'Kraken'", "props": {"StartDate": "1996-01-12", "EndDate": "1996-01-14", "Planet": "X244", "Location": "Hesley Wood"}}
 {"type": "node", "id": "mission/2496-02_mission-intruder", "kind": "mission", "name": "Mission 'Intruder'", "props": {"StartDate": "1996-02-09", "EndDate": "1996-02-11", "Planet": "Homeworld / Main", "Location": "Thriftwood", "ContentUrl": "/content/missions/2496-02_mission-intruder.md"}}
 {"type": "node", "id": "mission/2496-03_mission-redstorm", "kind": "mission", "name": "Mission 'Red Storm'", "props": {"StartDate": "1996-03-15", "EndDate": "1996-03-17", "Planet": "Sirius", "Location": "Squirrel Wood", "ContentUrl": "/content/missions/2496-03_mission-redstorm.md"}}
-{"type": "node", "id": "mission/2496-04_mission-unknown", "kind": "mission", "name": "Mission Unknown", "props": {"StartDate": "1996-04-12", "EndDate": "1996-04-14", "Location": "Drum Hill"}}
+{"type": "node", "id": "mission/2496-04_mission-unknown", "kind": "mission", "name": "Mission 'Night Probe'", "props": {"StartDate": "1996-04-12", "EndDate": "1996-04-14", "Location": "Drum Hill"}}
 {"type": "node", "id": "mission/2496-05_mission-unknown", "kind": "mission", "name": "Mission Unknown", "props": {"StartDate": "1996-05-10", "EndDate": "1996-05-12", "Location": "?"}}
 {"type": "node", "id": "mission/2496-10_operation-sable", "kind": "mission", "name": "Operation 'Sable'", "props": {"StartDate": "1996-10-18", "EndDate": "1996-10-20", "Location": "Hesley Wood"}}
 {"type": "node", "id": "mission/2501-10_operation-hammerhead", "kind": "mission", "name": "Operation 'Hammerhead'", "props": {"StartDate": "2001-10-23", "EndDate": "2001-10-25", "Location": "Squirrel Wood"}}
@@ -585,12 +587,15 @@
 {"type": "node", "id": "article/cnnnewsline_2496-03", "kind": "article", "name": "CNN Newsline - March 2496 (Issue 3)", "props": {"ContentUrl": "/content/in-character/other-publications/cnnnewsline_2496-03.md", "PdfUrl": "/media/In-Character/CNNNewsline/CNNNewsline_2496-03.pdf"}}
 {"type": "node", "id": "article/cnnnewsline_2496-04", "kind": "article", "name": "CNN Newsline - April 2496 (Issue 4)", "props": {"ContentUrl": "/content/in-character/other-publications/cnnnewsline_2496-04.md", "PdfUrl": "/media/In-Character/CNNNewsline/CNNNewsline_2496-04.pdf"}}
 {"type": "node", "id": "article/companies-and-corporations", "kind": "article", "name": "Companies & Corporations", "props": {"ContentUrl": "/content/out-of-character/companies-and-corporations.md", "PdfUrl": "/media/Companies+%26+Corporations.pdf"}}
+{"type": "node", "id": "article/darkhorizons-flyer_1995", "kind": "article", "name": "Dark Horizons Recruiting Flyer & 1995 Events Calendar", "props": {"ContentUrl": "/content/out-of-character/darkhorizons-flyer_1995.md", "PdfUrl": "/media/Out-Of-Character/DarkHorizons-Flyer_1995.pdf"}}
 {"type": "node", "id": "article/disciplinary-charge_2501-10-25_calvin-vs-havoc", "kind": "article", "name": "Disciplinary Charge - 2501-10-25 - Calvin vs Havoc (Operation 'Hammerhead')", "props": {"ContentUrl": "/content/in-character/message_2498-10-29_calvin-charges-vs-havoc.md", "MissionRef": "2501-10_operation-hammerhead"}}
 {"type": "node", "id": "article/dispatches_2495-unknown", "kind": "article", "name": "Despatches - CMC News (Issue 1, undated)", "props": {"ContentUrl": "/content/in-character/other-publications/dispatches_2495-unknown.md", "PdfUrl": "/media/In-Character/Dispatches/Dispatches_2495-unknown.pdf"}}
 {"type": "node", "id": "article/dispatches_2496-03", "kind": "article", "name": "5 Coy Dispatches - March 2496", "props": {"ContentUrl": "/content/in-character/other-publications/dispatches_2496-03.md", "PdfUrl": "/media/In-Character/Dispatches/Dispatches_2496-03.pdf"}}
 {"type": "node", "id": "article/general-orders_2602-05-16", "kind": "article", "name": "General Orders - 16 May 2602 (Calvin)", "props": {"ContentUrl": "/content/in-character/general-orders_2602-05-16.md"}}
 {"type": "node", "id": "article/groups-and-organisations", "kind": "article", "name": "Groups & Organisations", "props": {"ContentUrl": "/content/out-of-character/groups-and-organisations.md", "PdfUrl": "/media/Groups+%26+Organisations.pdf"}}
+{"type": "node", "id": "article/history-of-the-colonial-war_bessiers", "kind": "article", "name": "History of the Colonial War - Bessieres: Historical Outcome of the Battle", "props": {"ContentUrl": "/content/out-of-character/history-of-the-colonial-war_bessiers.md", "PdfUrl": "/media/Out-Of-Character/History-of-the-Colonial-War_Bessiers.pdf"}}
 {"type": "node", "id": "article/honours_1995-08-23", "kind": "article", "name": "Honours - Proposed Recipients (Aug 1995)", "props": {"ContentUrl": "/content/out-of-character/honours_1995-08-23.md"}}
+{"type": "node", "id": "article/incapacitation-radiation", "kind": "article", "name": "Incapacitating Radiation - Screens & Dots", "props": {"ContentUrl": "/content/out-of-character/incapacitation-radiation.md", "PdfUrl": "/media/Out-Of-Character/Incapacitation_Radiation.pdf"}}
 {"type": "node", "id": "article/interim-history_2496-to-2501", "kind": "article", "name": "Interim History - 2496 to 2501", "props": {"ContentUrl": "/content/out-of-character/interim-history_2496-to-2501.md"}}
 {"type": "node", "id": "article/interstella_2492-01", "kind": "article", "name": "Interstella! January 2492", "props": {"ContentUrl": "/content/in-character/interstella/interstella_2492-01.md", "PdfUrl": "/media/In-Character/Interstella/Interstella_2492-01.pdf"}}
 {"type": "node", "id": "article/interstella_2492-02", "kind": "article", "name": "Interstella! February 2492", "props": {"ContentUrl": "/content/in-character/interstella/interstella_2492-02.md", "PdfUrl": "/media/In-Character/Interstella/Interstella_2492-02.pdf"}}
@@ -618,6 +623,7 @@
 {"type": "node", "id": "article/interstella_2495-06", "kind": "article", "name": "Interstella! June 2495", "props": {"ContentUrl": "/content/in-character/interstella/interstella_2495-06.md", "PdfUrl": "/media/In-Character/Interstella/Interstella_2495-06.pdf", "MissionRef": "2495-05_boarding-action-mariecelesta"}}
 {"type": "node", "id": "article/interstella_2495-07", "kind": "article", "name": "Interstella! July 2495", "props": {"ContentUrl": "/content/in-character/interstella/interstella_2495-07.md", "PdfUrl": "/media/In-Character/Interstella/Interstella_2495-07.pdf"}}
 {"type": "node", "id": "article/interstella_specialedition_2491-12", "kind": "article", "name": "Interstella! Special Edition, December 2491", "props": {"ContentUrl": "/content/in-character/interstella/interstella_specialedition_2491-12.md", "PdfUrl": "/media/In-Character/Interstella/Interstella_SpecialEdition_2491-12.pdf"}}
+{"type": "node", "id": "article/ir-exposure-and-the-uw-medical-system", "kind": "article", "name": "I.R. Exposure & the U.W. Medical System", "props": {"ContentUrl": "/content/in-character/ir-exposure-and-the-uw-medical-system.md", "PdfUrl": "/media/In-Character/IR-Exposure-and-the-UW-Medical-System.pdf"}}
 {"type": "node", "id": "article/itlof_2495-01", "kind": "article", "name": "In The Line Of Fire - January 2495", "props": {"ContentUrl": "/content/in-character/in-the-line-of-fire/itlof_2495-01.md", "PdfUrl": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-01.pdf"}}
 {"type": "node", "id": "article/itlof_2495-02", "kind": "article", "name": "In The Line Of Fire - February 2495", "props": {"ContentUrl": "/content/in-character/in-the-line-of-fire/itlof_2495-02.md", "PdfUrl": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-02.pdf", "MissionRef": "2494-12_mission-classified"}}
 {"type": "node", "id": "article/itlof_2495-03", "kind": "article", "name": "In The Line Of Fire - March 2495", "props": {"ContentUrl": "/content/in-character/in-the-line-of-fire/itlof_2495-03.md", "PdfUrl": "/media/In-Character/InTheLineOfFire/InTheLineOfFire_2495-03.pdf", "MissionRef": "2495-02_mission-unknown"}}
@@ -636,6 +642,7 @@
 {"type": "node", "id": "article/marines-handbook_comptech-2", "kind": "article", "name": "CompTech 2", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_comptech-2.md", "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+CompTech+2.pdf"}}
 {"type": "node", "id": "article/marines-handbook_comptech-3", "kind": "article", "name": "CompTech 3", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_comptech-3.md", "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+CompTech+3.pdf"}}
 {"type": "node", "id": "article/marines-handbook_comptech-course-overview", "kind": "article", "name": "CompTech - Course Overview", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_comptech-course-overview.md", "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+CompTech+-+Course+Overview.pdf"}}
+{"type": "node", "id": "article/marines-handbook_contents", "kind": "article", "name": "Contents", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_contents.md", "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+Contents.pdf"}}
 {"type": "node", "id": "article/marines-handbook_eod-specialist-4", "kind": "article", "name": "EOD Specialist 4", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_eod-specialist-4.md", "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+EOD+Specialist+4.pdf"}}
 {"type": "node", "id": "article/marines-handbook_m99a-uws", "kind": "article", "name": "M99A UWS Operating Manual", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_m99a-uws.md"}}
 {"type": "node", "id": "article/marines-handbook_medtech-3", "kind": "article", "name": "Med-Tech 3", "props": {"ContentUrl": "/content/in-character/marines-handbook/marines-handbook_medtech-3.md", "PdfUrl": "/media/Marine%27s+Handbook/Marine%27s+Handbook+-+MedTech+3.pdf"}}
@@ -669,6 +676,7 @@
 {"type": "node", "id": "article/mission-welcome-to-the-marie-celesta", "kind": "article", "name": "Mission: Welcome to the Marie Celesta (May 1995)", "props": {"ContentUrl": "/content/scenarios/welcome-to-the-marie-celesta.md", "PdfUrl": "/media/Miscellanea/Welcome-to-the-Marie-Celeste.pdf", "MissionRef": "2495-05_boarding-action-mariecelesta"}}
 {"type": "node", "id": "article/mission-welcome-to-the-marie-celesta-audio-script", "kind": "article", "name": "Audio Script", "props": {"ContentUrl": "/content/scenarios/welcome-to-the-marie-celesta-audio-script.md", "PdfUrl": "/media/Miscellanea/Welcome-to-the-Marie-Celeste-Audio-Script.pdf", "MissionRef": "2495-05_boarding-action-mariecelesta"}}
 {"type": "node", "id": "article/mission-welcome-to-the-marie-celesta-monster-notes", "kind": "article", "name": "Monster Notes", "props": {"ContentUrl": "/content/scenarios/welcome-to-the-marie-celesta-monster-notes.md", "PdfUrl": "/media/Miscellanea/Welcome-to-the-Marie-Celeste-Monster-Notes.pdf", "MissionRef": "2495-05_boarding-action-mariecelesta"}}
+{"type": "node", "id": "article/monster-conduct", "kind": "article", "name": "Monster/Aggressor Conduct", "props": {"ContentUrl": "/content/out-of-character/monster-conduct.md", "PdfUrl": "/media/Out-Of-Character/Monster_Conduct.pdf"}}
 {"type": "node", "id": "article/personnel-jacket_arden-ac504994", "kind": "article", "name": "Personnel Jacket - Arden C (AC504994)", "props": {"ContentUrl": "/content/in-character/personnel-jackets/personnel-jacket_arden-ac504994.md", "PdfUrl": "/media/PersonelJackets/Personel-Jacket_Arden-C_AC504994.pdf"}}
 {"type": "node", "id": "article/personnel-jacket_axe-ar110223", "kind": "article", "name": "Personnel Jacket - Axe R (AR110223)", "props": {"ContentUrl": "/content/in-character/personnel-jackets/personnel-jacket_axe-ar110223.md", "PdfUrl": "/media/PersonelJackets/Personel-Jacket_Aze-R_AR110223.pdf"}}
 {"type": "node", "id": "article/personnel-jacket_calvin-ca110328", "kind": "article", "name": "Personnel Jacket - Calvin AJ (CA110328)", "props": {"ContentUrl": "/content/in-character/personnel-jackets/personnel-jacket_calvin-ca110328.md", "PdfUrl": "/media/PersonelJackets/Personel-Jacket_Calvin-AJ_CA110328.pdf"}}
@@ -690,8 +698,8 @@
 {"type": "node", "id": "article/personnel-jacket_svjenson-sj008174", "kind": "article", "name": "Personnel Jacket - Svjenson J (SJ008174)", "props": {"ContentUrl": "/content/in-character/personnel-jackets/personnel-jacket_svjenson-sj008174.md", "PdfUrl": "/media/PersonelJackets/Personel-Jacket_Svjenson-J_SJ008174.pdf"}}
 {"type": "node", "id": "article/personnel-jacket_turner-tj121710", "kind": "article", "name": "Personnel Jacket - Turner J (TJ121710)", "props": {"ContentUrl": "/content/in-character/personnel-jackets/personnel-jacket_turner-tj121710.md", "PdfUrl": "/media/In-Character/Personnel+Jacket+-+Turner+J+TJ121710.pdf"}}
 {"type": "node", "id": "article/personnel-jacket_yellan-yz928192", "kind": "article", "name": "Personnel Jacket - Yellan Z (YZ928192)", "props": {"ContentUrl": "/content/in-character/personnel-jackets/personnel-jacket_yellan-yz928192.md", "PdfUrl": "/media/PersonelJackets/Personel-Jacket_Yellan-Z_YZ928192.pdf"}}
-{"type": "node", "id": "article/planetary-Database", "kind": "article", "name": "Planetary Database", "props": {"PdfUrl": "/media/Planetary+Database.pdf"}}
-{"type": "node", "id": "article/prop-designs", "kind": "article", "name": "Prop Designs", "props": {"PdfUrl": "/media/Miscellanea/Prop-Designs.pdf"}}
+{"type": "node", "id": "article/planetary-Database", "kind": "article", "name": "Planetary Database", "props": {"ContentUrl": "/content/out-of-character/planetary-database.md", "PdfUrl": "/media/Planetary+Database.pdf"}}
+{"type": "node", "id": "article/prop-designs", "kind": "article", "name": "Prop Designs", "props": {"ContentUrl": "/content/out-of-character/prop-designs/prop-designs.md", "PdfUrl": "/media/Miscellanea/Prop-Designs.pdf"}}
 {"type": "node", "id": "article/safety-rules-and-game-play-guidelines", "kind": "article", "name": "Safety Rules & Game Play Guidelines", "props": {"ContentUrl": "/content/out-of-character/safety-rules-and-game-play-guidelines.md", "PdfUrl": "/media/Out-Of-Character/Safety+Rules+%26+Game+Play+Guidelines.pdf"}}
 {"type": "node", "id": "article/scenario-drive-wars-2-scenario-notes", "kind": "article", "name": "Scenario: Drive Wars II", "props": {"ContentUrl": "/content/scenarios/drive-wars-2.md", "PdfUrl": "/media/Drive-Wars-II.pdf"}}
 {"type": "node", "id": "article/scenario-drive-wars-scenario-notes", "kind": "article", "name": "Scenario: Drive Wars", "props": {"ContentUrl": "/content/scenarios/drive-wars.md", "PdfUrl": "/media/Drive-Wars.pdf"}}
@@ -701,7 +709,25 @@
 {"type": "node", "id": "article/thevoice_2493-05", "kind": "article", "name": "The Voice - 1st May 937 AF", "props": {"ContentUrl": "/content/in-character/other-publications/thevoice_2493-05.md", "PdfUrl": "/media/In-Character/TheVoice/TheVoice_2493-05.pdf"}}
 {"type": "node", "id": "article/thevoice_2493-10", "kind": "article", "name": "The Voice - 18 October 936 AF", "props": {"ContentUrl": "/content/in-character/other-publications/thevoice_2493-10.md", "PdfUrl": "/media/In-Character/TheVoice/TheVoice_2493-10.pdf"}}
 {"type": "node", "id": "article/thevoice_2495-07", "kind": "article", "name": "The Voice - July 2495", "props": {"ContentUrl": "/content/in-character/other-publications/thevoice_2495-07.md", "PdfUrl": "/media/In-Character/TheVoice/TheVoice_2495-07.pdf", "MissionRef": "2495-07_mission-omaha"}}
+{"type": "node", "id": "article/unofficial-alien-contact-procedure", "kind": "article", "name": "CMC Unofficial Alien Contact Procedure", "props": {"ContentUrl": "/content/in-character/unofficial-alien-contact-procedure.md", "PdfUrl": "/media/In-Character/Unofficial_Alien_Contact_Procedure.pdf"}}
 {"type": "node", "id": "article/writers-guide", "kind": "article", "name": "The Writer's Guide", "props": {"ContentUrl": "/content/out-of-character/writers-guide.md", "PdfUrl": "/media/Writer%27s+Guide.pdf"}}
+{"type": "node", "id": "video/2495-05_cnn-mariecelestaspecial-excerpt", "kind": "video", "name": "Celestial News Network - Marie Celesta Special (Excerpt)", "props": {"Series": "Celestial News Network", "YouTubeVideoId": "zNSSDdrQXWY", "ContentUrl": "/content/videos/2495-05_cnn-mariecelestaspecial-excerpt.md", "MissionRef": "2495-05_boarding-action-mariecelesta"}}
+{"type": "node", "id": "video/altair-iv_cure-negotiation-1", "kind": "video", "name": "Cure Negotiation - Part 1", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "hjg3wSdudg8", "ContentUrl": "/content/videos/altair-iv_cure-negotiation-1.md"}}
+{"type": "node", "id": "video/altair-iv_cure-negotiation-2", "kind": "video", "name": "Cure Negotiation - Part 2", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "NmKXEN4V6Tc", "ContentUrl": "/content/videos/altair-iv_cure-negotiation-2.md"}}
+{"type": "node", "id": "video/altair-iv_dropship-bug-out", "kind": "video", "name": "5 Coy Come Under Fire Boarding the Dropship", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "zMQlaMsIcx4", "ContentUrl": "/content/videos/altair-iv_dropship-bug-out.md"}}
+{"type": "node", "id": "video/altair-iv_final-pack-up", "kind": "video", "name": "Altair IV - Final Pack Up", "props": {"Series": "Behind the Scenes", "YouTubeVideoId": "VA0dF2YVV2E", "ContentUrl": "/content/videos/altair-iv_final-pack-up.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-01", "kind": "video", "name": "Krystal Spyers Report 1", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "UF35M-yCeTc", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-01.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-02", "kind": "video", "name": "Krystal Spyers Report 2", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "gi5_L-2uO30", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-02.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-04", "kind": "video", "name": "Krystal Spyers Report 4", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "LqnhyId3nkY", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-04.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-05", "kind": "video", "name": "Krystal Spyers Report 5", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "GDWWlaN5X9c", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-05.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-06", "kind": "video", "name": "Krystal Spyers Report 6", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "5fmEM2dcQfs", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-06.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-07", "kind": "video", "name": "Krystal Spyers Report 7", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "bEAXdNv9BfM", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-07.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-08", "kind": "video", "name": "Krystal Spyers Report 8", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "UvwOuJsh24E", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-08.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-09", "kind": "video", "name": "Krystal Spyers Report 9", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "JlubgarnUgA", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-09.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-10", "kind": "video", "name": "Krystal Spyers Report 10", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "psYWauyI7iI", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-10.md"}}
+{"type": "node", "id": "video/altair-iv_krystal-spyers-report-11", "kind": "video", "name": "Krystal Spyers Report 11", "props": {"Series": "Krystal Spyers Reports - Altair IV", "YouTubeVideoId": "1YQEyeWIoeQ", "ContentUrl": "/content/videos/altair-iv_krystal-spyers-report-11.md"}}
+{"type": "node", "id": "video/altair-iv_marine-assault", "kind": "video", "name": "Marine Assault", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "EpULg3kPe2U", "ContentUrl": "/content/videos/altair-iv_marine-assault.md"}}
+{"type": "node", "id": "video/altair-iv_prepare-to-leave", "kind": "video", "name": "5 Coy Prepare to Leave the Planet", "props": {"Series": "5 Coy on Altair IV", "YouTubeVideoId": "NJSV3XgUpDg", "ContentUrl": "/content/videos/altair-iv_prepare-to-leave.md"}}
 {"type": "edge", "from": "character/abdijitaparov-djamalodine", "p": "employedBy", "o": "organisation/www-news", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/abdijitaparov-djamalodine", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Journalist", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/adder", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
@@ -842,6 +868,7 @@
 {"type": "edge", "from": "character/baron-lukel", "p": "note", "v": "Imposed another communications blackout on Sirius and reportedly sent a representative to CMC Central Command", "date": "2493-03", "sources": ["article/interstella_2493-03"]}
 {"type": "edge", "from": "character/baron-lukel", "p": "note", "v": "Imposed a news blackout on Sirius; his representative recently visited CMC HQ", "date": "2493-06", "sources": ["article/interstella_2493-06"]}
 {"type": "edge", "from": "character/baron-lukel", "p": "status", "v": "Dead - sudden death in rumoured bizarre circumstances", "date": "2496-02", "sources": ["article/cnnnewsline_2496-03"]}
+{"type": "edge", "from": "character/baron-lukel", "p": "note", "v": "Sirius is a hereditary dictatorship ruled by its owners, the Lukel Barony; colonised by Lukel serfs from 2398", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "character/bart-grant", "p": "memberOf", "o": "organisation/grant-clan", "sources": ["article/2494-03_mission-sidewinder"]}
 {"type": "edge", "from": "character/bart-grant", "p": "participatedIn", "o": "mission/2494-03_mission-sidewinder", "sources": ["article/2494-03_mission-sidewinder"]}
 {"type": "edge", "from": "character/bart-grant", "p": "relative", "o": "character/amos-grant", "v": "kinsman of", "sources": ["article/2494-03_mission-sidewinder"]}
@@ -1207,6 +1234,7 @@
 {"type": "edge", "from": "character/derrin-sal", "p": "role", "v": "Camera-man to Krystal Spyers", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/derrin-sal", "p": "relatedTo", "o": "character/krysal-spyers", "v": "Her camera-man", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/derrin-sal", "p": "status", "v": "Never recovered after a close-range IR dose from 5 Coy marines on Altair IV", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "character/derrin-sal", "p": "status", "v": "Reported by Krystal Spyers as killed by the marines on Altair IV", "date": "2491-12", "note": "She says only 'my cameraman'; the Special Edition says Sal never recovered", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
 {"type": "edge", "from": "character/deter-francis", "p": "role", "v": "Senator, Hal", "sources": ["article/2494-04_mission-ogre"]}
 {"type": "edge", "from": "character/deter-francis", "p": "participatedIn", "o": "mission/2494-04_mission-ogre", "role": "Gave 5 Coy its orders on planet", "sources": ["article/2494-04_mission-ogre"]}
 {"type": "edge", "from": "character/deter-francis", "p": "commanded", "o": "organisation/senator-francis-guard", "sources": ["article/2494-04_mission-ogre"]}
@@ -1417,6 +1445,8 @@
 {"type": "edge", "from": "character/gibson", "p": "status", "v": "CMC HQ inquiry into his alleged involvement with stolen Boddenite from Pholax-3 found no grounds to act, the only evidence being the late Ms Jones's statement; file closed", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "character/gill-lt", "p": "rank", "v": "Lieutenant", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/gill-lt", "p": "memberOf", "o": "organisation/5-coy", "date": "2491-12", "note": "'Lt Gill and his men'; possibly a short or garbled form of Gillham/Gillian (character/gillham-major, a Captain in 2492) - not merged, needs review", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "character/gill-lt", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "role": "Named by Krystal Spyers as the officer in charge of the company when her crew was fired on", "note": "Auto-captions: 'leftenant Gil'", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
+{"type": "edge", "from": "character/gill-lt", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
 {"type": "edge", "from": "character/gillham-a", "p": "rank", "v": "Colonel", "sources": ["article/honours_1995-08-23"]}
 {"type": "edge", "from": "character/gillham-a", "p": "founded", "o": "organisation/uw-rapid-reaction-battalion", "sources": ["article/2495-11_mission-nova"]}
 {"type": "edge", "from": "character/gillham-a", "p": "award", "v": "Commendation Decoration (proposed): development of the Rapid Reaction Battalion", "sources": ["article/honours_1995-08-23"]}
@@ -1740,6 +1770,15 @@
 {"type": "edge", "from": "character/krysal-spyers", "p": "note", "v": "Filmed 5 Coy on Altair IV during the plague; hit by IR, struck with a rifle butt by a marine, caught the plague and took a dose of the cure from a dealers' APC; accused 5 Coy of brutality and negligence", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/krysal-spyers", "p": "relatedTo", "o": "character/harris-reece", "v": "Accused Lt Harris of attacking her crew and smashing her camera", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/krysal-spyers", "p": "note", "v": "Treated by the UW medical team at Little Dunnet-on-the-Marsh, Connet; claimed it was for Hansen's Disease", "sources": ["article/cnnnewsline_2496-01"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "role": "News reporter filming 5 Coy", "note": "Video reports; YouTube titles spell her 'Crystal Spires' for reports 2, 4, 5 and 6", "sources": ["video/altair-iv_krystal-spyers-report-01", "video/altair-iv_krystal-spyers-report-09", "video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-02", "sources": ["video/altair-iv_krystal-spyers-report-02"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-05", "sources": ["video/altair-iv_krystal-spyers-report-05"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-07", "sources": ["video/altair-iv_krystal-spyers-report-07"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-08", "sources": ["video/altair-iv_krystal-spyers-report-08"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-09", "sources": ["video/altair-iv_krystal-spyers-report-09"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-10", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/krysal-spyers", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-11", "sources": ["video/altair-iv_krystal-spyers-report-11"]}
 {"type": "edge", "from": "character/kshell", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/kshell", "p": "rank", "v": "MFC", "at": "mission/2496-02_mission-intruder", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "character/kshell", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Charged after the shuttle rescue (SIB)", "sources": ["article/2496-02_mission-intruder"]}
@@ -1955,6 +1994,7 @@
 {"type": "edge", "from": "character/mexal", "p": "participatedIn", "o": "mission/2501-10_operation-hammerhead", "note": "Jacket lists: Hammerhead October 2501 (X255)", "sources": ["article/personnel-jacket_mexal-mx110424"]}
 {"type": "edge", "from": "character/mexal", "p": "participatedIn", "o": "mission/2502-01_operation-dawn", "note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)", "sources": ["article/personnel-jacket_mexal-mx110424"]}
 {"type": "edge", "from": "character/mexal", "p": "participatedIn", "o": "mission/2502-05_operation-strongarm", "note": "Jacket lists: Strongarm May 2502 (Chau Sara)", "sources": ["article/personnel-jacket_mexal-mx110424"]}
+{"type": "edge", "from": "character/mexal", "p": "authored", "v": "Recruiting piece in the 1995 Dark Horizons flyer, by 'the first from my planet CoedArian' to join the CMC", "note": "The flyer does not name her; identified from the CoedArian reference", "sources": ["article/darkhorizons-flyer_1995"]}
 {"type": "edge", "from": "character/mickelhob", "p": "rank", "v": "Captain", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
 {"type": "edge", "from": "character/mickelhob", "p": "participatedIn", "v": "Fomalhaut, 2492 (Iowa Power radioactive delivery)", "role": "Broadcast the alert from the Iowa Power site", "date": "2492-04", "note": "Affiliation not stated", "sources": ["article/interstella_2492-04"]}
 {"type": "edge", "from": "character/miller", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
@@ -1979,6 +2019,12 @@
 {"type": "edge", "from": "character/mimiannapandawawa", "p": "rank", "v": "Sgn Mjr", "at": "mission/2495-02_mission-unknown", "note": "Given as 'Sgn Mjr Pandawawa'; other sources call her Surgeon Commander, so possibly an error in the issue", "sources": ["article/interstella_2495-03"]}
 {"type": "edge", "from": "character/mimiannapandawawa", "p": "participatedIn", "o": "mission/2495-04_mission-unknown", "role": "With Sgt Chaos declared Capt Zwalf unfit to command; said the deaths 'should never have happened'", "sources": ["article/interstella_2495-05"]}
 {"type": "edge", "from": "character/mimiannapandawawa", "p": "rank", "v": "Sgn Cmdr", "at": "mission/2495-04_mission-unknown", "sources": ["article/interstella_2495-05"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "rank", "v": "Sergeant", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "role", "v": "Medic", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "memberOf", "o": "organisation/5-coy", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "sources": ["video/altair-iv_krystal-spyers-report-02", "video/altair-iv_krystal-spyers-report-10", "video/altair-iv_cure-negotiation-2"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "note", "v": "Krystal Spyers says he told his lieutenant there was enough cure for everyone when there wasn't enough for his own marines", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "character/miracle-sgt", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-02", "note": "Auto-captions: 'Sergeant Miracle Jason Miracle' - the first name is uncertain", "sources": ["video/altair-iv_krystal-spyers-report-02"]}
 {"type": "edge", "from": "character/morgan-blake", "p": "employedBy", "o": "organisation/interstella", "role": "Reporter", "sources": ["article/interstella_2492-06"]}
 {"type": "edge", "from": "character/morgan-blake", "p": "authored", "o": "article/interstella_2492-04", "role": "'Fraud - Bankrupt Baron!', filed from Tremus Dex", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
 {"type": "edge", "from": "character/morgan-blake", "p": "employedBy", "o": "organisation/interstella", "role": "Reporter (Tremus Dex)", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
@@ -2019,6 +2065,7 @@
 {"type": "edge", "from": "character/nasco", "p": "relatedTo", "o": "organisation/de-witt-mining", "v": "In league with (according to Diamond)", "sources": ["article/interstella_2494-11"]}
 {"type": "edge", "from": "character/nasco", "p": "appearsIn", "o": "mission/2495-03_mission-unknown", "role": "Reported present on Connet, dedicated to spreading plague to eradicate 'deviants'", "note": "In 5 Coy's reports of an 'alternative' 5 Coy from another reality attacking the marines; it is unclear whether this was the real person or an alternate; the article asks 'if there is more than one Nasco'", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "character/nasco", "p": "status", "v": "Rumoured killed in a bungled capture attempt before meeting the Brotherhood to buy a squad captured from Crossroads", "date": "2496-03", "sources": ["article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "character/nasco", "p": "note", "v": "Krystal Spyers' security man on Altair IV waved written orders from Colonel Nasco; the 5 Coy officer used the same orders to take him into custody", "date": "2491-12", "note": "Auto-captions: 'Colonel nasto' / 'colon Nas'", "sources": ["video/altair-iv_krystal-spyers-report-09"]}
 {"type": "edge", "from": "character/nathan-archer", "p": "memberOf", "o": "organisation/sugar-mice", "role": "Equipment Location Specialist (Finder)", "sources": ["article/writers-guide"]}
 {"type": "edge", "from": "character/naylor-helen", "p": "employedBy", "o": "organisation/interstella", "role": "Contributions to be forwarded to her", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
 {"type": "edge", "from": "character/naylor-helen", "p": "employedBy", "o": "organisation/interstella", "role": "Contributions to be forwarded to her", "date": "2494-10", "sources": ["article/interstella_2494-10"]}
@@ -2395,6 +2442,8 @@
 {"type": "edge", "from": "character/skeln", "p": "participatedIn", "o": "mission/2495-03_mission-unknown", "role": "Recruit", "sources": ["article/mexals-letters_2495-03_connet"]}
 {"type": "edge", "from": "character/slug", "p": "participatedIn", "o": "mission/2495-05_boarding-action-mariecelesta", "role": "One of three survivors rescued from the SS Marie Celesta", "sources": ["article/interstella_2495-06"]}
 {"type": "edge", "from": "character/slug", "p": "note", "v": "Issued a cheerfully deranged statement about his voyage; his psychiatric treatment continues", "date": "2495-06", "sources": ["article/interstella_2495-06"]}
+{"type": "edge", "from": "character/slug", "p": "note", "v": "Named as Robert Anderson; made a fortune on talk shows and opened a chain of health farms selling 'high rad' treatment", "date": "2495", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
+{"type": "edge", "from": "character/slug", "p": "appearsIn", "o": "video/2495-05_cnn-mariecelestaspecial-excerpt", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
 {"type": "edge", "from": "character/smith-j", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
 {"type": "edge", "from": "character/smith-j", "p": "rank", "v": "Sergeant", "date": "2496-01", "sources": ["article/honours_1995-08-23"]}
 {"type": "edge", "from": "character/smith-j", "p": "status", "v": "Killed in action", "date": "2496-01", "sources": ["article/honours_1995-08-23"]}
@@ -2417,6 +2466,7 @@
 {"type": "edge", "from": "character/steele-cpl", "p": "rank", "v": "Corporal", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/steele-cpl", "p": "memberOf", "o": "organisation/5-coy", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "character/steele-cpl", "p": "status", "v": "Died after setting off a booby trap that blew his leg off; medical help took over 20 minutes", "date": "2491-12", "note": "Spelt both Steele and Steel in the article", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "character/steele-cpl", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "note": "Probably: the auto-captions hear 'Ste ... steel' as the crew is pushed out - uncertain", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
 {"type": "edge", "from": "character/stephani-perry", "p": "memberOf", "o": "organisation/sugar-mice", "role": "Pilot (Wings)", "sources": ["article/writers-guide"]}
 {"type": "edge", "from": "character/stephen-park", "p": "relatedTo", "o": "character/edward-carter", "v": "Reporting team", "sources": ["article/scenario-drive-wars-scenario-notes"]}
 {"type": "edge", "from": "character/sterling", "p": "memberOf", "o": "organisation/5-coy", "sources": ["article/honours_1995-08-23"]}
@@ -2751,22 +2801,27 @@
 {"type": "edge", "from": "organisation/5-coy", "p": "opposes", "o": "organisation/the-brotherhood", "v": "Running battle on Altair IV", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/5-coy", "p": "note", "v": "Accused by Krystal Spyers of brutality towards her crew and of letting men die of the plague on Altair IV; Brotherhood accusations of projectile weapon use were before UW sessions", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/5-coy", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "note": "The Voice accuses 5coy of instigating the Hal rebellion and of murdering civilians near Ruaros", "sources": ["article/thevoice_2495-07"]}
+{"type": "edge", "from": "organisation/5-coy", "p": "partOf", "o": "organisation/cmc-iv-field-regiment", "note": "'5th Company, 4th Field Regiment CMC, the spearhead of the Immediate Response Battalion'", "sources": ["article/darkhorizons-flyer_1995"]}
+{"type": "edge", "from": "organisation/5-coy", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "note": "The last company left on Altair IV as the base was evacuated; lifted off by dropship under fire", "sources": ["video/altair-iv_krystal-spyers-report-01", "video/altair-iv_dropship-bug-out"]}
 {"type": "edge", "from": "organisation/aldebaran-union", "p": "appearsIn", "o": "article/interstella_2494-10", "note": "Destination of Ehlana Parnell's diplomatic mission", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/aldsys-spaceyards", "p": "note", "v": "Part of the Parnell-led consortium that won Nordberg's order for 4 super-carriers", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/aldsys-spaceyards", "p": "relatedTo", "o": "organisation/parnell-industries", "role": "Consortium partner", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/alfatek-systems", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/alfatek-systems", "p": "supplies", "o": "organisation/colonial-marine-corps", "v": "Arms and equipment (also for other security forces)", "date": "2493-06", "sources": ["article/interstella_2493-06"]}
 {"type": "edge", "from": "organisation/alfatek-systems", "p": "note", "v": "An Alfatek employee is believed to be the source of rumours that experimental squad heavy support weapons went missing from CMC Research labs; Alfatek declined to comment", "date": "2493-06", "sources": ["article/interstella_2493-06"]}
+{"type": "edge", "from": "organisation/alfatek-systems", "p": "basedAt", "v": "Paronis", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/amish-homeworld", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Neutral population", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/amish-zealots", "p": "partOf", "o": "organisation/amish-homeworld", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/amish-zealots", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Hostile", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/argaran-corporation", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/argaran-corporation", "p": "basedAt", "v": "Chi Draconis", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/banordyne", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Hostile (security teams)", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/banordyne", "p": "note", "v": "Field testing station on Insalon III raided by Nas-Corp-recruited locals", "date": "2491-08", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/banordyne", "p": "note", "v": "Troops reportedly bombed Nas-Corp's main R&D labs and fled with genetic samples and a rumoured fully developed specimen; their vessel was destroyed fleeing a UW ship through an asteroid belt", "date": "2492-10", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/banordyne", "p": "participatedIn", "v": "Genetics scandal: genetically engineered \"alien\" creature on an unnamed planet", "role": "Covert recovery team", "date": "2492-10", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/banordyne", "p": "status", "v": "Assets frozen and Directors removed for questioning; CMC forces drafted into all its facilities", "date": "2492-11", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/banordyne", "p": "note", "v": "Spokesman strongly denied genetic manipulation, calling the evidence purely circumstantial", "date": "2492-12", "sources": ["article/interstella_2492-12"]}
+{"type": "edge", "from": "organisation/banordyne", "p": "basedAt", "v": "Bessieres", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/barnard-puritan-party", "p": "relatedTo", "o": "organisation/puritans", "note": "Name only; the article does not describe its link to the wider Puritan movement", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/barnard-puritan-party", "p": "opposes", "o": "organisation/csca", "v": "Accused it of promoting genetic equality and genetically engineered 'freaks'", "date": "2494-10", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/barnard-puritan-party", "p": "basedAt", "v": "Barnards Star", "sources": ["article/interstella_2494-10"]}
@@ -2776,6 +2831,7 @@
 {"type": "edge", "from": "organisation/blackwell-power", "p": "status", "v": "Built the first starship, the Santa Marie, with Parnell Industries (2065)", "sources": ["article/a-brief-guide-to-history"]}
 {"type": "edge", "from": "organisation/blackwell-power", "p": "note", "v": "Managing Director Marcus Pinucchi; Jupiter Pinucchi moved into Blackwell Power's suite in the Galactic Hilton", "date": "2493-06", "sources": ["article/interstella_2493-06"]}
 {"type": "edge", "from": "organisation/blackwell-power", "p": "note", "v": "Denied that Professor Merrilion sold a prototype to Malenski Transportation; staff searched his labs for anything taken", "date": "2494-11", "sources": ["article/interstella_2494-12"]}
+{"type": "edge", "from": "organisation/blackwell-power", "p": "basedAt", "v": "Monro", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/cds", "p": "opposes", "o": "organisation/marine-training-corps", "v": "Complained the CMC was forcing militaristic propaganda on youngsters", "date": "2494-10", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/chidanians", "p": "participatedIn", "o": "mission/2493-11_mission-vortex", "role": "Hostile (mission target)", "sources": ["article/briefing-notes_mision-vortex"]}
 {"type": "edge", "from": "organisation/chidanians", "p": "status", "v": "Chidan province declared independence in the Groombridge Central House", "date": "2492-05", "sources": ["article/interstella_2492-05"]}
@@ -2803,6 +2859,8 @@
 {"type": "edge", "from": "organisation/cnn", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Press; reporters ejected from base", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/cnn", "p": "note", "v": "A CNN newscrew was murdered on Pholax-3 in September 2493", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
 {"type": "edge", "from": "organisation/cnn", "p": "note", "v": "Published CNN Newsbulletin (Issue 1, January 2496), renamed CNN Newsline from Issue 3 (March 2496); editor Benjamin Maguire", "sources": ["article/cnnnewsline_2496-01"]}
+{"type": "edge", "from": "organisation/cnn", "p": "note", "v": "Made a special report on the loss, discovery and destruction of the Marie Celesta, using the Garavaglia II's flight recorder", "date": "2495", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
+{"type": "edge", "from": "organisation/cnn", "p": "appearsIn", "o": "video/2495-05_cnn-mariecelestaspecial-excerpt", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
 {"type": "edge", "from": "organisation/coedarian", "p": "appearsIn", "o": "article/mexals-letters_2493-03_kruger", "note": "Described here", "sources": ["article/mexals-letters_2493-03_kruger"]}
 {"type": "edge", "from": "organisation/coedarian", "p": "note", "v": "Its Elders attended the consecration of the first Primate of CoedArian in Goldenwood Cathedral", "date": "2494-09-10", "sources": ["article/interstella_2494-11"]}
 {"type": "edge", "from": "organisation/colonial-marine-corps", "p": "partOf", "o": "organisation/united-worlds", "sources": ["article/a-brief-guide-to-history"]}
@@ -2831,6 +2889,7 @@
 {"type": "edge", "from": "organisation/de-witt-mining", "p": "opposes", "o": "character/diamond-tane", "v": "Reported to be considering suing Diamond over her Interstella! interview remarks", "date": "2494-11", "sources": ["article/interstella_2494-12"]}
 {"type": "edge", "from": "organisation/de-witt-mining", "p": "note", "v": "One of three claimants (with Iowa Power and the local people of Sheeple) in a contested property claim on Heurls before the UW Court", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "organisation/de-witt-mining", "p": "participatedIn", "o": "mission/2495-02_mission-unknown", "role": "Bought a fake claim to the disputed Dracken ore land; Iowa Power tried to frame its operatives for murder", "sources": ["article/interstella_2495-03"]}
+{"type": "edge", "from": "organisation/de-witt-mining", "p": "basedAt", "v": "Braconis", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/dea", "p": "participatedIn", "o": "mission/2495-11_mission-nova", "role": "Raided the base", "sources": ["article/2495-11_mission-nova"]}
 {"type": "edge", "from": "organisation/dea", "p": "appearsIn", "o": "article/interstella_2494-10", "note": "UW Senate calls for a fuller investigation of the CMC by the 'UQDEA' - probably a typo/OCR for UWDEA; identity with this DEA not certain", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/deep-space-research-unit", "p": "appearsIn", "o": "article/interim-history_2496-to-2501", "note": "Described here", "sources": ["article/interim-history_2496-to-2501"]}
@@ -2849,6 +2908,7 @@
 {"type": "edge", "from": "organisation/erasmus-corporation", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/erasmus-corporation", "p": "note", "v": "An explosion at one of its manufacturing complexes left local citizens needing treatment; it said the chemicals released were legal and blamed LAW for bombing it", "date": "2492-01", "sources": ["article/interstella_2492-01"]}
 {"type": "edge", "from": "organisation/erasmus-corporation", "p": "note", "v": "Its Third Under-Manager on Eta Ceptai, Jaz Matlocke, was to supply chemicals for an Urthankoi artificial virus; two Erasmus techs were murdered by an Urthankoi thief", "date": "2492-02", "sources": ["article/interstella_2492-03"]}
+{"type": "edge", "from": "organisation/erasmus-corporation", "p": "basedAt", "v": "Kruger", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/evolution-party", "p": "partOf", "o": "organisation/groombridge-planetary-government", "note": "One of the main parties", "sources": ["article/briefing-notes_mision-vortex"]}
 {"type": "edge", "from": "organisation/first-bank-of-groombridge", "p": "basedAt", "v": "Groombridge", "sources": ["article/interstella_2493-03"]}
 {"type": "edge", "from": "organisation/first-bank-of-groombridge", "p": "status", "v": "First ever theft from its vaults (Winno's \"Space Fatigue\"); Managing Director unavailable for comment; Board investigating", "date": "2493-03", "sources": ["article/interstella_2493-03"]}
@@ -2862,7 +2922,9 @@
 {"type": "edge", "from": "organisation/future-party", "p": "note", "v": "Denied responsibility for a spate of ritual-style killings on Groombridge", "date": "2492-12", "sources": ["article/interstella_2492-12"]}
 {"type": "edge", "from": "organisation/garp-corporation", "p": "owns", "v": "Sirius (from March 2496, with De Witt Mining)", "sources": ["article/interim-history_2496-to-2501"]}
 {"type": "edge", "from": "organisation/garp-corporation", "p": "participatedIn", "o": "mission/2496-03_mission-redstorm", "role": "Hostile; bought Sirius from DeSignieur and began fortifying it against the UW", "sources": ["article/2496-03_mission-redstorm"]}
+{"type": "edge", "from": "organisation/garp-corporation", "p": "basedAt", "v": "Ross", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/gem-star-holdings", "p": "supplies", "o": "organisation/colonial-marine-corps", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/gem-star-holdings", "p": "basedAt", "v": "Dawn", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/gems", "p": "partOf", "o": "organisation/uw-special-forces", "note": "Former SF members", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/gems", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Subjects of the mission", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/grant-clan", "p": "participatedIn", "o": "mission/2494-03_mission-sidewinder", "role": "Local faction", "sources": ["article/2494-03_mission-sidewinder"]}
@@ -2879,6 +2941,7 @@
 {"type": "edge", "from": "organisation/hadens-worthy", "p": "owns", "v": "SS Marie Celesta", "sources": ["article/interstella_2495-06"]}
 {"type": "edge", "from": "organisation/hadens-worthy", "p": "note", "v": "Its security droids guarded sensitive areas of the Marie Celesta", "at": "mission/2495-05_boarding-action-mariecelesta", "sources": ["article/interstella_2495-06"]}
 {"type": "edge", "from": "organisation/hadens-worthy", "p": "note", "v": "Contesting salvage claims on the Marie Celesta, which they say no longer exists", "date": "2496-03", "sources": ["article/cnnnewsline_2496-01", "article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "organisation/hadens-worthy", "p": "owns", "v": "SS Marie Celesta", "note": "Auto-captions: 'hanesworth Spaceway Starliner'", "sources": ["video/2495-05_cnn-mariecelestaspecial-excerpt"]}
 {"type": "edge", "from": "organisation/hal-12th-cohort", "p": "partOf", "o": "organisation/hal-planetary-defence", "sources": ["article/2495-07_mission-omaha"]}
 {"type": "edge", "from": "organisation/hal-12th-cohort", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "role": "Hostile", "sources": ["article/2495-07_mission-omaha"]}
 {"type": "edge", "from": "organisation/hal-49th-unified", "p": "partOf", "o": "organisation/hal-planetary-defence", "sources": ["article/2495-07_mission-omaha"]}
@@ -2903,7 +2966,9 @@
 {"type": "edge", "from": "organisation/hobygames", "p": "note", "v": "Delivery shuttle hijacked by youths queuing for a new Magic release", "date": "2495-04", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/holy-defenders-of-juliet", "p": "opposes", "o": "organisation/palmini-defence-systems", "date": "2496-02", "sources": ["article/cnnnewsline_2496-03"]}
 {"type": "edge", "from": "organisation/hommilabs", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/hommilabs", "p": "basedAt", "v": "Barnards", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/ickthyn-services", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/ickthyn-services", "p": "basedAt", "v": "Chi Draconis", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/in-the-line-of-fire", "p": "appearsIn", "o": "article/itlof_2495-01", "note": "Described here", "sources": ["article/itlof_2495-01"]}
 {"type": "edge", "from": "organisation/in-the-line-of-fire", "p": "note", "v": "First issue appeared in January 2495, written by marines for marines", "date": "2495-01", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "organisation/in-the-line-of-fire", "p": "note", "v": "Referred to as 'In the Line of Dire'; 'survived another month'", "date": "2495-03", "sources": ["article/interstella_2495-03"]}
@@ -2911,6 +2976,7 @@
 {"type": "edge", "from": "organisation/independance-for-clones", "p": "status", "v": "Driven underground by corporate opposition; contactable through Interstella!", "date": "2492-01", "sources": ["article/interstella_2492-01"]}
 {"type": "edge", "from": "organisation/independance-for-clones", "p": "appearsIn", "o": "article/interstella_2492-04", "note": "Aunty Trisha tells 'Anxious of NFA' to contact the IFC", "sources": ["article/interstella_2492-04"]}
 {"type": "edge", "from": "organisation/intelcorp", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/intelcorp", "p": "basedAt", "v": "Aurora", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/intergalactic-lottery-co", "p": "appearsIn", "o": "article/interstella_2492-01", "note": "Advert; Zone Box 97875452 - SERTW", "sources": ["article/interstella_2492-01"]}
 {"type": "edge", "from": "organisation/intergalactic-lottery-co", "p": "note", "v": "Launched an ad campaign after the 500th anniversary celebrations", "date": "2494-11", "sources": ["article/interstella_2494-12"]}
 {"type": "edge", "from": "organisation/intergalactic-lottery-co", "p": "appearsIn", "o": "article/interstella_2492-02", "note": "Advert", "sources": ["article/interstella_2492-02"]}
@@ -2933,11 +2999,14 @@
 {"type": "edge", "from": "organisation/iowa-power", "p": "participatedIn", "v": "Fomalhaut, 2492 (Iowa Power radioactive delivery)", "role": "Recipient of the delivery; its new planetside site was attacked by the Brotherhood and its staff killed", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
 {"type": "edge", "from": "organisation/iowa-power", "p": "note", "v": "One of three claimants (with De Witt Mining and the local people of Sheeple) in a contested property claim on Heurls before the UW Court", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "organisation/iowa-power", "p": "participatedIn", "o": "mission/2495-02_mission-unknown", "role": "Bought a fake claim to the disputed Dracken ore land; its security team committed illegal acts including murder and tried to frame De Witt operatives", "sources": ["article/interstella_2495-03"]}
+{"type": "edge", "from": "organisation/iowa-power", "p": "note", "v": "Heavily represented on Alpha Centurai", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/irag", "p": "partOf", "o": "organisation/colonial-marine-corps", "note": "Inferred from CMC comnet routing", "sources": ["article/2496-02_mission-intruder_comms-002"]}
 {"type": "edge", "from": "organisation/irag", "p": "note", "v": "Programme behind schedule and over budget; blamed on Network Systems and Parnell supplying equipment late; 'Beta' software trials due in the next few months", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
 {"type": "edge", "from": "organisation/ixtyl", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/ixtyl", "p": "basedAt", "v": "Ross", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/jefferson-electronic-systems", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/jefferson-electronic-systems", "p": "note", "v": "Announced the death of Captain Jon Terner, head of its security force; no successor named", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
+{"type": "edge", "from": "organisation/jefferson-electronic-systems", "p": "basedAt", "v": "Chi Draconis", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/jsertcom", "p": "partOf", "o": "organisation/united-worlds", "sources": ["article/dispatches_2496-03"]}
 {"type": "edge", "from": "organisation/jsertcom", "p": "note", "v": "Commences operations 09 May 2496; units must confirm qualifications by 16 Apr 2496 and ad hoc training is not recognised after 20 May 2496", "date": "2496-03", "sources": ["article/cnnnewsline_2496-03", "article/dispatches_2496-03"]}
 {"type": "edge", "from": "organisation/juliette-government", "p": "appearsIn", "o": "article/mexals-letters_2494-12_juliette", "note": "Described here", "sources": ["article/mexals-letters_2494-12_juliette"]}
@@ -2959,6 +3028,8 @@
 {"type": "edge", "from": "organisation/krugan-militia", "p": "relatedTo", "o": "organisation/5-coy", "v": "Loaned the CMC a training area on Kruger", "sources": ["article/mexals-letters_2493-03_kruger"]}
 {"type": "edge", "from": "organisation/kruger-authorities", "p": "note", "v": "Demanded a full explanation from the Corps and the UW and threatened legal proceedings over marines and a nuclear device on Kruger", "date": "2493-04", "sources": ["article/interstella_2493-04"]}
 {"type": "edge", "from": "organisation/kruger-authorities", "p": "note", "v": "The Kruger Affair: other UW worlds accuse the Krugerians of collaborating with CMC forces and demand Kruger's neutral status be removed", "date": "2493-06", "sources": ["article/interstella_2493-06"]}
+{"type": "edge", "from": "organisation/landon-industries", "p": "supplies", "o": "organisation/medi-care", "v": "4M74P Medi-Aid coprocessing board (2491)", "sources": ["article/prop-designs"]}
+{"type": "edge", "from": "organisation/landon-industries", "p": "status", "v": "Liquidated; prototypes destroyed by its own security force during a looting raid", "sources": ["article/prop-designs"]}
 {"type": "edge", "from": "organisation/league-against-warfare", "p": "opposes", "o": "organisation/united-worlds", "sources": ["article/groups-and-organisations"]}
 {"type": "edge", "from": "organisation/league-against-warfare", "p": "note", "v": "Campaigning for stricter checks on chemical and biological warfare laws after an explosion at an Erasmus Corporation complex; Erasmus said LAW had bombed the complex", "date": "2492-01", "sources": ["article/interstella_2492-01"]}
 {"type": "edge", "from": "organisation/league-against-warfare", "p": "opposes", "o": "organisation/erasmus-corporation", "date": "2492-01", "sources": ["article/interstella_2492-01"]}
@@ -2973,6 +3044,7 @@
 {"type": "edge", "from": "organisation/malenski-transportation", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/malenski-transportation", "p": "note", "v": "Confirmed exec Frazer Johnson was on the tour but laughed off rumours of a secret transaction", "date": "2494-11", "sources": ["article/interstella_2494-12"]}
 {"type": "edge", "from": "organisation/malenski-transportation", "p": "note", "v": "One of its execs allegedly bought Professor Thom Merrilion's prototype teleport device", "date": "2494", "sources": ["article/interstella_2495-03"]}
+{"type": "edge", "from": "organisation/malenski-transportation", "p": "basedAt", "v": "Proxima Centurai", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/marie-celeste-mercenaries", "p": "participatedIn", "o": "mission/2495-05_boarding-action-mariecelesta", "role": "Hostile", "sources": ["article/2495-05_boarding-report-mariecelesta"]}
 {"type": "edge", "from": "organisation/marine-training-corps", "p": "partOf", "o": "organisation/colonial-marine-corps", "sources": ["article/interstella_2494-10"]}
 {"type": "edge", "from": "organisation/marine-training-corps", "p": "note", "v": "Plans revealed by CMC HQ: open to 12-16 year olds of any gender; cadets learn drill, diplomacy and security", "date": "2494-09", "sources": ["article/interstella_2494-10"]}
@@ -2980,35 +3052,43 @@
 {"type": "edge", "from": "organisation/marine-training-corps", "p": "note", "v": "Flooded by young recruits despite pacifist protests", "date": "2494-11", "sources": ["article/interstella_2494-11"]}
 {"type": "edge", "from": "organisation/marquee-models", "p": "note", "v": "Saw unprecedented demand for the 'Magic' card game", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "organisation/medi-care", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/medi-care", "p": "basedAt", "v": "Dawn", "role": "Head Office", "sources": ["article/planetary-Database"]}
+{"type": "edge", "from": "organisation/medi-care", "p": "note", "v": "MediCare research labs on Dawn designed and built the RVC-877 (4M01) medical diagnostic & repair unit, completed 2488", "sources": ["article/prop-designs"]}
 {"type": "edge", "from": "organisation/merton-publishing", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/merton-publishing", "p": "basedAt", "v": "Beta Hydri", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/military-mercantile", "p": "supplies", "o": "organisation/colonial-marine-corps", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/military-mercantile", "p": "basedAt", "v": "Groombridge (head office)", "sources": ["article/briefing-notes_mision-vortex"]}
 {"type": "edge", "from": "organisation/military-mercantile", "p": "basedAt", "v": "Groombridge", "date": "2492-12", "note": "Confirmed moving its base of operations to new locations for an unspecified period", "sources": ["article/interstella_2492-12"]}
 {"type": "edge", "from": "organisation/military-mercantile", "p": "note", "v": "Lost the bid for Nordberg's super-carriers; hinted the decision was swung by back-handers", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/military-mercantile", "p": "note", "v": "Deactivated weapons store on Groombridge looted during the Civil War", "date": "2496-01", "sources": ["article/cnnnewsline_2496-01"]}
 {"type": "edge", "from": "organisation/military-mercantile", "p": "note", "v": "Emptied a secret Colonial War weapons research base on the moon of Groombridge IV, sealed in 2323", "date": "2496-03", "sources": ["article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "organisation/military-mercantile", "p": "basedAt", "v": "Groombridge", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/nas-corp", "p": "opposes", "o": "organisation/banordyne", "note": "Suspected raid on Banordyne testing station, Insulon III", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/nas-corp", "p": "note", "v": "Recruited locals on Insalon III in August 2491 to raid Banordyne's field testing station for research notes and samples, then destroyed the site", "date": "2491-08", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/nas-corp", "p": "note", "v": "Main research facility R&D labs destroyed by a bomb in a retaliatory strike attributed to Banordyne troops", "date": "2492-10", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/nas-corp", "p": "participatedIn", "v": "Genetics scandal: genetically engineered \"alien\" creature on an unnamed planet", "role": "Covert strike-force followed the Banordyne recovery team", "date": "2492-10", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/nas-corp", "p": "status", "v": "Assets frozen and Directors removed for questioning; CMC forces drafted into all its facilities", "date": "2492-11", "sources": ["article/interstella_2492-11"]}
 {"type": "edge", "from": "organisation/nas-corp", "p": "note", "v": "Spokesman strongly denied genetic manipulation, calling the evidence purely circumstantial", "date": "2492-12", "sources": ["article/interstella_2492-12"]}
+{"type": "edge", "from": "organisation/nas-corp", "p": "basedAt", "v": "Aurora", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/nautilus", "p": "participatedIn", "o": "mission/2495-02_mission-unknown", "sources": ["article/mexals-letters_2495-02_heurls"]}
 {"type": "edge", "from": "organisation/network-systems", "p": "basedAt", "v": "Groombridge (head office)", "sources": ["article/briefing-notes_mision-vortex"]}
 {"type": "edge", "from": "organisation/network-systems", "p": "basedAt", "v": "Groombridge", "date": "2492-12", "note": "Confirmed moving its base of operations to new locations for an unspecified period", "sources": ["article/interstella_2492-12"]}
 {"type": "edge", "from": "organisation/network-systems", "p": "supplies", "o": "organisation/irag", "v": "Equipment (delivered late, per CSM Turner)", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
+{"type": "edge", "from": "organisation/network-systems", "p": "basedAt", "v": "Groombridge", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/new-light", "p": "note", "v": "Accused of threatening refugees in the Harfen region on Dawn who would not return to Groombridge; spokesperson laughed off the reports", "date": "2494-11", "sources": ["article/interstella_2494-11"]}
 {"type": "edge", "from": "organisation/new-light", "p": "note", "v": "Reported to be stirring up trouble in mixed Chidanian/Kasdunni refugee settlements (riot in the Harfen region of Dawn) and persuading refugees to return to Groombridge", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "organisation/new-worlds-inc", "p": "participatedIn", "o": "mission/2496-03_mission-redstorm", "role": "Operated the atmosphere processor", "sources": ["article/2496-03_mission-redstorm"]}
 {"type": "edge", "from": "organisation/new-worlds-inc", "p": "note", "v": "Presented a case to the UW to remove the legislation requiring terraformers to prove worlds free of sentient life", "date": "2492-01", "sources": ["article/interstella_2492-01"]}
 {"type": "edge", "from": "organisation/new-worlds-inc", "p": "note", "v": "Rumoured to have destroyed alien artifacts to avoid interruption of a terraforming job on an unnamed world; an exec dismissed the claim as Hengist publicity-seeking", "date": "2492-03", "sources": ["article/interstella_2492-03"]}
 {"type": "edge", "from": "organisation/new-worlds-inc", "p": "note", "v": "Continued to deny destroying alien artifacts to get round UW terraforming law", "date": "2492-04", "sources": ["article/interstella_2492-04"]}
+{"type": "edge", "from": "organisation/new-worlds-inc", "p": "basedAt", "v": "Bessieres", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/news-associates", "p": "note", "v": "Journalists Greg Bryant and Bryn Jarvis arrested leaving Maine, a closed colony world", "date": "2496-01", "sources": ["article/cnnnewsline_2496-03"]}
 {"type": "edge", "from": "organisation/night-hawks", "p": "participatedIn", "o": "mission/2496-03_mission-redstorm", "role": "Hostile", "sources": ["article/2496-03_mission-redstorm"]}
 {"type": "edge", "from": "organisation/night-hawks", "p": "relatedTo", "o": "organisation/puritans", "v": "Possible links through Nasco", "sources": ["article/2496-03_mission-redstorm"]}
 {"type": "edge", "from": "organisation/nordberg-shipping", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/nordberg-shipping", "p": "note", "v": "Ordered 4 'super-carriers', more than 5 times larger than any current interstellar transporter", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/nordberg-shipping", "p": "note", "v": "Ship Pride of Harfen went missing near the Felspite system; SS Galah found asteroid 2309 Mr Spock while searching", "date": "2496-03", "sources": ["article/cnnnewsline_2496-03", "article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "organisation/nordberg-shipping", "p": "basedAt", "v": "Dawn", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/nu-phoenicians", "p": "appearsIn", "o": "article/groups-and-organisations", "note": "Described here", "sources": ["article/groups-and-organisations"]}
 {"type": "edge", "from": "organisation/nyytoda-federal-police", "p": "participatedIn", "o": "mission/2494-03_mission-sidewinder", "sources": ["article/2494-03_mission-sidewinder"]}
 {"type": "edge", "from": "organisation/odonnald-family", "p": "participatedIn", "o": "mission/2494-06_mission-pegasus", "role": "Survivors", "sources": ["article/2494-06_mission-pegasus"]}
@@ -3023,6 +3103,7 @@
 {"type": "edge", "from": "organisation/palmini-defence-systems", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/palmini-defence-systems", "p": "note", "v": "Building the Planetary Occlusive Defence (POD) system for an unnamed client; rented five factories on Barnards", "date": "2496-02", "sources": ["article/cnnnewsline_2496-03"]}
 {"type": "edge", "from": "organisation/palmini-defence-systems", "p": "basedAt", "v": "Barnards", "sources": ["article/cnnnewsline_2496-03"]}
+{"type": "edge", "from": "organisation/palmini-defence-systems", "p": "basedAt", "v": "Barnards", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/parnell-industries", "p": "opposes", "o": "organisation/tyrell-corporation", "note": "Charged with trying to suppress Tyrell's new Jump Drive Controller", "sources": ["article/scenario-drive-wars-2-scenario-notes"]}
 {"type": "edge", "from": "organisation/parnell-industries", "p": "status", "v": "Discovered the Jump Synchronicity Enabler (JSE)", "date": "2135", "sources": ["article/a-brief-guide-to-history"]}
 {"type": "edge", "from": "organisation/parnell-industries", "p": "note", "v": "Interstella says all 'elves' originated from the Parnell labs on Lumiere", "date": "2493-04", "note": "Text says 'the Parnell labs'", "sources": ["article/interstella_2493-04"]}
@@ -3033,6 +3114,7 @@
 {"type": "edge", "from": "organisation/parnell-industries", "p": "note", "v": "To build a new industrial city in Northvale, Lumiere, for Groombridge refugees; environmentalists' objections dismissed", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
 {"type": "edge", "from": "organisation/parnell-industries", "p": "note", "v": "Press release claiming the Marie Celesta is still partially intact", "date": "2496-01", "sources": ["article/cnnnewsline_2496-01"]}
 {"type": "edge", "from": "organisation/parnell-industries", "p": "note", "v": "Share price fell after large-scale embezzlement; trading suspended", "date": "2495-07", "sources": ["article/thevoice_2495-07"]}
+{"type": "edge", "from": "organisation/parnell-industries", "p": "basedAt", "v": "Lumiere", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/parnell-security-force", "p": "partOf", "o": "organisation/parnell-industries", "sources": ["article/scenario-drive-wars-scenario-notes"]}
 {"type": "edge", "from": "organisation/pec", "p": "basedAt", "v": "Groombridge", "sources": ["article/interstella_2493-03"]}
 {"type": "edge", "from": "organisation/pec", "p": "note", "v": "Planned to show Winno's original paintings for its fiftieth anniversary; collection shipment from Sol recalled after the theft", "date": "2493-03", "sources": ["article/interstella_2493-03"]}
@@ -3055,6 +3137,7 @@
 {"type": "edge", "from": "organisation/restyk-corporation", "p": "participatedIn", "o": "mission/2496-02_mission-intruder", "role": "Hostile (security teams); partner in Project Gemstone", "sources": ["article/2496-02_mission-intruder"]}
 {"type": "edge", "from": "organisation/restyk-corporation", "p": "note", "v": "Advertised gene-typed clones with special reductions for planetary security teams and CMC forces", "date": "2492-01", "sources": ["article/interstella_2492-01"]}
 {"type": "edge", "from": "organisation/restyk-corporation", "p": "note", "v": "Investigated by the UW Serious Fraud Office and fined (hundreds of millions) for grievous malpractice; two directors resigned", "date": "2496-03", "sources": ["article/cnnnewsline_2496-03"]}
+{"type": "edge", "from": "organisation/restyk-corporation", "p": "basedAt", "v": "Beta Hydri", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/ricottanini-family", "p": "participatedIn", "v": "Eta Ceptai, Feb 2492", "role": "Chased the Urthankoi thief who had stolen items of substantial value from them", "date": "2492-02", "sources": ["article/interstella_2492-03"]}
 {"type": "edge", "from": "organisation/ricottanini-family", "p": "note", "v": "The Head of the Family bore no malice towards 5 Coy: 'the debt had been repaid'", "date": "2492-03", "note": "Head of the Family not named. No stated link to 5 Coy Marine Gina Riccotonini (character/riccotonini); not merged", "sources": ["article/interstella_2492-03"]}
 {"type": "edge", "from": "organisation/saf-band", "p": "note", "v": "Played to a capacity crowd at the Minogue Memorial Stadium on Dawn in aid of the Groombridge Refugees Fund, raising over 2 million creds", "date": "2494-10", "sources": ["article/interstella_2494-10"]}
@@ -3062,12 +3145,17 @@
 {"type": "edge", "from": "organisation/sigma-mining", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/sigma-mining", "p": "note", "v": "Calls for it to cease sea bed operations on Alpha Centauri, blamed by many for the kelp blight", "date": "2493-06", "sources": ["article/interstella_2493-06"]}
 {"type": "edge", "from": "organisation/sigma-mining", "p": "note", "v": "Still denies its Alpha Centauri sea bed operations pollute the area, but has fitted expulsion filters to all ocean outlets; kelp yields improving", "date": "2494-09", "sources": ["article/interstella_2494-09"]}
+{"type": "edge", "from": "organisation/sigma-mining", "p": "basedAt", "v": "Alpha Centurai", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/sirian-defence-forces", "p": "appearsIn", "o": "article/2496-03_mission-redstorm", "note": "Described here", "sources": ["article/2496-03_mission-redstorm"]}
 {"type": "edge", "from": "organisation/sirius-insurgents", "p": "participatedIn", "o": "mission/2496-03_mission-redstorm", "role": "Friendly", "sources": ["article/2496-03_mission-redstorm"]}
 {"type": "edge", "from": "organisation/sjvenson-fire-and-rescue", "p": "basedAt", "v": "Sol3 (testing base on Neptune)", "sources": ["article/interim-history_2496-to-2501"]}
 {"type": "edge", "from": "organisation/sjvenson-fire-and-rescue", "p": "relatedTo", "o": "character/sjvenson-j", "note": "Family company of J Svjenson", "sources": ["article/personnel-jacket_svjenson-sj008174"]}
 {"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "article/interstella_specialedition_2491-12", "note": "Co-credited on the special edition; readers asked to send tips to it or to Interstella!", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/skeleton-news-crew", "p": "relatedTo", "o": "organisation/interstella", "v": "Co-produced the December 2491 special edition", "sources": ["article/interstella_specialedition_2491-12"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "participatedIn", "v": "Altair IV, Dec 2491 (plague)", "role": "Krystal Spyers' news crew", "sources": ["video/altair-iv_krystal-spyers-report-01", "video/altair-iv_krystal-spyers-report-07", "video/altair-iv_krystal-spyers-report-10"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-01", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-07", "sources": ["video/altair-iv_krystal-spyers-report-07"]}
+{"type": "edge", "from": "organisation/skeleton-news-crew", "p": "appearsIn", "o": "video/altair-iv_krystal-spyers-report-10", "sources": ["video/altair-iv_krystal-spyers-report-10"]}
 {"type": "edge", "from": "organisation/slaves-for-freedom", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "role": "Friendly (rebel force)", "sources": ["article/2495-07_mission-omaha"]}
 {"type": "edge", "from": "organisation/solrebrians", "p": "participatedIn", "o": "mission/2496-01_mission-kraken", "sources": ["article/mission-kraken"]}
 {"type": "edge", "from": "organisation/solrebrians", "p": "status", "v": "Broke diplomatic ties and left Sol3", "date": "2496-01", "sources": ["article/interim-history_2496-to-2501"]}
@@ -3075,8 +3163,11 @@
 {"type": "edge", "from": "organisation/stoppers", "p": "participatedIn", "o": "mission/2495-04_mission-unknown", "role": "Hostile (paid saboteurs)", "sources": ["mission/2495-04_mission-unknown"]}
 {"type": "edge", "from": "organisation/sugar-mice", "p": "appearsIn", "o": "article/personnel-jacket_turner-tj121710", "note": "Described here", "sources": ["article/personnel-jacket_turner-tj121710"]}
 {"type": "edge", "from": "organisation/svensonn-automation", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/svensonn-automation", "p": "basedAt", "v": "Aurora", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/tadson-romburg", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/tadson-romburg", "p": "basedAt", "v": "Bessieres", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/tedmann-controls", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
+{"type": "edge", "from": "organisation/tedmann-controls", "p": "basedAt", "v": "Beta Hydri", "role": "Head Office", "note": "Planetary Database names 'Stedman Controls Inc' - probably the same company, needs review", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "opposes", "o": "organisation/united-worlds", "sources": ["article/groups-and-organisations"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "opposes", "o": "organisation/colonial-marine-corps", "sources": ["article/groups-and-organisations"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "status", "v": "Took the CMC to the UW courts over projectile weapons", "date": "2491", "sources": ["article/a-brief-guide-to-history"]}
@@ -3090,6 +3181,7 @@
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Accused 5 Coy before the UW of using projectile weapons against them, backed by vid-tape evidence", "date": "2491-12", "sources": ["article/interstella_specialedition_2491-12"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Accused of trading proscribed materiel to planets under CMC interdiction", "date": "2493-10", "sources": ["article/thevoice_2493-10"]}
 {"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Reportedly due to buy a squad of marines captured from Crossroads from Nasco", "date": "2496-03", "sources": ["article/cnnnewsline_2496-04"]}
+{"type": "edge", "from": "organisation/the-brotherhood", "p": "note", "v": "Fighting 5 Coy around its compound on Altair IV; rumoured to be the target of a marine chemical weapon", "date": "2491-12", "sources": ["video/altair-iv_krystal-spyers-report-01"]}
 {"type": "edge", "from": "organisation/the-voice", "p": "note", "v": "Hostile to the UW and CMC; claims its plant was sabotaged by UW agents (July 2495)", "sources": ["article/thevoice_2493-05", "article/thevoice_2493-10", "article/thevoice_2495-07"]}
 {"type": "edge", "from": "organisation/tyrell-corporation", "p": "appearsIn", "o": "article/scenario-drive-wars-scenario-notes", "note": "Described here", "sources": ["article/scenario-drive-wars-scenario-notes"]}
 {"type": "edge", "from": "organisation/united-europe", "p": "appearsIn", "o": "article/a-brief-guide-to-history", "note": "Described here", "sources": ["article/a-brief-guide-to-history"]}
@@ -3145,6 +3237,7 @@
 {"type": "edge", "from": "organisation/uwbi", "p": "note", "v": "Ms Jones, Gibson's accuser, died whilst under UWBI protection", "date": "2494-11", "sources": ["article/interstella_2494-12"]}
 {"type": "edge", "from": "organisation/valen-pharmaceuticals", "p": "appearsIn", "o": "article/companies-and-corporations", "note": "Described here", "sources": ["article/companies-and-corporations"]}
 {"type": "edge", "from": "organisation/valen-pharmaceuticals", "p": "note", "v": "Brought in consultants D.F.Associates to improve its genetically engineered plant plantations on Nyottonda", "date": "2495-03", "sources": ["article/interstella_2495-04"]}
+{"type": "edge", "from": "organisation/valen-pharmaceuticals", "p": "basedAt", "v": "Nyottonda", "role": "Head Office", "sources": ["article/planetary-Database"]}
 {"type": "edge", "from": "organisation/warmth", "p": "participatedIn", "o": "mission/2495-02_mission-unknown", "role": "Local Eco-group that staged a short peaceful demonstration about damage to the disputed site", "sources": ["article/interstella_2495-03"]}
 {"type": "edge", "from": "organisation/warmth", "p": "note", "v": "Renamed itself 'Warmth' after an expression a marine used as a greeting to his comrades", "date": "2495-03", "sources": ["article/interstella_2495-03"]}
 {"type": "edge", "from": "organisation/wondergames", "p": "note", "v": "Producers of Magic; considering not publicising release dates after the Braconis riot", "date": "2495-04", "sources": ["article/interstella_2495-04"]}
@@ -3643,6 +3736,13 @@
 {"type": "edge", "from": "article/companies-and-corporations", "p": "mentions", "to": "organisation/tedmann-controls", "generated": true}
 {"type": "edge", "from": "article/companies-and-corporations", "p": "mentions", "to": "organisation/united-worlds", "generated": true}
 {"type": "edge", "from": "article/companies-and-corporations", "p": "mentions", "to": "organisation/valen-pharmaceuticals", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "character/mexal", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "organisation/cmc-immediate-response-battalion", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "organisation/cmc-iv-field-regiment", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "organisation/coedarian", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "organisation/colonial-marine-corps", "generated": true}
+{"type": "edge", "from": "article/darkhorizons-flyer_1995", "p": "mentions", "to": "organisation/the-brotherhood", "generated": true}
 {"type": "edge", "from": "article/disciplinary-charge_2501-10-25_calvin-vs-havoc", "p": "mentions", "to": "character/calvin-a", "generated": true}
 {"type": "edge", "from": "article/disciplinary-charge_2501-10-25_calvin-vs-havoc", "p": "mentions", "to": "character/cassell", "generated": true}
 {"type": "edge", "from": "article/disciplinary-charge_2501-10-25_calvin-vs-havoc", "p": "mentions", "to": "character/havoc", "generated": true}
@@ -4413,6 +4513,8 @@
 {"type": "edge", "from": "article/interstella_specialedition_2491-12", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
 {"type": "edge", "from": "article/interstella_specialedition_2491-12", "p": "mentions", "to": "organisation/the-brotherhood", "generated": true}
 {"type": "edge", "from": "article/interstella_specialedition_2491-12", "p": "mentions", "to": "organisation/united-worlds", "generated": true}
+{"type": "edge", "from": "article/ir-exposure-and-the-uw-medical-system", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "article/ir-exposure-and-the-uw-medical-system", "p": "mentions", "to": "organisation/united-worlds", "generated": true}
 {"type": "edge", "from": "article/itlof_2495-01", "p": "mentions", "to": "character/claudia-goldine", "generated": true}
 {"type": "edge", "from": "article/itlof_2495-01", "p": "mentions", "to": "organisation/in-the-line-of-fire", "generated": true}
 {"type": "edge", "from": "article/itlof_2495-03", "p": "mentions", "to": "character/blackthorne-w", "generated": true}
@@ -4819,7 +4921,6 @@
 {"type": "edge", "from": "article/personnel-jacket_arden-ac504994", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_axe-ar110223", "p": "mentions", "to": "character/axe-ruby", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_axe-ar110223", "p": "mentions", "to": "character/ratch-sc", "generated": true}
-{"type": "edge", "from": "article/personnel-jacket_axe-ar110223", "p": "mentions", "to": "character/tomkin", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_axe-ar110223", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_axe-ar110223", "p": "mentions", "to": "organisation/cnn", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_axe-ar110223", "p": "mentions", "to": "organisation/uw-diplomatic-service", "generated": true}
@@ -4849,7 +4950,6 @@
 {"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "character/belzakath", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "character/marine-x", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "character/mexal", "generated": true}
-{"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "character/tomkin", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "organisation/coedarian", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_mexal-mx110424", "p": "mentions", "to": "organisation/the-voice", "generated": true}
@@ -4871,7 +4971,6 @@
 {"type": "edge", "from": "article/personnel-jacket_saint-sn230195", "p": "mentions", "to": "character/saint", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_saint-sn230195", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_svjenson-sj008174", "p": "mentions", "to": "character/sjvenson-j", "generated": true}
-{"type": "edge", "from": "article/personnel-jacket_svjenson-sj008174", "p": "mentions", "to": "character/tomkin", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_svjenson-sj008174", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_svjenson-sj008174", "p": "mentions", "to": "organisation/sjvenson-fire-and-rescue", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_svjenson-sj008174", "p": "mentions", "to": "organisation/uw-rapid-reaction-battalion", "generated": true}
@@ -4882,13 +4981,53 @@
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/martha-turner", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/martins-julian", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/nasco", "generated": true}
-{"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/tomkin", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/turner-j", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/williams-wild-bill", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "organisation/sugar-mice", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_yellan-yz928192", "p": "mentions", "to": "character/yellan", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_yellan-yz928192", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "character/baron-lukel", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "character/dan-yabutsu", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/alfatek-systems", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/argaran-corporation", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/banordyne", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/blackwell-power", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/colonial-marine-corps", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/de-witt-mining", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/erasmus-corporation", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/evolution-party", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/future-party", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/garp-corporation", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/gem-star-holdings", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/groombridge-democrats", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/groombridge-puritan-party", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/hommilabs", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/ickthyn-services", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/intelcorp", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/iowa-power", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/ixtyl", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/jefferson-electronic-systems", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/malenski-transportation", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/medi-care", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/merton-publishing", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/military-mercantile", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/nas-corp", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/network-systems", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/new-worlds-inc", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/nordberg-shipping", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/palmini-defence-systems", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/parnell-industries", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/restyk-corporation", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/sigma-mining", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/svensonn-automation", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/tadson-romburg", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/tedmann-controls", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/united-europe", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/united-worlds", "generated": true}
+{"type": "edge", "from": "article/planetary-Database", "p": "mentions", "to": "organisation/valen-pharmaceuticals", "generated": true}
+{"type": "edge", "from": "article/prop-designs", "p": "mentions", "to": "organisation/landon-industries", "generated": true}
+{"type": "edge", "from": "article/prop-designs", "p": "mentions", "to": "organisation/medi-care", "generated": true}
 {"type": "edge", "from": "article/scenario-drive-wars-2-scenario-notes", "p": "mentions", "to": "character/avo-stetto", "generated": true}
 {"type": "edge", "from": "article/scenario-drive-wars-2-scenario-notes", "p": "mentions", "to": "character/turner-j", "generated": true}
 {"type": "edge", "from": "article/scenario-drive-wars-2-scenario-notes", "p": "mentions", "to": "character/vanessa-parnell", "generated": true}
@@ -5099,3 +5238,54 @@
 {"type": "edge", "from": "mission/2496-03_mission-redstorm", "p": "mentions", "to": "organisation/5-coy", "generated": true}
 {"type": "edge", "from": "mission/2496-03_mission-redstorm", "p": "mentions", "to": "organisation/night-hawks", "generated": true}
 {"type": "edge", "from": "mission/2496-03_mission-redstorm", "p": "mentions", "to": "organisation/united-worlds", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "character/slug", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "organisation/cnn", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "organisation/colonial-marine-corps", "generated": true}
+{"type": "edge", "from": "video/2495-05_cnn-mariecelestaspecial-excerpt", "p": "mentions", "to": "organisation/hadens-worthy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-1", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-2", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-2", "p": "mentions", "to": "character/miracle-sgt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_cure-negotiation-2", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_dropship-bug-out", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_dropship-bug-out", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_dropship-bug-out", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_final-pack-up", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "character/gill-lt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "character/steele-cpl", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/colonial-marine-corps", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-01", "p": "mentions", "to": "organisation/the-brotherhood", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/harris-reece", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/miracle-sgt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "character/stone-nick", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-02", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-04", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-05", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-05", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-06", "p": "mentions", "to": "character/harris-reece", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-06", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-07", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-07", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-07", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "character/harris-reece", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-08", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-09", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-09", "p": "mentions", "to": "character/nasco", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-09", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "character/derrin-sal", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "character/miracle-sgt", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-10", "p": "mentions", "to": "organisation/skeleton-news-crew", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-11", "p": "mentions", "to": "character/krysal-spyers", "generated": true}
+{"type": "edge", "from": "video/altair-iv_krystal-spyers-report-11", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_marine-assault", "p": "mentions", "to": "organisation/5-coy", "generated": true}
+{"type": "edge", "from": "video/altair-iv_marine-assault", "p": "mentions", "to": "organisation/interstella", "generated": true}
+{"type": "edge", "from": "video/altair-iv_prepare-to-leave", "p": "mentions", "to": "organisation/interstella", "generated": true}

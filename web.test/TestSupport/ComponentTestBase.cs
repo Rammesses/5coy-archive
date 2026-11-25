@@ -27,6 +27,7 @@ public abstract class ComponentTestBase
     protected Mock<IMissionsService> Missions { get; private set; }
     protected Mock<IArticlesService> Articles { get; private set; }
     protected Mock<IVideoService> Videos { get; private set; }
+    protected Mock<IChangeHistoryService> ChangeHistory { get; private set; }
     internal StubHttpHandler Http { get; private set; }
 
     /// <summary>Configuration values (e.g. "Media:BaseUrl"); set before the first render.</summary>
@@ -53,12 +54,20 @@ public abstract class ComponentTestBase
 
         Videos = new Mock<IVideoService>();
         Videos.Setup(v => v.GetItemsByMissionRef(It.IsAny<string>())).ReturnsAsync(Array.Empty<Video>());
+        Videos.Setup(v => v.GetRelatedVideos(It.IsAny<string>())).ReturnsAsync(Array.Empty<Video>());
+        Videos.Setup(v => v.GetAllVideos()).ReturnsAsync(Array.Empty<Video>());
+        Videos.Setup(v => v.GetSeries(It.IsAny<Video>())).ReturnsAsync(Array.Empty<Video>());
+
+        ChangeHistory = new Mock<IChangeHistoryService>();
+        ChangeHistory.Setup(c => c.GetEntries()).ReturnsAsync(Array.Empty<ChangeHistoryEntry>());
+        ChangeHistory.Setup(c => c.GetHighlights(It.IsAny<int>())).ReturnsAsync(Array.Empty<ChangeHistoryEntry>());
 
         Http = new StubHttpHandler();
 
         Ctx.Services.AddSingleton(Missions.Object);
         Ctx.Services.AddSingleton(Articles.Object);
         Ctx.Services.AddSingleton(Videos.Object);
+        Ctx.Services.AddSingleton(ChangeHistory.Object);
         Ctx.Services.AddSingleton(Mock.Of<IMarkdownService>());
         Ctx.Services.AddSingleton(Http.CreateClient());
         Ctx.Services.AddSingleton<IConfiguration>(_ => new ConfigurationBuilder().AddInMemoryCollection(Config).Build());

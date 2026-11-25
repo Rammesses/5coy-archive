@@ -80,11 +80,11 @@ that Marines are welcome to read them, but must remember that these are
 Classified Documents and access is strictly Out Of Character. Anyone 
 caught referring to the reports In Character will be deemed to have been 
 poking around in databases without authorisation, and will be dealt with 
-accordingly! The website is at http://www.ajohnson.demon.co.uk
+accordingly! The website is at `http://www.ajohnson.demon.co.uk` _(link dead - checked 25 Nov 2026: Demon Internet withdrew all demon.co.uk sub-domains in 2020)_
 
 Those of you who would like to try other Live Role Playing events might 
 care to look at the Adventurers' Guild website 
-(http://www.phoenix.co.uk/ag) where there are comprehensive event listings 
+(`http://www.phoenix.co.uk/ag` _(link dead - checked 25 Nov 2026: the site no longer loads)_) where there are comprehensive event listings 
 - fantasy, horror, contemporary, vampire and more.
 
 ## Mailing Lists
@@ -94,7 +94,7 @@ system development and ideas, anything Marine-related, really. The CMC-IC
 mailing list is reserved (for security reasons) to those people who have 
 attended at least one Mission since last October.
 
-To join a list, send an email to 'listserver@phoenix.co.uk with
+To join a list, send an email to [email redacted] with
 
 subscribe cmc-ooc OR subscribe cmc-ic
 

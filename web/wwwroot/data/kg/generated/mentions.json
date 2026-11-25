@@ -73,6 +73,47 @@
    "organisation/the-brotherhood",
    "organisation/united-worlds"
   ],
+  "article/planetary-Database": [
+   "character/baron-lukel",
+   "character/dan-yabutsu",
+   "organisation/alfatek-systems",
+   "organisation/argaran-corporation",
+   "organisation/banordyne",
+   "organisation/blackwell-power",
+   "organisation/colonial-marine-corps",
+   "organisation/de-witt-mining",
+   "organisation/erasmus-corporation",
+   "organisation/evolution-party",
+   "organisation/future-party",
+   "organisation/garp-corporation",
+   "organisation/gem-star-holdings",
+   "organisation/groombridge-democrats",
+   "organisation/groombridge-puritan-party",
+   "organisation/hommilabs",
+   "organisation/ickthyn-services",
+   "organisation/intelcorp",
+   "organisation/iowa-power",
+   "organisation/ixtyl",
+   "organisation/jefferson-electronic-systems",
+   "organisation/malenski-transportation",
+   "organisation/medi-care",
+   "organisation/merton-publishing",
+   "organisation/military-mercantile",
+   "organisation/nas-corp",
+   "organisation/network-systems",
+   "organisation/new-worlds-inc",
+   "organisation/nordberg-shipping",
+   "organisation/palmini-defence-systems",
+   "organisation/parnell-industries",
+   "organisation/restyk-corporation",
+   "organisation/sigma-mining",
+   "organisation/svensonn-automation",
+   "organisation/tadson-romburg",
+   "organisation/tedmann-controls",
+   "organisation/united-europe",
+   "organisation/united-worlds",
+   "organisation/valen-pharmaceuticals"
+  ],
   "article/safety-rules-and-game-play-guidelines": [],
   "article/writers-guide": [
    "character/avo-stetto",
@@ -186,6 +227,22 @@
    "character/peterson-olaf",
    "character/turner-j",
    "organisation/colonial-marine-corps"
+  ],
+  "article/darkhorizons-flyer_1995": [
+   "character/mexal",
+   "organisation/5-coy",
+   "organisation/cmc-immediate-response-battalion",
+   "organisation/cmc-iv-field-regiment",
+   "organisation/coedarian",
+   "organisation/colonial-marine-corps",
+   "organisation/the-brotherhood"
+  ],
+  "article/history-of-the-colonial-war_bessiers": [],
+  "article/incapacitation-radiation": [],
+  "article/monster-conduct": [],
+  "article/prop-designs": [
+   "organisation/landon-industries",
+   "organisation/medi-care"
   ],
   "article/itlof_2495-01": [
    "character/claudia-goldine",
@@ -1099,6 +1156,11 @@
    "character/yellan",
    "organisation/cmc-combat-engineering-department"
   ],
+  "article/ir-exposure-and-the-uw-medical-system": [
+   "organisation/5-coy",
+   "organisation/united-worlds"
+  ],
+  "article/unofficial-alien-contact-procedure": [],
   "article/cnnnewsline_2496-01": [
    "character/collins-franklin",
    "character/danton-fred",
@@ -1252,7 +1314,6 @@
   "article/personnel-jacket_axe-ar110223": [
    "character/axe-ruby",
    "character/ratch-sc",
-   "character/tomkin",
    "organisation/5-coy",
    "organisation/cnn",
    "organisation/uw-diplomatic-service"
@@ -1300,7 +1361,6 @@
    "character/belzakath",
    "character/marine-x",
    "character/mexal",
-   "character/tomkin",
    "organisation/5-coy",
    "organisation/coedarian",
    "organisation/the-voice"
@@ -1338,7 +1398,6 @@
   ],
   "article/personnel-jacket_svjenson-sj008174": [
    "character/sjvenson-j",
-   "character/tomkin",
    "organisation/5-coy",
    "organisation/sjvenson-fire-and-rescue",
    "organisation/uw-rapid-reaction-battalion"
@@ -1351,7 +1410,6 @@
    "character/martha-turner",
    "character/martins-julian",
    "character/nasco",
-   "character/tomkin",
    "character/turner-j",
    "character/williams-wild-bill",
    "organisation/5-coy",
@@ -2011,6 +2069,7 @@
    "organisation/united-worlds",
    "organisation/uw-special-forces"
   ],
+  "article/marines-handbook_contents": [],
   "article/marines-handbook_basic-combat-training": [
    "character/zwalf",
    "organisation/colonial-marine-corps"
@@ -2239,6 +2298,91 @@
    "organisation/5-coy",
    "organisation/night-hawks",
    "organisation/united-worlds"
+  ],
+  "video/altair-iv_krystal-spyers-report-01": [
+   "character/gill-lt",
+   "character/krysal-spyers",
+   "character/steele-cpl",
+   "organisation/5-coy",
+   "organisation/colonial-marine-corps",
+   "organisation/interstella",
+   "organisation/skeleton-news-crew",
+   "organisation/the-brotherhood"
+  ],
+  "video/altair-iv_krystal-spyers-report-02": [
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "character/miracle-sgt",
+   "character/stone-nick",
+   "organisation/5-coy",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_krystal-spyers-report-04": [
+   "organisation/interstella"
+  ],
+  "video/altair-iv_krystal-spyers-report-05": [
+   "character/krysal-spyers",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_krystal-spyers-report-06": [
+   "character/harris-reece",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_krystal-spyers-report-07": [
+   "character/krysal-spyers",
+   "organisation/interstella",
+   "organisation/skeleton-news-crew"
+  ],
+  "video/altair-iv_krystal-spyers-report-08": [
+   "character/harris-reece",
+   "character/krysal-spyers",
+   "organisation/5-coy",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_krystal-spyers-report-09": [
+   "character/krysal-spyers",
+   "character/nasco",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_krystal-spyers-report-10": [
+   "character/derrin-sal",
+   "character/krysal-spyers",
+   "character/miracle-sgt",
+   "organisation/interstella",
+   "organisation/skeleton-news-crew"
+  ],
+  "video/altair-iv_krystal-spyers-report-11": [
+   "character/krysal-spyers",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_marine-assault": [
+   "organisation/5-coy",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_cure-negotiation-1": [
+   "organisation/interstella"
+  ],
+  "video/altair-iv_cure-negotiation-2": [
+   "character/krysal-spyers",
+   "character/miracle-sgt",
+   "organisation/interstella"
+  ],
+  "video/altair-iv_prepare-to-leave": [
+   "organisation/interstella"
+  ],
+  "video/altair-iv_dropship-bug-out": [
+   "character/krysal-spyers",
+   "organisation/5-coy",
+   "organisation/interstella"
+  ],
+  "video/2495-05_cnn-mariecelestaspecial-excerpt": [
+   "character/slug",
+   "organisation/cnn",
+   "organisation/colonial-marine-corps",
+   "organisation/hadens-worthy"
+  ],
+  "video/altair-iv_final-pack-up": [
+   "organisation/interstella"
   ]
  },
  "ByEntity": {
@@ -2368,6 +2512,7 @@
    "article/interstella_2492-07",
    "article/interstella_2493-03",
    "article/interstella_2493-06",
+   "article/planetary-Database",
    "mission/2496-03_mission-redstorm"
   ],
   "character/bart-grant": [
@@ -2663,7 +2808,8 @@
    "article/mexals-letters_2495-05_mariecelesta"
   ],
   "character/dan-yabutsu": [
-   "article/interstella_2494-11"
+   "article/interstella_2494-11",
+   "article/planetary-Database"
   ],
   "character/dane-ryans-world": [
    "article/interstella_2494-09"
@@ -2707,7 +2853,8 @@
    "article/personnel-jacket_dekard-dr948293"
   ],
   "character/derrin-sal": [
-   "article/interstella_specialedition_2491-12"
+   "article/interstella_specialedition_2491-12",
+   "video/altair-iv_krystal-spyers-report-10"
   ],
   "character/deter-francis": [
    "article/2494-04_mission-ogre",
@@ -2920,7 +3067,8 @@
    "mission/2495-11_mission-nova"
   ],
   "character/gill-lt": [
-   "article/interstella_specialedition_2491-12"
+   "article/interstella_specialedition_2491-12",
+   "video/altair-iv_krystal-spyers-report-01"
   ],
   "character/gillham-a": [
    "article/2495-11_mission-nova",
@@ -2989,7 +3137,10 @@
    "mission/2494-06_mission-pegasus",
    "mission/2494-12_mission-classified",
    "mission/2495-01_mission-nightside",
-   "mission/2495-04_mission-unknown"
+   "mission/2495-04_mission-unknown",
+   "video/altair-iv_krystal-spyers-report-02",
+   "video/altair-iv_krystal-spyers-report-06",
+   "video/altair-iv_krystal-spyers-report-08"
   ],
   "character/harry-49": [
    "article/2495-07_mission-omaha"
@@ -3246,7 +3397,17 @@
    "article/mexals-letters_2495-01_grants-world",
    "article/mission-achilles",
    "mission/2494-04_mission-ogre",
-   "mission/2494-06_mission-pegasus"
+   "mission/2494-06_mission-pegasus",
+   "video/altair-iv_cure-negotiation-2",
+   "video/altair-iv_dropship-bug-out",
+   "video/altair-iv_krystal-spyers-report-01",
+   "video/altair-iv_krystal-spyers-report-02",
+   "video/altair-iv_krystal-spyers-report-05",
+   "video/altair-iv_krystal-spyers-report-07",
+   "video/altair-iv_krystal-spyers-report-08",
+   "video/altair-iv_krystal-spyers-report-09",
+   "video/altair-iv_krystal-spyers-report-10",
+   "video/altair-iv_krystal-spyers-report-11"
   ],
   "character/kshell": [
    "article/2496-02_mission-intruder",
@@ -3417,6 +3578,7 @@
    "article/2496-02_mission-intruder",
    "article/2496-03_mission-redstorm",
    "article/cmc-newsletter_1999-02",
+   "article/darkhorizons-flyer_1995",
    "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
    "article/general-orders_2602-05-16",
    "article/honours_1995-08-23",
@@ -3473,6 +3635,11 @@
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-07_hal"
   ],
+  "character/miracle-sgt": [
+   "video/altair-iv_cure-negotiation-2",
+   "video/altair-iv_krystal-spyers-report-02",
+   "video/altair-iv_krystal-spyers-report-10"
+  ],
   "character/morgan-blake": [
    "article/interstella_2492-04",
    "article/interstella_2492-06",
@@ -3517,7 +3684,8 @@
    "article/writers-guide",
    "mission/2492-10_mission-procyon",
    "mission/2494-06_mission-pegasus",
-   "mission/2496-03_mission-redstorm"
+   "mission/2496-03_mission-redstorm",
+   "video/altair-iv_krystal-spyers-report-09"
   ],
   "character/nathan-archer": [
    "article/writers-guide"
@@ -3852,7 +4020,8 @@
    "article/mexals-letters_2495-03_connet"
   ],
   "character/slug": [
-   "article/interstella_2495-06"
+   "article/interstella_2495-06",
+   "video/2495-05_cnn-mariecelestaspecial-excerpt"
   ],
   "character/smith-j": [
    "article/2495-01_mission-nightside",
@@ -3881,7 +4050,8 @@
    "article/interstella_2494-09"
   ],
   "character/steele-cpl": [
-   "article/interstella_specialedition_2491-12"
+   "article/interstella_specialedition_2491-12",
+   "video/altair-iv_krystal-spyers-report-01"
   ],
   "character/stephani-perry": [
    "article/writers-guide"
@@ -3901,7 +4071,8 @@
    "article/cnnnewsline_2496-04"
   ],
   "character/stone-nick": [
-   "article/interstella_2492-04"
+   "article/interstella_2492-04",
+   "video/altair-iv_krystal-spyers-report-02"
   ],
   "character/stryker": [
    "article/2494-06_mission-pegasus",
@@ -3957,11 +4128,7 @@
    "article/interstella_2495-02"
   ],
   "character/tomkin": [
-   "article/2495-07_mission-omaha",
-   "article/personnel-jacket_axe-ar110223",
-   "article/personnel-jacket_mexal-mx110424",
-   "article/personnel-jacket_svjenson-sj008174",
-   "article/personnel-jacket_turner-tj121710"
+   "article/2495-07_mission-omaha"
   ],
   "character/tortini-a": [
    "article/2492-10_mission-procyon-intel"
@@ -4235,6 +4402,7 @@
    "article/briefing-notes_mission-hydra",
    "article/cnnnewsline_2496-01",
    "article/cnnnewsline_2496-03",
+   "article/darkhorizons-flyer_1995",
    "article/dispatches_2495-unknown",
    "article/dispatches_2496-03",
    "article/interim-history_2496-to-2501",
@@ -4262,6 +4430,7 @@
    "article/interstella_2495-06",
    "article/interstella_2495-07",
    "article/interstella_specialedition_2491-12",
+   "article/ir-exposure-and-the-uw-medical-system",
    "article/marines-handbook_officer-nco-abridged-course",
    "article/mexals-letters_2493-03_kruger",
    "article/mexals-letters_2493-09_x244",
@@ -4298,7 +4467,12 @@
    "mission/2495-07_mission-omaha",
    "mission/2495-11_mission-nova",
    "mission/2496-02_mission-intruder",
-   "mission/2496-03_mission-redstorm"
+   "mission/2496-03_mission-redstorm",
+   "video/altair-iv_dropship-bug-out",
+   "video/altair-iv_krystal-spyers-report-01",
+   "video/altair-iv_krystal-spyers-report-02",
+   "video/altair-iv_krystal-spyers-report-08",
+   "video/altair-iv_marine-assault"
   ],
   "organisation/aldebaran-union": [
    "article/interstella_2494-10"
@@ -4309,7 +4483,8 @@
   "organisation/alfatek-systems": [
    "article/companies-and-corporations",
    "article/interstella_2493-06",
-   "article/mexals-letters_2493-09_x244"
+   "article/mexals-letters_2493-09_x244",
+   "article/planetary-Database"
   ],
   "organisation/amish-homeworld": [
    "article/2496-02_mission-intruder"
@@ -4319,6 +4494,7 @@
   ],
   "organisation/argaran-corporation": [
    "article/companies-and-corporations",
+   "article/planetary-Database",
    "article/scenario-drive-wars-scenario-notes",
    "article/scenario-one-of-our-drones-is-missing"
   ],
@@ -4328,6 +4504,7 @@
    "article/interstella_2492-11",
    "article/interstella_2492-12",
    "article/mission-intruder",
+   "article/planetary-Database",
    "mission/2496-02_mission-intruder"
   ],
   "organisation/barnard-puritan-party": [
@@ -4344,7 +4521,8 @@
    "article/a-brief-guide-to-history",
    "article/companies-and-corporations",
    "article/interstella_2493-06",
-   "article/interstella_2494-12"
+   "article/interstella_2494-12",
+   "article/planetary-Database"
   ],
   "organisation/cds": [
    "article/interstella_2494-10"
@@ -4405,11 +4583,13 @@
    "mission/2496-02_mission-intruder"
   ],
   "organisation/cmc-immediate-response-battalion": [
+   "article/darkhorizons-flyer_1995",
    "article/mexals-letters_2493-09_x244"
   ],
   "organisation/cmc-iv-field-regiment": [
    "article/2496-02_mission-intruder_sibreport",
-   "article/a-brief-guide-to-history"
+   "article/a-brief-guide-to-history",
+   "article/darkhorizons-flyer_1995"
   ],
   "organisation/cmc-provost-marshals-office": [
    "article/2496-02_mission-intruder"
@@ -4428,9 +4608,11 @@
    "article/interim-history_2496-to-2501",
    "article/interstella_2494-09",
    "article/personnel-jacket_axe-ar110223",
-   "article/personnel-jacket_oslo-os199305"
+   "article/personnel-jacket_oslo-os199305",
+   "video/2495-05_cnn-mariecelestaspecial-excerpt"
   ],
   "organisation/coedarian": [
+   "article/darkhorizons-flyer_1995",
    "article/interstella_2494-11",
    "article/mexals-letters_2493-03_kruger",
    "article/mexals-letters_2493-06_laverii-426",
@@ -4450,6 +4632,7 @@
    "article/briefing-notes_mission-hydra",
    "article/cmc-newsletter_1999-02",
    "article/cnnnewsline_2496-03",
+   "article/darkhorizons-flyer_1995",
    "article/groups-and-organisations",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-02",
@@ -4479,11 +4662,14 @@
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-07_hal",
    "article/personnel-jacket_calvin-ca110328",
+   "article/planetary-Database",
    "article/scenario-drive-wars-scenario-notes",
    "article/scenario-one-of-our-drones-is-missing",
    "article/thevoice_2495-07",
    "article/writers-guide",
-   "mission/2492-10_mission-procyon"
+   "mission/2492-10_mission-procyon",
+   "video/2495-05_cnn-mariecelestaspecial-excerpt",
+   "video/altair-iv_krystal-spyers-report-01"
   ],
   "organisation/colonial-survey": [
    "article/2495-01_mission-nightside",
@@ -4523,6 +4709,7 @@
    "article/interstella_2495-03",
    "article/mexals-letters_2495-02_heurls",
    "article/mission-troy",
+   "article/planetary-Database",
    "article/thevoice_2493-10"
   ],
   "organisation/dea": [
@@ -4559,12 +4746,14 @@
    "article/a-brief-guide-to-history",
    "article/companies-and-corporations",
    "article/interstella_2492-01",
-   "article/interstella_2492-03"
+   "article/interstella_2492-03",
+   "article/planetary-Database"
   ],
   "organisation/evolution-party": [
    "article/briefing-notes_mision-vortex",
    "article/interstella_2492-05",
-   "article/interstella_2492-07"
+   "article/interstella_2492-07",
+   "article/planetary-Database"
   ],
   "organisation/first-bank-of-groombridge": [
    "article/interstella_2493-03",
@@ -4582,14 +4771,17 @@
    "article/interstella_2492-06",
    "article/interstella_2492-07",
    "article/interstella_2492-08",
-   "article/interstella_2492-12"
+   "article/interstella_2492-12",
+   "article/planetary-Database"
   ],
   "organisation/garp-corporation": [
    "article/2496-03_mission-redstorm",
-   "article/interim-history_2496-to-2501"
+   "article/interim-history_2496-to-2501",
+   "article/planetary-Database"
   ],
   "organisation/gem-star-holdings": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/gems": [
    "article/2496-02_mission-intruder",
@@ -4607,7 +4799,8 @@
    "article/interstella_2492-08"
   ],
   "organisation/groombridge-democrats": [
-   "article/briefing-notes_mision-vortex"
+   "article/briefing-notes_mision-vortex",
+   "article/planetary-Database"
   ],
   "organisation/groombridge-environmentalists": [
    "mission/2495-04_mission-unknown"
@@ -4617,7 +4810,8 @@
    "article/interstella_2492-12"
   ],
   "organisation/groombridge-puritan-party": [
-   "article/briefing-notes_mision-vortex"
+   "article/briefing-notes_mision-vortex",
+   "article/planetary-Database"
   ],
   "organisation/hadens-worthy": [
    "article/2495-05_boarding-report-mariecelesta",
@@ -4627,7 +4821,8 @@
    "article/interstella_2495-06",
    "article/mexals-letters_2495-05_mariecelesta",
    "article/mission-welcome-to-the-marie-celesta-monster-notes",
-   "mission/2495-05_boarding-action-mariecelesta"
+   "mission/2495-05_boarding-action-mariecelesta",
+   "video/2495-05_cnn-mariecelestaspecial-excerpt"
   ],
   "organisation/hal-12th-cohort": [
    "article/2495-07_mission-omaha"
@@ -4678,10 +4873,12 @@
    "article/cnnnewsline_2496-03"
   ],
   "organisation/hommilabs": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/ickthyn-services": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/in-the-line-of-fire": [
    "article/interstella_2495-02",
@@ -4697,6 +4894,7 @@
    "article/2494-06_mission-pegasus",
    "article/companies-and-corporations",
    "article/mexals-letters_2493-09_x244",
+   "article/planetary-Database",
    "mission/2494-06_mission-pegasus"
   ],
   "organisation/intergalactic-lottery-co": [
@@ -4736,7 +4934,23 @@
    "article/interstella_2495-07",
    "article/interstella_specialedition_2491-12",
    "article/mexals-letters_2495-03_connet",
-   "mission/2492-10_mission-procyon"
+   "mission/2492-10_mission-procyon",
+   "video/altair-iv_cure-negotiation-1",
+   "video/altair-iv_cure-negotiation-2",
+   "video/altair-iv_dropship-bug-out",
+   "video/altair-iv_final-pack-up",
+   "video/altair-iv_krystal-spyers-report-01",
+   "video/altair-iv_krystal-spyers-report-02",
+   "video/altair-iv_krystal-spyers-report-04",
+   "video/altair-iv_krystal-spyers-report-05",
+   "video/altair-iv_krystal-spyers-report-06",
+   "video/altair-iv_krystal-spyers-report-07",
+   "video/altair-iv_krystal-spyers-report-08",
+   "video/altair-iv_krystal-spyers-report-09",
+   "video/altair-iv_krystal-spyers-report-10",
+   "video/altair-iv_krystal-spyers-report-11",
+   "video/altair-iv_marine-assault",
+   "video/altair-iv_prepare-to-leave"
   ],
   "organisation/interstellar-communications-group": [
    "article/2494-04_mission-ogre"
@@ -4751,18 +4965,21 @@
    "article/interstella_2492-04",
    "article/interstella_2495-02",
    "article/interstella_2495-03",
-   "article/mexals-letters_2495-02_heurls"
+   "article/mexals-letters_2495-02_heurls",
+   "article/planetary-Database"
   ],
   "organisation/irag": [
    "article/2496-02_mission-intruder_comms-002",
    "article/interstella_2494-09"
   ],
   "organisation/ixtyl": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/jefferson-electronic-systems": [
    "article/companies-and-corporations",
-   "article/interstella_2492-04"
+   "article/interstella_2492-04",
+   "article/planetary-Database"
   ],
   "organisation/jsertcom": [
    "article/2496-03_mission-redstorm",
@@ -4805,6 +5022,9 @@
    "article/interstella_2493-04",
    "article/interstella_2493-06"
   ],
+  "organisation/landon-industries": [
+   "article/prop-designs"
+  ],
   "organisation/league-against-warfare": [
    "article/groups-and-organisations",
    "article/interstella_2492-01",
@@ -4832,7 +5052,8 @@
   "organisation/malenski-transportation": [
    "article/companies-and-corporations",
    "article/interstella_2494-12",
-   "article/interstella_2495-03"
+   "article/interstella_2495-03",
+   "article/planetary-Database"
   ],
   "organisation/marie-celeste-mercenaries": [
    "article/2495-05_boarding-report-mariecelesta"
@@ -4845,10 +5066,13 @@
    "article/interstella_2495-02"
   ],
   "organisation/medi-care": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database",
+   "article/prop-designs"
   ],
   "organisation/merton-publishing": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/military-mercantile": [
    "article/briefing-notes_mision-vortex",
@@ -4858,12 +5082,14 @@
    "article/companies-and-corporations",
    "article/interstella_2492-12",
    "article/interstella_2495-04",
-   "article/marines-handbook_armourer-4"
+   "article/marines-handbook_armourer-4",
+   "article/planetary-Database"
   ],
   "organisation/nas-corp": [
    "article/companies-and-corporations",
    "article/interstella_2492-11",
-   "article/interstella_2492-12"
+   "article/interstella_2492-12",
+   "article/planetary-Database"
   ],
   "organisation/nautilus": [
    "article/mexals-letters_2495-02_heurls"
@@ -4873,6 +5099,7 @@
    "article/companies-and-corporations",
    "article/interstella_2492-12",
    "article/interstella_2494-09",
+   "article/planetary-Database",
    "article/writers-guide"
   ],
   "organisation/new-light": [
@@ -4887,6 +5114,7 @@
    "article/interstella_2492-03",
    "article/interstella_2492-04",
    "article/interstella_2492-06",
+   "article/planetary-Database",
    "article/scenario-how-much-for-just-the-planet"
   ],
   "organisation/news-associates": [
@@ -4900,7 +5128,8 @@
    "article/cnnnewsline_2496-03",
    "article/cnnnewsline_2496-04",
    "article/companies-and-corporations",
-   "article/interstella_2495-04"
+   "article/interstella_2495-04",
+   "article/planetary-Database"
   ],
   "organisation/nu-phoenicians": [
    "article/groups-and-organisations",
@@ -4928,7 +5157,8 @@
   "organisation/palmini-defence-systems": [
    "article/cnnnewsline_2496-03",
    "article/cnnnewsline_2496-04",
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/parnell-industries": [
    "article/a-brief-guide-to-history",
@@ -4941,6 +5171,7 @@
    "article/interstella_2494-12",
    "article/interstella_2495-04",
    "article/personnel-jacket_rogers-rm102948",
+   "article/planetary-Database",
    "article/scenario-drive-wars-2-scenario-notes",
    "article/scenario-drive-wars-scenario-notes",
    "article/thevoice_2495-07"
@@ -4988,6 +5219,7 @@
    "article/interstella_2492-01",
    "article/mission-intruder",
    "article/mission-troy",
+   "article/planetary-Database",
    "article/scenario-drive-wars-scenario-notes",
    "article/scenario-how-much-for-just-the-planet",
    "article/scenario-one-of-our-drones-is-missing",
@@ -5005,7 +5237,8 @@
   "organisation/sigma-mining": [
    "article/companies-and-corporations",
    "article/interstella_2493-06",
-   "article/interstella_2494-09"
+   "article/interstella_2494-09",
+   "article/planetary-Database"
   ],
   "organisation/sirian-defence-forces": [
    "article/2496-03_mission-redstorm"
@@ -5018,7 +5251,10 @@
    "article/personnel-jacket_svjenson-sj008174"
   ],
   "organisation/skeleton-news-crew": [
-   "article/interstella_specialedition_2491-12"
+   "article/interstella_specialedition_2491-12",
+   "video/altair-iv_krystal-spyers-report-01",
+   "video/altair-iv_krystal-spyers-report-07",
+   "video/altair-iv_krystal-spyers-report-10"
   ],
   "organisation/slaves-for-freedom": [
    "article/2495-07_mission-omaha"
@@ -5038,18 +5274,22 @@
    "article/writers-guide"
   ],
   "organisation/svensonn-automation": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/tadson-romburg": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/tedmann-controls": [
-   "article/companies-and-corporations"
+   "article/companies-and-corporations",
+   "article/planetary-Database"
   ],
   "organisation/the-brotherhood": [
    "article/2494-06_mission-pegasus",
    "article/a-brief-guide-to-history",
    "article/cnnnewsline_2496-04",
+   "article/darkhorizons-flyer_1995",
    "article/groups-and-organisations",
    "article/interstella_2492-04",
    "article/interstella_2493-04",
@@ -5065,7 +5305,8 @@
    "article/thevoice_2493-10",
    "article/thevoice_2495-07",
    "article/writers-guide",
-   "mission/2494-06_mission-pegasus"
+   "mission/2494-06_mission-pegasus",
+   "video/altair-iv_krystal-spyers-report-01"
   ],
   "organisation/the-voice": [
    "article/mexals-letters_2493-09_x244",
@@ -5085,7 +5326,8 @@
    "article/a-brief-guide-to-history",
    "article/briefing-notes_mission-hydra",
    "article/interstella_2494-11",
-   "article/interstella_2494-12"
+   "article/interstella_2494-12",
+   "article/planetary-Database"
   ],
   "organisation/united-worlds": [
    "article/2494-04_mission-ogre",
@@ -5122,6 +5364,7 @@
    "article/interstella_2495-04",
    "article/interstella_2495-07",
    "article/interstella_specialedition_2491-12",
+   "article/ir-exposure-and-the-uw-medical-system",
    "article/marines-handbook_officer-nco-abridged-course",
    "article/message_chaplain_deaths-of-turner-and-peterson",
    "article/mexals-letters_2493-03_kruger",
@@ -5139,6 +5382,7 @@
    "article/mission-kraken",
    "article/mission-nova",
    "article/mission-troy",
+   "article/planetary-Database",
    "article/scenario-drive-wars-2-scenario-notes",
    "article/thevoice_2493-05",
    "article/thevoice_2495-07",
@@ -5241,7 +5485,8 @@
   ],
   "organisation/valen-pharmaceuticals": [
    "article/companies-and-corporations",
-   "article/interstella_2495-04"
+   "article/interstella_2495-04",
+   "article/planetary-Database"
   ],
   "organisation/warmth": [
    "article/interstella_2495-03"

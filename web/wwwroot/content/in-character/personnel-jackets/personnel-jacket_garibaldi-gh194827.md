@@ -25,5 +25,5 @@ Eldest son of a major crime family on Aurora. Skilled in computers, especially s
 
 #### Missions Attended:
 
-- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)
-- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)
+- [Operation 'Dawn' - January 2502](/mission/2502-01_operation-dawn)
+- [Operation 'Strongarm' - May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

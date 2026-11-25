@@ -1,0 +1,26 @@
+@page "/change-history"
+
+@using Models
+
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<web.Shared.PageTitle Title="Change History" />
+
+<div class="change-history">
+    <web.Controls.MarkdownView ContentUrl="@ChangeHistoryEntry.ContentUrl" ContentLoaded="OnContentLoaded" />
+</div>
+
+@code {
+    // The markdown arrives after the first render, so Blazor's own scroll-to-fragment has nothing
+    // to find yet: scroll to the "What's New" entry once the content is on the page.
+    private async Task OnContentLoaded(bool loaded)
+    {
+        var fragment = new Uri(Navigation.Uri).Fragment.TrimStart('#');
+        if (!loaded || string.IsNullOrEmpty(fragment))
+            return;
+
+        await Task.Yield();
+        await JSRuntime.InvokeVoidAsync("ScrollToElement", Uri.UnescapeDataString(fragment));
+    }
+}

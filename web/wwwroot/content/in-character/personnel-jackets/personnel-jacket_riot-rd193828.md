@@ -23,4 +23,4 @@ Unknown
 
 #### Missions Attended:
 
-- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)
+- [Operation 'Dawn' - January 2502](/mission/2502-01_operation-dawn)

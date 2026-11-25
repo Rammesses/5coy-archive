@@ -1,5 +1,10 @@
 ﻿@page "/"
 
+@using Models
+@using Services
+
+@inject IChangeHistoryService History
+
 <web.Shared.PageTitle Title="5-Coy CMC Archive" />
 
 <div class="jumbotron">
@@ -59,3 +64,43 @@
        <a href="https://www.facebook.com/groups/261541030366/" target="_new"
              title="Check out our Facebook Group">Facebook Group</a>.</p>
 
+<hr />
+
+<h1>What's New</h1>
+
+@if (highlights == null)
+{
+    <div class="loading">Loading...</div>
+}
+else
+{
+    @if (highlights.Length > 0)
+    {
+        <ul class="whats-new">
+        @foreach (var entry in highlights)
+        {
+            <li>
+                <div class="whats-new-heading">
+                    <a href="@entry.Url">@entry.Title</a>
+                    @if (!string.IsNullOrEmpty(entry.Date))
+                    {
+                        <span class="whats-new-date">@entry.Date</span>
+                    }
+                </div>
+                <div class="whats-new-summary">@((MarkupString)entry.SummaryHtml)</div>
+            </li>
+        }
+        </ul>
+    }
+    <p><a class="whats-new-all" href="@ChangeHistoryEntry.PageUrl">See the full change history</a></p>
+}
+
+
+@code {
+    private ChangeHistoryEntry[] highlights;
+
+    protected override async Task OnInitializedAsync()
+    {
+        highlights = await History.GetHighlights(3);
+    }
+}

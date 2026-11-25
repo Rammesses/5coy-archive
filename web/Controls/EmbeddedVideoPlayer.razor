@@ -1,10 +1,20 @@
-<div>
-    Video goes here! @Video.YouTubeVideoId
-</div>
+@* A responsive 16:9 YouTube player. Uses the privacy-enhanced (youtube-nocookie) embed, so
+   YouTube sets no cookies until the visitor actually plays the video. *@
+@if (!string.IsNullOrEmpty(Video?.YouTubeVideoId))
+{
+    <div class="video-player">
+        <iframe src="@Video.EmbedUrl"
+                title="@Video.Title"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                allowfullscreen></iframe>
+    </div>
+}
 
 @code {
 
     [Parameter]
-    public Models.Video Video{ get; set; }
+    public Models.Video Video { get; set; }
 
 }
