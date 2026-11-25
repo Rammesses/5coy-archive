@@ -4,6 +4,10 @@ The control panel and equipment designs used for props, each with its in-game de
 
 #### Command Authorisation Panel
 
+::: figure-left-small
+![1C01 Authorisation panel - palmprint scanner, access lights, control panel enable/disable and code lock keypad](/content/out-of-character/prop-designs/prop-designs_1c01-authorisation.png "1C01 AUTHORISATION")
+:::
+
 This panel controls access to the command override panels
 by use of both palmprint recognition and personal ident
 codes.
@@ -31,13 +35,18 @@ LEARN tab, then the new user goes through the normal verification sequence.
 The unit is disabled by tabbing the upper right hand corner of the panel border a second
 time, or if the unit is unattended for 5 minutes.
 
-![1C01 Authorisation panel - palmprint scanner, access lights, control panel enable/disable and code lock keypad](/content/out-of-character/prop-designs/prop-designs_1c01-authorisation.png "1C01 AUTHORISATION")
+::: page-break
+:::
 
 ---
 
 ### 1C02 MISSION STATUS
 
 #### Command Mission Status Control Panel
+
+::: figure-left-small
+![1C02 Mission Status panel - status levels from Stand Down to Red Alert, siren controls and mission timer keypad](/content/out-of-character/prop-designs/prop-designs_1c02-mission-status.png "1C02 MISSION STATUS")
+:::
 
 This panel controls the Mission Status displays (1D01) and
 the Mission Timers (1D02). It is used to signal status
@@ -80,13 +89,18 @@ unique siren may be canceled by tabbing the CAN key when it is sounding, or soun
 manually by tabbing the SND key. The voice messages accompanying the countdown is
 Warning mode is enabled may not be canceled.
 
-![1C02 Mission Status panel - status levels from Stand Down to Red Alert, siren controls and mission timer keypad](/content/out-of-character/prop-designs/prop-designs_1c02-mission-status.png "1C02 MISSION STATUS")
+::: page-break
+:::
 
 ---
 
 ### 1C03 INTERIOR SCREENS
 
 #### Command Interior Screen Control Panel
+
+::: figure-left-small
+![1C03 Interior Screens panel - status, siren, screen level keypad and IR status monitor graph](/content/out-of-character/prop-designs/prop-designs_1c03-interior-screens.png "1C03 INTERIOR SCREENS")
+:::
 
 This panel alows the control and adjustment of the interior IR
 screens fitted to most ships and operational buildings.
@@ -118,37 +132,62 @@ which correspond to the screening level required. These digits are right entered
 Screen LEvel field on the display, and come into effect when all four digits have been
 entered.
 
-![1C03 Interior Screens panel - status, siren, screen level keypad and IR status monitor graph](/content/out-of-character/prop-designs/prop-designs_1c03-interior-screens.png "1C03 INTERIOR SCREENS")
+::: page-break
+:::
 
 ---
 
 ### 1C04 PERIMETER DEFENSE
 
+::: figure-left-small
 ![1C04 Perimeter Defense panel - status, siren and perimeter monitor](/content/out-of-character/prop-designs/prop-designs_1c04-perimeter-defense.png "1C04 PERIMETER DEFENSE")
+:::
+
+::: page-break
+:::
 
 ---
 
 ### 1C31 SUBLIGHT MANEUVERING
 
+::: figure-left-small
 ![1C31 Sublight Maneuvering panel - heading keypad, thrust gauge and status monitor](/content/out-of-character/prop-designs/prop-designs_1c31-sublight-maneuvering.png "1C31 SUBLIGHT MANEUVERING")
+:::
+
+::: page-break
+:::
 
 ---
 
 ### 1C33 SUPRALIGHT NAVIGATION
 
+::: figure-left-small
 ![1C33 Supralight Navigation panel](/content/out-of-character/prop-designs/prop-designs_1c33-supralight-navigation.png "1C33 SUPRALIGHT NAVIGATION")
+:::
+
+::: page-break
+:::
 
 ---
 
 ### 1C35 THRUSTER CONTROL
 
+::: figure-left-small
 ![1C35 Thruster Control panel - pitch/roll/yaw display and lateral and transverse thruster keys](/content/out-of-character/prop-designs/prop-designs_1c35-thruster-control.png "1C35 THRUSTER CONTROL")
+:::
+
+::: page-break
+:::
 
 ---
 
 ### 7C37 E.B.U.
 
 #### Emergency Beacon Unit
+
+::: figure-left-xsmall
+![7C37 E.B.U. front panel - status display (BCN, EMRG, SND, TX FAIL) and BCN, EMRG, ENA, SND keys](/content/out-of-character/prop-designs/prop-designs_7c37-ebu.png "7C37 E.B.U.")
+:::
 
 This unit provides a standard distress message generator
 and planetary range transmitter in a single compact
@@ -177,13 +216,19 @@ transmitter/generator using the SND key.
 If the unit is to be slaved to an additional transmitter, connection is made using the CON25
 connector, leaving the RF connector unconnected.
 
-![7C37 E.B.U. - front panel and front panel mask](/content/out-of-character/prop-designs/prop-designs_7c37-ebu.png "7C37 E.B.U.")
+::: page-break
+:::
 
 ---
 
 ### 4M01 RVC-877
 
 #### Medical Diagnostic & Repair Package
+
+::: figure-left-small
+![4M01 RVC-877 Medical Diagnosis Unit (MediCare Research Labs, Dawn, Model MRL-877-02) - power, probe, yellow/green/red/blue keys and keypad](/content/out-of-character/prop-designs/prop-designs_4m01-rvc-877.png "4M01 RVC-877")  
+![4M01 RVC-877 with probe storage](/content/out-of-character/prop-designs/prop-designs_4m01-rvc-877-probe-storage.png "4M01 RVC-877 - Probe Storage")
+:::
 
 The RVC-877 Unit is now widely used by the military for the treatment of incapacitating
 radiation (IR). The unit was designed and built at MediCare research labs on Dawn and
@@ -222,15 +267,18 @@ resuscitant is shown by the digit indicated. If this model does not have such a 
 then count from the top left corner (with the yellow control pointing up) to get an answer. An
 answer in excess of nine should have nine subtracted from it.
 
-![4M01 RVC-877 Medical Diagnosis Unit (MediCare Research Labs, Dawn, Model MRL-877-02) - power, probe, yellow/green/red/blue keys and keypad](/content/out-of-character/prop-designs/prop-designs_4m01-rvc-877.png "4M01 RVC-877")
-
-![4M01 RVC-877 with probe storage](/content/out-of-character/prop-designs/prop-designs_4m01-rvc-877-probe-storage.png "4M01 RVC-877 - Probe Storage")
+::: page-break
+:::
 
 ---
 
 ### 4M74P MEDI-AID
 
 #### Medical Sequence Storage Package
+
+::: figure-left-small
+![4M74P MediAid - log step display, FWD/RES/BAK and R/B/Y/G keys, power cells](/content/out-of-character/prop-designs/prop-designs_4m74p-medi-aid.png "4M74P MEDIAID")
+:::
 
 The 4M74P unit (commonly known as the Medi-Aid) is a coprocessing board for use with
 the RVC-877 (4M01). It was designed by Landon Industries on contract to MediCare in
@@ -260,13 +308,18 @@ success rate of 92% with only a 11% increase in total operation time. While the 
 time is slightly slower the improvement in success rate far out-weighs the time factor and
 makes the unit extremely valuable to a field medical unit.
 
-![4M74P MediAid - log step display, FWD/RES/BAK and R/B/Y/G keys, power cells](/content/out-of-character/prop-designs/prop-designs_4m74p-medi-aid.png "4M74P MEDIAID")
+::: page-break
+:::
 
 ---
 
 ### 1C01 IR DOSIMETER
 
 #### Personal I.R Dosimeter
+
+::: figure-left-xsmall
+![7M01 IR Dosimeter - display, LEV/TIM/CUM/DOS pads and instructions](/content/out-of-character/prop-designs/prop-designs_7m01-ir-dosimeter.png "7M01 IR DOSIMETER")
+:::
 
 The 7M01 Personal I.R. Dosimeter is a small, belt-mounted
 unit that measures and displays both the current ambient
@@ -287,28 +340,44 @@ Ambient IR Level (LEV), Equivalent IR Dosage Level (DOS), Cumulative IR Doseage
 Additionally, an audible warning sounds when the ambient IR level increases above a pre-
 set value, indicating the presence of a 'hot-spot'.
 
-![7M01 IR Dosimeter - display, LEV/TIM/CUM/DOS pads and instructions](/content/out-of-character/prop-designs/prop-designs_7m01-ir-dosimeter.png "7M01 IR DOSIMETER")
-
 _Printed on the unit:_
 
 > 1: Power switch on RHS of Unit  
 > 2: Select display of LEVel, TIMe to lethal dose, CUMulative dose or current DOSage level.  
 > 3: Ensure unit is checked and calibrated by Medical staff every 28 days.
 
+::: page-break
+:::
+
 ---
 
 ### 5E01 ENV MON
 
+::: figure-left-xsmall
 ![5E01 Env Mon - display with CAL, LNK, CMP, SCAN and STO keys](/content/out-of-character/prop-designs/prop-designs_5e01-env-mon.png "5E01 ENV MON")
+:::
+
+::: page-break
+:::
 
 ---
 
 ### 1S01 HOLDING CELL
 
+::: figure-left-small
 ![1S01 Holding Cell - two security screen panels with code lock keypads](/content/out-of-character/prop-designs/prop-designs_1s01-holding-cell.png "1S01 HOLDING CELL")
+:::
+
+::: page-break
+:::
 
 ---
 
 ### 1W04 RSS CONTROL
 
+::: figure-left-small
 ![1W04 RSS Control - arming, manual pan/lock and status display](/content/out-of-character/prop-designs/prop-designs_1w04-rss-control.png "1W04 RSS CONTROL")
+:::
+
+::: page-break
+:::

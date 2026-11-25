@@ -112,11 +112,18 @@ clip-art dingbats) and say in the report that you skipped them.
    render. It saves greyscale unless you pass `--colour` (use that only when the original is in colour).
    If the PDF isn't in `.transcribe/media/`, set `FIVECOY_MEDIA_DIR` to Joel's media mirror
    (`$HOME/mnt/5coy-media` when that folder is connected).
-3. **Look at the PNG** (stage it and open it with Read) and adjust the box until nothing is cut off and
+3. **Straighten it.** Scanned panels, forms and framed drawings are often a degree or so askew. If the
+   picture has a clear rectangular frame or border, run
+   `python3 $S/deskew_image.py <png> --crop [--margin 12] [--width 1100]`: it measures the frame's tilt,
+   rotates the picture square (skipping anything tilted more than 5 degrees, so pictures printed sideways
+   aren't "corrected"), and with `--crop` trims to the frame, which also removes the slanted scan edges.
+   For a whole-page picture, extract the full page first and let `--crop` find the frame. A picture
+   printed upside down or sideways still needs turning by hand (e.g. Pillow `rotate(180)`).
+4. **Look at the PNG** (stage it and open it with Read) and adjust the box until nothing is cut off and
    nothing extra is in it.
-4. Name it `<reference>_<short-kebab-description>.png` (e.g. `briefing-notes_type-23-exosuit_plan.png`,
+5. Name it `<reference>_<short-kebab-description>.png` (e.g. `briefing-notes_type-23-exosuit_plan.png`,
    `thevoice_2493-05_dag-food.png`) and save it in the **same folder as the markdown**.
-5. Reference it where it sits in the layout, with the site-absolute path, alt text describing what it
+6. Reference it where it sits in the layout, with the site-absolute path, alt text describing what it
    shows and a title from the page's own caption or heading:
    ```markdown
    ![A marine in the new CMC A.C.C.D camouflage combat dress](/content/in-character/other-publications/dispatches_2495-unknown_accd.png "CMC A.C.C.D (All Condition Combat Dress)")
