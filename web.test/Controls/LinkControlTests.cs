@@ -113,9 +113,9 @@ public class RelatedBreadcrumbListMissionTests : ComponentTestBase
         items[0].QuerySelectorAll("a").Select(a => (a.TextContent, a.GetAttribute("href"))).Should().Equal(
             ("IC", "/section/in-character"),
             ("Missions", "/missions"),
-            ("Mission 'Pegasus' (Jun 2494)", "/mission/2494-06_mission-pegasus"));
-        items[1].QuerySelectorAll("a").Last().TextContent.Should().Be("Operation 'Strongarm' (May 2502)");
-        items[0].TextContent.Should().MatchRegex(@"IC\s*→\s*Missions\s*→\s*Mission 'Pegasus' \(Jun 2494\)");
+            ("Mission 'Pegasus' - June 2494", "/mission/2494-06_mission-pegasus"));
+        items[1].QuerySelectorAll("a").Last().TextContent.Should().Be("Operation 'Strongarm' - May 2502");
+        items[0].TextContent.Should().MatchRegex(@"IC\s*→\s*Missions\s*→\s*Mission 'Pegasus' - June 2494");
     }
 
     [Test]
@@ -161,8 +161,8 @@ public class RelatedBreadcrumbListOrderingTests : ComponentTestBase
                 "Interstella! July 2492",
                 "2492-10 - Mission 'Procyon'",       // IC → Mission Reports → ...
                 "2494-06 - Mission 'Pegasus' (Calvin)",
-                "Mission 'Ogre' (Apr 2494)",         // IC → Missions → ...
-                "Mission 'Pegasus' (Jun 2494)"));
+                "Mission 'Ogre' - April 2494",         // IC → Missions → ...
+                "Mission 'Pegasus' - June 2494"));
     }
 
     [Test]

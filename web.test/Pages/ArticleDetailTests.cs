@@ -78,7 +78,7 @@ public class ArticleDetailTests : ComponentTestBase
         {
             var mission = cut.Find("h5.page-nav .page-mission");
             mission.QuerySelector("a")!.GetAttribute("href").Should().Be("/mission/procyon");
-            mission.TextContent.Should().Contain("Mission Procyon").And.Contain("Oct 2492");
+            mission.TextContent.Should().Contain("Mission Procyon").And.Contain("October 2492");
         });
     }
 
@@ -133,7 +133,7 @@ public class ArticleDetailTests : ComponentTestBase
             related.QuerySelectorAll("a").Select(a => a.GetAttribute("href"))
                    .Should().Contain(new[] { "/mission/pegasus", "/article/all/report-pegasus" });
             related.QuerySelector("li.related-mission")!.TextContent
-                   .Should().MatchRegex(@"IC\s*→\s*Missions\s*→\s*Mission Pegasus \(Jun 2494\)");
+                   .Should().MatchRegex(@"IC\s*→\s*Missions\s*→\s*Mission Pegasus - June 2494");
         });
     }
 
@@ -154,7 +154,7 @@ public class ArticleDetailTests : ComponentTestBase
             cut.FindAll("h5").Select(h => h.TextContent.Trim()).Where(t => t.StartsWith("Related")).Should().Equal("Related:");
             cut.FindAll(".related-articles ul.related-breadcrumbs").Should().HaveCount(1);
             cut.FindAll(".related-articles li").Select(li => li.QuerySelectorAll("a").Last().TextContent).Should().Equal(
-                "Mission 'Pegasus' (Jun 2494)",           // IC → Missions → ...
+                "Mission 'Pegasus' - June 2494",           // IC → Missions → ...
                 "Title of report-pegasus",                // Title of report-pegasus
                 "Intelligence Briefing Notes");           // Title of report-procyon → Intelligence...
         });
