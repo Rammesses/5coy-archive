@@ -85,6 +85,33 @@ for r in dups:
     locs = [(g, d) for g, x, _, d in arts if x == r]
     report("WARN", f"duplicate article Reference '{r}' at {locs}")
 
+# videos (data/videos.json groups, inline Videos or a Data file holding Video[])
+videos = []
+if os.path.exists("data/videos.json"):
+    for g in load("data/videos.json"):
+        vs = list(g.get("Videos") or [])
+        if g.get("Data"):
+            if not os.path.exists("." + g["Data"]): report("ERROR", f"video group data file missing: {g['Data']}")
+            else: vs += load(g["Data"])
+        videos += [(g.get("Reference"), v) for v in vs]
+video_refs = [v.get("Reference") for _, v in videos]
+for r, n in collections.Counter(video_refs).items():
+    if n > 1: report("ERROR", f"duplicate video Reference '{r}'")
+for g, v in videos:
+    where = f"[video {g}] {v.get('Reference')}"
+    if not v.get("Reference"): report("ERROR", f"[video {g}] video without Reference: {v.get('Title')}")
+    if not v.get("YouTubeVideoId"): report("ERROR", f"{where}: no YouTubeVideoId")
+    cu = v.get("ContentUrl")
+    if cu:
+        used_content.add(cu)
+        if not os.path.exists("." + cu): report("ERROR", f"{where}: ContentUrl not found {cu}")
+    mr = v.get("MissionRef")
+    if mr and mr not in mref_set: report("ERROR", f"{where}: MissionRef '{mr}' not in missions.json")
+    for rel in v.get("Related") or []:
+        if rel not in mref_set and rel not in art_refs:
+            report("ERROR", f"{where}: Related '{rel}' is neither an article nor a mission Reference")
+        if rel == mr: report("WARN", f"{where}: Related '{rel}' duplicates its MissionRef")
+
 # mission Related lists: every entry must resolve, and every /mission/ or /article/ link in a
 # mission summary must be recorded (in Related, or by the article's own MissionRef)
 art_missionrefs = collections.defaultdict(set)
@@ -118,19 +145,21 @@ used_content.update(m["ContentUrl"] for m in missions if m.get("ContentUrl"))
 for f in sorted(glob.glob("content/**/*.md", recursive=True)):
     u = "/" + f
     if u in used_content or u in section_content or "template" in f: continue
-    if u == "/content/missions.md": continue  # Missions.razor header
+    if u in ("/content/missions.md", "/content/videos.md"): continue  # Missions.razor / Videos.razor headers
     size = os.path.getsize(f)
     report("WARN" if size == 0 else "ERROR", f"unreferenced content {u}" + (" (empty file)" if size == 0 else ""))
 
 # 3b. internal links in markdown: /mission/<ref>, /article/<section>/<ref>, /section/<ref>
 art_keys = {(g, r) for g, r, _, _ in arts}
-link_re = re.compile(r"\]\((/(?:mission|article|section)/[^)\s#?]*)")
+link_re = re.compile(r"\]\((/(?:mission|article|section|video)/[^)\s#?]*)")
+video_ref_set = set(video_refs)
 for f in sorted(glob.glob("content/**/*.md", recursive=True)):
     with open(f, encoding="utf-8") as fh:
         for u in link_re.findall(fh.read()):
             parts = u.strip("/").split("/")
             ok = ((parts[0] == "mission" and len(parts) == 2 and parts[1] in mref_set) or
                   (parts[0] == "section" and len(parts) == 2 and parts[1] in section_refs) or
+                  (parts[0] == "video" and len(parts) == 2 and parts[1] in video_ref_set) or
                   (parts[0] == "article" and len(parts) == 3 and tuple(parts[1:]) in art_keys))
             if not ok: report("ERROR", f"/{f}: broken link {u}")
 
@@ -168,5 +197,5 @@ print("\nMission coverage (top-level articles with MissionRef):")
 cnt = collections.Counter(a["MissionRef"] for _, _, a, d in arts if d == 0 and a.get("MissionRef"))
 for m in sorted(missions, key=lambda m: m["StartDate"]):
     if m.get("Reference"): print(f"  {m['StartDate']}  {m['Reference']:40} {cnt.get(m['Reference'], 0)}")
-print(f"\n{len(arts)} articles, {len(missions)} missions, {len(personnel)} personnel, {errors} error(s)")
+print(f"\n{len(arts)} articles, {len(missions)} missions, {len(videos)} videos, {len(personnel)} personnel, {errors} error(s)")
 sys.exit(1 if errors else 0)

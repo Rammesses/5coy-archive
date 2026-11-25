@@ -8,7 +8,7 @@ Warnings: an alias or Name shared by more than one entity (ambiguous for mention
 matching), entities with no facts, 'needs review' notes. --strict turns warnings into errors.
 """
 import re, sys, collections
-from kglib import load_archive, load_kg
+from kglib import load_archive, load_kg, load_videos
 
 PREDICATES = {
     "character": {"memberOf", "rank", "role", "participatedIn", "commanded", "authored", "employedBy",
@@ -25,11 +25,13 @@ def main(argv):
     strict = "--strict" in argv
     articles, missions = load_archive(root)
     kg = load_kg(root)
+    videos = load_videos(root)
     errors, warnings = [], []
     def resolves(r):
         kind, _, ref = r.partition("/")
         if kind == "article": return ref in articles
         if kind == "mission": return ref in missions
+        if kind == "video": return ref in videos
         return r in kg
     seen = collections.Counter(k for k in kg)
     names = collections.defaultdict(set)
@@ -53,8 +55,8 @@ def main(argv):
                 if k in x and not DATE_RE.match(str(x[k])): errors.append(f"{where}: {k} '{x[k]}' should be yyyy[-mm[-dd]] (in-game)")
             if not x.get("Sources"): errors.append(f"{where}: no Sources")
             for s in x.get("Sources", []):
-                if not s.startswith(("article/", "mission/")) or not resolves(s):
-                    errors.append(f"{where}: source '{s}' does not resolve to an article or mission")
+                if not s.startswith(("article/", "mission/", "video/")) or not resolves(s):
+                    errors.append(f"{where}: source '{s}' does not resolve to an article, mission or video")
     for n, keys in sorted(names.items()):
         if len(keys) > 1: warnings.append(f"ambiguous name/alias '{n}': {', '.join(sorted(keys))}")
     for w in warnings: print("WARN ", w)

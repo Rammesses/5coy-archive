@@ -27,6 +27,22 @@ def load_archive(wwwroot):
     missions = {m["Reference"]: m for m in load_json(os.path.join(data, "missions.json")) if m.get("Reference")}
     return articles, missions
 
+def load_videos(wwwroot):
+    """Return dict of Reference -> video record from data/videos.json and its group Data files."""
+    data = os.path.join(wwwroot, "data")
+    videos = {}
+    p = os.path.join(data, "videos.json")
+    if not os.path.exists(p): return videos
+    for g in load_json(p):
+        vids = list(g.get("Videos") or [])
+        if g.get("Data"):
+            f = os.path.join(wwwroot, g["Data"].lstrip("/"))
+            if os.path.exists(f) and open(f, encoding="utf-8").read().strip():
+                vids += load_json(f)
+        for v in vids:
+            if v.get("Reference"): videos[v["Reference"]] = v
+    return videos
+
 def load_kg(wwwroot):
     """Return dict of 'kind/Reference' -> entity (with '_kind' added)."""
     kgdir = os.path.join(wwwroot, "data", "kg")
@@ -40,7 +56,7 @@ def load_kg(wwwroot):
     return out
 
 def content_ref_map(wwwroot):
-    """Map 'content/...md' (relative to wwwroot) -> list of 'article/..' / 'mission/..' refs."""
+    """Map 'content/...md' (relative to wwwroot) -> list of 'article/..' / 'mission/..' / 'video/..' refs."""
     articles, missions = load_archive(wwwroot)
     m = {}
     for ref, a in articles.items():
@@ -49,4 +65,7 @@ def content_ref_map(wwwroot):
     for ref, x in missions.items():
         cu = (x.get("ContentUrl") or "").lstrip("/")
         if cu: m.setdefault(cu, []).append("mission/" + ref)
+    for ref, v in load_videos(wwwroot).items():
+        cu = (v.get("ContentUrl") or "").lstrip("/")
+        if cu: m.setdefault(cu, []).append("video/" + ref)
     return m

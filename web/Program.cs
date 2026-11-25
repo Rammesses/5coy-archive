@@ -33,6 +33,7 @@ namespace web
             builder.Services.AddScoped<IArticlesService, ArticlesService>();
             builder.Services.AddScoped<IMissionsService, MissionsService>();
             builder.Services.AddScoped<IVideoService, VideoService>();
+            builder.Services.AddScoped<IChangeHistoryService, ChangeHistoryService>();
             builder.Services.AddScoped<IMarkdownService, MarkdownService>();
             builder.Services.AddScoped<IHtmlSanitizer, HtmlSanitizer>();
 

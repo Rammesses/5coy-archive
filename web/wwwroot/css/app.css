@@ -422,3 +422,34 @@ nav.video-series-nav {
 nav.video-series-nav a.video-next {
     margin-left: auto;
 }
+
+/* ---- what's new / change history ---------------------------------------------------------- */
+
+ul.whats-new {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.whats-new li {
+    margin-bottom: 0.75em;
+}
+
+.whats-new-heading a {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.whats-new-date {
+    color: var(--bs-secondary-color, #6c757d);
+    margin-left: 0.5em;
+}
+
+.whats-new-summary {
+    margin-top: 0.25em;
+}
+
+.change-history h2 {
+    font-size: 1.4rem;
+    margin-top: 1.5em;
+    scroll-margin-top: 4rem;
+}

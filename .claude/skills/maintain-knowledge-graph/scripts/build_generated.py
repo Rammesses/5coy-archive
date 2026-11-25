@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Regenerate <wwwroot>/data/kg/generated/: never hand-edit these files.
 
-  mentions.json - which entities each article/mission page mentions (alias matching), both ways
-  graph.jsonl   - one JSON object per line: nodes (entities, missions, articles) then edges (facts),
+  mentions.json - which entities each article/mission/video page mentions (alias matching), both ways
+  graph.jsonl   - one JSON object per line: nodes (entities, missions, articles, videos) then edges (facts),
                   for loading into a graph DB or as RAG chunk metadata
 
 Usage: python3 build_generated.py web/wwwroot
 """
 import json, os, re, sys, collections
-from kglib import load_archive, load_kg, content_ref_map
+from kglib import load_archive, load_kg, load_videos, content_ref_map
 
 # Single-word aliases that are also ordinary words (or too generic) are not used for matching.
 COMMON = set("""tech joe head reed drake hawk silver saint bear doe peace jack ruby trouble chaos zeus warlock
@@ -61,6 +61,8 @@ def main(root):
             w({"type": "node", "id": "mission/" + ref, "kind": "mission", "name": m.get("Name"), "props": {k: m[k] for k in ("StartDate", "EndDate", "Planet", "Location", "ContentUrl") if m.get(k)}})
         for ref, a in sorted(articles.items()):
             w({"type": "node", "id": "article/" + ref, "kind": "article", "name": a.get("Title"), "props": {k: a[k] for k in ("ContentUrl", "PdfUrl", "MissionRef") if a.get(k)}})
+        for ref, v in sorted(load_videos(root).items()):
+            w({"type": "node", "id": "video/" + ref, "kind": "video", "name": v.get("Title"), "props": {k: v[k] for k in ("Series", "YouTubeVideoId", "ContentUrl", "MissionRef") if v.get(k)}})
         for key, e in sorted(kg.items()):
             for x in e.get("Facts", []):
                 edge = {"type": "edge", "from": key, "p": x["P"]}
