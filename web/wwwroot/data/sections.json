@@ -31,6 +31,18 @@
                 "ContentUrl": "/content/marines-handbook.md"
             },
             {
+                "Reference": "other-publications",
+                "Title": "Other Publications",
+                "Glyph": "oi-paperclip",
+                "ContentUrl": "/content/other-publications.md"
+            },
+            {
+                "Reference": "personnel-jackets",
+                "Title": "Personnel Jackets",
+                "Glyph": "oi-folder",
+                "ContentUrl": "/content/personnel-jackets.md"
+            },
+            {
                 "Reference": "mexals-letters",
                 "Title": "Mexal's Letters Home",
                 "Glyph": "oi-envelope-closed",

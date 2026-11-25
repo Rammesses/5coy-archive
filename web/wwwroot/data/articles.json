@@ -28,6 +28,14 @@
         "Data": "/data/articles/in-character.json" 
     },
 
+    { "Reference": "other-publications",
+      "Data": "/data/articles/other-publications.json"
+    },
+
+    { "Reference": "personnel-jackets",
+      "Data": "/data/articles/personnel-jackets.json"
+    },
+
     { "Reference": "mexals-letters",
       "Data": "/data/articles/mexals-letters.json"},
 
