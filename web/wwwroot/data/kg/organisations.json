@@ -209,6 +209,13 @@
         "Sources": [
           "article/interstella_2494-10"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Groombridge unrest (12 fatalities); rescue of the UW Diplo Team with CMC Special Forces",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -484,6 +491,14 @@
         "Date": "2491-12",
         "Sources": [
           "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Note": "The Voice accuses 5coy of instigating the Hal rebellion and of murdering civilians near Ruaros",
+        "Sources": [
+          "article/thevoice_2495-07"
         ]
       }
     ]
@@ -1128,7 +1143,8 @@
     "Name": "Celestial News Network",
     "Aliases": [
       "CNN",
-      "CNN Newsline"
+      "CNN Newsline",
+      "CNN Newsbulletin"
     ],
     "Type": "press",
     "Description": "News network; a CNN crew interviewed 5 Coy on Liahn in 2495, and CNN Newsline reported General Sjvenson's death in Oct 2501.",
@@ -1155,6 +1171,13 @@
         "Date": "2494-09",
         "Sources": [
           "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Published CNN Newsbulletin (Issue 1, January 2496), renamed CNN Newsline from Issue 3 (March 2496); editor Benjamin Maguire",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
         ]
       }
     ]
@@ -1520,6 +1543,27 @@
         "Role": "Hostile",
         "Sources": [
           "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "despatches",
+    "Name": "Despatches",
+    "Aliases": [
+      "Dispatches",
+      "5 Coy Dispatches",
+      "Despatches - CMC News"
+    ],
+    "Type": "press",
+    "Description": "CMC in-house newsletter (later 5 Coy Dispatches).",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Issue 1 carried CMC News and the Quartermaster supplement; 5 Coy Dispatches (March 2496) carried the Training Bulletin and Company Routine Orders",
+        "Sources": [
+          "article/dispatches_2495-unknown",
+          "article/dispatches_2496-03"
         ]
       }
     ]
@@ -2031,7 +2075,9 @@
       "Haoins-Worthy Starways",
       "Haines-Worthy Starways",
       "Hadens-Worthy Starways",
-      "HainesWorthy"
+      "HainesWorthy",
+      "Hadins-Worthy Starlines",
+      "Hadins-Worthy"
     ],
     "Type": "corporation",
     "Description": "Owners of the starship Marie Celeste, whose obstruction contributed to the deaths on board in 2495. A \"Hainsworthy\" luxury liner was destroyed in Jan 2501 (probably the same company).",
@@ -2057,6 +2103,15 @@
         "At": "mission/2495-05_boarding-action-mariecelesta",
         "Sources": [
           "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Contesting salvage claims on the Marie Celesta, which they say no longer exists",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -2181,7 +2236,8 @@
     "Reference": "hal-slave-security",
     "Name": "Slave Security",
     "Aliases": [
-      "SS"
+      "SS",
+      "Slave Security forces"
     ],
     "Type": "other",
     "Description": "Bounty-hunting slave security units on Hal.",
@@ -2192,6 +2248,14 @@
         "Role": "Hostile",
         "Sources": [
           "article/2495-07_mission-omaha"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Two Slave Security (SS) men seen mistreating a female slave on Hal",
+        "Date": "2495-07",
+        "Sources": [
+          "article/thevoice_2495-07"
         ]
       }
     ]
@@ -2309,6 +2373,25 @@
         "Date": "2495-04",
         "Sources": [
           "article/interstella_2495-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "holy-defenders-of-juliet",
+    "Name": "The Holy Defenders of Juliet",
+    "Aliases": [
+      "Holy Defenders of Juliet"
+    ],
+    "Type": "terrorist",
+    "Description": "Group that threatened Barnards if any Palmini attack device is placed in Juliet's space.",
+    "Facts": [
+      {
+        "P": "opposes",
+        "O": "organisation/palmini-defence-systems",
+        "Date": "2496-02",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -2745,6 +2828,33 @@
         "Date": "2492-04",
         "Sources": [
           "article/interstella_2492-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "jsertcom",
+    "Name": "Joint Services Training Command",
+    "Aliases": [
+      "JSerTCom"
+    ],
+    "Type": "military",
+    "Description": "UW body set up in 2496 to take over and standardise training of all UW armed forces.",
+    "Facts": [
+      {
+        "P": "partOf",
+        "O": "organisation/united-worlds",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Commences operations 09 May 2496; units must confirm qualifications by 16 Apr 2496 and ad hoc training is not recognised after 20 May 2496",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03",
+          "article/dispatches_2496-03"
         ]
       }
     ]
@@ -3286,6 +3396,22 @@
         "Sources": [
           "article/interstella_2495-04"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Deactivated weapons store on Groombridge looted during the Civil War",
+        "Date": "2496-01",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Emptied a secret Colonial War weapons research base on the moon of Groombridge IV, sealed in 2323",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
+        ]
       }
     ]
   },
@@ -3466,6 +3592,25 @@
     ]
   },
   {
+    "Reference": "news-associates",
+    "Name": "News Associates Inc",
+    "Aliases": [
+      "News Associates"
+    ],
+    "Type": "press",
+    "Description": "Small news agency whose journalists Greg Bryant and Bryn Jarvis were held for breaching a UW interdiction on Maine.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Journalists Greg Bryant and Bryn Jarvis arrested leaving Maine, a closed colony world",
+        "Date": "2496-01",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "night-hawks",
     "Name": "Night Hawks",
     "Aliases": [
@@ -3497,7 +3642,8 @@
     "Name": "Nordberg Shipping Corporation",
     "Aliases": [
       "Nordberg Shipping",
-      "Nordberg Corp"
+      "Nordberg Corp",
+      "Nordburg Shipping"
     ],
     "Type": "corporation",
     "Description": "Interplanetary and interstellar transport.",
@@ -3516,6 +3662,15 @@
         "Date": "2495-03",
         "Sources": [
           "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Ship Pride of Harfen went missing near the Felspite system; SS Galah found asteroid 2309 Mr Spock while searching",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -3667,7 +3822,9 @@
     "Reference": "palmini-defence-systems",
     "Name": "Palmini Defence Systems Inc",
     "Aliases": [
-      "Palmini Defence"
+      "Palmini Defence",
+      "Palmini",
+      "Palmini Defence Systems"
     ],
     "Type": "corporation",
     "Description": "Planetary and orbital defence systems.",
@@ -3678,6 +3835,21 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Building the Planetary Occlusive Defence (POD) system for an unnamed client; rented five factories on Barnards",
+        "Date": "2496-02",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Barnards",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -3757,6 +3929,22 @@
         "Date": "2495-03",
         "Sources": [
           "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Press release claiming the Marie Celesta is still partially intact",
+        "Date": "2496-01",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Share price fell after large-scale embezzlement; trading suspended",
+        "Date": "2495-07",
+        "Sources": [
+          "article/thevoice_2495-07"
         ]
       }
     ]
@@ -3979,7 +4167,8 @@
       "Restyk",
       "Restryk",
       "Rystryk",
-      "Restryk Corporation"
+      "Restryk Corporation",
+      "Rystyk Corporation"
     ],
     "Type": "corporation",
     "Description": "Clone growth and Mem-Rec memory recording for paying customers.",
@@ -3998,6 +4187,14 @@
         "Date": "2492-01",
         "Sources": [
           "article/interstella_2492-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Investigated by the UW Serious Fraud Office and fined (hundreds of millions) for grievous malpractice; two directors resigned",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -4141,7 +4338,8 @@
     "Name": "Sjvenson Fire and Rescue",
     "Aliases": [
       "Sjvenson Fire and Safety Company",
-      "Sjvenson Company"
+      "Sjvenson Company",
+      "Svjenson Fire and Rescue Corporation"
     ],
     "Type": "corporation",
     "Description": "Sjvenson family firm based on Sol3; General J. Sjvenson became its CEO in 2500.",
@@ -4151,6 +4349,14 @@
         "V": "Sol3 (testing base on Neptune)",
         "Sources": [
           "article/interim-history_2496-to-2501"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "character/sjvenson-j",
+        "Note": "Family company of J Svjenson",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
         ]
       }
     ]
@@ -4430,6 +4636,42 @@
         "Date": "2491-12",
         "Sources": [
           "article/interstella_specialedition_2491-12"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Accused of trading proscribed materiel to planets under CMC interdiction",
+        "Date": "2493-10",
+        "Sources": [
+          "article/thevoice_2493-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Reportedly due to buy a squad of marines captured from Crossroads from Nasco",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "the-voice",
+    "Name": "The Voice",
+    "Aliases": [
+      "The VOICE"
+    ],
+    "Type": "press",
+    "Description": "Anti-UW, anti-CMC newsletter dated in AF years (936-937 AF) and later in standard dates.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Hostile to the UW and CMC; claims its plant was sabotaged by UW agents (July 2495)",
+        "Sources": [
+          "article/thevoice_2493-05",
+          "article/thevoice_2493-10",
+          "article/thevoice_2495-07"
         ]
       }
     ]

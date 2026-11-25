@@ -13,7 +13,7 @@ missing, and checks the markdown against the PDF when it already exists.
 
 Run everything from the repo root (in device_bash: `cd $HOME/mnt/5coy-archive`). Scripts live in
 `.claude/skills/transcribe-pdf-resource/scripts/` (`$S` below). They need `python3`, `pdfinfo`,
-`pdftotext`, `pdftoppm` (poppler-utils), `tesseract` and Pillow. `pyspellchecker` is optional but makes
+`pdftotext`, `pdftoppm`, `pdfimages` (poppler-utils), `tesseract` and Pillow. `pyspellchecker` is optional but makes
 the error checks much better: `pip3 install --user pyspellchecker`.
 
 ## 0. Getting the PDF
@@ -77,17 +77,49 @@ open them with Read. Crops are small, so stage a batch of them at once when chec
    - all-caps originals stay all-caps; original line breaks are kept where the siblings keep them.
    No page markers or HTML comments in the finished file.
 3. **Write the draft** from `draft.txt`, fixing the layout to match the image.
-4. **Find the errors** (step 4), fix them, and repeat until what's left has been checked against the image.
-5. **Completeness check**: `python3 $S/compare_md.py <reference> --md <your file>`. Any `OMITTED` run
+4. **Extract the pictures** (step 3b) and reference them where they sit on the page.
+5. **Find the errors** (step 4), fix them, and repeat until what's left has been checked against the image.
+6. **Completeness check**: `python3 $S/compare_md.py <reference> --md <your file>`. Any `OMITTED` run
    is text the OCR saw that you dropped. `ADDED` is fine for things you read off the image that OCR missed.
-6. **Wire it up.** Save as `web/wwwroot/content/<section>/<reference>.md` (kebab-case stem = Reference,
+7. **Wire it up.** Save as `web/wwwroot/content/<section>/<reference>.md` (kebab-case stem = Reference,
    section folder per the crossref-archive-data skill), set the article's `ContentUrl` with a surgical
    string replacement (not `json.dump`), then run
    `python3 .claude/skills/crossref-archive-data/scripts/check_crossrefs.py web/wwwroot`.
    A personnel.json-only PDF needs an article first (see crossref-archive-data, step 6).
-7. `python3 $S/log_verification.py <reference> TRANSCRIBED "<pages, method, anything left uncertain>"`
+8. `python3 $S/log_verification.py <reference> TRANSCRIBED "<pages, method, anything left uncertain>"`
 
-## 3b. Verify an existing transcription
+## 3b. Pictures: extract them, don't describe them
+
+When a page carries a picture that is part of the content (an illustration, photo, plan, diagram, map or
+a drawn advert), cut it out of the PDF and show it in the markdown. Don't leave an
+`_[Illustration: ...]_` note in its place. Skip purely decorative bits (masthead logos, rules, borders,
+clip-art dingbats) and say in the report that you skipped them.
+
+1. Find the picture's box on the 150 dpi page image (`.transcribe/<reference>/page-NN.png`): top-left and
+   bottom-right corner in pixels. Keep it inside any printed frame, and leave out captions that are
+   already transcribed as text and neighbouring rules or text.
+2. Cut it out:
+   ```bash
+   python3 $S/extract_image.py <reference> <page> <x0,y0,x1,y1> \
+       web/wwwroot/content/<section>/<reference>_<what>.png
+   ```
+   The box is scaled to the source resolution. The script crops from the page's embedded scan
+   (`pdfimages`, the original pixels) when the page is one full-page image, otherwise from a 300 dpi
+   render. It saves greyscale unless you pass `--colour` (use that only when the original is in colour).
+   If the PDF isn't in `.transcribe/media/`, set `FIVECOY_MEDIA_DIR` to Joel's media mirror
+   (`$HOME/mnt/5coy-media` when that folder is connected).
+3. **Look at the PNG** (stage it and open it with Read) and adjust the box until nothing is cut off and
+   nothing extra is in it.
+4. Name it `<reference>_<short-kebab-description>.png` (e.g. `briefing-notes_type-23-exosuit_plan.png`,
+   `thevoice_2493-05_dag-food.png`) and save it in the **same folder as the markdown**.
+5. Reference it where it sits in the layout, with the site-absolute path, alt text describing what it
+   shows and a title from the page's own caption or heading:
+   ```markdown
+   ![A marine in the new CMC A.C.C.D camouflage combat dress](/content/in-character/other-publications/dispatches_2495-unknown_accd.png "CMC A.C.C.D (All Condition Combat Dress)")
+   ```
+   Inside a boxed advert (blockquote), prefix the line with `> ` like the rest of the box.
+
+## 3c. Verify an existing transcription
 
 1. `python3 $S/extract_pdf.py <reference>` (as above).
 2. `python3 $S/compare_md.py <reference>` lists every wording difference, most worrying first:
@@ -102,7 +134,8 @@ open them with Read. Crops are small, so stage a batch of them at once when chec
    before going through hunks one by one.
 5. Fix the MD in place with exact-string edits so the diff stays reviewable. Don't reformat lines you
    aren't correcting.
-6. Log it: `VERIFIED` (no change), `FIXED` (say how many corrections, of what kind) or `PARTIAL`
+6. If the PDF has pictures the markdown doesn't show (or only describes), extract them as in 3b.
+7. Log it: `VERIFIED` (no change), `FIXED` (say how many corrections, of what kind) or `PARTIAL`
    (what's left for Joel).
 
 ## 4. Finding and fixing transcription errors
@@ -137,5 +170,5 @@ Keep going until a rerun shows only suspects you've confirmed on the page.
 
 Per resource: what was done (new / verified / fixed), extraction method and confidence, the number and
 kind of corrections, every `[illegible]` / `[word?]`, any handwritten or image-only content you
-transcribed by eye, words added to `.transcribe/lexicon.txt`, and the data/ContentUrl changes. Then `git status
+transcribed by eye, every picture extracted (file name and where it's used) and any decorative ones skipped, words added to `.transcribe/lexicon.txt`, and the data/ContentUrl changes. Then `git status
 --short` and `git diff --stat`. Don't commit.

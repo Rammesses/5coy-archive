@@ -100,7 +100,8 @@
    "organisation/united-worlds"
   ],
   "article/bill-chivers-training-ideas": [
-   "character/zwalf"
+   "character/zwalf",
+   "organisation/despatches"
   ],
   "article/honours_1995-08-23": [
    "character/adder",
@@ -525,6 +526,7 @@
    "character/aunty-trisha",
    "character/baron-lukel",
    "character/harris-reece",
+   "character/hilton-jill",
    "character/oshaunessy-caitlin",
    "character/oshaunessy-cassandra",
    "character/parnell-sean-devlin",
@@ -1050,19 +1052,6 @@
    "organisation/irag",
    "organisation/restyk-corporation"
   ],
-  "article/personnel-jacket_turner-tj121710": [
-   "character/crisp-john",
-   "character/crisp-jonas",
-   "character/frank-turner",
-   "character/jonathon-shade",
-   "character/martha-turner",
-   "character/martins-julian",
-   "character/nasco",
-   "character/turner-j",
-   "character/williams-wild-bill",
-   "organisation/5-coy",
-   "organisation/sugar-mice"
-  ],
   "article/tactical-operations_terms-of-reference": [],
   "article/2492-10_mission-procyon-intel": [
    "character/devon-a",
@@ -1109,6 +1098,268 @@
    "character/mexal",
    "character/yellan",
    "organisation/cmc-combat-engineering-department"
+  ],
+  "article/cnnnewsline_2496-01": [
+   "character/collins-franklin",
+   "character/danton-fred",
+   "character/griffin-surgeon-lt",
+   "character/harris-reece",
+   "character/hilton-jill",
+   "character/krysal-spyers",
+   "character/maguire-benjamin",
+   "character/morgan-jane",
+   "character/nasco",
+   "character/packard-lucy",
+   "character/trimble-allison",
+   "organisation/5-coy",
+   "organisation/cnn",
+   "organisation/hadens-worthy",
+   "organisation/intergalactic-lottery-co",
+   "organisation/interstella",
+   "organisation/military-mercantile",
+   "organisation/parnell-industries",
+   "organisation/united-worlds",
+   "organisation/uw-special-forces"
+  ],
+  "article/cnnnewsline_2496-03": [
+   "character/aldo-n",
+   "character/anderson-peter",
+   "character/arnold-ek",
+   "character/axe-ruby",
+   "character/baron-lukel",
+   "character/bryant-gem",
+   "character/castle-glen",
+   "character/churchill-j",
+   "character/churchill-john",
+   "character/clark-lawrence",
+   "character/collins-franklin",
+   "character/currey-alex",
+   "character/danton-fred",
+   "character/diamond-tane",
+   "character/h-zachary-nathan-smith",
+   "character/hilton-jill",
+   "character/lee-veronica",
+   "character/letts-hugo",
+   "character/maguire-benjamin",
+   "character/morgan-jane",
+   "character/murrey-justin",
+   "character/packard-lucy",
+   "character/pruwitt",
+   "character/roger-designieur",
+   "character/smith-j",
+   "character/vanessa-parnell",
+   "character/williams-zack",
+   "organisation/5-coy",
+   "organisation/cmc-high-command",
+   "organisation/cnn",
+   "organisation/colonial-marine-corps",
+   "organisation/holy-defenders-of-juliet",
+   "organisation/jsertcom",
+   "organisation/news-associates",
+   "organisation/nordberg-shipping",
+   "organisation/palmini-defence-systems",
+   "organisation/restyk-corporation",
+   "organisation/united-worlds"
+  ],
+  "article/cnnnewsline_2496-04": [
+   "character/arnold-ek",
+   "character/churchill-j",
+   "character/churchill-john",
+   "character/collins-franklin",
+   "character/danton-fred",
+   "character/dawkins-richard",
+   "character/diamond-jack",
+   "character/dyer-james",
+   "character/dyson-peter",
+   "character/hilton-jill",
+   "character/nasco",
+   "character/packard-lucy",
+   "character/stewart-andrew",
+   "character/williams-zack",
+   "organisation/cnn",
+   "organisation/colonial-survey",
+   "organisation/hadens-worthy",
+   "organisation/military-mercantile",
+   "organisation/nordberg-shipping",
+   "organisation/palmini-defence-systems",
+   "organisation/the-brotherhood",
+   "organisation/united-worlds"
+  ],
+  "article/dispatches_2495-unknown": [
+   "character/alemco-leopold-drahvet",
+   "character/baccahrat-bc",
+   "character/billings-g",
+   "character/broker",
+   "character/brown-ck",
+   "character/diamond-tane",
+   "character/haze-torboran",
+   "character/katz",
+   "character/kyoke-ao",
+   "character/narochov",
+   "character/oshaunessy-caitlin",
+   "character/oshaunessy-cassandra",
+   "character/willis-s",
+   "organisation/2-coy",
+   "organisation/4-coy",
+   "organisation/5-coy",
+   "organisation/despatches",
+   "organisation/united-worlds",
+   "organisation/uw-diplo-team-groombridge",
+   "organisation/uw-special-forces"
+  ],
+  "article/dispatches_2496-03": [
+   "character/calvin-a",
+   "character/clark-lawrence",
+   "character/de-lima",
+   "character/doe",
+   "character/fugazi",
+   "character/kshell",
+   "character/oslo-sven",
+   "character/saint",
+   "character/turner-j",
+   "organisation/5-coy",
+   "organisation/despatches",
+   "organisation/jsertcom",
+   "organisation/united-worlds"
+  ],
+  "article/thevoice_2493-05": [
+   "character/harris-reece",
+   "organisation/cmc-high-command",
+   "organisation/the-voice",
+   "organisation/united-worlds"
+  ],
+  "article/thevoice_2493-10": [
+   "character/harris-reece",
+   "character/mexal",
+   "organisation/de-witt-mining",
+   "organisation/the-brotherhood",
+   "organisation/the-voice"
+  ],
+  "article/thevoice_2495-07": [
+   "character/campana-martina",
+   "organisation/5-coy",
+   "organisation/colonial-marine-corps",
+   "organisation/hal-slave-security",
+   "organisation/parnell-industries",
+   "organisation/the-brotherhood",
+   "organisation/the-voice",
+   "organisation/united-worlds"
+  ],
+  "article/personnel-jacket_arden-ac504994": [
+   "character/arden-catherine",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_axe-ar110223": [
+   "character/axe-ruby",
+   "character/ratch-sc",
+   "character/tomkin",
+   "organisation/5-coy",
+   "organisation/cnn",
+   "organisation/uw-diplomatic-service"
+  ],
+  "article/personnel-jacket_calvin-ca110328": [
+   "character/calvin-a",
+   "character/calvin-august",
+   "character/elhana-parnell",
+   "organisation/barnard-puritan-party",
+   "organisation/colonial-marine-corps",
+   "organisation/csca"
+  ],
+  "article/personnel-jacket_cassell-cr170928": [
+   "character/arnold-ek",
+   "character/cassell",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_dekard-dr948293": [
+   "character/dekard-rik",
+   "character/edward-carter",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_doe-dj195839": [
+   "character/doe",
+   "organisation/1-coy",
+   "organisation/2-coy",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_garibaldi-gh194827": [
+   "character/garibaldi-hamish"
+  ],
+  "article/personnel-jacket_greig-gm104829": [
+   "character/greig-michael",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_havoc-hx170929": [
+   "character/havoc",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_larner-lx209847": [
+   "character/larner",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_mexal-mx110424": [
+   "character/belzakath",
+   "character/marine-x",
+   "character/mexal",
+   "character/tomkin",
+   "organisation/5-coy",
+   "organisation/coedarian",
+   "organisation/the-voice"
+  ],
+  "article/personnel-jacket_oconnell-or283718": [
+   "character/greig-michael",
+   "character/oconnell-rick",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_oslo-os199305": [
+   "character/oslo-sven",
+   "organisation/5-coy",
+   "organisation/cnn"
+  ],
+  "article/personnel-jacket_riot-rd193828": [
+   "character/riot-dan",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_rocktansky-rm201958": [
+   "character/rocktansky",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_rogers-rm102948": [
+   "character/rogers-mary",
+   "organisation/2-coy",
+   "organisation/5-coy",
+   "organisation/parnell-industries"
+  ],
+  "article/personnel-jacket_rumpole-rp654654": [
+   "character/rumpole"
+  ],
+  "article/personnel-jacket_saint-sn230195": [
+   "character/saint",
+   "organisation/5-coy"
+  ],
+  "article/personnel-jacket_svjenson-sj008174": [
+   "character/sjvenson-j",
+   "character/tomkin",
+   "organisation/5-coy",
+   "organisation/sjvenson-fire-and-rescue",
+   "organisation/uw-rapid-reaction-battalion"
+  ],
+  "article/personnel-jacket_turner-tj121710": [
+   "character/crisp-john",
+   "character/crisp-jonas",
+   "character/frank-turner",
+   "character/jonathon-shade",
+   "character/martha-turner",
+   "character/martins-julian",
+   "character/nasco",
+   "character/tomkin",
+   "character/turner-j",
+   "character/williams-wild-bill",
+   "organisation/5-coy",
+   "organisation/sugar-mice"
+  ],
+  "article/personnel-jacket_yellan-yz928192": [
+   "character/yellan",
+   "organisation/5-coy"
   ],
   "article/mexals-letters_2493-03_kruger": [
    "character/belzakath",
@@ -1190,6 +1441,7 @@
    "organisation/colonial-survey",
    "organisation/intelcorp",
    "organisation/the-brotherhood",
+   "organisation/the-voice",
    "organisation/united-worlds",
    "organisation/uw-special-forces"
   ],
@@ -1286,6 +1538,7 @@
    "character/oshaunessy-caitlin",
    "character/ratch-sc",
    "character/renny-vark",
+   "character/rogers-mary",
    "character/sjvenson-j",
    "character/smith-j",
    "character/turner-j",
@@ -1750,6 +2003,7 @@
    "organisation/designieur-security",
    "organisation/garp-corporation",
    "organisation/interstella",
+   "organisation/jsertcom",
    "organisation/new-worlds-inc",
    "organisation/night-hawks",
    "organisation/sirian-defence-forces",
@@ -1995,7 +2249,11 @@
    "article/2494-06_mission-pegasus",
    "article/honours_1995-08-23"
   ],
+  "character/aldo-n": [
+   "article/cnnnewsline_2496-03"
+  ],
   "character/alemco-leopold-drahvet": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-07",
    "article/interstella_2492-08",
    "article/interstella_2494-11"
@@ -2009,6 +2267,9 @@
   ],
   "character/anderson": [
    "article/2495-11_mission-nova"
+  ],
+  "character/anderson-peter": [
+   "article/cnnnewsline_2496-03"
   ],
   "character/angel-mi": [
    "article/2495-11_mission-nova",
@@ -2033,7 +2294,8 @@
    "article/mexals-letters_2495-04_groombridge"
   ],
   "character/arden-catherine": [
-   "article/message_chaplain_deaths-of-turner-and-peterson"
+   "article/message_chaplain_deaths-of-turner-and-peterson",
+   "article/personnel-jacket_arden-ac504994"
   ],
   "character/arios-e": [
    "article/interstella_2495-04"
@@ -2044,9 +2306,12 @@
   ],
   "character/arnold-ek": [
    "article/2495-05_boarding-report-mariecelesta",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/interstella_2495-06",
    "article/mexals-letters_2495-05_mariecelesta",
    "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_cassell-cr170928",
    "mission/2495-05_boarding-action-mariecelesta"
   ],
   "character/ashnak": [
@@ -2069,6 +2334,7 @@
   "character/axe-ruby": [
    "article/2494-03_mission-sidewinder",
    "article/2494-12_mission-classified",
+   "article/cnnnewsline_2496-03",
    "article/honours_1995-08-23",
    "article/interim-history_2496-to-2501",
    "article/interstella_2494-12",
@@ -2077,7 +2343,11 @@
    "article/interstella_2495-06",
    "article/mexals-letters_2494-12_juliette",
    "article/mexals-letters_2495-01_grants-world",
-   "article/mexals-letters_2495-02_heurls"
+   "article/mexals-letters_2495-02_heurls",
+   "article/personnel-jacket_axe-ar110223"
+  ],
+  "character/baccahrat-bc": [
+   "article/dispatches_2495-unknown"
   ],
   "character/barnacal-b-m": [
    "article/interstella_2492-10"
@@ -2091,6 +2361,7 @@
   "character/baron-lukel": [
    "article/2496-03_mission-redstorm",
    "article/a-brief-guide-to-history",
+   "article/cnnnewsline_2496-03",
    "article/interstella_2492-03",
    "article/interstella_2492-04",
    "article/interstella_2492-05",
@@ -2134,7 +2405,8 @@
    "article/mexals-letters_2495-03_connet",
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-05_mariecelesta",
-   "article/mexals-letters_2495-07_hal"
+   "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_mexal-mx110424"
   ],
   "character/beyo-mella": [
    "article/interstella_2493-04"
@@ -2145,6 +2417,9 @@
   ],
   "character/bill-ryans-world": [
    "article/interstella_2494-09"
+  ],
+  "character/billings-g": [
+   "article/dispatches_2495-unknown"
   ],
   "character/blackthorne-w": [
    "article/2494-06_mission-pegasus",
@@ -2167,6 +2442,12 @@
   "character/brent": [
    "article/2496-03_mission-redstorm"
   ],
+  "character/broker": [
+   "article/dispatches_2495-unknown"
+  ],
+  "character/brown-ck": [
+   "article/dispatches_2495-unknown"
+  ],
   "character/browning-johan": [
    "article/interstella_2492-01",
    "article/interstella_2492-04"
@@ -2177,6 +2458,7 @@
   ],
   "character/bryant-gem": [
    "article/2496-02_mission-intruder",
+   "article/cnnnewsline_2496-03",
    "article/interstella_2495-02",
    "article/mexals-letters_2495-01_grants-world",
    "mission/2496-02_mission-intruder"
@@ -2206,6 +2488,7 @@
    "article/2496-03_mission-redstorm",
    "article/cmc-newsletter_1999-02",
    "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/dispatches_2496-03",
    "article/general-orders_2602-05-16",
    "article/honours_1995-08-23",
    "article/interstella_2494-12",
@@ -2216,6 +2499,7 @@
    "article/mexals-letters_2495-02_heurls",
    "article/mexals-letters_2495-03_connet",
    "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_calvin-ca110328",
    "mission/2494-03_mission-sidewinder",
    "mission/2494-06_mission-pegasus",
    "mission/2494-12_mission-classified",
@@ -2225,7 +2509,11 @@
    "mission/2496-03_mission-redstorm"
   ],
   "character/calvin-august": [
-   "article/interstella_2494-10"
+   "article/interstella_2494-10",
+   "article/personnel-jacket_calvin-ca110328"
+  ],
+  "character/campana-martina": [
+   "article/thevoice_2495-07"
   ],
   "character/cantrell-domonic": [
    "article/interstella_2492-04"
@@ -2259,8 +2547,12 @@
    "article/mexals-letters_2495-02_heurls",
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-05_mariecelesta",
+   "article/personnel-jacket_cassell-cr170928",
    "mission/2494-12_mission-classified",
    "mission/2495-04_mission-unknown"
+  ],
+  "character/castle-glen": [
+   "article/cnnnewsline_2496-03"
   ],
   "character/catherine-ryans-world": [
    "article/interstella_2494-09"
@@ -2291,8 +2583,18 @@
   ],
   "character/churchill-j": [
    "article/2495-07_mission-omaha",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/mexals-letters_2495-07_hal",
    "mission/2495-07_mission-omaha"
+  ],
+  "character/churchill-john": [
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04"
+  ],
+  "character/clark-lawrence": [
+   "article/cnnnewsline_2496-03",
+   "article/dispatches_2496-03"
   ],
   "character/claudia-goldine": [
    "article/2494-04_mission-ogre",
@@ -2305,6 +2607,9 @@
    "article/interstella_2494-09"
   ],
   "character/collins-franklin": [
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/interstella_2495-07"
   ],
   "character/colton": [
@@ -2338,6 +2643,9 @@
    "article/2494-06_mission-pegasus",
    "article/mexals-letters_2493-09_x244"
   ],
+  "character/currey-alex": [
+   "article/cnnnewsline_2496-03"
+  ],
   "character/cyber-knight": [
    "article/2494-04_mission-ogre",
    "article/2495-07_mission-omaha",
@@ -2360,6 +2668,11 @@
   "character/dane-ryans-world": [
    "article/interstella_2494-09"
   ],
+  "character/danton-fred": [
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04"
+  ],
   "character/darling-t": [
    "article/honours_1995-08-23",
    "article/interstella_2495-05",
@@ -2369,10 +2682,14 @@
   "character/david-wolverton": [
    "article/writers-guide"
   ],
+  "character/dawkins-richard": [
+   "article/cnnnewsline_2496-04"
+  ],
   "character/de-lima": [
    "article/2496-02_mission-intruder",
    "article/2496-02_mission-intruder_sibreport",
    "article/2496-03_mission-redstorm",
+   "article/dispatches_2496-03",
    "mission/2496-03_mission-redstorm"
   ],
   "character/deacon": [
@@ -2385,6 +2702,9 @@
   ],
   "character/deborah-landry": [
    "article/scenario-drive-wars-scenario-notes"
+  ],
+  "character/dekard-rik": [
+   "article/personnel-jacket_dekard-dr948293"
   ],
   "character/derrin-sal": [
    "article/interstella_specialedition_2491-12"
@@ -2402,10 +2722,15 @@
   "character/dexter-d6": [
    "article/writers-guide"
   ],
+  "character/diamond-jack": [
+   "article/cnnnewsline_2496-04"
+  ],
   "character/diamond-tane": [
    "article/2492-10_mission-procyon-intel",
    "article/2494-06_mission-pegasus",
    "article/2496-03_mission-redstorm",
+   "article/cnnnewsline_2496-03",
+   "article/dispatches_2495-unknown",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-03",
    "article/interstella_2492-04",
@@ -2454,8 +2779,10 @@
   "character/doe": [
    "article/2495-11_mission-nova",
    "article/2496-03_mission-redstorm",
+   "article/dispatches_2496-03",
    "article/mexals-letters_2495-03_connet",
-   "article/mexals-letters_2495-07_hal"
+   "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_doe-dj195839"
   ],
   "character/domminic": [
    "article/2495-11_mission-nova",
@@ -2480,11 +2807,18 @@
    "article/2492-10_mission-procyon-intel",
    "article/interstella_2494-11"
   ],
+  "character/dyer-james": [
+   "article/cnnnewsline_2496-04"
+  ],
+  "character/dyson-peter": [
+   "article/cnnnewsline_2496-04"
+  ],
   "character/edmonds-thille": [
    "article/interstella_2494-12"
   ],
   "character/edward-carter": [
    "article/background-scenario-summaries-for-93-94",
+   "article/personnel-jacket_dekard-dr948293",
    "article/scenario-drive-wars-scenario-notes",
    "article/writers-guide"
   ],
@@ -2495,7 +2829,8 @@
    "article/interim-history_2496-to-2501",
    "article/interstella_2494-10",
    "article/interstella_2494-11",
-   "article/interstella_2495-07"
+   "article/interstella_2495-07",
+   "article/personnel-jacket_calvin-ca110328"
   ],
   "character/farquhar": [
    "article/2495-01_mission-nightside",
@@ -2544,6 +2879,7 @@
    "article/2496-02_mission-intruder",
    "article/2496-02_mission-intruder_sibreport",
    "article/2496-03_mission-redstorm",
+   "article/dispatches_2496-03",
    "article/interstella_2494-12",
    "article/interstella_2495-01",
    "article/interstella_2495-02",
@@ -2557,6 +2893,9 @@
   ],
   "character/galpin": [
    "article/mexals-letters_2493-09_x244"
+  ],
+  "character/garibaldi-hamish": [
+   "article/personnel-jacket_garibaldi-gh194827"
   ],
   "character/garp-regional-rep": [
    "article/2496-03_mission-redstorm"
@@ -2606,7 +2945,15 @@
   "character/goldsmith-gerald": [
    "article/interstella_2495-07"
   ],
+  "character/greig-michael": [
+   "article/personnel-jacket_greig-gm104829",
+   "article/personnel-jacket_oconnell-or283718"
+  ],
+  "character/griffin-surgeon-lt": [
+   "article/cnnnewsline_2496-01"
+  ],
   "character/h-zachary-nathan-smith": [
+   "article/cnnnewsline_2496-03",
    "article/interim-history_2496-to-2501",
    "article/interstella_2494-11",
    "article/interstella_2495-07"
@@ -2617,6 +2964,7 @@
    "article/2494-06_mission-pegasus",
    "article/2495-01_mission-nightside",
    "article/2495-07_mission-omaha",
+   "article/cnnnewsline_2496-01",
    "article/honours_1995-08-23",
    "article/interstella_2493-03",
    "article/interstella_2493-06",
@@ -2635,6 +2983,8 @@
    "article/mission-achilles",
    "article/mission-flag",
    "article/mission-welcome-to-the-marie-celesta-audio-script",
+   "article/thevoice_2493-05",
+   "article/thevoice_2493-10",
    "mission/2494-04_mission-ogre",
    "mission/2494-06_mission-pegasus",
    "mission/2494-12_mission-classified",
@@ -2650,7 +3000,8 @@
   "character/havoc": [
    "article/2496-02_mission-intruder",
    "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
-   "article/mexals-letters_2495-05_mariecelesta"
+   "article/mexals-letters_2495-05_mariecelesta",
+   "article/personnel-jacket_havoc-hx170929"
   ],
   "character/hawk": [
    "article/2494-06_mission-pegasus"
@@ -2660,6 +3011,7 @@
    "article/interstella_2492-11"
   ],
   "character/haze-torboran": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-01",
    "article/interstella_2492-02",
    "article/interstella_2492-04",
@@ -2673,6 +3025,12 @@
   "character/henri-le-geere": [
    "article/a-brief-guide-to-history",
    "article/interstella_2495-07"
+  ],
+  "character/hilton-jill": [
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
+   "article/interstella_2493-06"
   ],
   "character/hobbes": [
    "article/interstella_2495-02"
@@ -2819,6 +3177,7 @@
    "article/interstella_2492-01"
   ],
   "character/katz": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-11",
    "article/interstella_2494-11"
   ],
@@ -2863,6 +3222,7 @@
   "character/krysal-spyers": [
    "article/2494-04_mission-ogre",
    "article/2494-06_mission-pegasus",
+   "article/cnnnewsline_2496-01",
    "article/interstella_2492-02",
    "article/interstella_2492-03",
    "article/interstella_2492-04",
@@ -2891,8 +3251,12 @@
   "character/kshell": [
    "article/2496-02_mission-intruder",
    "article/2496-02_mission-intruder_sibreport",
+   "article/dispatches_2496-03",
    "article/interstella_2495-04",
    "mission/2496-02_mission-intruder"
+  ],
+  "character/kyoke-ao": [
+   "article/dispatches_2495-unknown"
   ],
   "character/lancaster": [
    "article/mexals-letters_2495-03_connet"
@@ -2900,15 +3264,24 @@
   "character/lanner": [
    "article/general-orders_2602-05-16"
   ],
+  "character/larner": [
+   "article/personnel-jacket_larner-lx209847"
+  ],
   "character/latton": [
    "article/mission-kraken"
   ],
   "character/le-conte-sirac": [
    "article/interstella_2495-04"
   ],
+  "character/lee-veronica": [
+   "article/cnnnewsline_2496-03"
+  ],
   "character/leo-permis": [
    "article/mexals-letters_2495-01_grants-world",
    "article/mission-kraken"
+  ],
+  "character/letts-hugo": [
+   "article/cnnnewsline_2496-03"
   ],
   "character/limpz-schmidt": [
    "article/interstella_2492-07",
@@ -2949,6 +3322,10 @@
   "character/maelstrom-chivelda": [
    "article/interstella_2495-05"
   ],
+  "character/maguire-benjamin": [
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03"
+  ],
   "character/majare-pakin": [
    "article/mission-troy"
   ],
@@ -2956,7 +3333,8 @@
    "article/2495-11_mission-nova"
   ],
   "character/marine-x": [
-   "article/interstella_2493-04"
+   "article/interstella_2493-04",
+   "article/personnel-jacket_mexal-mx110424"
   ],
   "character/marion-oeta-rep": [
    "article/interstella_2494-12"
@@ -3061,6 +3439,8 @@
    "article/mexals-letters_2495-07_hal",
    "article/mission-flag",
    "article/mission-intruder",
+   "article/personnel-jacket_mexal-mx110424",
+   "article/thevoice_2493-10",
    "mission/2494-12_mission-classified",
    "mission/2495-01_mission-nightside",
    "mission/2495-04_mission-unknown",
@@ -3099,14 +3479,26 @@
    "article/interstella_2492-08",
    "article/mexals-letters_2495-02_heurls"
   ],
+  "character/morgan-jane": [
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03"
+  ],
   "character/mr-head": [
    "article/2495-07_mission-omaha"
+  ],
+  "character/murrey-justin": [
+   "article/cnnnewsline_2496-03"
+  ],
+  "character/narochov": [
+   "article/dispatches_2495-unknown"
   ],
   "character/nasco": [
    "article/2492-10_mission-procyon-intel",
    "article/2494-06_mission-pegasus",
    "article/2496-03_mission-redstorm",
    "article/a-brief-guide-to-history",
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-04",
    "article/interstella_2492-02",
    "article/interstella_2492-03",
    "article/interstella_2492-06",
@@ -3157,6 +3549,9 @@
   "character/north-nixon-richard": [
    "article/interstella_2494-10"
   ],
+  "character/oconnell-rick": [
+   "article/personnel-jacket_oconnell-or283718"
+  ],
   "character/odonnald": [
    "article/2494-06_mission-pegasus"
   ],
@@ -3165,6 +3560,7 @@
    "article/2494-04_mission-ogre",
    "article/2494-06_mission-pegasus",
    "article/2494-12_mission-classified",
+   "article/dispatches_2495-unknown",
    "article/honours_1995-08-23",
    "article/interstella_2492-06",
    "article/interstella_2493-03",
@@ -3182,6 +3578,7 @@
    "mission/2495-04_mission-unknown"
   ],
   "character/oshaunessy-cassandra": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-05",
    "article/interstella_2492-08",
    "article/interstella_2492-12",
@@ -3195,6 +3592,7 @@
    "article/2495-05_boarding-report-mariecelesta",
    "article/2495-07_mission-omaha",
    "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/dispatches_2496-03",
    "article/honours_1995-08-23",
    "article/interim-history_2496-to-2501",
    "article/interstella_2495-04",
@@ -3203,7 +3601,13 @@
    "article/mexals-letters_2495-03_connet",
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-05_mariecelesta",
+   "article/personnel-jacket_oslo-os199305",
    "mission/2495-05_boarding-action-mariecelesta"
+  ],
+  "character/packard-lucy": [
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04"
   ],
   "character/paris": [
    "article/interstella_2493-03"
@@ -3241,6 +3645,7 @@
    "article/2492-10_mission-procyon-intel"
   ],
   "character/pruwitt": [
+   "article/cnnnewsline_2496-03",
    "article/interstella_2495-05",
    "article/mexals-letters_2495-04_groombridge",
    "article/mission-achilles",
@@ -3271,6 +3676,7 @@
    "article/mexals-letters_2495-02_heurls",
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-05_mariecelesta",
+   "article/personnel-jacket_axe-ar110223",
    "mission/2495-05_boarding-action-mariecelesta"
   ],
   "character/ravaldez": [
@@ -3323,6 +3729,9 @@
    "article/mexals-letters_2494-12_juliette",
    "article/mexals-letters_2495-01_grants-world"
   ],
+  "character/riot-dan": [
+   "article/personnel-jacket_riot-rd193828"
+  ],
   "character/rippon-r": [
    "article/2492-10_mission-procyon-intel"
   ],
@@ -3335,18 +3744,25 @@
    "article/interstella_2495-06",
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-05_mariecelesta",
+   "article/personnel-jacket_rocktansky-rm201958",
    "mission/2495-04_mission-unknown"
   ],
   "character/roger-designieur": [
    "article/2496-03_mission-redstorm",
+   "article/cnnnewsline_2496-03",
    "mission/2496-03_mission-redstorm"
+  ],
+  "character/rogers-mary": [
+   "article/mexals-letters_2495-02_heurls",
+   "article/personnel-jacket_rogers-rm102948"
   ],
   "character/rouge": [
    "article/2495-01_mission-nightside"
   ],
   "character/rumpole": [
    "article/2496-02_mission-intruder",
-   "article/2496-02_mission-intruder_sibreport"
+   "article/2496-02_mission-intruder_sibreport",
+   "article/personnel-jacket_rumpole-rp654654"
   ],
   "character/ryan": [
    "article/2495-01_mission-nightside"
@@ -3363,7 +3779,9 @@
    "article/mexals-letters_2495-05_mariecelesta"
   ],
   "character/saint": [
-   "article/2496-02_mission-intruder"
+   "article/2496-02_mission-intruder",
+   "article/dispatches_2496-03",
+   "article/personnel-jacket_saint-sn230195"
   ],
   "character/sanderson-dominic": [
    "article/mexals-letters_2493-09_x244"
@@ -3427,6 +3845,7 @@
    "article/mexals-letters_2495-02_heurls",
    "article/mexals-letters_2495-03_connet",
    "article/mission-troy",
+   "article/personnel-jacket_svjenson-sj008174",
    "mission/2496-02_mission-intruder"
   ],
   "character/skeln": [
@@ -3437,6 +3856,7 @@
   ],
   "character/smith-j": [
    "article/2495-01_mission-nightside",
+   "article/cnnnewsline_2496-03",
    "article/honours_1995-08-23",
    "article/itlof_2496-03",
    "article/mexals-letters_2495-02_heurls"
@@ -3476,6 +3896,9 @@
    "article/2492-10_mission-procyon-intel",
    "article/2494-06_mission-pegasus",
    "article/interstella_2494-11"
+  ],
+  "character/stewart-andrew": [
+   "article/cnnnewsline_2496-04"
   ],
   "character/stone-nick": [
    "article/interstella_2492-04"
@@ -3534,7 +3957,11 @@
    "article/interstella_2495-02"
   ],
   "character/tomkin": [
-   "article/2495-07_mission-omaha"
+   "article/2495-07_mission-omaha",
+   "article/personnel-jacket_axe-ar110223",
+   "article/personnel-jacket_mexal-mx110424",
+   "article/personnel-jacket_svjenson-sj008174",
+   "article/personnel-jacket_turner-tj121710"
   ],
   "character/tortini-a": [
    "article/2492-10_mission-procyon-intel"
@@ -3549,6 +3976,9 @@
   ],
   "character/transk-ilsa": [
    "article/interstella_2495-02"
+  ],
+  "character/trimble-allison": [
+   "article/cnnnewsline_2496-01"
   ],
   "character/turner-j": [
    "article/2492-10_mission-procyon-intel",
@@ -3565,6 +3995,7 @@
    "article/briefing-notes_mission-hydra",
    "article/cmc-newsletter_1999-02",
    "article/disciplinary-charge_2501-10-25_calvin-vs-havoc",
+   "article/dispatches_2496-03",
    "article/honours_1995-08-23",
    "article/interstella_2494-09",
    "article/interstella_2495-02",
@@ -3599,6 +4030,7 @@
   ],
   "character/vanessa-parnell": [
    "article/a-brief-guide-to-history",
+   "article/cnnnewsline_2496-03",
    "article/companies-and-corporations",
    "article/honours_1995-08-23",
    "article/interim-history_2496-to-2501",
@@ -3653,8 +4085,15 @@
    "article/personnel-jacket_turner-tj121710",
    "article/writers-guide"
   ],
+  "character/williams-zack": [
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04"
+  ],
   "character/willis": [
    "article/mexals-letters_2495-04_groombridge"
+  ],
+  "character/willis-s": [
+   "article/dispatches_2495-unknown"
   ],
   "character/winno": [
    "article/interstella_2493-03",
@@ -3685,7 +4124,8 @@
    "article/2492-10_mission-procyon-intel"
   ],
   "character/yellan": [
-   "article/general-orders_2602-05-16"
+   "article/general-orders_2602-05-16",
+   "article/personnel-jacket_yellan-yz928192"
   ],
   "character/zack-ryans-world": [
    "article/interstella_2494-09"
@@ -3744,9 +4184,11 @@
    "article/interstella_2494-10",
    "article/interstella_2495-05",
    "article/mexals-letters_2495-04_groombridge",
+   "article/personnel-jacket_doe-dj195839",
    "mission/2495-04_mission-unknown"
   ],
   "organisation/2-coy": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-05",
    "article/interstella_2492-08",
    "article/interstella_2492-12",
@@ -3757,6 +4199,8 @@
    "article/interstella_2494-11",
    "article/interstella_2495-03",
    "article/mission-troy",
+   "article/personnel-jacket_doe-dj195839",
+   "article/personnel-jacket_rogers-rm102948",
    "article/writers-guide"
   ],
   "organisation/3-coy": [
@@ -3766,6 +4210,7 @@
    "mission/2494-06_mission-pegasus"
   ],
   "organisation/4-coy": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-06",
    "article/interstella_2492-07",
    "article/interstella_2493-03",
@@ -3788,6 +4233,10 @@
    "article/a-brief-guide-to-history",
    "article/briefing-notes_mision-vortex",
    "article/briefing-notes_mission-hydra",
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/dispatches_2495-unknown",
+   "article/dispatches_2496-03",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-02",
    "article/interstella_2492-03",
@@ -3819,7 +4268,25 @@
    "article/mexals-letters_2495-03_connet",
    "article/mexals-letters_2495-04_groombridge",
    "article/mission-kraken",
+   "article/personnel-jacket_arden-ac504994",
+   "article/personnel-jacket_axe-ar110223",
+   "article/personnel-jacket_cassell-cr170928",
+   "article/personnel-jacket_dekard-dr948293",
+   "article/personnel-jacket_doe-dj195839",
+   "article/personnel-jacket_greig-gm104829",
+   "article/personnel-jacket_havoc-hx170929",
+   "article/personnel-jacket_larner-lx209847",
+   "article/personnel-jacket_mexal-mx110424",
+   "article/personnel-jacket_oconnell-or283718",
+   "article/personnel-jacket_oslo-os199305",
+   "article/personnel-jacket_riot-rd193828",
+   "article/personnel-jacket_rocktansky-rm201958",
+   "article/personnel-jacket_rogers-rm102948",
+   "article/personnel-jacket_saint-sn230195",
+   "article/personnel-jacket_svjenson-sj008174",
    "article/personnel-jacket_turner-tj121710",
+   "article/personnel-jacket_yellan-yz928192",
+   "article/thevoice_2495-07",
    "article/writers-guide",
    "mission/2492-10_mission-procyon",
    "mission/2494-03_mission-sidewinder",
@@ -3864,7 +4331,8 @@
    "mission/2496-02_mission-intruder"
   ],
   "organisation/barnard-puritan-party": [
-   "article/interstella_2494-10"
+   "article/interstella_2494-10",
+   "article/personnel-jacket_calvin-ca110328"
   ],
   "organisation/billabong-regional-government": [
    "article/interstella_2495-07"
@@ -3925,11 +4393,13 @@
    "article/2495-07_mission-omaha"
   ],
   "organisation/cmc-high-command": [
+   "article/cnnnewsline_2496-03",
    "article/interim-history_2496-to-2501",
    "article/mexals-letters_2493-06_laverii-426",
    "article/mexals-letters_2493-09_x244",
    "article/mexals-letters_2495-04_groombridge",
    "article/mission-nova",
+   "article/thevoice_2493-05",
    "mission/2494-12_mission-classified",
    "mission/2495-04_mission-unknown",
    "mission/2496-02_mission-intruder"
@@ -3952,8 +4422,13 @@
    "article/2495-11_mission-nova",
    "article/2496-02_mission-intruder",
    "article/2496-03_mission-redstorm",
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/interim-history_2496-to-2501",
-   "article/interstella_2494-09"
+   "article/interstella_2494-09",
+   "article/personnel-jacket_axe-ar110223",
+   "article/personnel-jacket_oslo-os199305"
   ],
   "organisation/coedarian": [
    "article/interstella_2494-11",
@@ -3962,7 +4437,8 @@
    "article/mexals-letters_2493-09_x244",
    "article/mexals-letters_2494-12_juliette",
    "article/mexals-letters_2495-01_grants-world",
-   "article/mexals-letters_2495-02_heurls"
+   "article/mexals-letters_2495-02_heurls",
+   "article/personnel-jacket_mexal-mx110424"
   ],
   "organisation/colonial-marine-corps": [
    "article/2494-03_mission-sidewinder",
@@ -3973,6 +4449,7 @@
    "article/background-scenario-summaries-for-93-94",
    "article/briefing-notes_mission-hydra",
    "article/cmc-newsletter_1999-02",
+   "article/cnnnewsline_2496-03",
    "article/groups-and-organisations",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-02",
@@ -4001,13 +4478,16 @@
    "article/mexals-letters_2495-03_connet",
    "article/mexals-letters_2495-04_groombridge",
    "article/mexals-letters_2495-07_hal",
+   "article/personnel-jacket_calvin-ca110328",
    "article/scenario-drive-wars-scenario-notes",
    "article/scenario-one-of-our-drones-is-missing",
+   "article/thevoice_2495-07",
    "article/writers-guide",
    "mission/2492-10_mission-procyon"
   ],
   "organisation/colonial-survey": [
    "article/2495-01_mission-nightside",
+   "article/cnnnewsline_2496-04",
    "article/interstella_2495-02",
    "article/mexals-letters_2493-06_laverii-426",
    "article/mexals-letters_2493-09_x244",
@@ -4025,7 +4505,8 @@
    "article/mexals-letters_2495-07_hal"
   ],
   "organisation/csca": [
-   "article/interstella_2494-10"
+   "article/interstella_2494-10",
+   "article/personnel-jacket_calvin-ca110328"
   ],
   "organisation/de-witt-mining": [
    "article/2495-11_mission-nova",
@@ -4041,7 +4522,8 @@
    "article/interstella_2495-02",
    "article/interstella_2495-03",
    "article/mexals-letters_2495-02_heurls",
-   "article/mission-troy"
+   "article/mission-troy",
+   "article/thevoice_2493-10"
   ],
   "organisation/dea": [
    "article/2495-11_mission-nova",
@@ -4052,6 +4534,11 @@
   ],
   "organisation/designieur-security": [
    "article/2496-03_mission-redstorm"
+  ],
+  "organisation/despatches": [
+   "article/bill-chivers-training-ideas",
+   "article/dispatches_2495-unknown",
+   "article/dispatches_2496-03"
   ],
   "organisation/df-associates": [
    "article/interstella_2494-12",
@@ -4134,6 +4621,8 @@
   ],
   "organisation/hadens-worthy": [
    "article/2495-05_boarding-report-mariecelesta",
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-04",
    "article/interim-history_2496-to-2501",
    "article/interstella_2495-06",
    "article/mexals-letters_2495-05_mariecelesta",
@@ -4163,6 +4652,7 @@
   "organisation/hal-slave-security": [
    "article/2495-07_mission-omaha",
    "article/mexals-letters_2495-07_hal",
+   "article/thevoice_2495-07",
    "mission/2495-07_mission-omaha"
   ],
   "organisation/hengists": [
@@ -4183,6 +4673,9 @@
   ],
   "organisation/hobygames": [
    "article/interstella_2495-04"
+  ],
+  "organisation/holy-defenders-of-juliet": [
+   "article/cnnnewsline_2496-03"
   ],
   "organisation/hommilabs": [
    "article/companies-and-corporations"
@@ -4207,6 +4700,7 @@
    "mission/2494-06_mission-pegasus"
   ],
   "organisation/intergalactic-lottery-co": [
+   "article/cnnnewsline_2496-01",
    "article/interstella_2492-01",
    "article/interstella_2492-02",
    "article/interstella_2492-03",
@@ -4219,6 +4713,7 @@
   ],
   "organisation/interstella": [
    "article/2496-03_mission-redstorm",
+   "article/cnnnewsline_2496-01",
    "article/interstella_2492-01",
    "article/interstella_2492-02",
    "article/interstella_2492-04",
@@ -4268,6 +4763,11 @@
   "organisation/jefferson-electronic-systems": [
    "article/companies-and-corporations",
    "article/interstella_2492-04"
+  ],
+  "organisation/jsertcom": [
+   "article/2496-03_mission-redstorm",
+   "article/cnnnewsline_2496-03",
+   "article/dispatches_2496-03"
   ],
   "organisation/juliette-government": [
    "article/interstella_2495-02",
@@ -4353,6 +4853,8 @@
   "organisation/military-mercantile": [
    "article/briefing-notes_mision-vortex",
    "article/briefing-notes_mission-hydra",
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-04",
    "article/companies-and-corporations",
    "article/interstella_2492-12",
    "article/interstella_2495-04",
@@ -4387,11 +4889,16 @@
    "article/interstella_2492-06",
    "article/scenario-how-much-for-just-the-planet"
   ],
+  "organisation/news-associates": [
+   "article/cnnnewsline_2496-03"
+  ],
   "organisation/night-hawks": [
    "article/2496-03_mission-redstorm",
    "mission/2496-03_mission-redstorm"
   ],
   "organisation/nordberg-shipping": [
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/companies-and-corporations",
    "article/interstella_2495-04"
   ],
@@ -4419,19 +4926,24 @@
    "article/mexals-letters_2494-12_juliette"
   ],
   "organisation/palmini-defence-systems": [
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/companies-and-corporations"
   ],
   "organisation/parnell-industries": [
    "article/a-brief-guide-to-history",
    "article/background-scenario-summaries-for-93-94",
+   "article/cnnnewsline_2496-01",
    "article/companies-and-corporations",
    "article/interim-history_2496-to-2501",
    "article/interstella_2493-04",
    "article/interstella_2494-09",
    "article/interstella_2494-12",
    "article/interstella_2495-04",
+   "article/personnel-jacket_rogers-rm102948",
    "article/scenario-drive-wars-2-scenario-notes",
-   "article/scenario-drive-wars-scenario-notes"
+   "article/scenario-drive-wars-scenario-notes",
+   "article/thevoice_2495-07"
   ],
   "organisation/parnell-security-force": [
    "article/scenario-drive-wars-scenario-notes"
@@ -4472,6 +4984,7 @@
   "organisation/restyk-corporation": [
    "article/2496-02_mission-intruder",
    "article/2496-02_mission-intruder_comms-002",
+   "article/cnnnewsline_2496-03",
    "article/interstella_2492-01",
    "article/mission-intruder",
    "article/mission-troy",
@@ -4501,7 +5014,8 @@
    "article/2496-03_mission-redstorm"
   ],
   "organisation/sjvenson-fire-and-rescue": [
-   "article/interim-history_2496-to-2501"
+   "article/interim-history_2496-to-2501",
+   "article/personnel-jacket_svjenson-sj008174"
   ],
   "organisation/skeleton-news-crew": [
    "article/interstella_specialedition_2491-12"
@@ -4535,6 +5049,7 @@
   "organisation/the-brotherhood": [
    "article/2494-06_mission-pegasus",
    "article/a-brief-guide-to-history",
+   "article/cnnnewsline_2496-04",
    "article/groups-and-organisations",
    "article/interstella_2492-04",
    "article/interstella_2493-04",
@@ -4547,8 +5062,17 @@
    "article/mexals-letters_2495-03_connet",
    "article/mexals-letters_2495-04_groombridge",
    "article/mission-troy",
+   "article/thevoice_2493-10",
+   "article/thevoice_2495-07",
    "article/writers-guide",
    "mission/2494-06_mission-pegasus"
+  ],
+  "organisation/the-voice": [
+   "article/mexals-letters_2493-09_x244",
+   "article/personnel-jacket_mexal-mx110424",
+   "article/thevoice_2493-05",
+   "article/thevoice_2493-10",
+   "article/thevoice_2495-07"
   ],
   "organisation/tyrell-corporation": [
    "article/background-scenario-summaries-for-93-94",
@@ -4572,7 +5096,12 @@
    "article/a-brief-guide-to-history",
    "article/background-scenario-summaries-for-93-94",
    "article/briefing-notes_mission-hydra",
+   "article/cnnnewsline_2496-01",
+   "article/cnnnewsline_2496-03",
+   "article/cnnnewsline_2496-04",
    "article/companies-and-corporations",
+   "article/dispatches_2495-unknown",
+   "article/dispatches_2496-03",
    "article/groups-and-organisations",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-01",
@@ -4611,6 +5140,8 @@
    "article/mission-nova",
    "article/mission-troy",
    "article/scenario-drive-wars-2-scenario-notes",
+   "article/thevoice_2493-05",
+   "article/thevoice_2495-07",
    "article/writers-guide",
    "mission/2494-04_mission-ogre",
    "mission/2494-12_mission-classified",
@@ -4645,13 +5176,15 @@
    "article/mexals-letters_2495-02_heurls"
   ],
   "organisation/uw-diplo-team-groombridge": [
+   "article/dispatches_2495-unknown",
    "article/interstella_2492-05",
    "article/interstella_2492-06",
    "article/interstella_2492-07",
    "article/interstella_2492-08"
   ],
   "organisation/uw-diplomatic-service": [
-   "article/honours_1995-08-23"
+   "article/honours_1995-08-23",
+   "article/personnel-jacket_axe-ar110223"
   ],
   "organisation/uw-fraud-team": [
    "article/interstella_2492-02",
@@ -4669,6 +5202,7 @@
    "article/2496-02_mission-intruder_sibreport",
    "article/honours_1995-08-23",
    "article/interim-history_2496-to-2501",
+   "article/personnel-jacket_svjenson-sj008174",
    "mission/2495-11_mission-nova"
   ],
   "organisation/uw-special-forces": [
@@ -4677,6 +5211,8 @@
    "article/2495-11_mission-nova",
    "article/2496-02_mission-intruder",
    "article/2496-03_mission-redstorm",
+   "article/cnnnewsline_2496-01",
+   "article/dispatches_2495-unknown",
    "article/interim-history_2496-to-2501",
    "article/interstella_2492-07",
    "article/interstella_2492-08",

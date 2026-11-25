@@ -76,6 +76,25 @@
     ]
   },
   {
+    "Reference": "aldo-n",
+    "Name": "N. Aldo",
+    "Aliases": [
+      "Aldo"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "alemco-leopold-drahvet",
     "Name": "Alemco Leopold Drahvet",
     "Aliases": [
@@ -185,6 +204,33 @@
         "Role": "Suspect contact",
         "Sources": [
           "article/2495-11_mission-nova"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "anderson-peter",
+    "Name": "General Sir Peter Anderson",
+    "Aliases": [
+      "Sir Peter Anderson",
+      "General Anderson"
+    ],
+    "Description": "Commander in Chief of the Colonial Marine Corps in 2496.",
+    "Facts": [
+      {
+        "P": "role",
+        "V": "Commander in Chief of the CMC",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      },
+      {
+        "P": "memberOf",
+        "O": "organisation/colonial-marine-corps",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -441,6 +487,89 @@
         "Sources": [
           "article/personnel-jacket_arden-ac504994"
         ]
+      },
+      {
+        "P": "role",
+        "V": "Chaplain, 5 Company",
+        "From": "2493",
+        "To": "2496",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Refuses to carry a weapon under any circumstances",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: L5 Station, Sol3",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "24-March-2464",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "2493",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Chaplain, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy 2493-96, CMC HQ 2496-2501, DSR 2501-date (5 Coy)",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Distinction, CMC Negotiator School 2498",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-11_mission-vortex",
+        "Note": "Jacket lists: Vortex November 2493 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_arden-ac504994"
+        ]
       }
     ]
   },
@@ -523,7 +652,8 @@
       "Mr E K Arnold",
       "‘Tech’",
       "The Tech",
-      "Tech Systems Engineer Arnold"
+      "Tech Systems Engineer Arnold",
+      "Senior Technician Arnold"
     ],
     "Description": "Hadens-Worthy design engineer who, driven mad, set himself up as the crime lord \"Tech\" on the Marie Celeste.",
     "Facts": [
@@ -557,6 +687,15 @@
         "At": "mission/2495-05_boarding-action-mariecelesta",
         "Sources": [
           "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Wrote to CNN denying he was the rapist on the Marie Celeste and threatening legal action; not charged or apologised to as of March 2496",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -711,6 +850,7 @@
       "Cpl Axe",
       "Cpl Ruby Axe"
     ],
+    "ServiceNumber": "AR110223",
     "Description": "5 Coy senior field medic, later Sergeant; served on the 2496 diplomatic mission to Solrebria.",
     "Facts": [
       {
@@ -854,6 +994,179 @@
         "Sources": [
           "article/interstella_2495-06"
         ]
+      },
+      {
+        "P": "role",
+        "V": "Named to the diplomatic legation to K685 at the Solrebrian Ruling Council's request (not as security)",
+        "Date": "2496-02",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "organisation/solrebrians",
+        "Note": "Long association with and empathy for the Sol’Rebrians",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "character/ratch-sc",
+        "Note": "Was deeply in love with S.C. Ratch, lost on the Marie Celeste",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Aurora",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "March 2493",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Sergeant, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy 2493-96, UW Diplomatic Service",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: MedTech-3 Comms-? TacOps-?",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Corporal December 2494",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Medals: Bronze Star (?) for organising medical facilities on Groombridge, November 2493.",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Note": "Jacket lists: Argos March 2493 (Kruger)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-11_mission-vortex",
+        "Note": "Jacket lists: Vortex November 2493 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-triton",
+        "Note": "Jacket lists: Triton February 2494 (K685)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Note": "Jacket lists: Sidewinder March 2494 (Nyottanda)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "NCO Training Course April 2494 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2494 (Juliette)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Note": "Jacket lists: Tomkin February 2495 (Heurls)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2495 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_axe-ar110223"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "baccahrat-bc",
+    "Name": "Lt Sgn B.C. Baccahrat",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -960,7 +1273,9 @@
     "Aliases": [
       "Lukel",
       "the late Baron",
-      "10th Baron"
+      "10th Baron",
+      "Armand De Seigneur",
+      "10th Baron Lukel"
     ],
     "Description": "Baron of Sirius, briefly deposed by his eldest son in 2492 and restored by the UWBI through 5 Coy.",
     "Facts": [
@@ -1036,6 +1351,14 @@
         "Date": "2493-06",
         "Sources": [
           "article/interstella_2493-06"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Dead - sudden death in rumoured bizarre circumstances",
+        "Date": "2496-02",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -1432,6 +1755,28 @@
     ]
   },
   {
+    "Reference": "billings-g",
+    "Name": "Marine G. Billings",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "blackthorne-w",
     "Name": "W. Blackthorne",
     "Aliases": [
@@ -1595,6 +1940,50 @@
         "O": "mission/2496-03_mission-redstorm",
         "Sources": [
           "article/2496-03_mission-redstorm"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "broker",
+    "Name": "MFC Broker",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "brown-ck",
+    "Name": "Marine C.K. Brown",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
         ]
       }
     ]
@@ -1841,7 +2230,9 @@
       "Calvin. A.T.",
       "Acting Captain Calvin",
       "A.J. Calvin",
-      "Captain A.J. Calvin"
+      "Captain A.J. Calvin",
+      "Andrew J Calvin",
+      "A Calvin"
     ],
     "ServiceNumber": "CA110328",
     "Description": "5 Coy officer who rose from Officer Cadet (2494) to Lieutenant and Captain, and filed many of the mission reports.",
@@ -2236,6 +2627,214 @@
         "Sources": [
           "article/interstella_2495-02"
         ]
+      },
+      {
+        "P": "rank",
+        "V": "Captain, Officer Commanding 5 Coy 4 Fld Regt",
+        "Date": "2496-03-06",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      },
+      {
+        "P": "relative",
+        "O": "character/calvin-august",
+        "Role": "son",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "memberOf",
+        "O": "organisation/csca",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Barnard’s Star",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Major, OC 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Armourer-4, MedTech-4",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion record: Officer Cadet February 2494, 2nd Lieutenant April 2494, Acting Captain July 2495, Major May 2502",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Note": "Jacket lists: Argos March 2493 (Kruger) — I think!",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Falcon October 2493 (Pholax III) — I think!",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-triton",
+        "Note": "Jacket lists: Triton February 2494 (K685)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Note": "Jacket lists: Sidewinder March 2494 (Nyottanda)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-04_mission-ogre",
+        "Note": "Jacket lists: Ogre April 2494 (Hal)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "NCO Training Course April 2494 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Note": "Jacket lists: Pegasus June 2493 (X243, Sirent Cinq system)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2494 (Juliette)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Jacket lists: Visit to Grant’s World January 2495",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Note": "Jacket lists: Omaha July 2495 (Hal)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2495 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Note": "Jacket lists: Red Storm March 2496 (Sirius)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-04_mission-unknown",
+        "Note": "Jacket lists: Night Probe April 2496 (Hatteras Base)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_calvin-ca110328"
+        ]
       }
     ]
   },
@@ -2274,6 +2873,24 @@
         "Note": "The article says his son is believed to be an officer in the CMC, and the CSCA's Deacon names 'Andy' as a member in the Marine Corps. Linking him to A. Calvin of 5 Coy (an officer in 2494) is an inference - needs review.",
         "Sources": [
           "article/interstella_2494-10"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "campana-martina",
+    "Name": "Martina Campana",
+    "Aliases": [
+      "Campana"
+    ],
+    "Description": "Freelance reporter whose eyewitness account of Hal appeared in The Voice, July 2495.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Eyewitness on Hal in the earliest days of the slaves rebellion",
+        "Date": "2495-07",
+        "Sources": [
+          "article/thevoice_2495-07"
         ]
       }
     ]
@@ -2548,8 +3165,12 @@
       "MFC Cassell",
       "Marine First Class Cassel",
       "MFC Cassel",
-      "Cassel"
+      "Cassel",
+      "Roberta Cassell",
+      "Roberta 'Bobby' Cassell",
+      "Bobby Cassell"
     ],
+    "ServiceNumber": "CR170928",
     "Facts": [
       {
         "P": "memberOf",
@@ -2716,6 +3337,152 @@
         "Role": "Taken prisoner and assaulted by renegade ship's techs before being rescued",
         "Sources": [
           "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "note",
+        "O": "character/arnold-ek",
+        "V": "Assaulted by 'The Tech' (E.K. Arnold) on the Marie Celesta; attacked him in the Hollywood Bar, Sol3, October 2501",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Paronis",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "1 July 2472",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "October 2493",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Corporal, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Patrolling, Radio Operator",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Marine First Class, December 2494",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2494 (Juliette)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Note": "Jacket lists: Achilles April 2495 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Note": "Jacket lists: Welcome to the Marie Celesta May 2495 (in space)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_cassell-cr170928"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "castle-glen",
+    "Name": "Glen Castle",
+    "Aliases": [],
+    "Description": "Celestial News Network financial correspondent with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Financial correspondent",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -3141,6 +3908,54 @@
     ]
   },
   {
+    "Reference": "churchill-john",
+    "Name": "John Churchill",
+    "Aliases": [
+      "Archaeologist John Churchill"
+    ],
+    "Description": "Archaeologist who claimed the Garavaglia was sent to X244 to strip it of alien artefacts; denounced as a fraud. Needs review: not linked to Lt J. Churchill.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Alleged the UW sent the Garavaglia to X244 to remove competition for alien artefacts and strip-searched him",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Denounced by UW archaeologist James Dyer as a money-making scam artist who stole finds",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "clark-lawrence",
+    "Name": "Rear Admiral Lawrence Clark",
+    "Aliases": [
+      "Lawrence Clarke",
+      "Admiral Lawrence Clark",
+      "Rear Admiral Lawrence Clarke"
+    ],
+    "Description": "Commanding Officer designate of JSerTCom (2496).",
+    "Facts": [
+      {
+        "P": "commanded",
+        "O": "organisation/jsertcom",
+        "Date": "2496-03",
+        "Note": "Spelled Clark in CNN Newsline and Clarke in 5 Coy Dispatches",
+        "Sources": [
+          "article/cnnnewsline_2496-03",
+          "article/dispatches_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "claudia-goldine",
     "Name": "Claudia Goldine",
     "Aliases": [
@@ -3242,6 +4057,17 @@
         "Note": "Credited as 'Franklin Collins - Dawn'",
         "Sources": [
           "article/interstella_2495-07"
+        ]
+      },
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -3481,6 +4307,25 @@
     ]
   },
   {
+    "Reference": "currey-alex",
+    "Name": "Alex Currey",
+    "Aliases": [
+      "Currey"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "cyber-knight",
     "Name": "Cyber Knight",
     "Aliases": [
@@ -3678,6 +4523,27 @@
     ]
   },
   {
+    "Reference": "danton-fred",
+    "Name": "Fred Danton",
+    "Aliases": [
+      "Danton"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "darling-t",
     "Name": "T. Darling",
     "Aliases": [
@@ -3781,13 +4647,32 @@
     ]
   },
   {
+    "Reference": "dawkins-richard",
+    "Name": "Richard Dawkins",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "de-lima",
     "Name": "Lt De Lima",
     "Aliases": [
       "DeLima",
       "Lt DeLima",
       "Lieutenant De Lima",
-      "Mr DeLima"
+      "Mr DeLima",
+      "Damien De Lima",
+      "D De Lima"
     ],
     "Description": "CMC lieutenant who closed the Homeworld T.O. log to G2.",
     "Facts": [
@@ -3852,6 +4737,14 @@
         "Note": "Serving with 5 Coy on Sirius",
         "Sources": [
           "article/2496-03_mission-redstorm"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "First Lieutenant, OIC Training Standards, 5 Coy 4 Fld Regt (attached, temporary duty)",
+        "Date": "2496-03-06",
+        "Sources": [
+          "article/dispatches_2496-03"
         ]
       }
     ]
@@ -3941,6 +4834,62 @@
         "V": "Reporting team",
         "Sources": [
           "article/scenario-drive-wars-scenario-notes"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "dekard-rik",
+    "Name": "Rik Dekard",
+    "Aliases": [
+      "Dekard",
+      "Dekard, R"
+    ],
+    "ServiceNumber": "DR948293",
+    "Description": "5 Company marine known from the personnel jacket DR948293.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Homeworld: Luna, Sol system",
+        "Sources": [
+          "article/personnel-jacket_dekard-dr948293"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "3 November 2473",
+        "Sources": [
+          "article/personnel-jacket_dekard-dr948293"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "May 2502",
+        "Sources": [
+          "article/personnel-jacket_dekard-dr948293"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine, 5 Coy.",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_dekard-dr948293"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Company",
+        "Sources": [
+          "article/personnel-jacket_dekard-dr948293"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_dekard-dr948293"
         ]
       }
     ]
@@ -4073,6 +5022,23 @@
         "Role": "Scout (The Kid)",
         "Sources": [
           "article/writers-guide"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "diamond-jack",
+    "Name": "Jack Diamond",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -4425,6 +5391,23 @@
         "Sources": [
           "article/interstella_specialedition_2491-12"
         ]
+      },
+      {
+        "P": "role",
+        "V": "Senior legation administrator, UW diplomatic legation to K685",
+        "Date": "2496-02",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      },
+      {
+        "P": "relative",
+        "O": "character/alemco-leopold-drahvet",
+        "Role": "daughter",
+        "Note": "Despatches confirms the Lord High Keeper is the father of 'Lt Sgn Diamond, formerly of 5 Coy'",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -4679,6 +5662,7 @@
       "Doe",
       "John Doe"
     ],
+    "ServiceNumber": "DJ195839",
     "Description": "5 Coy Marine; the only one of the first drop on Liahn left standing after an SF ambush.",
     "Facts": [
       {
@@ -4719,6 +5703,113 @@
         "O": "mission/2495-07_mission-omaha",
         "Sources": [
           "article/mexals-letters_2495-07_hal"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Completed Patrolling (4)",
+        "Date": "2496-02",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "March 2495",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Sergeant, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy, 1 Coy, 2 Coy",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Armourer-4 MedTech-3 NBCTech-4 Patrolling Intel-4",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Reprimands: Failure to parade properly (1-coy, repeatedly)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Note": "Jacket lists: Omaha July 2495 (Hal)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2495 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-04_mission-unknown",
+        "Note": "Jacket lists: Night Probe April 2496 (Hatteras Base)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_doe-dj195839"
         ]
       }
     ]
@@ -4892,6 +5983,42 @@
         "Note": "Named here as 'Nicole - Dr S N Dufrere'; taken to be the X243 personnel S. Dutrere (same initial and station)",
         "Sources": [
           "article/interstella_2494-11"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "dyer-james",
+    "Name": "James Dyer",
+    "Aliases": [
+      "Dyer"
+    ],
+    "Description": "Leading UW archaeologist (2496).",
+    "Facts": [
+      {
+        "P": "note",
+        "O": "character/churchill-john",
+        "V": "Dismissed John Churchill's alien artefact claims",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "dyson-peter",
+    "Name": "Peter Dyson",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -5540,6 +6667,14 @@
         "Sources": [
           "article/interstella_2495-04"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Qualified Med Tech (4)",
+        "Date": "2496-02",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
       }
     ]
   },
@@ -5556,6 +6691,70 @@
         "O": "organisation/coedarian",
         "Sources": [
           "article/mexals-letters_2493-09_x244"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "garibaldi-hamish",
+    "Name": "Hamish Garibaldi",
+    "Aliases": [
+      "Garibaldi",
+      "Garibaldi, H"
+    ],
+    "ServiceNumber": "GH194827",
+    "Description": "5 Company marine known from the personnel jacket GH194827.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Homeworld: Aurora",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "January 2502",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Company",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Armourer-4 MedTech-4 Patrolling Intel-4",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_garibaldi-gh194827"
         ]
       }
     ]
@@ -6090,13 +7289,88 @@
     ]
   },
   {
+    "Reference": "greig-michael",
+    "Name": "Michael Greig",
+    "Aliases": [
+      "Greig",
+      "Greig, M"
+    ],
+    "ServiceNumber": "GM104829",
+    "Description": "5 Company marine known from the personnel jacket GM104829.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Homeworld: Beta Hydra",
+        "Sources": [
+          "article/personnel-jacket_greig-gm104829"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "January 2502",
+        "Sources": [
+          "article/personnel-jacket_greig-gm104829"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_greig-gm104829"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_greig-gm104829"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_greig-gm104829"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_greig-gm104829"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "griffin-surgeon-lt",
+    "Name": "Surgeon Lieutenant Griffin",
+    "Aliases": [],
+    "Description": "Head of the UW medical team sent to Little Dunnet-on-the-Marsh, Connet, in 2495.",
+    "Facts": [
+      {
+        "P": "role",
+        "V": "Head of the UW medical team monitoring Little Dunnet-on-the-Marsh, Connet",
+        "From": "2495-03",
+        "To": "2496-01",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "h-zachary-nathan-smith",
     "Name": "H. Zachary Nathan-Smith",
     "Aliases": [
       "Nathan-Smith",
       "Zachery Nathan-Swift",
       "Honoured Noble Zachery Nathan-Swift",
-      "Nathan-Swift"
+      "Nathan-Swift",
+      "Zachary Nathan Swift"
     ],
     "Description": "Former minister of external affairs who won the UW presidency in Jan 2497 by an unprecedented majority; suspected corporate puppet.",
     "Facts": [
@@ -6125,6 +7399,15 @@
         "Sources": [
           "article/interstella_2495-07"
         ]
+      },
+      {
+        "P": "role",
+        "V": "UW Minister for External Affairs",
+        "Date": "2496-02",
+        "Note": "Named 'the Honourable Zachary Nathan Swift'",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
       }
     ]
   },
@@ -6146,7 +7429,9 @@
       "Decker",
       "Deck'em",
       "Colonel Harris",
-      "ex-Colonel Harris"
+      "ex-Colonel Harris",
+      "Fluffy Bunny Harris",
+      "'Fluffy Bunny' Harris"
     ],
     "Description": "5 Coy commanding officer in 2494-95; killed on Groombridge in April 2495.",
     "Facts": [
@@ -6521,6 +7806,22 @@
         "Sources": [
           "article/interstella_specialedition_2491-12"
         ]
+      },
+      {
+        "P": "status",
+        "V": "'the late commanding officer of 5th Coy (the then Major Harris)'",
+        "Date": "2496-01",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Mocked by The Voice as 'Fluffy Bunny' Harris",
+        "Sources": [
+          "article/thevoice_2493-05",
+          "article/thevoice_2493-10"
+        ]
       }
     ]
   },
@@ -6584,6 +7885,7 @@
       "Cpl Havoc",
       "Corporal Havoc"
     ],
+    "ServiceNumber": "HX170929",
     "Description": "5 Coy Marine (she), MFC in 2496 and Corporal by 2501, when Captain Calvin charged her with AWOL.",
     "Facts": [
       {
@@ -6639,6 +7941,105 @@
         "Role": "Alpha squad",
         "Sources": [
           "article/mexals-letters_2495-05_mariecelesta"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy (May 2495)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Patrolling Radio Ops",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Marine First Class (sometime prior to May 2495)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Medals: Bronze Star 2502",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Reprimands: Demoted from Corporal for AWOL 2502",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Note": "Jacket lists: Welcome to the Marie Celeste May 2495 (in space)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_havoc-hx170929"
         ]
       }
     ]
@@ -6824,6 +8225,13 @@
         "Sources": [
           "article/interstella_2492-04"
         ]
+      },
+      {
+        "P": "note",
+        "V": "CMC personnel ordered not to reveal his whereabouts or details to the media",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -6882,6 +8290,27 @@
         "Date": "2495-06",
         "Sources": [
           "article/interstella_2495-07"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "hilton-jill",
+    "Name": "Jill Hilton",
+    "Aliases": [
+      "Hilton"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -8090,6 +9519,13 @@
         "Sources": [
           "article/interstella_2494-11"
         ]
+      },
+      {
+        "P": "status",
+        "V": "Withdrawn from active service",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -8825,6 +10261,13 @@
         "Sources": [
           "article/interstella_specialedition_2491-12"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Treated by the UW medical team at Little Dunnet-on-the-Marsh, Connet; claimed it was for Hansen's Disease",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
+        ]
       }
     ]
   },
@@ -8839,7 +10282,8 @@
       "Kayshell",
       "Marine Kayshell Dumasin Klay Togin",
       "Klay",
-      "Kashell Durmas Sin Klaytogin"
+      "Kashell Durmas Sin Klaytogin",
+      "Kashell Clay Togin"
     ],
     "Description": "5 Coy Marine/MFC, called \"Devil Spawn\" by the Amish.",
     "Facts": [
@@ -8889,6 +10333,36 @@
         "Sources": [
           "article/interstella_2495-04"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Qualified Med Tech (4)",
+        "Date": "2496-02",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "kyoke-ao",
+    "Name": "Sgt A.O. Kyoke",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -8927,6 +10401,79 @@
         "Date": "2602-05",
         "Sources": [
           "article/general-orders_2602-05-16"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "larner",
+    "Name": "Larner",
+    "Aliases": [
+      "MFC Larner"
+    ],
+    "ServiceNumber": "LX209847",
+    "Description": "5 Company marine known from the personnel jacket LX209847.",
+    "Facts": [
+      {
+        "P": "rank",
+        "V": "Marine First Class, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Jacket lists: Visit to Grant's World January 2495",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2495 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_larner-lx209847"
         ]
       }
     ]
@@ -8972,6 +10519,23 @@
     ]
   },
   {
+    "Reference": "lee-veronica",
+    "Name": "Veronica Lee",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "leo-permis",
     "Name": "Dr Leo Permis",
     "Aliases": [
@@ -8986,6 +10550,25 @@
         "O": "mission/2496-01_mission-kraken",
         "Sources": [
           "article/mission-kraken"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "letts-hugo",
+    "Name": "Hugo Letts",
+    "Aliases": [
+      "Letts"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -9306,6 +10889,26 @@
     ]
   },
   {
+    "Reference": "maguire-benjamin",
+    "Name": "Benjamin Maguire",
+    "Aliases": [
+      "Maguire"
+    ],
+    "Description": "Celestial News Network editor with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Editor",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "majare-pakin",
     "Name": "Majare Pakin",
     "Aliases": [
@@ -9386,6 +10989,14 @@
         "Note": "Inference: the letter's content (Kruger, satellite, Cyber Knight, elves) matches Mexal's letter from Kruger, and Mexal's letters were intercepted by a corporate data tap; Interstella does not name her. The One True Church family link does not obviously fit an elf from CoedArian.",
         "Sources": [
           "article/interstella_2493-04"
+        ]
+      },
+      {
+        "P": "relatedTo",
+        "O": "character/mexal",
+        "Note": "Mexal's personnel jacket says Mexal is believed to be 'Marine X' whose letter home was intercepted by Interstella, April 2493",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
         ]
       }
     ]
@@ -10077,6 +11688,7 @@
       "Tech Sgt Mexal"
     ],
     "Species": "Elf",
+    "ServiceNumber": "MX110424",
     "Description": "Elf from CoedArian, the first of her people to serve with the UW forces; joined 5 Coy as a recruit on Kruger in 2493 and became its armourer and Tech Sergeant. Her letters home were intercepted by a corporate data tap.",
     "Facts": [
       {
@@ -10496,6 +12108,274 @@
         "Sources": [
           "article/interstella_2495-06"
         ]
+      },
+      {
+        "P": "relative",
+        "O": "character/belzakath",
+        "Role": "niece",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "note",
+        "O": "organisation/freedom-for-chidan-movement",
+        "V": "Captured by terrorists (the Freedom for Chidain Movement) on Groombridge, November 2493",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Believed to be the marine whose letters home were intercepted ('Marine X'); The Voice, October 2493",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424",
+          "article/thevoice_2493-10"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: CoedArian",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "38 Greenmonth 935 AR (equiv. 2 August 2459)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "March 2493",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Technical Sergeant (CED Chief), 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy, Weapons R&D, 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Armourer-1, EOD-1, Sursat-1, CommsTech?, CompTech?MedTech-4",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Sergeant (CED Chief) February 2495",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-03_mission-argos",
+        "Note": "Jacket lists: Argos March 2493 (Kruger)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Cyclone June 2493 (unnamed planet)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Isis September 2493 (unnamed planet)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Falcon October 2493 (Pholax III)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2493-11_mission-vortex",
+        "Note": "Jacket lists: Vortex November 2493 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-triton",
+        "Note": "Jacket lists: Triton February 2494 (K685)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Note": "Jacket lists: Sidewinder March 2494 (Nyottanda)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "NCO Training Course April 2494 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Note": "Jacket lists: Pegasus June 2493 (X243, Sirent Cinq system)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2494 (Juliette)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Jacket lists: Visit to Grant's World January 2495",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Note": "Jacket lists: Tomkin February 2495 (Heurls)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Note": "Jacket lists: Achilles April 2495 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Note": "Jacket lists: Welcome to the Marie Celesta May 2495 (in space)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Note": "Jacket lists: Omaha July 2495 (Hal)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2495 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Note": "Jacket lists: Red Storm March 2496 (Sirius)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-04_mission-unknown",
+        "Note": "Jacket lists: Night Probe April 2496 (Hatteras Base)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_mexal-mx110424"
+        ]
       }
     ]
   },
@@ -10769,6 +12649,24 @@
     ]
   },
   {
+    "Reference": "morgan-jane",
+    "Name": "Jane Morgan",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "mr-head",
     "Name": "Mr Head",
     "Aliases": [
@@ -10789,6 +12687,47 @@
         "Role": "Rebel contact",
         "Sources": [
           "article/2495-07_mission-omaha"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "murrey-justin",
+    "Name": "Justin Murrey",
+    "Aliases": [
+      "Murrey"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "narochov",
+    "Name": "Marine Narochov",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
         ]
       }
     ]
@@ -11048,6 +12987,14 @@
         "Note": "In 5 Coy's reports of an 'alternative' 5 Coy from another reality attacking the marines; it is unclear whether this was the real person or an alternate; the article asks 'if there is more than one Nasco'",
         "Sources": [
           "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Rumoured killed in a bungled capture attempt before meeting the Brotherhood to buy a squad captured from Crossroads",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -11349,6 +13296,70 @@
         "Date": "2494-10",
         "Sources": [
           "article/interstella_2494-10"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "oconnell-rick",
+    "Name": "Rick O'Connell",
+    "Aliases": [
+      "O'Connell",
+      "O’Connell",
+      "Rick O’Connell"
+    ],
+    "ServiceNumber": "OR283718",
+    "Description": "5 Company marine known from the personnel jacket OR283718.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Homeworld: Liane",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "3 March 2476",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "January 2502",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Armourer-4",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_oconnell-or283718"
         ]
       }
     ]
@@ -11678,6 +13689,21 @@
         "Sources": [
           "article/interstella_2493-06"
         ]
+      },
+      {
+        "P": "status",
+        "V": "Found guilty of gross professional misconduct and malpractice and membership of LAW; dishonourably discharged",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "memberOf",
+        "O": "organisation/league-against-warfare",
+        "Note": "Per the disciplinary verdict",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
       }
     ]
   },
@@ -11689,8 +13715,10 @@
       "Lt Oslo",
       "Lieutenant Oslo",
       "Lt Sven Oslo",
-      "Cadet Oslo"
+      "Cadet Oslo",
+      "First Lieutenant Sven Oslo"
     ],
+    "ServiceNumber": "OS199305",
     "Facts": [
       {
         "P": "memberOf",
@@ -11898,6 +13926,103 @@
         "Date": "2495-06",
         "Sources": [
           "article/interstella_2495-06"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Posted to the Regiment Medical Holding Unit after injuries received on Dawn; off the critical list",
+        "Date": "2496-03",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Sol3",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Lieutenant, 5 Company (on detached duty)",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy, Regimental Medical Holding Unit",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: MedTech-3 Armourer-4 Patrolling Radio Operations",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Officer Cadet February 2494, 2nd Lieutenant April 2494, Lieutenant April 2495",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Note": "Jacket lists: Welcome to the Marie Celesta May 2495 (in space)",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_oslo-os199305"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "packard-lucy",
+    "Name": "Lucy Packard",
+    "Aliases": [
+      "Packard"
+    ],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-01",
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -13046,6 +15171,55 @@
     ]
   },
   {
+    "Reference": "riot-dan",
+    "Name": "Dan Riot",
+    "Aliases": [
+      "Riot",
+      "Riot, D"
+    ],
+    "ServiceNumber": "RD193828",
+    "Description": "5 Company marine known from the personnel jacket RD193828.",
+    "Facts": [
+      {
+        "P": "enlisted",
+        "V": "January 2502",
+        "Sources": [
+          "article/personnel-jacket_riot-rd193828"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_riot-rd193828"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_riot-rd193828"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Armourer-4, MedTech-4, Patrolling, Intel-4",
+        "Sources": [
+          "article/personnel-jacket_riot-rd193828"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_riot-rd193828"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "rippon-r",
     "Name": "R. Rippon",
     "Aliases": [
@@ -13104,6 +15278,7 @@
       "MFC Rockstanski",
       "Cpl Rocktansky"
     ],
+    "ServiceNumber": "RM201958",
     "Facts": [
       {
         "P": "memberOf",
@@ -13173,6 +15348,82 @@
         "Sources": [
           "article/interstella_2495-06"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Groombridge",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine First Class, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: transferred into 5 Coy, April 2495",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: MedTech-3 Armourer-4",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Marine First Class May 2495",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Note": "Jacket lists: Achilles April 2495 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-05_boarding-action-mariecelesta",
+        "Note": "Jacket lists: Welcome to the Marie Celeste May 2495 (in space)",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_rocktansky-rm201958"
+        ]
       }
     ]
   },
@@ -13180,7 +15431,8 @@
     "Reference": "roger-designieur",
     "Name": "Roger DeSignieur",
     "Aliases": [
-      "DeSignieur"
+      "DeSignieur",
+      "Roger De Seigneur"
     ],
     "Description": "Brother of the late Baron Lukel who seized the throne of Sirius, then sold the planet to Garp and DeWitt.",
     "Facts": [
@@ -13205,6 +15457,93 @@
         "O": "organisation/night-hawks",
         "Sources": [
           "article/2496-03_mission-redstorm"
+        ]
+      },
+      {
+        "P": "role",
+        "V": "Believed to be running Sirius and about to declare himself 11th Baron Lukel",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "rogers-mary",
+    "Name": "Mary Rogers",
+    "Aliases": [
+      "Rogers",
+      "Rogers, M"
+    ],
+    "ServiceNumber": "RM102948",
+    "Description": "5 Company marine known from the personnel jacket RM102948.",
+    "Facts": [
+      {
+        "P": "note",
+        "V": "Homeworld: Sol3",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "2469",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "2499",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine (Intel Specialist), 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 2 Coy, PsyOps, 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Intel-3",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_rogers-rm102948"
         ]
       }
     ]
@@ -13249,15 +15588,18 @@
       "Rumpole",
       "Rumpole, P",
       "Lt PR Rumpole",
-      "P. Rumpole"
+      "P. Rumpole",
+      "Phillida Rumpole"
     ],
+    "ServiceNumber": "RP654654",
     "Description": "CMC SIB officer who led the Homeworld investigation team.",
     "Facts": [
       {
         "P": "memberOf",
         "O": "organisation/cmc-sib",
         "Sources": [
-          "article/2496-02_mission-intruder"
+          "article/2496-02_mission-intruder",
+          "article/personnel-jacket_rumpole-rp654654"
         ]
       },
       {
@@ -13289,6 +15631,57 @@
         "Date": "2496-02",
         "Sources": [
           "article/2496-02_mission-intruder_sibreport"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Sol3",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
+        ]
+      },
+      {
+        "P": "born",
+        "V": "2460",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "2493",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Lieutenant SIB, CMCHQ",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: SIB",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: DipMilLaw, CMC Training Centre, Sol3",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_rumpole-rp654654"
         ]
       }
     ]
@@ -13421,8 +15814,10 @@
     "Reference": "saint",
     "Name": "Marine Saint",
     "Aliases": [
-      "Saint"
+      "Saint",
+      "Nick Saint"
     ],
+    "ServiceNumber": "SN230195",
     "Description": "5 Coy Marine who ran recruit training on Homeworld and negotiated a recruit's release.",
     "Facts": [
       {
@@ -13438,6 +15833,60 @@
         "Role": "Recruit trainer",
         "Sources": [
           "article/2496-02_mission-intruder"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Marine First Class (Acting)",
+        "Date": "2496-03",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Sergeant, 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_saint-sn230195"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy, Central Recruit Training Unit, 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_saint-sn230195"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: Patrolling Radio Ops MedTech-3 NBCTech-4 Intel-4",
+        "Sources": [
+          "article/personnel-jacket_saint-sn230195"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_saint-sn230195"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_saint-sn230195"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_saint-sn230195"
         ]
       }
     ]
@@ -13869,6 +16318,7 @@
       "General Sjvenson",
       "Lt Col Svjenson"
     ],
+    "ServiceNumber": "SJ008174",
     "Description": "CMC officer who helped develop the RRB; returned to General and Sky Marshall in 2497, retired in 2500 to run the family firm, and died in a shuttle test crash in Oct 2501.",
     "Facts": [
       {
@@ -14025,6 +16475,160 @@
         "Sources": [
           "article/mission-troy"
         ]
+      },
+      {
+        "P": "rank",
+        "V": "General (publicly dead)",
+        "Note": "Jacket c. 2502",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "memberOf",
+        "V": "Terran Guard (formerly)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Sol3",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "General [Publicly, of course, he is dead!]",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Promotion Record: Colonel (Rapid Reaction Battalion Commander) February 2494",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-triton",
+        "Note": "Jacket lists: Triton, February 2494 (K685)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-03_mission-sidewinder",
+        "Note": "Jacket lists: Sidewinder, March 2494 (Nyottanda)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "NCO Training Course April 2494 (Sol3)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-06_mission-pegasus",
+        "Note": "Jacket lists: Pegasus June 2493 (X243, Sirent Cinq system)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Regimental Dinner December 2494 (Juliette)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Jacket lists: Visit to Grant's World January 2495",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Note": "Jacket lists: Tomkin February 2495 (Heurls)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-02_mission-intruder",
+        "Note": "Jacket lists: Intruder February 2496 (Maine)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-03_mission-redstorm",
+        "Note": "Jacket lists: Red Storm March 2496 (Sirius)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-04_mission-unknown",
+        "Note": "Jacket lists: Night Probe April 2496 (Hatteras Base)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2501-10_operation-hammerhead",
+        "Note": "Jacket lists: Hammerhead October 2501 (X255)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-01_operation-dawn",
+        "Note": "Jacket lists: Dawn February 2502 (Hawksbill Station X279)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_svjenson-sj008174"
+        ]
       }
     ]
   },
@@ -14138,6 +16742,15 @@
         "Date": "2496-01",
         "Sources": [
           "article/itlof_2496-03"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Dead - had already died when he won the Intergalactic Lottery top prize",
+        "Date": "2496-03",
+        "Note": "CNN assumes he was killed when the Garavaglia's hull was holed returning from the Sirent Cinq system",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -14479,6 +17092,23 @@
         "Date": "2494-10",
         "Sources": [
           "article/interstella_2494-11"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "stewart-andrew",
+    "Name": "Andrew Stewart",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-04"
         ]
       }
     ]
@@ -15117,6 +17747,25 @@
     ]
   },
   {
+    "Reference": "trimble-allison",
+    "Name": "Allison Trimble",
+    "Aliases": [
+      "Trimble"
+    ],
+    "Description": "Director of the Intergalactic Lottery Co. (2496).",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/intergalactic-lottery-co",
+        "Role": "Director",
+        "Date": "2496-01",
+        "Sources": [
+          "article/cnnnewsline_2496-01"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "turner-j",
     "Name": "Joel Turner",
     "Aliases": [
@@ -15619,6 +18268,110 @@
         "Sources": [
           "article/interstella_2495-02"
         ]
+      },
+      {
+        "P": "rank",
+        "V": "Appointed Officer Cadet (pending OTC in May)",
+        "Date": "2496-03",
+        "Sources": [
+          "article/dispatches_2496-03"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-12_mission-classified",
+        "Note": "Jacket lists: C-L-A-S-S-I-F-I-E-D December 2494",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Jacket lists: Visit to Grant's World January 2495",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Note": "Jacket lists: Tomkin February 2495 (Heurls)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Note": "Jacket lists: Achilles April 2495 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Note": "Jacket lists: Omaha July 2495 (Hal)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair 4",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Serentia 2",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Eta Ceptai",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Formalhaut",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
       }
     ]
   },
@@ -15779,6 +18532,22 @@
         "Date": "2495-03",
         "Sources": [
           "article/interstella_2495-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "President of the United Worlds; reported in a major confrontation with CMC C-in-C General Sir Peter Anderson",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "A doctored picture of her in a 'pizzacamo' bikini featured on joke cardboard 'ears' handed out on Earth's CMC training base",
+        "Date": "2496-03",
+        "Sources": [
+          "article/cnnnewsline_2496-03"
         ]
       }
     ]
@@ -16168,6 +18937,24 @@
     ]
   },
   {
+    "Reference": "williams-zack",
+    "Name": "Zack Williams",
+    "Aliases": [],
+    "Description": "Celestial News Network reporter with bylines in CNN Newsbulletin/Newsline, 2496.",
+    "Facts": [
+      {
+        "P": "employedBy",
+        "O": "organisation/cnn",
+        "Role": "Reporter",
+        "Date": "2496",
+        "Sources": [
+          "article/cnnnewsline_2496-03",
+          "article/cnnnewsline_2496-04"
+        ]
+      }
+    ]
+  },
+  {
     "Reference": "willis",
     "Name": "Technician Willis",
     "Aliases": [
@@ -16180,6 +18967,28 @@
         "O": "mission/2495-04_mission-unknown",
         "Sources": [
           "article/mexals-letters_2495-04_groombridge"
+        ]
+      }
+    ]
+  },
+  {
+    "Reference": "willis-s",
+    "Name": "MFC S. Willis",
+    "Aliases": [],
+    "Description": "4 Coy marine killed in the Groombridge unrest; on the Despatches Roll of Honour.",
+    "Facts": [
+      {
+        "P": "memberOf",
+        "O": "organisation/4-coy",
+        "Sources": [
+          "article/dispatches_2495-unknown"
+        ]
+      },
+      {
+        "P": "status",
+        "V": "Killed on Groombridge (Roll of Honour)",
+        "Sources": [
+          "article/dispatches_2495-unknown"
         ]
       }
     ]
@@ -16417,6 +19226,7 @@
     "Aliases": [
       "Yellan"
     ],
+    "ServiceNumber": "YZ928192",
     "Description": "5 Coy specialist with course notes for medics/armourers.",
     "Facts": [
       {
@@ -16432,6 +19242,50 @@
         "Date": "2602-05",
         "Sources": [
           "article/general-orders_2602-05-16"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Homeworld: Kruger",
+        "Sources": [
+          "article/personnel-jacket_yellan-yz928192"
+        ]
+      },
+      {
+        "P": "enlisted",
+        "V": "2502",
+        "Sources": [
+          "article/personnel-jacket_yellan-yz928192"
+        ]
+      },
+      {
+        "P": "rank",
+        "V": "Spec2 (CMO), 5 Company",
+        "Note": "Current rank/assignment on the personnel jacket (undated; the jackets were compiled c. 2502)",
+        "Sources": [
+          "article/personnel-jacket_yellan-yz928192"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Postings: 5 Coy",
+        "Sources": [
+          "article/personnel-jacket_yellan-yz928192"
+        ]
+      },
+      {
+        "P": "note",
+        "V": "Qualifications: MedTech-1 NBCTech-2 Armourer-4",
+        "Sources": [
+          "article/personnel-jacket_yellan-yz928192"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2502-05_operation-strongarm",
+        "Note": "Jacket lists: Strongarm May 2502 (Chau Sara)",
+        "Sources": [
+          "article/personnel-jacket_yellan-yz928192"
         ]
       }
     ]
