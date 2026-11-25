@@ -24,12 +24,12 @@ Unknown
 
 #### Mentions in the Press:
 
-- Report on Marie Celesta incident, Interstella June 2495
+- Report on Marie Celesta incident, [Interstella June 2495](/article/interstella/interstella_2495-06)
 
 #### Missions Attended:
 
-- [Achilles April 2495 (Groombridge)](/mission/2495-04_mission-unknown)
-- [Welcome to the Marie Celeste May 2495 (in space)](/mission/2495-05_boarding-action-mariecelesta)
-- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
-- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
-- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
+- [Mission 'Achilles' - April 2495 (Groombridge)](/mission/2495-04_mission-unknown)
+- [Boarding Action - Marie Celesta - May 2495](/mission/2495-05_boarding-action-mariecelesta)
+- [Mission 'Nova' - November 2495 (Liahn)](/mission/2495-11_mission-nova)
+- [Mission 'Kraken' - January 2496 (X244)](/mission/2496-01_mission-kraken)
+- [Operation 'Hammerhead' - October 2501](/mission/2501-10_operation-hammerhead)

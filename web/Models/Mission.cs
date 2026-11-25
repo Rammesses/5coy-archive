@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace Models
 {
@@ -23,5 +24,21 @@ namespace Models
         /// articles that already have this mission as their MissionRef).
         /// </summary>
         public string[] Related { get; set; } = Array.Empty<string>();
+
+        /// <summary>
+        /// The standard text for any link to this mission:
+        /// "Mission '{name}' - {month} {year} ({planet})", in in-game years. The planet is left
+        /// out when it isn't known. Keep in step with the steering in CLAUDE.md.
+        /// </summary>
+        public string LinkText
+        {
+            get
+            {
+                var date = EndDate.AddYears(500).ToString("MMMM yyyy", CultureInfo.InvariantCulture);
+                var planet = string.IsNullOrWhiteSpace(Planet) || Planet == "None" || Planet == "?"
+                    ? string.Empty : $" ({Planet})";
+                return $"{Name} - {date}{planet}";
+            }
+        }
     }
 }

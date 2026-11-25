@@ -85,21 +85,21 @@
     "ContentUrl": "/content/missions/2495-01_mission-nightside.md",
     "Related": ["2495-04_mission-unknown", "2495-05_boarding-action-mariecelesta", "2496-03_mission-redstorm", "honours_1995-08-23"]
   },
-  { "Name": "Mission Unknown",
+  { "Name": "Mission 'Tomkin'",
     "StartDate": "1995-02-24",
     "EndDate": "1995-02-26",
     "Location": "?",
     "Reference": "2495-02_mission-unknown",
     "Planet": "Heurls"
   },
-  { "Name": "Mission Unknown",
+  { "Name": "Mission 'Flag'",
     "StartDate": "1995-03-24",
     "EndDate": "1995-03-26",
     "Location": "?",
     "Reference": "2495-03_mission-unknown",
     "Planet": "Connet"
   },
-  { "Name": "Mission Unknown",
+  { "Name": "Mission 'Achilles'",
     "StartDate": "1995-04-21",
     "EndDate": "1995-04-23",
     "Location": "?",
@@ -162,7 +162,7 @@
     "Related": ["2494-06_mission-pegasus", "interim-history_2496-to-2501", "2495-05_boarding-action-mariecelesta", "2496-02_mission-intruder"]
   },
   
-  { "Name": "Mission Unknown",
+  { "Name": "Mission 'Night Probe'",
     "StartDate": "1996-04-12",
     "EndDate": "1996-04-14",
     "Location": "Drum Hill",

@@ -27,9 +27,9 @@ Unknown
 
 #### Missions Attended:
 
-- [Visit to Grant's World January 2495](/mission/2495-01_mission-nightside)
-- [Flag March 2495 (Connet)](/mission/2495-03_mission-unknown)
-- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
+- [Mission 'Nightside' - January 2495 (Grant's World)](/mission/2495-01_mission-nightside)
+- [Mission 'Flag' - March 2495 (Connet)](/mission/2495-03_mission-unknown)
+- [Mission 'Nova' - November 2495 (Liahn)](/mission/2495-11_mission-nova)
 - Regimental Dinner December 2495 (Sol3)
-- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
-- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)
+- [Operation 'Hammerhead' - October 2501](/mission/2501-10_operation-hammerhead)
+- [Operation 'Strongarm' - May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

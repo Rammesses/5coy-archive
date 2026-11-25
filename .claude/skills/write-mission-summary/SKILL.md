@@ -93,7 +93,7 @@ Link to other pages in the archive where it helps the reader, using site-relativ
 
 | Target | Link | Where the parts come from |
 |---|---|---|
-| Another mission | `[Mission 'Ogre'](/mission/2494-04_mission-ogre)` | the mission `Reference` in `missions.json` |
+| Another mission | `[Mission 'Ogre' - April 2494 (Hal)](/mission/2494-04_mission-ogre)` | the mission `Reference` in `missions.json`; text is always `Mission '{name}' - {month} {year} ({planet})` from missions.json (see CLAUDE.md) - `mission_links.py --fix` writes it for you |
 | An article | `[mission report](/article/mission-reports/2495-07_mission-omaha)` | `/article/<group Reference>/<article Reference>`: `gather_sources.py` prints both as `[article:<group>] <ref>` |
 | A section | `[Mexal's Letters Home](/section/mexals-letters)` | a `Reference` in `sections.json` |
 

@@ -80,13 +80,13 @@ became adicted to Dextramol on Altair 6, January 2490.
 - Serentia 2
 - Eta Ceptai
 - Formalhaut
-- [C-L-A-S-S-I-F-I-E-D December 2494](/mission/2494-12_mission-classified)
-- [Visit to Grant's World January 2495](/mission/2495-01_mission-nightside)
-- [Tomkin February 2495 (Heurls)](/mission/2495-02_mission-unknown)
-- [Flag March 2495 (Connet)](/mission/2495-03_mission-unknown)
-- [Achilles April 2495 (Groombridge)](/mission/2495-04_mission-unknown)
-- [Omaha July 2495 (Hal)](/mission/2495-07_mission-omaha)
-- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
-- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
-- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
-- [Red Storm March 2496 (Sirius)](/mission/2496-03_mission-redstorm)
+- [Mission 'C-L-A-S-S-I-F-I-E-D' - December 2494 (C-L-A-S-S-I-F-I-E-D)](/mission/2494-12_mission-classified)
+- [Mission 'Nightside' - January 2495 (Grant's World)](/mission/2495-01_mission-nightside)
+- [Mission 'Tomkin' - February 2495 (Heurls)](/mission/2495-02_mission-unknown)
+- [Mission 'Flag' - March 2495 (Connet)](/mission/2495-03_mission-unknown)
+- [Mission 'Achilles' - April 2495 (Groombridge)](/mission/2495-04_mission-unknown)
+- [Mission 'Omaha' - July 2495 (Hal)](/mission/2495-07_mission-omaha)
+- [Mission 'Nova' - November 2495 (Liahn)](/mission/2495-11_mission-nova)
+- [Mission 'Kraken' - January 2496 (X244)](/mission/2496-01_mission-kraken)
+- [Mission 'Intruder' - February 2496 (Homeworld / Main)](/mission/2496-02_mission-intruder)
+- [Mission 'Red Storm' - March 2496 (Sirius)](/mission/2496-03_mission-redstorm)

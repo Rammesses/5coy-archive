@@ -42,7 +42,7 @@
         </span>
         @if (missionData != null)
         {
-            <span class="page-mission">Mission: <a href="/mission/@missionData.Reference">@missionData.Name</a> (@missionData.EndDate.AddYears(500).ToString("MMM yyyy"))</span>
+            <span class="page-mission"><a href="/mission/@missionData.Reference">@missionData.LinkText</a></span>
         }
     </h5>
     @* Hidden until the markdown has actually loaded, so an article that's only a PDF shows no empty block *@

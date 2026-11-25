@@ -20,6 +20,22 @@
   Validate with `python3 .claude/skills/maintain-knowledge-graph/scripts/check_kg.py web/wwwroot`,
   then regenerate with `build_generated.py`. Run it after transcribing or summarising anything.
 
+## Mission links (mandatory)
+
+- **ALWAYS** write the text of a link to a mission page as
+  `Mission '{mission_name}' - {month} {year} ({planet})`, e.g.
+  `[Mission 'Nova' - November 2495 (Liahn)](/mission/2495-11_mission-nova)`. This applies everywhere:
+  mission summaries, transcriptions (including personnel-jacket "Missions Attended" lists), notes, and
+  Razor templates.
+  - Build it from `missions.json`, never from the wording of the source: `Name` as-is (it already reads
+    `Mission '...'`, `Operation '...'` or `Mission Unknown`), `EndDate` + 500 years as the full month
+    name and in-game year, and `Planet` in brackets (left out when Planet is empty, `None` or `?`).
+  - In Razor use `Mission.LinkText` (`web/Models/Mission.cs`); don't format mission names or dates by hand.
+  - In markdown, check with `python3 .claude/skills/crossref-archive-data/scripts/mission_links.py web/wwwroot`
+    and rewrite with `--fix`. Run it after any edit to content or to a mission's Name, EndDate or Planet.
+  - The mission table on /missions (`MissionTableRow.razor`) is the one exception: it shows date, name and
+    planet in separate columns, so its link text is just the Name.
+
 ## Data layout notes
 
 - `web/wwwroot/data/articles.json` lists article groups; each group either inlines `Articles`

@@ -25,6 +25,6 @@ Has interests in biological protection procedures, and his sources for gathering
 
 #### Missions Attended:
 
-- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
-- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
-- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
+- [Mission 'Kraken' - January 2496 (X244)](/mission/2496-01_mission-kraken)
+- [Mission 'Intruder' - February 2496 (Homeworld / Main)](/mission/2496-02_mission-intruder)
+- [Operation 'Hammerhead' - October 2501](/mission/2501-10_operation-hammerhead)

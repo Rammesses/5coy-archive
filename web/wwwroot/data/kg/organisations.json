@@ -581,6 +581,14 @@
         "Sources": [
           "article/interstella_2493-06"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Paronis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -646,6 +654,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Chi Draconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -706,6 +722,14 @@
         "Date": "2492-12",
         "Sources": [
           "article/interstella_2492-12"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Bessieres",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -816,6 +840,14 @@
         "Date": "2494-11",
         "Sources": [
           "article/interstella_2494-12"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Monro",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -1488,6 +1520,14 @@
         "Sources": [
           "article/interstella_2495-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Braconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -1714,6 +1754,14 @@
         "Sources": [
           "article/interstella_2492-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Kruger",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -1879,6 +1927,14 @@
         "Sources": [
           "article/2496-03_mission-redstorm"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Ross",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -1896,6 +1952,14 @@
         "O": "organisation/colonial-marine-corps",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Dawn",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -2409,6 +2473,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Barnards",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -2424,6 +2496,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Chi Draconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -2516,6 +2596,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -2757,6 +2845,13 @@
         "Sources": [
           "article/interstella_2495-03"
         ]
+      },
+      {
+        "P": "note",
+        "V": "Heavily represented on Alpha Centurai",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -2802,6 +2897,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Ross",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -2828,6 +2931,14 @@
         "Date": "2492-04",
         "Sources": [
           "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Chi Draconis",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3247,6 +3358,14 @@
         "Sources": [
           "article/interstella_2495-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Proxima Centurai",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3338,6 +3457,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Dawn",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3356,6 +3483,14 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Beta Hydri",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3411,6 +3546,14 @@
         "Date": "2496-03",
         "Sources": [
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3472,6 +3615,14 @@
         "Sources": [
           "article/interstella_2492-12"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3519,6 +3670,14 @@
         "Date": "2494-09",
         "Sources": [
           "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Groombridge",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3587,6 +3746,14 @@
         "Date": "2492-04",
         "Sources": [
           "article/interstella_2492-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Bessieres",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3671,6 +3838,14 @@
         "Sources": [
           "article/cnnnewsline_2496-03",
           "article/cnnnewsline_2496-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Dawn",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -3851,6 +4026,14 @@
         "Sources": [
           "article/cnnnewsline_2496-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Barnards",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -3945,6 +4128,14 @@
         "Date": "2495-07",
         "Sources": [
           "article/thevoice_2495-07"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Lumiere",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -4196,6 +4387,14 @@
         "Sources": [
           "article/cnnnewsline_2496-03"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Beta Hydri",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4294,6 +4493,14 @@
         "Date": "2494-09",
         "Sources": [
           "article/interstella_2494-09"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Alpha Centurai",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -4500,6 +4707,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Aurora",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4519,6 +4734,14 @@
         "Sources": [
           "article/companies-and-corporations"
         ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Bessieres",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
+        ]
       }
     ]
   },
@@ -4537,6 +4760,15 @@
         "Note": "Described here",
         "Sources": [
           "article/companies-and-corporations"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Beta Hydri",
+        "Role": "Head Office",
+        "Note": "Planetary Database names 'Stedman Controls Inc' - probably the same company, needs review",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]
@@ -5325,6 +5557,14 @@
         "Date": "2495-03",
         "Sources": [
           "article/interstella_2495-04"
+        ]
+      },
+      {
+        "P": "basedAt",
+        "V": "Nyottonda",
+        "Role": "Head Office",
+        "Sources": [
+          "article/planetary-Database"
         ]
       }
     ]

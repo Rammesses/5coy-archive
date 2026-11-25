@@ -76,7 +76,7 @@
         foreach (var mission in Missions ?? Array.Empty<Mission>())
         {
             var trail = new[] { new Crumb(InCharacterTitle, InCharacterUrl), new Crumb(MissionsTitle, MissionsUrl) };
-            var target = new Crumb($"{mission.Name} ({mission.EndDate.AddYears(500):MMM yyyy})", $"/mission/{mission.Reference}");
+            var target = new Crumb(mission.LinkText, $"/mission/{mission.Reference}");
 
             result.Add(new Item(trail, target, null, "related-mission"));
         }

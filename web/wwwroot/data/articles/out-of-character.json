@@ -13,7 +13,7 @@
         "PdfUrl": "/media/Groups+%26+Organisations.pdf"},
     { "Reference": "planetary-Database",
         "Title": "Planetary Database",
-        "ContentUrl": "",
+        "ContentUrl": "/content/out-of-character/planetary-database.md",
         "PdfUrl": "/media/Planetary+Database.pdf"},
     { "Reference": "safety-rules-and-game-play-guidelines",
         "Title": "Safety Rules & Game Play Guidelines",

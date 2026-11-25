@@ -27,4 +27,4 @@ Volunteered for service via 5 Coy’s contacts within the Kruger Militia.
 
 #### Missions Attended:
 
-- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)
+- [Operation 'Strongarm' - May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)
