@@ -1,92 +1,12 @@
+### TURNER, J.
 
-- **CMC ident:** TJ121710
-- **Surname:** Turner
-- **Forename(s):** Joel
-- **Date of Birth:** 15 / 08 /2469
-- **Home Planet:** Alpha Centauri
-- **Date Enlisted:** March 2490
- 
+- **Name:** Joel Turner
+- **Homeworld:** Alpha Centauri
+- **DoB:** 15 August 2469.
+- **DoE:** March 2490
+- **Current Rank/Assignment:** Acting 2nd Lieutenant, 5 Company
 
-### Rank: 
-
-| Rank | Date |   |  Rank | Date |    | Rank | Date |
-| ---- | ---- | - | ---- | ---- | - | ---- | ---- |
-| |
-| **Marine** |  _____ | |  **MFC** |  _____ |   | **Corporal** | March 2490 |
-| **Sargeant** |  _____ |  | **Sargeant Major** | _____ |
-| |
-| **Specialist** | _____ | 
-| |
-| **Officer Cadet** |  ______ | | **Lieutenant** | _____ |   | **Captain** | _____ |
-| **Major** | _____ |  | **Colonel** | _____ |
-| |
-
-### CMC Qualifications:
-
-| Qualification | Date |   | Qualification | Date |   | Qualification | Date | 
-| ------------- | ---- | - | ------------- | ---- | - | ------------- | ---- |
-| |
-| **Basic Training** | March 2490 |   | **Advanced Combat Training** | _____ |
-| **Patrolling** | _____ |   | **Scouting** | _____ |   | **Sniper** | _____ |
-| **NCO Training** | _____ |   | **Officer Training** | _____ |
-| |
-| **Med-Tech 4** | _____ |   | **Med-Tech 3** | _____ |   | **Med-Tech 2** | _____ |
-| **Med-Tech 1** | _____ |   | **Field Surgeon** | _____ |
-| **Radio-Ops 4** | _____ |   | **Radio-Ops 2** | _____ |   |  **Comms-Tech 4** | _____ |
-| **Comms-Tech 3** | _____ |   | **Comms-Tech 2** | March 2490 |   | **Comms-Tech 1**  | _____ |
-| **EComms 2** | _____ | 
-| |
-| **Armourer 4** | _____ |   | **Armourer 2** | _____ |
-| **EOD 4** | March 2490 |   | **EOD 3** | _____ |  | **EOD 2** | _____ |
-| |
-| **SurSat 4** | _____ |   | **SurSat 2** | _____ |
-| **Comp-Tech 4** | _____ |   | **Comp-Tech 3** | _____ |   | **Comp-Tech 2** | _____|
-| **Comp-Tech 1** | March 2490 |
-| |
-| **Intel 4** | _____ |   | **Intel 3** | _____ |   | **Intel 2** | _____ |
-| |
-| **ISL 4** | _____ |  | **ISL 2** | _____ |
-| **Contact 4** | _____ |  | **Contact 2** | _____ |
-| |
-| **TacOps 2** | _____ |   | **TacOps Officer 2** | _____ |
-| |
-
-##### Other Skills:
-
-None
-
-### Medical Data:
-
-- **Plasma:** _____
-- **EnvCode:** _____
-- **Typed:** _____
-- **GeneCode:** _____
-- **RetScan:** _____
-- **HVR:** _____
-- **Blood:** _____
-- **Height:** _____ metres
-- **Weight:** _____ kg
-- **Eye Colour:** _____
-- **Hair Colour:** _____
-- **Build:** _____
-
-##### Known Immunities:
-
-None
-
-##### Known Deficiencies:
-
-Alergic to Hydratil
-
-###### Other Medical Notes:
-
-None
-
-##### Other General Notes:
-
-None
-
-##### Personal History:
+#### Background:
 
 Joel Turner is the only son of Martha and Frank Turner, kelp farmers on the water world
 of Alpha Centauri. At an early age he showed an aptitude for machines and computers,
@@ -135,3 +55,38 @@ capture of on Serentia 2. From his report, it is clear that Turner held a long-s
 well-founded) grudge against Nasco and was not unhappy at his death, although the
 operation also resulted in the death of his closest and oldest friend in the corps, Sgt
 Julian Martins.
+
+#### Service Record:
+
+- **Serial No:** TJ121710
+- **Postings:** 5 Coy, IRAG (May 2492 - December 2494), 5 Coy
+- **Qualifications:** Basic Training (March 2490), Comms-Tech 2 (March 2490), EOD 4 (March 2490), Comp-Tech 1 (March 2490)
+- **Promotion Record:** Corporal March 2490, Sargeant, Sargeant-Major (briefly), Acting 2nd Lieutenant (field promotion)
+- **Medals:** Unknown
+- **Reprimands:** Unknown
+
+#### Medical Record:
+
+Alergic to Hydratil
+
+#### Miscellaneous Material:
+
+Formerly of the Sugar Mice mercenary group (see reference EncGal-023452/834). Exposed to and
+became adicted to Dextramol on Altair 6, January 2490.
+
+#### Missions Attended:
+
+- Altair 4
+- Serentia 2
+- Eta Ceptai
+- Formalhaut
+- [C-L-A-S-S-I-F-I-E-D December 2494](/mission/2494-12_mission-classified)
+- [Visit to Grant's World January 2495](/mission/2495-01_mission-nightside)
+- [Tomkin February 2495 (Heurls)](/mission/2495-02_mission-unknown)
+- [Flag March 2495 (Connet)](/mission/2495-03_mission-unknown)
+- [Achilles April 2495 (Groombridge)](/mission/2495-04_mission-unknown)
+- [Omaha July 2495 (Hal)](/mission/2495-07_mission-omaha)
+- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
+- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
+- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
+- [Red Storm March 2496 (Sirius)](/mission/2496-03_mission-redstorm)

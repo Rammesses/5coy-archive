@@ -2554,6 +2554,18 @@
 {"type": "edge", "from": "character/turner-j", "p": "rank", "v": "Company Sergeant Major", "date": "2495-02", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "character/turner-j", "p": "relatedTo", "o": "character/mexal", "v": "Mexal now writes letters to him", "sources": ["article/interstella_2495-02"]}
 {"type": "edge", "from": "character/turner-j", "p": "rank", "v": "Appointed Officer Cadet (pending OTC in May)", "date": "2496-03", "sources": ["article/dispatches_2496-03"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2494-12_mission-classified", "note": "Jacket lists: C-L-A-S-S-I-F-I-E-D December 2494", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2495-01_mission-nightside", "note": "Jacket lists: Visit to Grant's World January 2495", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2495-02_mission-unknown", "note": "Jacket lists: Tomkin February 2495 (Heurls)", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2495-03_mission-unknown", "note": "Jacket lists: Flag March 2495 (Connet)", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2495-04_mission-unknown", "note": "Jacket lists: Achilles April 2495 (Groombridge)", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2495-07_mission-omaha", "note": "Jacket lists: Omaha July 2495 (Hal)", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2495-11_mission-nova", "note": "Jacket lists: Nova November 2495 (Liane)", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "o": "mission/2496-01_mission-kraken", "note": "Jacket lists: Visit to X244 January 2496", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "v": "Altair 4", "note": "Pre-archive mission listed on the jacket", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "v": "Serentia 2", "note": "Pre-archive mission listed on the jacket", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "v": "Eta Ceptai", "note": "Pre-archive mission listed on the jacket", "sources": ["article/personnel-jacket_turner-tj121710"]}
+{"type": "edge", "from": "character/turner-j", "p": "participatedIn", "v": "Formalhaut", "note": "Pre-archive mission listed on the jacket", "sources": ["article/personnel-jacket_turner-tj121710"]}
 {"type": "edge", "from": "character/tyler-kelly", "p": "authored", "o": "article/interstella_2492-10", "v": "Society News", "date": "2492-10", "sources": ["article/interstella_2492-10"]}
 {"type": "edge", "from": "character/tyler-kelly", "p": "employedBy", "o": "organisation/interstella", "role": "Society reporter", "date": "2492-10", "sources": ["article/interstella_2492-10"]}
 {"type": "edge", "from": "character/uncle-frank", "p": "participatedIn", "o": "mission/2494-03_mission-sidewinder", "note": "Mentioned only", "sources": ["article/2494-03_mission-sidewinder"]}
@@ -4870,6 +4882,7 @@
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/martha-turner", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/martins-julian", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/nasco", "generated": true}
+{"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/tomkin", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/turner-j", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "character/williams-wild-bill", "generated": true}
 {"type": "edge", "from": "article/personnel-jacket_turner-tj121710", "p": "mentions", "to": "organisation/5-coy", "generated": true}

@@ -18276,6 +18276,102 @@
         "Sources": [
           "article/dispatches_2496-03"
         ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2494-12_mission-classified",
+        "Note": "Jacket lists: C-L-A-S-S-I-F-I-E-D December 2494",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-01_mission-nightside",
+        "Note": "Jacket lists: Visit to Grant's World January 2495",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-02_mission-unknown",
+        "Note": "Jacket lists: Tomkin February 2495 (Heurls)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-03_mission-unknown",
+        "Note": "Jacket lists: Flag March 2495 (Connet)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-04_mission-unknown",
+        "Note": "Jacket lists: Achilles April 2495 (Groombridge)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-07_mission-omaha",
+        "Note": "Jacket lists: Omaha July 2495 (Hal)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2495-11_mission-nova",
+        "Note": "Jacket lists: Nova November 2495 (Liane)",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "O": "mission/2496-01_mission-kraken",
+        "Note": "Jacket lists: Visit to X244 January 2496",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Altair 4",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Serentia 2",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Eta Ceptai",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
+      },
+      {
+        "P": "participatedIn",
+        "V": "Formalhaut",
+        "Note": "Pre-archive mission listed on the jacket",
+        "Sources": [
+          "article/personnel-jacket_turner-tj121710"
+        ]
       }
     ]
   },

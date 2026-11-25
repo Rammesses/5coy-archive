@@ -32,7 +32,7 @@ Shot with projectile weapon Dawn January 2496
 
 #### Missions attended:
 
-- Flag March 2495 (Connet)
-- Welcome to the Marie Celesta May 2495 (in space)
-- Visit to X244 January 2496
-- Hammerhead October 2501 (X255)
+- [Flag March 2495 (Connet)](/mission/2495-03_mission-unknown)
+- [Welcome to the Marie Celesta May 2495 (in space)](/mission/2495-05_boarding-action-mariecelesta)
+- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
+- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)

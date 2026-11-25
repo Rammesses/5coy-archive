@@ -27,4 +27,4 @@ Unknown
 
 #### Missions Attended:
 
-- Intruder February 2496 (Maine)
+- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)

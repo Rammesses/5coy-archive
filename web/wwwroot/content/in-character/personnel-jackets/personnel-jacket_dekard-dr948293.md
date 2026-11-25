@@ -42,4 +42,4 @@ Recruit training delayed due to severe intestinal infection, Chau Sara, May 2502
 
 #### Missions Attended:
 
-- Strongarm May 2502 (Chau Sara)
+- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

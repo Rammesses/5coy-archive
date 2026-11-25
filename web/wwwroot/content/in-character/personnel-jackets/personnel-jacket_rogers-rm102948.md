@@ -25,6 +25,6 @@ Unknown
 
 #### Missions Attended:
 
-- Hammerhead October 2501 (X255)
-- Dawn February 2502 (Hawksbill Station X279)
-- Strongarm May 2502 (Chau Sara)
+- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
+- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)
+- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

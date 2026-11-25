@@ -34,11 +34,11 @@ Believed to have prior military experience.
 
 #### Missions Attended:
 
-- Flag March 2495 (Connet)
-- Omaha July 2495 (Hal)
-- Nova November 2495 (Liane)
+- [Flag March 2495 (Connet)](/mission/2495-03_mission-unknown)
+- [Omaha July 2495 (Hal)](/mission/2495-07_mission-omaha)
+- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
 - Regimental Dinner December 2495 (Sol3)
-- Intruder February 2496 (Maine)
-- Night Probe April 2496 (Hatteras Base)
-- Hammerhead October 2501 (X255)
-- Dawn February 2502 (Hawksbill Station X279)
+- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
+- [Night Probe April 2496 (Hatteras Base)](/mission/2496-04_mission-unknown)
+- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
+- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)

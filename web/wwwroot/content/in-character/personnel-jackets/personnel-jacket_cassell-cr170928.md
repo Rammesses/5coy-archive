@@ -44,11 +44,11 @@ This is what Pat said: -
 #### Missions Attended:
 
 - Regimental Dinner December 2494 (Juliette)
-- Achilles April 2495 (Groombridge)
-- Welcome to the Marie Celesta May 2495 (in space)
-- Nova November 2495 (Liane)
-- Visit to X244 January 2496
-- Intruder February 2496 (Maine)
-- Hammerhead October 2501 (X255)
-- Dawn February 2502 (Hawksbill Station X279)
-- Strongarm May 2502 (Chau Sara)
+- [Achilles April 2495 (Groombridge)](/mission/2495-04_mission-unknown)
+- [Welcome to the Marie Celesta May 2495 (in space)](/mission/2495-05_boarding-action-mariecelesta)
+- [Nova November 2495 (Liane)](/mission/2495-11_mission-nova)
+- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
+- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
+- [Hammerhead October 2501 (X255)](/mission/2501-10_operation-hammerhead)
+- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)
+- [Strongarm May 2502 (Chau Sara)](/mission/2502-05_operation-strongarm)

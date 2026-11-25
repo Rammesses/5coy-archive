@@ -27,4 +27,4 @@ The background to the eye replacement: I was flying Michael Greig and for some r
 
 #### Missions Attended:
 
-- Dawn February 2502 (Hawksbill Station X279)
+- [Dawn February 2502 (Hawksbill Station X279)](/mission/2502-01_operation-dawn)

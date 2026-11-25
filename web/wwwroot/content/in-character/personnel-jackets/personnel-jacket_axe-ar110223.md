@@ -33,13 +33,13 @@ Has long association with, and empathy for, the Sol’Rebrians, dating back to 2
 
 #### Missions Attended:
 
-- Argos March 2493 (Kruger)
-- Vortex November 2493 (Groombridge)
-- Triton February 2494 (K685)
-- Sidewinder March 2494 (Nyottanda)
+- [Argos March 2493 (Kruger)](/mission/2493-03_mission-argos)
+- [Vortex November 2493 (Groombridge)](/mission/2493-11_mission-vortex)
+- [Triton February 2494 (K685)](/mission/2494-03_mission-triton)
+- [Sidewinder March 2494 (Nyottanda)](/mission/2494-03_mission-sidewinder)
 - NCO Training Course April 2494 (Sol3)
 - Regimental Dinner December 2494 (Juliette)
-- Tomkin February 2495 (Heurls)
+- [Tomkin February 2495 (Heurls)](/mission/2495-02_mission-unknown)
 - Regimental Dinner December 2495 (Sol3)
-- Visit to X244 January 2496
-- Intruder February 2496 (Maine)
+- [Visit to X244 January 2496](/mission/2496-01_mission-kraken)
+- [Intruder February 2496 (Maine)](/mission/2496-02_mission-intruder)
